@@ -53,6 +53,22 @@ button:active{
  		background-size: cover;
  	}
  }
+ .lavel-up-header-bg-img2{
+	background: url('../../images/foto_secundaria.jpg') no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-o-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+ }
+ @media (max-width: 500px) {
+ 	.lavel-up-header-bg-img2{
+ 		background: url('../../images/foto_secundaria.jpg') no-repeat center center;
+ 		-webkit-background-size: cover;
+ 		-o-background-size: cover;
+ 		-moz-background-size: cover;
+ 		background-size: cover;
+ 	}
+ }
 
 @media (min-width: 991px) {
 	.lu-title{
@@ -290,6 +306,10 @@ button:active{
 .lu-footer {
   padding: 25px 0;
   background: #957694;
+}
+.lu-footer2 {
+  padding: 25px 0;
+  background: #1c1e20;
 }
 .blick{
 	width: 230px;
