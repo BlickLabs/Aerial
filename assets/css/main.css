@@ -12,11 +12,7 @@ body {
 	font-size: 14px;
 	line-height: 1.6;
 }
-h1,
-h2,
-h3 {
-	font-family: 'loveloblack';
-}
+
 .btn-default{
 	color: #666;
 }
@@ -555,7 +551,7 @@ button:active{
 	transition: all 0.2s linear;
 }
 .info-header{
-	padding-top: 80px;
+	padding-top: 175px;
 }
 @media (min-width: 992px) {
     .navbar-centered .navbar-nav {
@@ -573,6 +569,7 @@ button:active{
     }
 }
 .nav-web{
+        
 	background-color: #1c1e20;
 	-webkit-transition: all 0.2s linear;
 	-moz-transition: all 0.2s linear;
