@@ -1497,9 +1497,9 @@ margin-bottom: 0;
  * ----------------------------------------------------------------------------------------
  */
 input.form-control {
-    background: #fff none repeat scroll 0 0;
-    border: 1px solid #e8e8e9;
-    border-radius: 15px !important;
+    background: #545554 none repeat scroll 0 0;
+    border: 1px solid;
+    border-radius: 4px !important;
     color: #222;
     height: 45px;
     box-shadow: none;
@@ -1507,8 +1507,8 @@ input.form-control {
     
 }
 textarea.form-control {
-    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
-    border: 1px solid #e8e8e9;
+    background-color:  #545554;
+    border: 1px solid #545554;
     color: #222;
     border-radius: 15px !important; 
     box-shadow: none;
@@ -2124,4 +2124,49 @@ width: 100px;
 }
 .icono_engrane{
     margin-top: 90px;
+}
+.seccion_contacto{
+    margin-left: 10px;
+}
+.imagen{
+    margin-top: 7px;
+    margin-left: -15px;
+    height: 250px;
+    
+}
+.imagen_2{
+    margin-top: 7px;
+     height: 250px;
+    
+}
+.imagen_3{
+    margin-top: 7px;
+     height: 250px;
+    
+}
+.imagen_4{
+    margin-top: 7px;
+     height: 350px;
+     margin-left: -15px;
+    
+}
+.imagen_5{
+    margin-top: 7px;
+     height: 350px;
+    
+}
+.imagen_6{
+    margin-top: 7px;
+     height: 250px;
+    margin-left: -15px;
+}
+.imagen_7{
+    margin-top: 7px;
+     height: 250px;
+    
+}
+.imagen_8{
+    margin-top: 7px;
+     height: 250px;
+    
 }
