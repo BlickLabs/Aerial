@@ -35,7 +35,7 @@ $send_to = $email;
             
         solicitaste recuperar tu password de administrador de la galeria, para poder renovar tu password haz click en el siguiente link:
 
-        http://localhost/CasaBeltrami/new_pass.php?user='.$mail_encrypt .'
+        http://weddingfactory.mx/new_pass.php?user='.$mail_encrypt .'
             
          
 

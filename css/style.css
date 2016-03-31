@@ -56,12 +56,6 @@ h2{
     margin-bottom: 20px;
 }
 
-h4{
-    font-size: 19px;
-    font-weight: 300;
-    letter-spacing: 4px;
-    text-transform: uppercase;
-}
 
 h5{
     font-size: 16px;
@@ -341,7 +335,7 @@ div#main-text{
 }
 
 #portfolio .small-box{
-    height: 280px;
+    height: 270px;
     overflow: hidden;
     -webkit-backface-visibility:hidden;
 }
@@ -957,7 +951,7 @@ p.help-block.text-danger {
 footer {
     margin-top: -10px;
     text-align: center;
-    text-transform: uppercase;
+    
     padding: 40px 0px 30px 0px;
     background: #ffffff;
     position: relative;
@@ -1041,7 +1035,7 @@ section#portfolio.albums { margin-top: 85px }
     opacity: 0.8;
 }
 .nivo-lightbox-theme-default .nivo-lightbox-image img {
-    border: 5px solid rgba(17, 17, 17, 0.02);
+    
     background: #fff;
     -webkit-box-shadow: 0px 1px 1px rgba(0,0,0,0.4);
     -moz-box-shadow: 0px 1px 1px rgba(0,0,0,0.4);
@@ -1054,6 +1048,80 @@ section#portfolio.albums { margin-top: 85px }
     text-indent: -9999px;
     padding: 5px;
     opacity: 0.5;
+    
+}
+@media only screen and (max-width:768px) { 
+.nivo-lightbox-theme-default .nivo-lightbox-close {
+/*    display: block;
+    width: 30px;
+    height: 30px;
+    text-indent: -9999px;
+    padding: 10px;
+    opacity: 1;
+    background-color: black;
+    margin-right: 10px;
+    color: red;
+    */margin-right: 10px;
+    padding-top: 10px;
+  background-image: url('../images/x.png');
+   width: 30px;
+    height: 30px;
+}
+}
+@media only screen and (max-width:480px) { 
+.nivo-lightbox-theme-default .nivo-lightbox-close {
+/*    display: block;
+    width: 30px;
+    height: 30px;
+    text-indent: -9999px;
+    padding: 10px;
+    opacity: 1;
+    background-color: black;
+    
+    color: red;*/
+padding-top: 10px;
+margin-right: 10px;
+  background-image: url('../images/x.png');
+   width: 30px;
+    height: 30px;
+}
+}
+@media only screen and (max-width:360px) { 
+.nivo-lightbox-theme-default .nivo-lightbox-close {
+/*    display: block;
+    width: 30px;
+    height: 30px;
+    text-indent: -9999px;
+    padding: 10px;
+    opacity: 2;
+    background-color: black;
+    margin-right: 10px;
+    color: red;*/
+padding-top: 10px;
+margin-right: 10px;
+background-image: url('../images/x.png');
+ width: 30px;
+    height: 30px;
+}
+}
+@media only screen and (max-width:320px) { 
+.nivo-lightbox-theme-default .nivo-lightbox-close {
+/*    display: block;
+    width: 30px;
+    height: 30px;
+    text-indent: -9999px;
+    padding: 10px;
+    opacity: 2;
+    background-color: black;
+    margin-right: 10px;
+    color: red;*/
+padding-top: 10px;
+margin-right: 10px;
+    background-image: url('../images/x.png');
+     width: 30px;
+    height: 30px;
+    
+}
 }
 .nivo-lightbox-theme-default .nivo-lightbox-title {
     font: 14px/20px 'Lato', sans-serif;
@@ -1241,8 +1309,3 @@ textarea.form-control { margin: 10px 0 }
 .btn.focus,
 .btn:active.focus,
 .btn.active.focus { outline: none !important }
-.image_estandar{
-    max-width: 100%;
-    min-width: 100px;
-    height: auto;
-}

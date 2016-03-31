@@ -253,13 +253,13 @@
 /* Mobile/Smartphones (portrait) ----------- */
 @media only screen and (max-width:360px) and (orientation:portrait) { 
     #hero .carousel-caption {top: 20%}
-    .space{padding 10px 0;}
+    .space{padding: 10px 0;}
     #portfolio .small-box {height: 250px;}
     p.excerpt {
         padding-top: 12px;
     }
     .small-box .hover-text .ptitle{
-        .padding: 0px 5px
+        padding: 0px 5px
     }
     .small-box .hover-text,
     .large-box .hover-text {

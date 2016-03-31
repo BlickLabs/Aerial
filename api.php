@@ -24,7 +24,7 @@ if ($id!=null && empty($st) && empty($sc)) {
     }
     $result2 = $mysqli2->query("SELECT route,title,description from 
         content left join content_galery on content.id_content = content_galery.id_content where 
-        content_galery.id_galery = '" . $id . "'");
+        content_galery.id_galery = '" . $id . "' order by content.id_content  desc");
     while ($row = $result2->fetch_array(MYSQLI_ASSOC)) {
         $sh_des_im = $row['description'];
         $path= 'php/album/' . $row['route'];
@@ -32,7 +32,7 @@ if ($id!=null && empty($st) && empty($sc)) {
             'path' =>  $path,
             'title' => $row ['title'],
             'short_description' => $sh_des_im,
-            
+            'long_description' => $row['long_description'],
         );
         array_push($response['galery']['images'], $partialImage);
     }

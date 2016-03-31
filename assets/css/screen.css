@@ -1,0 +1,406 @@
+//separador
+
+ .separador{
+     background-size:cover; 
+    background-position: center center;
+    background-attachment: fixed;
+}
+@media only screen and (max-width:  1824px) { 
+    .separador{
+    background-size:cover; 
+    background-position: center center;
+    background-attachment: fixed;
+  }
+}
+@media only screen and (max-width: 1280px) { 
+    .separador{
+    background-size:cover; 
+    background-position: center center;
+    background-attachment: fixed;
+  }
+}
+@media only screen and (max-width: 1224px) { 
+    .separador{
+    background-size:cover; 
+    background-position: center center;
+    background-attachment: fixed;
+  }
+}
+@media only screen and (max-width: 1024px) { 
+    .separador{
+    background-size:cover; 
+    background-position: center center;
+    background-attachment: fixed;
+  }
+}
+@media only screen and (max-width:768px) { 
+    .separador{
+    background-size:cover; 
+    background-position: center center;
+    background-attachment: scroll;
+  }
+}
+@media only screen and (max-width:768px) { 
+    .separador{
+    background-size:cover; 
+    background-position: center center;
+    background-attachment: scroll;
+  }
+}
+@media only screen and (max-width:480px) { 
+    .separador{
+    background-size:cover; 
+    background-position: center center;
+    background-attachment: scroll;
+ }
+}
+@media only screen and (max-width:360px) { 
+    .separador{
+    background-size:cover; 
+    background-position: center center;
+    background-attachment: scroll;
+   }
+}
+@media only screen and (max-width:320px) { 
+   .separador{
+    background-size:cover; 
+    background-position: center center;
+    background-attachment: scroll;
+  }
+}
+
+
+
+//quienes somos
+ .quienes_somos{
+     background-size:cover; 
+    background-position: center center;
+    background-attachment: fixed;
+}
+@media only screen and (max-width:  1824px) { 
+    .quienes_somos{
+    background-size:cover; 
+    background-position: center center;
+    background-attachment: fixed;
+  }
+}
+@media only screen and (max-width: 1280px) { 
+    .quienes_somos{
+    background-size:cover; 
+    background-position: center center;
+    background-attachment: fixed;
+  }
+}
+@media only screen and (max-width: 1224px) { 
+    .quienes_somos{
+    background-size:cover; 
+    background-position: center center;
+    background-attachment: fixed;
+  }
+}
+@media only screen and (max-width: 1024px) { 
+    .quienes_somos{
+    background-size:cover; 
+    background-position: center center;
+    background-attachment: fixed;
+  }
+}
+@media only screen and (max-width:768px) { 
+    .quienes_somos{
+    background-size:cover; 
+    background-position: center center;
+    background-attachment: scroll;
+  }
+}
+@media only screen and (max-width:768px) { 
+    .quienes_somos{
+    background-size:cover; 
+    background-position: center center;
+    background-attachment: scroll;
+  }
+}
+@media only screen and (max-width:480px) { 
+    .quienes_somos{
+    background-size:cover; 
+    background-position: center center;
+    background-attachment: scroll;
+ }
+}
+@media only screen and (max-width:360px) { 
+    .quienes_somos{
+    background-size:cover; 
+    background-position: center center;
+    background-attachment: scroll;
+   }
+}
+@media only screen and (max-width:320px) { 
+   .quienes_somos{
+    background-size:cover; 
+    background-position: center center;
+    background-attachment: scroll;
+  }
+}
+//.servicios
+
+ .servicios{
+     background-size:cover; 
+    background-position: center center;
+    background-attachment: fixed;
+}
+@media only screen and (max-width:  1824px) { 
+    .servicios{
+    background-size:cover; 
+    background-position: center center;
+    background-attachment: fixed;
+  }
+}
+@media only screen and (max-width: 1280px) { 
+    .servicios{
+    background-size:cover; 
+    background-position: center center;
+    background-attachment: fixed;
+  }
+}
+@media only screen and (max-width: 1224px) { 
+    .servicios{
+    background-size:cover; 
+    background-position: center center;
+    background-attachment: fixed;
+  }
+}
+@media only screen and (max-width: 1024px) { 
+    .servicios{
+    background-size:cover; 
+    background-position: center center;
+    background-attachment: fixed;
+  }
+}
+@media only screen and (max-width:768px) { 
+    .servicios{
+    background-size:cover; 
+    background-position: center center;
+    background-attachment: scroll;
+  }
+}
+@media only screen and (max-width:768px) { 
+    .servicios{
+    background-size:cover; 
+    background-position: center center;
+    background-attachment: scroll;
+  }
+}
+@media only screen and (max-width:480px) { 
+    .servicios{
+    background-size:cover; 
+    background-position: center center;
+    background-attachment: scroll;
+ }
+}
+@media only screen and (max-width:360px) { 
+    .servicios{
+    background-size:cover; 
+    background-position: center center;
+    background-attachment: scroll;
+   }
+}
+@media only screen and (max-width:320px) { 
+   .servicios{
+    background-size:cover; 
+    background-position: center center;
+    background-attachment: scroll;
+  }
+}
+//menu
+.menu{
+     background-size:cover; 
+    background-position: center center;
+    background-attachment: fixed;
+}
+@media only screen and (max-width:  1824px) { 
+    .menu{
+    background-size:cover; 
+    background-position: center center;
+    background-attachment: fixed;
+  }
+}
+@media only screen and (max-width: 1280px) { 
+    .menu{
+    background-size:cover; 
+    background-position: center center;
+    background-attachment: fixed;
+  }
+}
+@media only screen and (max-width: 1224px) { 
+    .menu{
+    background-size:cover; 
+    background-position: center center;
+    background-attachment: fixed;
+  }
+}
+@media only screen and (max-width: 1024px) { 
+    .menu{
+    background-size:cover; 
+    background-position: center center;
+    background-attachment: fixed;
+  }
+}
+@media only screen and (max-width:768px) { 
+    .menu{
+    background-size:cover; 
+    background-position: inherit;
+    background-attachment: scroll;
+  }
+}
+@media only screen and (max-width:768px) { 
+    .menu{
+    background-size:cover; 
+    background-position: inherit;
+    background-attachment: scroll;
+  }
+}
+@media only screen and (max-width:480px) { 
+    .menu{
+    background-size:cover; 
+    background-position: inherit;
+    background-attachment: scroll;
+ }
+}
+@media only screen and (max-width:360px) { 
+    .menu{
+    background-size:cover; 
+    background-position: inherit;
+    background-attachment: scroll;
+   }
+}
+@media only screen and (max-width:320px) { 
+   .menu{
+    background-size:cover; 
+    background-position: inherit;
+    background-attachment: scroll;
+  }
+}
+
+//wedding
+//.servicios
+
+ .wedding{
+     background-size:cover; 
+    background-position: center center;
+    background-attachment: fixed;
+}
+@media only screen and (max-width:  1824px) { 
+    .wedding{
+    background-size:cover; 
+    background-position: center center;
+    background-attachment: fixed;
+  }
+}
+@media only screen and (max-width: 1280px) { 
+   .wedding{
+    background-size:cover; 
+    background-position: center center;
+    background-attachment: fixed;
+  }
+}
+@media only screen and (max-width: 1224px) { 
+    .wedding{
+    background-size:cover; 
+    background-position: center center;
+    background-attachment: fixed;
+  }
+}
+@media only screen and (max-width: 1024px) { 
+    .wedding{
+    background-size:cover; 
+    background-position: center center;
+    background-attachment: fixed;
+  }
+}
+@media only screen and (max-width:768px) { 
+    .wedding{
+    background-size:cover; 
+    background-position: center center;
+    background-attachment: scroll;
+  }
+}
+@media only screen and (max-width:768px) { 
+    .wedding{
+    background-size:cover; 
+    background-position: center center;
+    background-attachment: scroll;
+  }
+}
+@media only screen and (max-width:480px) { 
+    .wedding{
+    background-size:cover; 
+    background-position: center center;
+    background-attachment: scroll;
+ }
+}
+@media only screen and (max-width:360px) { 
+    .wedding{
+    background-size:cover; 
+    background-position: center center;
+    background-attachment: scroll;
+   }
+}
+@media only screen and (max-width:320px) { 
+   .wedding{
+    background-size:cover; 
+    background-position: center center;
+    background-attachment: scroll;
+  }
+}
+
+
+//mesas
+.mesas{
+    margin-top: 100px;
+}
+@media only screen and (max-width:  1824px) { 
+   mesas{
+    margin-top: 100px;
+}
+}
+@media only screen and (max-width: 1280px) { 
+    mesas{
+    margin-top: 100px;
+}
+}
+@media only screen and (max-width: 1224px) { 
+    mesas{
+    margin-top: 100px;
+}
+}
+@media only screen and (max-width: 1024px) { 
+  mesas{
+    margin-top: 100px;
+}
+}
+@media only screen and (max-width:768px) { 
+  mesas{
+    margin-top: 100px;
+}
+}
+@media only screen and (max-width:768px) { 
+  mesas{
+    margin-top: 100px;
+}
+}
+@media only screen and (max-width:480px) { 
+   mesas{
+    margin-top: 100px;
+}
+}
+@media only screen and (max-width:360px) { 
+   mesas{
+    margin-top: 100px;
+}
+}
+@media only screen and (max-width:320px) { 
+  mesas{
+    margin-top: 100px;
+}
+}
+
+

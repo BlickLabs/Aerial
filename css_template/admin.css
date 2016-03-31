@@ -3197,30 +3197,6 @@ ul.messagesList li span.date {
   
 }
 
-.mar-topbtn{
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-@media only screen and (max-width:768px) { 
-   .mar-topbtn{
-    margin-top: auto;
-}
-}
-@media only screen and (max-width:480px) { 
-  .mar-topbtn{
-    margin-top: auto;
-}  
-}
-@media only screen and (max-width:360px) { 
-  .mar-topbtn{
-   margin-top: auto;
-}  
-}
-@media only screen and (max-width:320px) { 
-  .mar-topbtn{
-    margin-top: auto;
-}
-}
 
 .mar-right {
     margin-right: 20px;
