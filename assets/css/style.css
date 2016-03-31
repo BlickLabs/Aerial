@@ -48,8 +48,8 @@ h3,
 h4,
 h5,
 h6 {
-font-family: "Merriweather",sans-serif;
-margin-top: 0px }
+
+}
 p {
     line-height: 28px;
 }
@@ -118,7 +118,7 @@ fieldset {
 .no-padding { padding: 0px }
 .section-padding { padding: 85px 0 }
 .section-padding2 { 
-    padding: 190px 0 120px 0;
+    padding: 190px 0 140px 0;
     display: block;
     }
 .section-padding3 { 
@@ -2169,4 +2169,11 @@ width: 100px;
     margin-top: 7px;
      height: 250px;
     
+}
+.icono_drone_servicios{
+    padding-top: -10px;
+}
+
+.texto_contacto{
+    margin-left: 20px;
 }
