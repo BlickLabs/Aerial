@@ -117,8 +117,13 @@ fieldset {
 /*END PRELOADER DESIGN*/
 .no-padding { padding: 0px }
 .section-padding { padding: 85px 0 }
-.section-padding2 { padding: 200px 0 }
-.section-padding3 { padding: 200px 0 }
+.section-padding2 { 
+    padding: 190px 0 120px 0;
+    display: block;
+    }
+.section-padding3 { 
+    margin-top: 200px;
+}
 /*START SECTION TITLE DESIGN*/
 .section-title { margin-bottom: 50px }
 .section-title h1 {
@@ -2093,4 +2098,30 @@ width: 100px;
 }
 .seccion_imagenes{
     background-color: #1c1e20;
+}
+.seccion_footer{
+    background-color: #1c1e20;
+}
+.drones_servicios{
+    padding-bottom: 100px;
+    padding-top: 50px;
+}
+.titulo_servicios{
+    font-size: 47px;
+}
+.boton_drones{
+    margin-top: 100px;
+}
+
+.texto_camara{
+    text-align: right;
+}
+.icono_camara{
+    margin-top: -80px;
+}
+.icono_monitor{
+    margin-top: 30px;
+}
+.icono_engrane{
+    margin-top: 90px;
 }
