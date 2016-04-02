@@ -72,7 +72,7 @@ ul,
 li {
     margin: 0;
     padding: 0;
-    line-height:45px;
+    
 }
 
 
@@ -1798,8 +1798,7 @@ width: 100px;
 }
 .benefits-info{
 	display: inline-block;
-        width: 600px;
-        text-align: left;
+        
         height: auto;
 }
 
@@ -2131,42 +2130,42 @@ width: 100px;
 .imagen{
     margin-top: 7px;
     margin-left: -15px;
-    height: 250px;
+    height: auto;
     
 }
 .imagen_2{
     margin-top: 7px;
-     height: 250px;
+    height: auto;
     
 }
 .imagen_3{
     margin-top: 7px;
-     height: 250px;
+   height: auto;
     
 }
 .imagen_4{
-    margin-top: 7px;
+    margin-top: 4px;
      height: 350px;
      margin-left: -15px;
     
 }
 .imagen_5{
-    margin-top: 7px;
+    margin-top: 4px;
      height: 350px;
     
 }
 .imagen_6{
-    margin-top: 7px;
+    margin-top: 4px;
      height: 250px;
     margin-left: -15px;
 }
 .imagen_7{
-    margin-top: 7px;
+    margin-top: 4px;
      height: 250px;
     
 }
 .imagen_8{
-    margin-top: 7px;
+    margin-top: 4px;
      height: 250px;
     
 }
@@ -2176,4 +2175,62 @@ width: 100px;
 
 .texto_contacto{
     margin-left: 20px;
+}
+.espacio_iconos{
+    margin-left: 220px;
+}
+.espacio_iconos2{
+    margin-left: 215px;
+}
+.espacio_texto{
+    margin-left: -80px;
+}
+.texto_servicos{
+    color: #545554;
+    font-size: 24px;
+}
+.container_2{
+    width:250px
+}
+@media only screen and (max-width:  1824px) { 
+    .container_2{
+   width:250px;
+   float: right;
+      
+}
+}
+@media only screen and (max-width: 1280px) { 
+   .container_2{
+    width:350px
+}
+}
+@media only screen and (max-width: 1224px) { 
+   .container_2{
+    width:750px
+}
+}
+@media only screen and (max-width: 1024px) { 
+    .container_2{
+    width:750px
+}
+}
+@media only screen and (max-width:768px) { 
+    .container_2{
+    width:750px
+}
+}
+@media only screen and (max-width:480px) { 
+   .container_2{
+    width:750px
+}
+}
+@media only screen and (max-width:360px) { 
+    .container_2{
+    width:750px
+}
+}
+@media only screen and (max-width:320px) { 
+   .container_2{
+    width:750px
+}
 }
