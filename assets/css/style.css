@@ -1510,7 +1510,7 @@ textarea.form-control {
     background-color:  #545554;
     border: 1px solid #545554;
     color: #222;
-    border-radius: 15px !important; 
+    border-radius: 5px !important; 
     box-shadow: none;
     
 }
@@ -2647,4 +2647,9 @@ width: 100px;
 .pull-right {
   float: right !important;
   margin-right: -80px;
+}
+
+.color_menu{
+    color: #b4b4b1;
+    font-size: 19px;
 }

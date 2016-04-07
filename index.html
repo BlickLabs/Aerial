@@ -25,7 +25,7 @@
 		<link rel="stylesheet" href="assets/css/animate.css">		
 		<!-- Style CSS -->
 		<link rel="stylesheet" href="assets/css/style.css">  
-                <link rel="stylesheet" href="assets/css/main.css">  
+                <link rel="stylesheet" href="assets/css/main.css">
                 <link rel="stylesheet" href="fonts/font-face.css"> 
                 <link rel="stylesheet" type="text/css" media="screen" href="assets/css/screen.css" />
                 <!--favicon-->
@@ -61,7 +61,7 @@
         <div class="collapse navbar-collapse navbar-centered" id="myNavbarMobile">
           <ul class="nav navbar-nav grey-text center">
                              <li class="dropdown">
-                                 <a href="#init" class="dropdown-toggle MontserratL sixteen grey nav-links small-caps">
+                                 <a href="#init" class="dropdown-toggle nav-links small-caps">
                                    AERIAL
                                  </a>
                              </li>
@@ -105,15 +105,15 @@
 
           <!-- Logo start -->
           	<div class="row">
-							<div class="col-lg-12 text-center wow zoomIn">
-								<div class="hero-body">
-                                                                    <div class="hero-text" style="margin-top: 190px;">
-                                                                        <h2 class="MyriadPro-Light titulo_areal">Fotografía y video <b class="MyriadPro-Semibold">aéreo</b> con cámaras y<br><b class="MyriadPro-Semibold">drones</b> de última tecnología</h2>
-                                                                        </div>
-								</div>
-							</div>
-						</div>
-          <div class="container text-center" style="">
+		    <div class="col-lg-12 text-center wow zoomIn">
+			<div class="hero-body">
+                            <div class="hero-text" style="margin-top: 100px;margin-bottom: 285px;">
+                                <h2 class="MyriadPro-Light titulo_areal">Fotografía y video <b class="MyriadPro-Semibold">aéreo</b> con cámaras y<br><b class="MyriadPro-Semibold">drones</b> de última tecnología</h2>
+                            </div>
+			</div>
+		    </div>
+		</div>
+          <div class="container text-center hide" >
             <div class="info-header border-center headline-brd">
               <h1 class="center-block nineteen Couture dark-grey">Casa Beltrami</h1>
               <h4 class="center-block nineteen Times-italic grey">Somos una empresa familiar dedicada a la decoración y realización de <br>todo tipo de eventos. Proyectamos las visiones y sueños de nuestros <br>clientes a través de creaciones únicas para sus fiestas.</h4>  
@@ -124,36 +124,36 @@
         </div>
           <div class="container-fluid nav-web" data-spy="affix" data-offset-top="800" id="nav">
             <div class="container-fluid navbar-centered" id="myNavbarWeb">
-                <ul class="nav navbar-nav grey-text center">
-                   <li class="dropdown">
-                       <a href="#init" class="dropdown-toggle MontserratL sixteen grey nav-links small-caps">
+                <ul class="nav navbar-nav  center">
+                   <li class="dropdown ">
+                       <a href="#init" class="dropdown-toggle  MyriadPro-Light color_menu mall-caps" >
                          AERIAL
                        </a>
                    </li>
-                    <li class="dropdown" onclick="about-us.html">
-                        <a href="#" class="dropdown-toggle MontserratL sixteen grey nav-links small-caps">
+                    <li class="dropdown" onclick="about-us.html  ">
+                        <a href="#" class="dropdown-toggle small-caps MyriadPro-Light color_menu">
                             CLIENTES
                         </a>
                     </li>    
             
-                    <li class="dropdown">
-                        <a href="#services" class="dropdown-toggle MontserratL sixteen grey nav-links small-caps">
+                    <li class="dropdown  ">
+                        <a href="#services" class="dropdown-toggle  small-caps MyriadPro-Light color_menu">
                             SERVICIOS
                         </a>
                     </li>
             
-                    <li class="dropdown">
-                        <a href="#benefits" class="dropdown-toggle MontserratL sixteen grey nav-links small-caps">
+                    <li class="dropdown ">
+                        <a href="#benefits" class="dropdown-toggle small-caps MyriadPro-Light color_menu">
                             DRONES
                         </a>
                     </li>
                     <li class="dropdown">
-                        <a href="#" class="dropdown-toggle MontserratL sixteen grey nav-links small-caps">
+                        <a href="#" class="dropdown-toggle  small-caps MyriadPro-Light color_menu">
                             PORTAFOLIO
                         </a>
                     </li>
-                    <li class="dropdown">
-                        <a href="#contact" class="dropdown-toggle center-block sixteen grey nav-links MontserratL small-caps">
+                    <li class="dropdown ">
+                        <a href="#contact" class="dropdown-toggle center-block small-caps MyriadPro-Light color_menu">
                             CONTACTO
                         </a>
                     </li>    
@@ -310,7 +310,7 @@
 									</div>
                                                                     
 									<div class="form-group col-md-10">
-                                                                            <textarea rows="6" name="msg" id="msg" class="form-control" placeholder="Mensaje"></textarea>
+                                                                            <textarea rows="5" name="msg" id="msg" class="form-control" placeholder="Mensaje"></textarea>
 									</div>
 									<div class="form-group col-md-8">
                                                                             <button class="btn btn-default btn-theme-bg center-block pull-right " style="background-color: #6c7982;border-radius: 10px;margin-top: 30px;border: none">Enviar</button>
@@ -418,11 +418,22 @@
 		/* End Stellar for background scrolling  */
 		</script>	
                 <script type="text/javascript">
-                    $(function() {
-                        $(document).on('click', function(){ 
-                        $('.navbar-collapse').removeClass('in')
-                        });
-                    });
+                     $(document).on('click', function(){      
+               $('.navbar-collapse').removeClass('in');
+              });
+              //Setting sticky navbar
+              $('#nav').affix({
+                  offset: {
+                    top: 580
+                  }
+              });
+              var carousel;
+                carousel = $(".slide-img");
+                carousel.itemslide();
+              window.setInterval(function() {
+                carousel.next();
+                
+              }, 4000);
                 </script>
 		
     </body>
