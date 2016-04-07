@@ -118,7 +118,7 @@ fieldset {
 .no-padding { padding: 0px }
 .section-padding { padding: 85px 0 }
 .section-padding2 { 
-    padding: 190px 0 140px 0;
+    padding: 190px 0 200px 0;
     display: block;
     }
 .section-padding3 { 
@@ -2170,7 +2170,7 @@ width: 100px;
     
 }
 .icono_drone_servicios{
-    padding-top: -10px;
+   margin-top: -25px;
 }
 
 .texto_contacto{
@@ -2279,7 +2279,7 @@ width: 100px;
     padding-left: 40px;
 }
 }
-
+//icon and text camara
 .padding_icons_camara{
     padding-left: 40px;
 }
@@ -2323,6 +2323,50 @@ width: 100px;
     padding-left: 40px;
 }
 }
+//text
+.padding_text_camara{
+    padding-left: 40px;
+}
+@media only screen and (max-width:  1824px) { 
+  .padding_text_camara{
+    padding-left: 35px;
+}
+}
+@media only screen and (max-width: 1280px) { 
+  .padding_icons_camara{
+    padding-left: 30px;
+}
+}
+@media only screen and (max-width: 1224px) { 
+  .padding_icons_camara{
+    padding-left: 40px;
+}
+}
+@media only screen and (max-width: 1024px) { 
+   .padding_icons_camara{
+    padding-left: 40px;
+}
+}
+@media only screen and (max-width:768px) { 
+  .padding_icons_camara{
+    padding-left: 40px;
+}
+}
+@media only screen and (max-width:480px) { 
+  .padding_icons_camara{
+    padding-left: 40px;
+}
+}
+@media only screen and (max-width:360px) { 
+   .padding_icons_camara{
+    padding-left: 40px;
+}
+}
+@media only screen and (max-width:320px) { 
+   .padding_icons_camara{
+    padding-left: 40px;
+}
+}
 //icon_screen
 .padding_icons_screen{
     padding-left: 40px;
@@ -2331,6 +2375,51 @@ width: 100px;
   .padding_icons_screen{
     padding-left: 300px;
     padding-top: 90px;
+}
+}
+@media only screen and (max-width: 1280px) { 
+  .padding_icons_screen{
+    padding-left: 40px;
+}
+}
+@media only screen and (max-width: 1224px) { 
+  .padding_icons_screen{
+    padding-left: 40px;
+}
+}
+@media only screen and (max-width: 1024px) { 
+   .padding_icons_screen{
+    padding-left: 40px;
+}
+}
+@media only screen and (max-width:768px) { 
+  .padding_icons_screen{
+    padding-left: 40px;
+}
+}
+@media only screen and (max-width:480px) { 
+  .padding_icons_screen{
+    padding-left: 40px;
+}
+}
+@media only screen and (max-width:360px) { 
+   .padding_icons_screen{
+    padding-left: 40px;
+}
+}
+@media only screen and (max-width:320px) { 
+   .padding_icons_screen{
+    padding-left: 40px;
+}
+}
+//text
+.padding_icons_screen{
+    padding-left: 40px;
+}
+@media only screen and (max-width:  1824px) { 
+  .padding_text_screen{
+    padding-left: 35px;
+  
 }
 }
 @media only screen and (max-width: 1280px) { 
@@ -2412,4 +2501,53 @@ width: 100px;
    .padding_icons_mesh{
     padding-left: 40px;
 }
+}
+//text
+.padding_text_mesh{
+    padding-left: 40px;
+}
+@media only screen and (max-width:  1824px) { 
+  .padding_text_mesh{
+    padding-left: 35px;
+    
+}
+}
+@media only screen and (max-width: 1280px) { 
+  .padding_icons_mesh{
+    padding-left: 40px;
+}
+}
+@media only screen and (max-width: 1224px) { 
+  .padding_icons_mesh{
+    padding-left: 40px;
+}
+}
+@media only screen and (max-width: 1024px) { 
+   .padding_icons_mesh{
+    padding-left: 40px;
+}
+}
+@media only screen and (max-width:768px) { 
+  .padding_icons_mesh{
+    padding-left: 40px;
+}
+}
+@media only screen and (max-width:480px) { 
+  .padding_icons_mesh{
+    padding-left: 40px;
+}
+}
+@media only screen and (max-width:360px) { 
+   .padding_icons_mesh{
+    padding-left: 40px;
+}
+}
+@media only screen and (max-width:320px) { 
+   .padding_icons_mesh{
+    padding-left: 40px;
+}
+}
+
+.icon_dron_service{
+    padding-top: -10px;
 }
