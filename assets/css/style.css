@@ -2234,3 +2234,182 @@ width: 100px;
     width:750px
 }
 }
+
+//services_icons
+.padding_icons_services{
+    padding-left: 40px;
+}
+@media only screen and (max-width:  1824px) { 
+   .padding_icons_services{
+    padding-left: 300px;
+}
+}
+@media only screen and (max-width: 1280px) { 
+  .padding_icons_services{
+    padding-left: 300px;
+}
+}
+@media only screen and (max-width: 1224px) { 
+  .padding_icons_services{
+    padding-left: 300px;
+}
+}
+@media only screen and (max-width: 1024px) { 
+   .padding_icons_services{
+    padding-left: 280px;
+}
+}
+@media only screen and (max-width:768px) { 
+   .padding_icons_services{
+    padding-left: 40px;
+}
+}
+@media only screen and (max-width:480px) { 
+   .padding_icons_services{
+    padding-left: 40px;
+}
+}
+@media only screen and (max-width:360px) { 
+   .padding_icons_services{
+    padding-left: 40px;
+}
+}
+@media only screen and (max-width:320px) { 
+   .padding_icons_services{
+    padding-left: 40px;
+}
+}
+
+.padding_icons_camara{
+    padding-left: 40px;
+}
+@media only screen and (max-width:  1824px) { 
+  .padding_icons_camara{
+    padding-left: 300px;
+}
+}
+@media only screen and (max-width: 1280px) { 
+  .padding_icons_camara{
+    padding-left: 40px;
+}
+}
+@media only screen and (max-width: 1224px) { 
+  .padding_icons_camara{
+    padding-left: 40px;
+}
+}
+@media only screen and (max-width: 1024px) { 
+   .padding_icons_camara{
+    padding-left: 40px;
+}
+}
+@media only screen and (max-width:768px) { 
+  .padding_icons_camara{
+    padding-left: 40px;
+}
+}
+@media only screen and (max-width:480px) { 
+  .padding_icons_camara{
+    padding-left: 40px;
+}
+}
+@media only screen and (max-width:360px) { 
+   .padding_icons_camara{
+    padding-left: 40px;
+}
+}
+@media only screen and (max-width:320px) { 
+   .padding_icons_camara{
+    padding-left: 40px;
+}
+}
+//icon_screen
+.padding_icons_screen{
+    padding-left: 40px;
+}
+@media only screen and (max-width:  1824px) { 
+  .padding_icons_screen{
+    padding-left: 300px;
+    padding-top: 90px;
+}
+}
+@media only screen and (max-width: 1280px) { 
+  .padding_icons_screen{
+    padding-left: 40px;
+}
+}
+@media only screen and (max-width: 1224px) { 
+  .padding_icons_screen{
+    padding-left: 40px;
+}
+}
+@media only screen and (max-width: 1024px) { 
+   .padding_icons_screen{
+    padding-left: 40px;
+}
+}
+@media only screen and (max-width:768px) { 
+  .padding_icons_screen{
+    padding-left: 40px;
+}
+}
+@media only screen and (max-width:480px) { 
+  .padding_icons_screen{
+    padding-left: 40px;
+}
+}
+@media only screen and (max-width:360px) { 
+   .padding_icons_screen{
+    padding-left: 40px;
+}
+}
+@media only screen and (max-width:320px) { 
+   .padding_icons_screen{
+    padding-left: 40px;
+}
+}
+//icon_mesh
+.padding_icons_mesh{
+    padding-left: 40px;
+}
+@media only screen and (max-width:  1824px) { 
+  .padding_icons_mesh{
+    padding-left: 300px;
+    padding-top: 90px;
+}
+}
+@media only screen and (max-width: 1280px) { 
+  .padding_icons_mesh{
+    padding-left: 40px;
+}
+}
+@media only screen and (max-width: 1224px) { 
+  .padding_icons_mesh{
+    padding-left: 40px;
+}
+}
+@media only screen and (max-width: 1024px) { 
+   .padding_icons_mesh{
+    padding-left: 40px;
+}
+}
+@media only screen and (max-width:768px) { 
+  .padding_icons_mesh{
+    padding-left: 40px;
+}
+}
+@media only screen and (max-width:480px) { 
+  .padding_icons_mesh{
+    padding-left: 40px;
+}
+}
+@media only screen and (max-width:360px) { 
+   .padding_icons_mesh{
+    padding-left: 40px;
+}
+}
+@media only screen and (max-width:320px) { 
+   .padding_icons_mesh{
+    padding-left: 40px;
+}
+}
