@@ -118,7 +118,7 @@ fieldset {
 .no-padding { padding: 0px }
 .section-padding { padding: 85px 0 }
 .section-padding2 { 
-    padding: 190px 0 220px 0;
+    padding: 190px 0 200px 0;
     display: block;
     }
 .section-padding3 { 
@@ -2125,23 +2125,23 @@ width: 100px;
     margin-top: 90px;
 }
 .seccion_contacto{
-    margin-left: -50px;
+    margin-left: -20px;
 }
 .imagen{
     margin-top: 7px;
     margin-left: -15px;
-    height: auto;
+     height: 250px;
     
 }
 .imagen_2{
     margin-top: 7px;
-    height: auto;
+     height: 250px;
     
 }
 .imagen_3{
     margin-top: 7px;
     height: auto;
-    width: 290px;
+    height: 250px;
     
 }
 .imagen_4{
