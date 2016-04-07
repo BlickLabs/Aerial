@@ -2125,7 +2125,7 @@ width: 100px;
     margin-top: 90px;
 }
 .seccion_contacto{
-    margin-left: 10px;
+    margin-left: -50px;
 }
 .imagen{
     margin-top: 7px;
@@ -2140,7 +2140,8 @@ width: 100px;
 }
 .imagen_3{
     margin-top: 7px;
-   height: auto;
+    
+    width: 290px;
     
 }
 .imagen_4{
@@ -2550,4 +2551,100 @@ width: 100px;
 
 .icon_dron_service{
     padding-top: -10px;
+}
+
+.padding_redes_sociales{
+    margin-right: -100px;
+}
+@media only screen and (max-width:  1824px) { 
+.padding_redes_sociales{
+    margin-right:-40px;
+}
+}
+@media only screen and (max-width: 1280px) { 
+ .padding_redes_sociales{
+    padding-left: 40px;
+}
+}
+@media only screen and (max-width: 1224px) { 
+  .padding_icons_mesh{
+    padding-left: 40px;
+}
+}
+@media only screen and (max-width: 1024px) { 
+   .padding_icons_mesh{
+    padding-left: 40px;
+}
+}
+@media only screen and (max-width:768px) { 
+  .padding_icons_mesh{
+    padding-left: 40px;
+}
+}
+@media only screen and (max-width:480px) { 
+  .padding_icons_mesh{
+    padding-left: 40px;
+}
+}
+@media only screen and (max-width:360px) { 
+   .padding_icons_mesh{
+    padding-left: 40px;
+}
+}
+@media only screen and (max-width:320px) { 
+   .padding_icons_mesh{
+    padding-left: 40px;
+}
+}
+
+.padding_texto_redes_sociales{
+    padding-right:-40px;
+}
+@media only screen and (max-width:  1824px) { 
+.padding_texto_redes_sociales{
+    padding-left: 30px;
+}
+}
+@media only screen and (max-width: 1280px) { 
+ .padding_texto_redes_sociales{
+    padding-right:-40px;
+}
+}
+@media only screen and (max-width: 1224px) { 
+ .padding_texto_redes_sociales{
+    padding-right:-40px;
+}
+}
+@media only screen and (max-width: 1024px) { 
+ .padding_texto_redes_sociales{
+    padding-right:-40px;
+}
+}
+@media only screen and (max-width:768px) { 
+ .padding_texto_redes_sociales{
+    padding-right:-40px;
+}
+}
+@media only screen and (max-width:480px) { 
+ .padding_texto_redes_sociales{
+    padding-right:-40px;
+}
+}
+@media only screen and (max-width:360px) { 
+ .padding_texto_redes_sociales{
+    padding-right:-40px;
+}
+}
+@media only screen and (max-width:320px) { 
+ .padding_texto_redes_sociales{
+    padding-right:-40px;
+}
+}
+
+.pull-left {
+  float: left !important;
+}
+.pull-right {
+  float: right !important;
+  margin-right: -80px;
 }
