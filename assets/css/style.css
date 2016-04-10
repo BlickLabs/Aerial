@@ -117,6 +117,7 @@ fieldset {
 /*END PRELOADER DESIGN*/
 .no-padding { padding: 0px }
 .section-padding { padding: 85px 0 }
+
 .section-padding2 { 
     padding: 190px 0 200px 0;
     display: block;
@@ -124,6 +125,7 @@ fieldset {
 .section-padding3 { 
     margin-top: 200px;
 }
+.section-padding4 { padding: 0px 0 }
 /*START SECTION TITLE DESIGN*/
 .section-title { margin-bottom: 50px }
 .section-title h1 {
@@ -1560,7 +1562,9 @@ width: 100px;
  * 21.START FOOTER DESIGN
  * ----------------------------------------------------------------------------------------
  */
-.footer { padding-top: 60px }
+.footer { 
+    padding-top: 70px;
+    padding-bottom:50px}
 .footer-copyright { }
 .footer-copyright p { padding-bottom: 30px }
 @media only screen and (max-width:320px) { 
@@ -2635,6 +2639,44 @@ width: 100px;
     padding-right:-40px;
 }
 }
+.padding_texto_redes_sociales{
+    padding-right:-40px;
+}
+@media only screen and (max-width:  1824px) { 
+.padding_texto_redes_sociales2{
+    padding-left: 10px;
+}
+}
+@media only screen and (max-width: 1280px) { 
+ .padding_texto_redes_sociales{
+    padding-right:-40px;
+}
+}
+@media only screen and (max-width: 1224px) { 
+ .padding_texto_redes_sociales{
+    padding-right:-40px;
+}
+}
+@media only screen and (max-width: 1024px) { 
+ .padding_texto_redes_sociales{
+    padding-right:-40px;
+}
+}
+@media only screen and (max-width:768px) { 
+ .padding_texto_redes_sociales{
+    padding-right:-40px;
+}
+}
+@media only screen and (max-width:480px) { 
+ .padding_texto_redes_sociales{
+    padding-right:-40px;
+}
+}
+@media only screen and (max-width:360px) { 
+ .padding_texto_redes_sociales{
+    padding-right:-40px;
+}
+}
 @media only screen and (max-width:320px) { 
  .padding_texto_redes_sociales{
     padding-right:-40px;
@@ -2648,7 +2690,10 @@ width: 100px;
   float: right !important;
   margin-right: -20px;
 }
-
+.pull-right_2 {
+  float: right !important;
+  margin-right: -95px;
+}
 .color_menu{
     color: #b4b4b1;
     font-size: 19px;
