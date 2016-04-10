@@ -2646,10 +2646,11 @@ width: 100px;
 }
 .pull-right {
   float: right !important;
-  margin-right: -80px;
+  margin-right: -20px;
 }
 
 .color_menu{
     color: #b4b4b1;
     font-size: 19px;
+   font-variant: small-caps;
 }

@@ -720,6 +720,7 @@ ul{
 }
 @media (min-width: 938px) {
 .nav-web{
+        height: 70px;
 	display: block;
 }
 .navbar-default{
@@ -762,7 +763,7 @@ ul{
   }
   .col-md-4{
   	padding: 20px;
-  	margin-left: 15px 
+  	
   }
   .three-img{
   	padding-bottom: 0px;
