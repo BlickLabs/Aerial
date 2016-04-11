@@ -2759,9 +2759,7 @@ width: 100px;
     padding-right:-40px;
 }
 }
-.btn-margin{
-    padding-top: 10px;
-}
+
 .pull-left {
   float: left !important;
 }
@@ -2852,16 +2850,19 @@ width: 100px;
 @media only screen and (max-width:768px) { 
  .aerial{
     margin-top: 150px;
+    margin-left: 20px;
 }
 }
 @media only screen and (max-width:480px) { 
  .aerial{
     margin-top: 150px;
+     margin-left: 10px;
 }
 }
 @media only screen and (max-width:360px) { 
  .aerial{
     margin-top: 120px;
+     margin-left: 10px;
 }
 }
 @media only screen and (max-width:320px) { 
@@ -2872,4 +2873,49 @@ width: 100px;
 
 .lineafooter{
    margin-left: -30px;
+}
+
+//butonn
+.btn-margin{
+    padding-top: 10px;
+}
+@media only screen and (max-width:  1824px) { 
+.btn-margin{
+    padding-top: 10px;
+}
+}
+@media only screen and (max-width: 1280px) { 
+.btn-margin{
+    padding-top: 10px;
+}
+}
+@media only screen and (max-width: 1224px) { 
+.btn-margin{
+    padding-top: 10px;
+}
+}
+@media only screen and (max-width: 1024px) { 
+ .btn-margin{
+    padding-top: 10px;
+}
+}
+@media only screen and (max-width:768px) { 
+ .btn-margin{
+    padding-top: 30px;
+}
+}
+@media only screen and (max-width:480px) { 
+ .btn-margin{
+    padding-top: 30px;
+}
+}
+@media only screen and (max-width:360px) { 
+ .btn-margin{
+    padding-top: 30px;
+}
+}
+@media only screen and (max-width:320px) { 
+ .btn-margin{
+    padding-top: 10px;
+}
 }
