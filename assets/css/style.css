@@ -2132,21 +2132,17 @@ width: 100px;
     margin-left: -20px;
 }
 .imagen{
-    margin-top: 7px;
+    margin-top: 1px;
     margin-left: -15px;
-     height: 250px;
-    
+     height: 255px;
 }
 .imagen_2{
-    margin-top: 7px;
-     height: 250px;
-    
+    margin-top: 1px;
+     height: 255px;
 }
 .imagen_3{
-    margin-top: 7px;
-    height: auto;
-    height: 250px;
-    
+    margin-top: 1px;
+    height: 255px;
 }
 .imagen_4{
     margin-top: 4px;
