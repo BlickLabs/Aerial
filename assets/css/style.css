@@ -2765,3 +2765,51 @@ width: 100px;
     margin-top: -20px;
 }
 }
+//aerial
+.aerial{
+    margin-top: 250px;
+}
+@media only screen and (max-width:  1824px) { 
+.aerial{
+    margin-top: 150px;
+    margin-left: -150px;
+}
+}
+@media only screen and (max-width: 1280px) { 
+.aerial{
+    margin-top: 150px;
+    margin-left: -150px;
+}
+}
+@media only screen and (max-width: 1224px) { 
+ .aerial{
+    margin-top: 150px;
+    margin-left: -150px;
+}
+}
+@media only screen and (max-width: 1024px) { 
+ .aerial{
+    margin-top: 150px;
+    margin-left: -140px;
+}
+}
+@media only screen and (max-width:768px) { 
+ .aerial{
+    margin-top: 150px;
+}
+}
+@media only screen and (max-width:480px) { 
+ .aerial{
+    margin-top: 150px;
+}
+}
+@media only screen and (max-width:360px) { 
+ .aerial{
+    margin-top: 120px;
+}
+}
+@media only screen and (max-width:320px) { 
+ .aerial{
+    margin-top: 120px;
+}
+}
