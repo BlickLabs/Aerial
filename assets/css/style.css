@@ -2290,22 +2290,23 @@ width: 100px;
 }
 @media only screen and (max-width:  1824px) { 
   .padding_icons_camara{
-    padding-left: 300px;
+    padding-left: 250px;
+    
 }
 }
 @media only screen and (max-width: 1280px) { 
   .padding_icons_camara{
-    padding-left: 40px;
+    padding-left: 250px;
 }
 }
 @media only screen and (max-width: 1224px) { 
   .padding_icons_camara{
-    padding-left: 40px;
+    padding-left: 240px;
 }
 }
 @media only screen and (max-width: 1024px) { 
    .padding_icons_camara{
-    padding-left: 40px;
+    padding-left: 200px;
 }
 }
 @media only screen and (max-width:768px) { 
@@ -2335,6 +2336,7 @@ width: 100px;
 @media only screen and (max-width:  1824px) { 
   .padding_text_camara{
     padding-left: 35px;
+    
 }
 }
 @media only screen and (max-width: 1280px) { 
@@ -2378,23 +2380,23 @@ width: 100px;
 }
 @media only screen and (max-width:  1824px) { 
   .padding_icons_screen{
-    padding-left: 300px;
+    padding-left: 250px;
     padding-top: 90px;
 }
 }
 @media only screen and (max-width: 1280px) { 
   .padding_icons_screen{
-    padding-left: 40px;
+    padding-left: 250px;
 }
 }
 @media only screen and (max-width: 1224px) { 
   .padding_icons_screen{
-    padding-left: 40px;
+    padding-left: 250px;
 }
 }
 @media only screen and (max-width: 1024px) { 
    .padding_icons_screen{
-    padding-left: 40px;
+    padding-left: 200px;
 }
 }
 @media only screen and (max-width:768px) { 
@@ -2468,23 +2470,23 @@ width: 100px;
 }
 @media only screen and (max-width:  1824px) { 
   .padding_icons_mesh{
-    padding-left: 300px;
+    padding-left: 250px;
     padding-top: 90px;
 }
 }
 @media only screen and (max-width: 1280px) { 
   .padding_icons_mesh{
-    padding-left: 40px;
+    padding-left: 250px;
 }
 }
 @media only screen and (max-width: 1224px) { 
   .padding_icons_mesh{
-    padding-left: 40px;
+    padding-left: 250px;
 }
 }
 @media only screen and (max-width: 1024px) { 
    .padding_icons_mesh{
-    padding-left: 40px;
+    padding-left: 200px;
 }
 }
 @media only screen and (max-width:768px) { 
@@ -2698,4 +2700,47 @@ width: 100px;
     color: #b4b4b1;
     font-size: 19px;
    font-variant: small-caps;
+}
+.camara{
+    margin-top: -20px;
+}
+@media only screen and (max-width:  1824px) { 
+.camara{
+    margin-top: -25px;
+}
+}
+@media only screen and (max-width: 1280px) { 
+.camara{
+    margin-top: 20px;
+}
+}
+@media only screen and (max-width: 1224px) { 
+ .camara{
+    margin-top: 20px;
+}
+}
+@media only screen and (max-width: 1024px) { 
+ .camara{
+    margin-top: 20px;
+}
+}
+@media only screen and (max-width:768px) { 
+ .camara{
+    margin-top: 20px;
+}
+}
+@media only screen and (max-width:480px) { 
+ .camara{
+    margin-top: 20px;
+}
+}
+@media only screen and (max-width:360px) { 
+ .camara{
+    margin-top: 20px;
+}
+}
+@media only screen and (max-width:320px) { 
+ .camara{
+    margin-top: 20px;
+}
 }
