@@ -2340,38 +2340,45 @@ width: 100px;
 }
 }
 @media only screen and (max-width: 1280px) { 
-  .padding_icons_camara{
-    padding-left: 30px;
+  .padding_text_camara{
+    padding-left: 35px;
+    
 }
 }
 @media only screen and (max-width: 1224px) { 
-  .padding_icons_camara{
-    padding-left: 40px;
+ .padding_text_camara{
+    padding-left: 35px;
+    
 }
 }
 @media only screen and (max-width: 1024px) { 
-   .padding_icons_camara{
-    padding-left: 40px;
+ .padding_text_camara{
+    padding-left: 35px;
+    
 }
 }
 @media only screen and (max-width:768px) { 
-  .padding_icons_camara{
-    padding-left: 40px;
+  .padding_text_camara{
+    padding-left: 35px;
+    
 }
 }
 @media only screen and (max-width:480px) { 
-  .padding_icons_camara{
-    padding-left: 40px;
+  .padding_text_camara{
+    padding-left: 35px;
+    
 }
 }
 @media only screen and (max-width:360px) { 
-   .padding_icons_camara{
-    padding-left: 40px;
+  .padding_text_camara{
+    padding-left: 35px;
+    
 }
 }
 @media only screen and (max-width:320px) { 
-   .padding_icons_camara{
-    padding-left: 40px;
+  .padding_text_camara{
+    padding-left: 35px;
+    
 }
 }
 //icon_screen
@@ -2430,43 +2437,50 @@ width: 100px;
 }
 }
 @media only screen and (max-width: 1280px) { 
-  .padding_icons_screen{
-    padding-left: 40px;
+   .padding_text_screen{
+    padding-left: 35px;
+  
 }
 }
 @media only screen and (max-width: 1224px) { 
-  .padding_icons_screen{
-    padding-left: 40px;
+   .padding_text_screen{
+    padding-left: 35px;
+  
 }
 }
 @media only screen and (max-width: 1024px) { 
-   .padding_icons_screen{
-    padding-left: 40px;
+    .padding_text_screen{
+    padding-left: 35px;
+  
 }
 }
 @media only screen and (max-width:768px) { 
-  .padding_icons_screen{
-    padding-left: 40px;
+   .padding_text_screen{
+    padding-left: 35px;
+  
 }
 }
 @media only screen and (max-width:480px) { 
-  .padding_icons_screen{
-    padding-left: 40px;
+   .padding_text_screen{
+    padding-left: 35px;
+  
 }
 }
 @media only screen and (max-width:360px) { 
-   .padding_icons_screen{
-    padding-left: 40px;
+  .padding_text_screen{
+    padding-left: 35px;
+  
 }
 }
 @media only screen and (max-width:320px) { 
-   .padding_icons_screen{
-    padding-left: 40px;
+   .padding_text_screen{
+    padding-left: 35px;
+  
 }
 }
 //icon_mesh
 .padding_icons_mesh{
-    padding-left: 40px;
+    padding-left: 250px;
 }
 @media only screen and (max-width:  1824px) { 
   .padding_icons_mesh{
@@ -2486,7 +2500,7 @@ width: 100px;
 }
 @media only screen and (max-width: 1024px) { 
    .padding_icons_mesh{
-    padding-left: 200px;
+    padding-left: 250px;
 }
 }
 @media only screen and (max-width:768px) { 
@@ -2520,38 +2534,45 @@ width: 100px;
 }
 }
 @media only screen and (max-width: 1280px) { 
-  .padding_icons_mesh{
-    padding-left: 40px;
+  .padding_text_mesh{
+    padding-left: 35px;
+    
 }
 }
 @media only screen and (max-width: 1224px) { 
-  .padding_icons_mesh{
-    padding-left: 40px;
+ .padding_text_mesh{
+    padding-left: 35px;
+    
 }
 }
 @media only screen and (max-width: 1024px) { 
-   .padding_icons_mesh{
-    padding-left: 40px;
+  .padding_text_mesh{
+    padding-left: 35px;
+    
 }
 }
 @media only screen and (max-width:768px) { 
-  .padding_icons_mesh{
-    padding-left: 40px;
+  .padding_text_mesh{
+    padding-left: 35px;
+    
 }
 }
 @media only screen and (max-width:480px) { 
-  .padding_icons_mesh{
-    padding-left: 40px;
+  .padding_text_mesh{
+    padding-left: 35px;
+    
 }
 }
 @media only screen and (max-width:360px) { 
-   .padding_icons_mesh{
-    padding-left: 40px;
+   .padding_text_mesh{
+    padding-left: 35px;
+    
 }
 }
 @media only screen and (max-width:320px) { 
-   .padding_icons_mesh{
-    padding-left: 40px;
+  .padding_text_mesh{
+    padding-left: 35px;
+    
 }
 }
 
@@ -2573,32 +2594,32 @@ width: 100px;
 }
 }
 @media only screen and (max-width: 1224px) { 
-  .padding_icons_mesh{
+  .padding_redes_sociales{
     padding-left: 40px;
 }
 }
 @media only screen and (max-width: 1024px) { 
-   .padding_icons_mesh{
+  .padding_redes_sociales{
     padding-left: 40px;
 }
 }
 @media only screen and (max-width:768px) { 
-  .padding_icons_mesh{
+ .padding_redes_sociales{
     padding-left: 40px;
 }
 }
 @media only screen and (max-width:480px) { 
-  .padding_icons_mesh{
+  .padding_redes_sociales{
     padding-left: 40px;
 }
 }
 @media only screen and (max-width:360px) { 
-   .padding_icons_mesh{
+   .padding_redes_sociales{
     padding-left: 40px;
 }
 }
 @media only screen and (max-width:320px) { 
-   .padding_icons_mesh{
+  .padding_redes_sociales{
     padding-left: 40px;
 }
 }
@@ -2711,36 +2732,36 @@ width: 100px;
 }
 @media only screen and (max-width: 1280px) { 
 .camara{
-    margin-top: 20px;
+    margin-top: -20px;
 }
 }
 @media only screen and (max-width: 1224px) { 
  .camara{
-    margin-top: 20px;
+    margin-top: -20px;
 }
 }
 @media only screen and (max-width: 1024px) { 
  .camara{
-    margin-top: 20px;
+    margin-top: -20px;
 }
 }
 @media only screen and (max-width:768px) { 
  .camara{
-    margin-top: 20px;
+    margin-top: -20px;
 }
 }
 @media only screen and (max-width:480px) { 
  .camara{
-    margin-top: 20px;
+    margin-top: -20px;
 }
 }
 @media only screen and (max-width:360px) { 
  .camara{
-    margin-top: 20px;
+    margin-top: -20px;
 }
 }
 @media only screen and (max-width:320px) { 
  .camara{
-    margin-top: 20px;
+    margin-top: -20px;
 }
 }
