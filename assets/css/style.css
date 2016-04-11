@@ -2746,7 +2746,7 @@ width: 100px;
 }
 .textarea-paddings{
     padding-right: 20px;
-    padding-left: 20px;
+    padding-left: 40px;
 }
 }
 @media only screen and (max-width:360px) { 
@@ -2917,5 +2917,50 @@ width: 100px;
 @media only screen and (max-width:320px) { 
  .btn-margin{
     padding-top: 10px;
+}
+}
+
+//texto_contactanos
+.texto_contactanos{
+    padding-left: -8px;
+}
+@media only screen and (max-width:  1824px) { 
+.texto_contactanos{
+    padding-left: 10px;
+}
+}
+@media only screen and (max-width: 1280px) { 
+.texto_contactanos{
+    padding-left: 10px;
+}
+}
+@media only screen and (max-width: 1224px) { 
+.texto_contactanos{
+    padding-left: 10px;
+}
+}
+@media only screen and (max-width: 1024px) { 
+ .texto_contactanos{
+    padding-left: 10px;
+}
+}
+@media only screen and (max-width:768px) { 
+ .texto_contactanos{
+    padding-left: 40px;
+}
+}
+@media only screen and (max-width:480px) { 
+  .texto_contactanos{
+    padding-left: 40px;
+}
+}
+@media only screen and (max-width:360px) { 
+  .texto_contactanos{
+    padding-left: 40px;
+}
+}
+@media only screen and (max-width:320px) { 
+ .texto_contactanos{
+    padding-left: 40px;
 }
 }
