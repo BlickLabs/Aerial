@@ -1602,17 +1602,63 @@ width: 100px;
     }
 @media only screen and (max-width:768px) { 
     .paloma { 
-    margin-top: -110px;    
+    margin-top: -10px;    
     }
 }
 @media only screen and (max-width:480px) { 
     .paloma { 
-    margin-top: -110px;    
+    margin-top: -40px;    
     }
+    .no-paddings-img{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .imagen {
+    margin-top: 5px !important;
+    height:auto !important;
+    margin-left: 0px !important;
+}
+    .imagen_2 {
+    margin-top: 5px !important;
+    height:auto !important;
+}
+    .imagen_3 {
+    margin-top: 5px !important;
+    height:auto !important;
+}
+    .imagen_4 {
+    margin-top: 5px !important;
+    height:auto !important;
+    margin-left: 0px !important;
+}
+.col-md-12{
+    padding-right: 5px;
+}
+    .imagen_5 {
+    margin-top: 5px !important;
+    height:auto !important;
+}
+    .imagen_6 {
+    margin-top: 5px !important;
+    height:auto !important;
+    margin-left: 0px !important;
+}
+    .imagen_7 {
+    margin-top: 5px !important;
+    height:auto !important;
+}
+    .imagen_8 {
+    margin-top: 5px !important;
+    height:auto !important;
+}
+    .imagen_9 {
+    margin-top: 5px !important;
+    height:auto !important;
+}
 }
 @media only screen and (max-width:360px) { 
     .paloma { 
-    margin-top: -110px;    
+    margin-top: -40px;    
     }
 }
 .paloma9 { 
@@ -1676,17 +1722,17 @@ width: 100px;
 }
 @media only screen and (max-width:480px) { 
     .paloma2 { 
-    margin-top: -35px;    
+    margin-top: -0px;    
     }
 }
 @media only screen and (max-width:360px) { 
     .paloma2{ 
-    margin-top: -35px;    
+    margin-top: -0px;    
     }
 }
 @media only screen and (max-width:320px) { 
     .paloma2{ 
-    margin-top: -35px;    
+    margin-top: -0px;    
     }
 }
 //paloma3
@@ -2690,6 +2736,18 @@ width: 100px;
  .padding_texto_redes_sociales{
     padding-right:-40px;
 }
+.pull-right {
+  float: right !important;
+  margin-right: 0px !important;
+}
+.pull-right_2 {
+  margin: auto !important;
+  float: none !important;
+}
+.textarea-paddings{
+    padding-right: 20px;
+    padding-left: 20px;
+}
 }
 @media only screen and (max-width:360px) { 
  .padding_texto_redes_sociales{
@@ -2701,7 +2759,9 @@ width: 100px;
     padding-right:-40px;
 }
 }
-
+.btn-margin{
+    padding-top: 10px;
+}
 .pull-left {
   float: left !important;
 }
@@ -2710,7 +2770,7 @@ width: 100px;
   margin-right: -20px;
 }
 .pull-right_2 {
-  float: right !important;
+  float: right;
   margin-right: -95px;
 }
 .color_menu{
