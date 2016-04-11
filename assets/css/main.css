@@ -630,9 +630,9 @@ a{
 	transition: all 0.2s linear;
 }
 a:hover{
-	/* background: rgba(255, 255, 255, 0.60); */
+	
 	text-decoration: none;
-	color: #b0006e;
+	color: #fff;
 }
 a:focus{
 	text-decoration: none;
