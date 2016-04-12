@@ -53,9 +53,9 @@ h6 {
 p {
     line-height: 28px;
 }
-a {	font-family: "Merriweather",sans-serif;
-    font-size: 12px;
-    font-weight: 400;
+a {	
+    
+    font-weight: 900;
     text-decoration: none;
     -webkit-transition: all 0.5s;
     transition: all 0.5s;
@@ -117,7 +117,7 @@ fieldset {
 /*END PRELOADER DESIGN*/
 .no-padding { padding: 0px }
 .section-padding { padding: 85px 0 }
-
+.section-padding3 { padding: 150px 0 }
 .section-padding2 { 
     padding: 190px 0 200px 0;
     display: block;
@@ -516,7 +516,7 @@ height: 100%;
 .hero-text2 h2 {
     color: #fff;
     font-size: 57px;
-    line-height: 130%;
+    line-height: 98%;
     
 }
 @media only screen and (max-width:768px) { 
@@ -2773,8 +2773,8 @@ width: 100px;
 }
 .color_menu{
     color: #b4b4b1;
-    font-size: 19px;
-   font-variant: small-caps;
+    font-size: 15px;
+    letter-spacing: 3px;
 }
 .camara{
     margin-top: -20px;
