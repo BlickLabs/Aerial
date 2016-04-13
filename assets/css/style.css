@@ -122,9 +122,7 @@ fieldset {
     padding: 190px 0 200px 0;
     display: block;
     }
-.section-padding3 { 
-    margin-top: 200px;
-}
+
 .section-padding4 { padding: 0px 0 }
 /*START SECTION TITLE DESIGN*/
 .section-title { margin-bottom: 50px }
@@ -492,7 +490,10 @@ height: 100%;
     
 }
 @media only screen and (max-width:768px) { 
-    .hero-text h2 { font-size: 60px }
+    .hero-text h2 { 
+         font-size: 35px;
+        line-height: 45px;
+         }
 }
 @media only screen and (max-width:480px) { 
     .hero-text h2 {
@@ -520,18 +521,19 @@ height: 100%;
     
 }
 @media only screen and (max-width:768px) { 
-    .hero-text2 h2 { font-size: 60px }
+    .hero-text2 h2 { 
+        font-size: 60px }
 }
 @media only screen and (max-width:480px) { 
     .hero-text2 h2 {
-        font-size: 45px;
-        line-height: 54px;
+        font-size: 35px;
+        line-height: 45px;
     }
 }
 @media only screen and (max-width:360px) { 
     .hero-text2 h2 {
-        font-size: 43px;
-        line-height: 75px;
+        font-size: 35px;
+        line-height: 45px;
     }
 }
 .header_social { margin-top: 30px }
@@ -818,7 +820,6 @@ width: 100px;
 
 .about_single h4 {
     margin-top: 10px;
-    
     color: #616f6e;
 }
 @media only screen and (max-width:480px) { 
@@ -1503,7 +1504,7 @@ input.form-control {
     border: 1px solid;
     border-radius: 4px !important;
     color: #222;
-    height: 45px;
+    //height: 45px;
     box-shadow: none;
     
     
@@ -1512,6 +1513,7 @@ textarea.form-control {
     background-color:  #545554;
     border: 1px solid #545554;
     color: #222;
+    padding-top: 8px;
     border-radius: 5px !important; 
     box-shadow: none;
     
@@ -1563,7 +1565,7 @@ width: 100px;
  * ----------------------------------------------------------------------------------------
  */
 .footer { 
-    padding-top: 70px;
+    padding-top: 100px;
     padding-bottom:50px}
 .footer-copyright { }
 .footer-copyright p { padding-bottom: 30px }
@@ -2152,7 +2154,7 @@ width: 100px;
     background-color: #1c1e20;
 }
 .drones_servicios{
-    padding-bottom: 100px;
+    padding-bottom: 60px;
     padding-top: 50px;
 }
 .titulo_servicios{
@@ -2358,17 +2360,17 @@ width: 100px;
 }
 @media only screen and (max-width:480px) { 
   .padding_icons_camara{
-    padding-left: 40px;
+    padding-left: 80px;
 }
 }
 @media only screen and (max-width:360px) { 
    .padding_icons_camara{
-    padding-left: 40px;
+    padding-left: 80px;
 }
 }
 @media only screen and (max-width:320px) { 
    .padding_icons_camara{
-    padding-left: 40px;
+    padding-left: 80px;
 }
 }
 //text
@@ -2401,25 +2403,25 @@ width: 100px;
 }
 @media only screen and (max-width:768px) { 
   .padding_text_camara{
-    padding-left: 35px;
+    padding-left: 40px;
     
 }
 }
 @media only screen and (max-width:480px) { 
   .padding_text_camara{
-    padding-left: 35px;
+    padding-left: 40px;
     
 }
 }
 @media only screen and (max-width:360px) { 
   .padding_text_camara{
-    padding-left: 35px;
+    padding-left: 40px;
     
 }
 }
 @media only screen and (max-width:320px) { 
   .padding_text_camara{
-    padding-left: 35px;
+    padding-left: 40px;
     
 }
 }
@@ -2450,22 +2452,22 @@ width: 100px;
 }
 @media only screen and (max-width:768px) { 
   .padding_icons_screen{
-    padding-left: 40px;
+    padding-left: 80px;
 }
 }
 @media only screen and (max-width:480px) { 
   .padding_icons_screen{
-    padding-left: 40px;
+    padding-left: 80px;
 }
 }
 @media only screen and (max-width:360px) { 
    .padding_icons_screen{
-    padding-left: 40px;
+    padding-left: 80px;
 }
 }
 @media only screen and (max-width:320px) { 
    .padding_icons_screen{
-    padding-left: 40px;
+    padding-left: 70px;
 }
 }
 //text
@@ -2547,22 +2549,22 @@ width: 100px;
 }
 @media only screen and (max-width:768px) { 
   .padding_icons_mesh{
-    padding-left: 40px;
+    padding-left: 80px;
 }
 }
 @media only screen and (max-width:480px) { 
   .padding_icons_mesh{
-    padding-left: 40px;
+    padding-left: 80px;
 }
 }
 @media only screen and (max-width:360px) { 
    .padding_icons_mesh{
-    padding-left: 40px;
+    padding-left: 80px;
 }
 }
 @media only screen and (max-width:320px) { 
    .padding_icons_mesh{
-    padding-left: 40px;
+    padding-left: 75px;
 }
 }
 //text
@@ -2786,37 +2788,37 @@ width: 100px;
 }
 @media only screen and (max-width: 1280px) { 
 .camara{
-    margin-top: -20px;
+    margin-top: -25px;
 }
 }
 @media only screen and (max-width: 1224px) { 
  .camara{
-    margin-top: -20px;
+    margin-top: -25px;
 }
 }
 @media only screen and (max-width: 1024px) { 
  .camara{
-    margin-top: -20px;
+    margin-top: -30px;
 }
 }
 @media only screen and (max-width:768px) { 
  .camara{
-    margin-top: -20px;
+    margin-top: -30px;
 }
 }
 @media only screen and (max-width:480px) { 
  .camara{
-    margin-top: -20px;
+    margin-top: -30px;
 }
 }
 @media only screen and (max-width:360px) { 
  .camara{
-    margin-top: -20px;
+    margin-top: -30px;
 }
 }
 @media only screen and (max-width:320px) { 
  .camara{
-    margin-top: -20px;
+    margin-top: -30px;
 }
 }
 //aerial
@@ -2849,30 +2851,31 @@ width: 100px;
 }
 @media only screen and (max-width:768px) { 
  .aerial{
-    margin-top: 150px;
-    margin-left: 20px;
+    margin-top: 75px;
+    margin-left: -15px;
 }
 }
 @media only screen and (max-width:480px) { 
  .aerial{
-    margin-top: 150px;
-     margin-left: 10px;
+    margin-top: 75px;
+     margin-left: -15px;
 }
 }
 @media only screen and (max-width:360px) { 
  .aerial{
-    margin-top: 120px;
-     margin-left: 10px;
+    margin-top: 75px;
+     margin-left: -15px;
 }
 }
 @media only screen and (max-width:320px) { 
  .aerial{
-    margin-top: 120px;
+   margin-top: 75px;
+     margin-left: -15px;
 }
 }
 
 .lineafooter{
-   margin-left: -30px;
+   margin-left: -60px;
 }
 
 //butonn
@@ -2926,7 +2929,54 @@ width: 100px;
 }
 @media only screen and (max-width:  1824px) { 
 .texto_contactanos{
-    padding-left: 10px;
+    padding-left: 5px;
+}
+}
+@media only screen and (max-width: 1280px) { 
+.texto_contactanos{
+    padding-left: 5px;
+}
+}
+@media only screen and (max-width: 1224px) { 
+.texto_contactanos{
+    padding-left: 5px;
+}
+}
+@media only screen and (max-width: 1024px) { 
+ .texto_contactanos{
+    padding-left: 5px;
+}
+}
+@media only screen and (max-width:768px) { 
+ .texto_contactanos{
+    padding-left: 5px;
+}
+}
+@media only screen and (max-width:480px) { 
+  .texto_contactanos{
+    padding-left: 40px;
+}
+}
+@media only screen and (max-width:360px) { 
+  .texto_contactanos{
+    padding-left: 40px;
+}
+}
+@media only screen and (max-width:320px) { 
+ .texto_contactanos{
+    padding-left: 40px;
+}
+}
+
+//texto_drones
+.about_single h4 {
+    margin-top: 10px;
+    color: #616f6e;
+}
+@media only screen and (max-width:  1824px) { 
+.about_single h4 {
+    margin-top: -30px;
+    color: #616f6e;
 }
 }
 @media only screen and (max-width: 1280px) { 
@@ -2946,21 +2996,266 @@ width: 100px;
 }
 @media only screen and (max-width:768px) { 
  .texto_contactanos{
-    padding-left: 40px;
+    padding-left: 130px;
 }
 }
 @media only screen and (max-width:480px) { 
   .texto_contactanos{
-    padding-left: 40px;
+    padding-left: 130px;
 }
 }
 @media only screen and (max-width:360px) { 
   .texto_contactanos{
-    padding-left: 40px;
+    padding-left: 130px;
 }
 }
 @media only screen and (max-width:320px) { 
  .texto_contactanos{
-    padding-left: 40px;
+    padding-left: 130px;
+}
+}
+
+//
+.lineafooter{
+   margin-left: -60px;
+}
+
+
+@media only screen and (max-width:  1824px) { 
+.lineafooter{
+   margin-left: -60px;
+}
+}
+@media only screen and (max-width: 1280px) { 
+.lineafooter{
+   margin-left: -60px;
+}
+}
+@media only screen and (max-width: 1224px) { 
+.lineafooter{
+   margin-left: -60px;
+}
+}
+@media only screen and (max-width: 1024px) { 
+.lineafooter{
+   margin-left: -60px;
+}
+}
+@media only screen and (max-width:768px) { 
+ .lineafooter{
+   margin-left: -90px;
+}
+}
+@media only screen and (max-width:480px) { 
+ .lineafooter{
+   margin-left: -90px;
+}
+}
+@media only screen and (max-width:360px) { 
+ .lineafooter{
+   margin-left: -90px;
+}
+}
+@media only screen and (max-width:320px) { 
+ .lineafooter{
+   margin-left: -90px;
+}
+}
+
+//
+.padd_redes{
+  margin-top: 50px;
+}
+
+
+@media only screen and (max-width:  1824px) { 
+.padd_redes{
+  margin-top: 50px;
+}
+}
+@media only screen and (max-width: 1280px) { 
+.padd_redes{
+  margin-top: 50px;
+}
+}
+@media only screen and (max-width: 1224px) { 
+.padd_redes{
+  margin-top: 50px;
+}
+}
+@media only screen and (max-width: 1024px) { 
+.padd_redes{
+  margin-top: 50px;
+}
+}
+@media only screen and (max-width:768px) { 
+ .padd_redes{
+  margin-top: 20px;
+}
+}
+@media only screen and (max-width:480px) { 
+ .padd_redes{
+  margin-top: 20px;
+}
+}
+@media only screen and (max-width:360px) { 
+ .padd_redes{
+  margin-top: 20px;
+}
+}
+@media only screen and (max-width:320px) { 
+ .padd_redes{
+  margin-top: 20px;
+}
+}
+
+//
+//
+.padd_drones{
+  margin-top: 50px;
+}
+
+
+@media only screen and (max-width:  1824px) { 
+.padd_drones{
+  margin-top: 90px;
+}
+
+}
+@media only screen and (max-width: 1280px) { 
+.padd_drones{
+  margin-top: 90px;
+}
+
+}
+@media only screen and (max-width: 1224px) { 
+.padd_drones{
+  margin-top: 90px;
+}
+}
+@media only screen and (max-width: 1024px) { 
+.padd_drones{
+  margin-top: 90px;
+}
+}
+@media only screen and (max-width:768px) { 
+ .padd_drones{
+  margin-top: 50px;
+}
+}
+@media only screen and (max-width:480px) { 
+ .padd_drones{
+  margin-top: 50px;
+}
+}
+@media only screen and (max-width:360px) { 
+ .padd_drones{
+  margin-top: 50px;
+}
+}
+@media only screen and (max-width:320px) { 
+ .padd_drones{
+  margin-top: 50px;
+}
+}
+//contacto
+.mar_contacto{
+ margin-left: 0px;
+}
+
+
+@media only screen and (max-width:  1824px) { 
+.mar_contacto{
+ margin-left: 0px;
+}
+}
+
+@media only screen and (max-width: 1280px) { 
+.mar_contacto{
+ margin-left: 0px;
+}
+
+
+}
+@media only screen and (max-width: 1224px) { 
+.mar_contacto{
+ margin-left: 0px;
+}
+
+}
+@media only screen and (max-width: 1024px) { 
+.mar_contacto{
+ margin-left: 0px;
+}
+}
+@media only screen and (max-width:768px) { 
+ .mar_contacto{
+ margin-left: 20px;
+}
+}
+@media only screen and (max-width:480px) { 
+ .mar_contacto{
+ margin-left: 20px;
+}
+}
+@media only screen and (max-width:360px) { 
+ .mar_contacto{
+ margin-left: 20px;
+}
+}
+@media only screen and (max-width:320px) { 
+ .padd_drones{
+  margin-top: 50px;
+}
+}
+
+//contacto_mar
+.mar_contacto_top{
+ margin-top: 0px;
+}
+
+
+@media only screen and (max-width:  1824px) { 
+.mar_contacto_top{
+ margin-top: 0px;
+}
+}
+
+@media only screen and (max-width: 1280px) { 
+.mar_contacto_top{
+ margin-top: 0px;
+}
+
+
+}
+@media only screen and (max-width: 1224px) { 
+.mar_contacto_top{
+ margin-top: 0px;
+}
+
+}
+@media only screen and (max-width: 1024px) { 
+.mar_contacto_top{
+ margin-top: 0px;
+}
+}
+@media only screen and (max-width:768px) { 
+ .mar_contacto_top{
+ margin-top: -15px;
+}
+}
+@media only screen and (max-width:480px) { 
+ .mar_contacto_top{
+ margin-top: -15px;
+}
+}
+@media only screen and (max-width:360px) { 
+ .mar_contacto_top{
+ margin-top: -15px;
+}
+}
+@media only screen and (max-width:320px) { 
+ .mar_contacto_top{
+ margin-top: -15px;
 }
 }

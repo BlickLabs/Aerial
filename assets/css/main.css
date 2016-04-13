@@ -763,7 +763,7 @@ ul{
   }
   .col-md-4{
   	padding: 20px;
-        margin-left: 20px;
+        
   	
   }
   .three-img{
@@ -1076,8 +1076,8 @@ ul{
 }
 .form-control{
 	border-radius: 0px;
-	padding-bottom: 22px;
-	padding-top: 22px;
+	padding-bottom: 19px;
+	padding-top: 19px;
 }
 .select-no-padding-left{
 	padding-left: 8px;
