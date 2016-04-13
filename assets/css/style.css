@@ -492,19 +492,19 @@ height: 100%;
 @media only screen and (max-width:768px) { 
     .hero-text h2 { 
          font-size: 35px;
-        line-height: 45px;
+        line-height: 40px;
          }
 }
 @media only screen and (max-width:480px) { 
     .hero-text h2 {
-        font-size: 45px;
-        line-height: 54px;
+        font-size: 35px;
+        line-height: 40px;
     }
 }
 @media only screen and (max-width:360px) { 
     .hero-text h2 {
-        font-size: 43px;
-        line-height: 45px;
+        font-size: 35px;
+        line-height: 40px;
     }
 }
 .header_social { margin-top: 30px }
@@ -2370,7 +2370,7 @@ width: 100px;
 }
 @media only screen and (max-width:320px) { 
    .padding_icons_camara{
-    padding-left: 80px;
+    padding-left: 30px;
 }
 }
 //text
@@ -2615,7 +2615,8 @@ width: 100px;
 }
 @media only screen and (max-width:320px) { 
   .padding_text_mesh{
-    padding-left: 35px;
+    padding-left: 70px;
+    margin-top: -90px;
     
 }
 }
@@ -2819,6 +2820,7 @@ width: 100px;
 @media only screen and (max-width:320px) { 
  .camara{
     margin-top: -30px;
+    margin-left: 35px;
 }
 }
 //aerial
@@ -2923,50 +2925,7 @@ width: 100px;
 }
 }
 
-//texto_contactanos
-.texto_contactanos{
-    padding-left: -8px;
-}
-@media only screen and (max-width:  1824px) { 
-.texto_contactanos{
-    padding-left: 5px;
-}
-}
-@media only screen and (max-width: 1280px) { 
-.texto_contactanos{
-    padding-left: 5px;
-}
-}
-@media only screen and (max-width: 1224px) { 
-.texto_contactanos{
-    padding-left: 5px;
-}
-}
-@media only screen and (max-width: 1024px) { 
- .texto_contactanos{
-    padding-left: 5px;
-}
-}
-@media only screen and (max-width:768px) { 
- .texto_contactanos{
-    padding-left: 5px;
-}
-}
-@media only screen and (max-width:480px) { 
-  .texto_contactanos{
-    padding-left: 40px;
-}
-}
-@media only screen and (max-width:360px) { 
-  .texto_contactanos{
-    padding-left: 40px;
-}
-}
-@media only screen and (max-width:320px) { 
- .texto_contactanos{
-    padding-left: 40px;
-}
-}
+
 
 //texto_drones
 .about_single h4 {
@@ -3011,7 +2970,7 @@ width: 100px;
 }
 @media only screen and (max-width:320px) { 
  .texto_contactanos{
-    padding-left: 130px;
+    padding-left: 115px;
 }
 }
 
