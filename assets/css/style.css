@@ -491,20 +491,26 @@ height: 100%;
 }
 @media only screen and (max-width:768px) { 
     .hero-text h2 { 
-         font-size: 35px;
-        line-height: 40px;
-         }
+        font-size: 30px;
+        line-height: 35px;
+    }
 }
 @media only screen and (max-width:480px) { 
     .hero-text h2 {
-        font-size: 35px;
-        line-height: 40px;
+        font-size: 30px;
+        line-height: 35px;
     }
 }
 @media only screen and (max-width:360px) { 
     .hero-text h2 {
-        font-size: 35px;
-        line-height: 40px;
+        font-size: 30px;
+        line-height: 35px;
+    }
+}
+@media only screen and (max-width:320px) { 
+    .hero-text h2 {
+        font-size: 30px;
+        line-height: 35px;
     }
 }
 .header_social { margin-top: 30px }
@@ -522,18 +528,26 @@ height: 100%;
 }
 @media only screen and (max-width:768px) { 
     .hero-text2 h2 { 
-        font-size: 60px }
+        font-size: 25px;
+        line-height: 30px;
+    }
 }
 @media only screen and (max-width:480px) { 
     .hero-text2 h2 {
-        font-size: 35px;
-        line-height: 45px;
+        font-size: 25px;
+        line-height: 30px;
     }
 }
 @media only screen and (max-width:360px) { 
     .hero-text2 h2 {
-        font-size: 35px;
-        line-height: 45px;
+        font-size: 25px;
+        line-height: 30px;
+    }
+}
+@media only screen and (max-width:320px) { 
+    .hero-text2 h2 {
+        font-size: 25px;
+        line-height: 30px;
     }
 }
 .header_social { margin-top: 30px }
@@ -2625,49 +2639,7 @@ width: 100px;
     padding-top: -10px;
 }
 
-.padding_redes_sociales{
-    margin-right: -100px;
-}
-@media only screen and (max-width:  1824px) { 
-.padding_redes_sociales{
-    margin-right:-40px;
-}
-}
-@media only screen and (max-width: 1280px) { 
- .padding_redes_sociales{
-    padding-left: 40px;
-}
-}
-@media only screen and (max-width: 1224px) { 
-  .padding_redes_sociales{
-    padding-left: 40px;
-}
-}
-@media only screen and (max-width: 1024px) { 
-  .padding_redes_sociales{
-    padding-left: 40px;
-}
-}
-@media only screen and (max-width:768px) { 
- .padding_redes_sociales{
-    padding-left: 40px;
-}
-}
-@media only screen and (max-width:480px) { 
-  .padding_redes_sociales{
-    padding-left: 40px;
-}
-}
-@media only screen and (max-width:360px) { 
-   .padding_redes_sociales{
-    padding-left: 40px;
-}
-}
-@media only screen and (max-width:320px) { 
-  .padding_redes_sociales{
-    padding-left: 40px;
-}
-}
+
 
 .padding_texto_redes_sociales{
     padding-right:-40px;
@@ -2694,20 +2666,27 @@ width: 100px;
 }
 @media only screen and (max-width:768px) { 
  .padding_texto_redes_sociales{
-    padding-right:-40px;
+    margin-right: -20px;
 }
 }
 @media only screen and (max-width:480px) { 
  .padding_texto_redes_sociales{
-    padding-right:-40px;
+    margin-right: -20px;
 }
 }
 @media only screen and (max-width:360px) { 
  .padding_texto_redes_sociales{
-    padding-right:-40px;
+    margin-right: -20px;
 }
 }
-.padding_texto_redes_sociales{
+@media only screen and (max-width:320px) { 
+ .padding_texto_redes_sociales{
+    margin-right: -20px;
+}
+}
+
+//REDES2
+.padding_texto_redes_sociales2{
     padding-right:-40px;
 }
 @media only screen and (max-width:  1824px) { 
@@ -2716,49 +2695,37 @@ width: 100px;
 }
 }
 @media only screen and (max-width: 1280px) { 
- .padding_texto_redes_sociales{
+ .padding_texto_redes_sociales2{
     padding-right:-40px;
 }
 }
 @media only screen and (max-width: 1224px) { 
- .padding_texto_redes_sociales{
+ .padding_texto_redes_sociales2{
     padding-right:-40px;
 }
 }
 @media only screen and (max-width: 1024px) { 
- .padding_texto_redes_sociales{
+ .padding_texto_redes_sociales2{
     padding-right:-40px;
 }
 }
 @media only screen and (max-width:768px) { 
- .padding_texto_redes_sociales{
+ .padding_texto_redes_sociales2{
     padding-right:-40px;
 }
 }
 @media only screen and (max-width:480px) { 
- .padding_texto_redes_sociales{
+ .padding_texto_redes_sociales2{
     padding-right:-40px;
-}
-.pull-right {
-  float: right !important;
-  margin-right: 0px !important;
-}
-.pull-right_2 {
-  margin: auto !important;
-  float: none !important;
-}
-.textarea-paddings{
-    padding-right: 20px;
-    padding-left: 40px;
 }
 }
 @media only screen and (max-width:360px) { 
- .padding_texto_redes_sociales{
+ .padding_texto_redes_sociales2{
     padding-right:-40px;
 }
 }
 @media only screen and (max-width:320px) { 
- .padding_texto_redes_sociales{
+ .padding_texto_redes_sociales2{
     padding-right:-40px;
 }
 }
@@ -3272,26 +3239,26 @@ padding-top: 20px;
 
 @media only screen and (max-width:  1824px) { 
 .texto_drones{
- padding-top: 40px;
+ padding-top: 0px;
 }
 }
 
 @media only screen and (max-width: 1280px) { 
 .texto_drones{
- padding-top: 40px;
+ padding-top: 0px;
 }
 
 
 }
 @media only screen and (max-width: 1224px) { 
 .texto_drones{
-padding-top: 40px;
+padding-top: 0px;
 }
 
 }
 @media only screen and (max-width: 1024px) { 
 .texto_drones{
-padding-top: 40px;
+padding-top: 0px;
 }
 }
 @media only screen and (max-width:768px) { 
@@ -3368,5 +3335,98 @@ margin-top: 60px;
 
 .dronehexa{
 margin-top: 60px;
+}
+}
+
+
+@media only screen and (max-width:  1824px) { 
+.textarea-paddings{
+ 
+}
+}
+
+@media only screen and (max-width: 1280px) { 
+.textarea-paddings{
+
+}
+}
+
+@media only screen and (max-width: 1224px) { 
+.textarea-paddings{
+ 
+}
+}
+@media only screen and (max-width: 1024px) { 
+.textarea-paddings{
+ 
+}
+}
+@media only screen and (max-width:768px) { 
+.textarea-paddings{
+    padding-right: 20px;
+    padding-left: 40px;
+}
+}
+@media only screen and (max-width:480px) { 
+.textarea-paddings{
+    padding-right: 20px;
+    padding-left: 40px;
+}
+}
+@media only screen and (max-width:360px) { 
+.textarea-paddings{
+    padding-right: 20px;
+    padding-left: 40px;
+}
+}
+@media only screen and (max-width:320px) { 
+.textarea-paddings{
+    padding-right: 20px;
+    padding-left: 40px;
+}
+}
+
+
+
+@media only screen and (max-width:  1824px) { 
+.logoface{
+ margin-left:-6px;
+}
+}
+
+@media only screen and (max-width: 1280px) { 
+.logoface{
+ margin-left:-6px;
+}
+}
+
+@media only screen and (max-width: 1224px) { 
+.logoface{
+ margin-left:-6px;
+}
+}
+@media only screen and (max-width: 1024px) { 
+.logoface{
+ margin-left:-6px;
+}
+}
+@media only screen and (max-width:768px) { 
+.logoface{
+ margin-left:0px;
+}
+}
+@media only screen and (max-width:480px) { 
+.logoface{
+ margin-left:0px;
+}
+}
+@media only screen and (max-width:360px) { 
+.logoface{
+ margin-left: 0px;
+}
+}
+@media only screen and (max-width:320px) { 
+.logoface{
+ margin-left: 0px;
 }
 }

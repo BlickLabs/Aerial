@@ -119,7 +119,7 @@
           <div class="container-fluid nav-web" data-spy="affix" data-offset-top="800" id="nav">
             <div class="container-fluid navbar-centered" id="myNavbarWeb">
                 <ul class="nav navbar-nav  center">
-                   <li class="dropdown ">
+                   <li class="dropdown active">
                        <a href="#init" class="MyriadPro-Light color_menu " >
                          AERIAL
                        </a>
@@ -180,21 +180,21 @@
 							
 								
 					<div class="text-center">
-						<div class="col-md-3 ">
+						<div class="col-md-3 dronehexa">
 							<div class="about_single wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.2s" data-wow-offset="0">
                                                            
                                                                 <div class="center-block"> 
-                                                                    <img  src="images/Phantom_2.png" style="height: 200px"/>
+                                                                    <img  src="images/drone_1.png" style="height: 250px"/>
                                                                 </div>
                                                             
-                                                            <h4 class="MyriadPro-Light texto_drones" style="font-size: 33px;">Phantom 2</h4>
+                                                            <h4 class="MyriadPro-Light texto_drones" style="font-size: 33px">Phantom 2</h4>
                                                         </div>	
 						</div><!--- END COL -->
 						<div class="col-md-3  dronehexa">
 							<div class="about_single wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.2s" data-wow-offset="0">
                                                            
                                                                 <div class="center-block">
-                                                                    <img src="images/Inspire_1.png" style="height: 200px"/> 
+                                                                    <img src="images/drone_2.png" style="height: 250px"/> 
                                                                 </div>
                                                            
                                                             <h4 class="MyriadPro-Light texto_drones" style="font-size: 33px">Inspire 1</h4>
@@ -205,7 +205,7 @@
 							<div class="about_single wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.2s" data-wow-offset="0">
                                                             
                                                                 <div class="center-block">
-                                                                    <img src="images/Osmo.png" style="height: 200px"/>   
+                                                                    <img src="images/drone_3.png" style="height: 250px"/>   
                                                                 </div>
                                                             
                                                             <h4 class="MyriadPro-Light texto_drones" style="font-size: 33px"> Osmo</h4>
@@ -215,8 +215,8 @@
                                                 <div class="col-md-3 dronehexa">
 							<div class="about_single wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.2s" data-wow-offset="0">
                                                             
-                                                                <div class="center-block ">
-                                                                    <img src="images/Hexacoptero_6.png" style="height: 200px" />   
+                                                                <div class="center-block">
+                                                                    <img src="images/drone_3.png" style="height: 250px"/>   
                                                                 </div>
                                                             
                                                             <h4 class="MyriadPro-Light texto_drones" style="font-size: 33px">Hexacoptero</h4>
@@ -244,13 +244,13 @@
                       
 			<!-- END PROJECT DESIGN -->
                 <!-- START CONTACT FORM DESIGN -->
-		<section id="contact" class="section-padding2 col-md-5 color_servicio "  >
+		<section id="contact" class="section-padding2 col-md-4 color_servicio "  >
                     
                     <h1 class="MyriadPro-Light" style="color:#1c1e20;font-size: 47px;text-align: center">Servicios</h1>
                     <img src="images/drone_servicios.png" style="height: 70px" class="center-block icono_drone_servicios">
                     
 		</section>
-                <section id="contact" class="section-padding col-md-7 color_servicio2"  >
+                <section id="contact" class="section-padding col-md-8 color_servicio2"  >
                          
                                             <div  data-wow-duration="1s" data-wow-delay="0.4s" data-wow-offset="0" >
                                                <ul class="list-unstyled checked " style="margin:0; padding:0; ">
@@ -330,7 +330,7 @@
                                    <div class="pull-right ">
                                        
                                        <ul class="list-unstyled checked-list">
-                                           <li><img src="images/logo_face.png" style="height: 25px;width:25px;margin-left:-5px" class="arrow-icon paloma2"><h4 class="benefits-info  padding_texto_redes_sociales MyriadPro-Light" style="size:17px;color:#545554;">/aerial360</h4></li>
+                                           <li><img src="images/logo_face.png" style="height: 25px;width:25px;" class="arrow-icon paloma2 logoface"><h4 class="benefits-info padding_texto_redes_sociales MyriadPro-Light" style="size:17px;color:#545554;">/aerial360</h4></li>
                                            <li><img src="images/logo_instagram.png"  style="height: 25px;width:25px" class="arrow-icon paloma2"><h4 class="benefits-info  padding_texto_redes_sociales MyriadPro-Light" style="size:17px;color:#545554">@aerial360</h4></li>
                                            <li><img src="images/logo_twitter.png"  style="height: 25px;width:25px" class="arrow-icon paloma2"><h4 class="benefits-info padding_texto_redes_sociales MyriadPro-Light" style="size:17px;color:#545554">@aerialMX</h4></li>
                                            <hr style="width:150%;" class="lineafooter">
@@ -388,7 +388,16 @@
 		<script src="assets/js/gmap3.min.js"></script>
 		<!-- scripts js -->       
                 <script src="assets/js/scripts.js"></script>
-		
+		<script type="text/javascript">
+			/*partner carousel*/
+			 $(".partner").owlCarousel({
+				  autoPlay: 3000, //Set AutoPlay to 3 seconds
+				  items : 4,
+				  itemsDesktop : [1199,3],
+				  itemsDesktopSmall : [979,3]
+			});
+			/*End partner carousel*/
+		</script>
 		<script type="text/javascript">
 		/*  Stellar for background scrolling  */
 		(function () {
@@ -412,11 +421,16 @@
               //Setting sticky navbar
               $('#nav').affix({
                   offset: {
-                    top: 530
+                    top: 580
                   }
               });
-              
-              
+              var carousel;
+                carousel = $(".slide-img");
+                carousel.itemslide();
+              window.setInterval(function() {
+                carousel.next();
+                
+              }, 4000);
                 </script>
 		
     </body>

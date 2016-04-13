@@ -662,14 +662,14 @@ ul{
 }
 .nav > li > a:hover, .nav > li > a:focus {
     text-decoration: none;
-    background: rgba(255, 255, 255, 0.60) !important;
+    
 }
 
 #nav.affix {
     position: fixed;
     top: 0;
     width: 100%;
-    padding-top: 5px;
+    
     padding-bottom: 5px;
     z-index: 999 !important;
     
