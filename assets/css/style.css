@@ -2784,17 +2784,17 @@ width: 100px;
 }
 @media only screen and (max-width:  1824px) { 
 .camara{
-    margin-top: -25px;
+    margin-top: -30px;
 }
 }
 @media only screen and (max-width: 1280px) { 
 .camara{
-    margin-top: -25px;
+    margin-top: -30px;
 }
 }
 @media only screen and (max-width: 1224px) { 
  .camara{
-    margin-top: -25px;
+    margin-top: -30px;
 }
 }
 @media only screen and (max-width: 1024px) { 
@@ -2928,29 +2928,27 @@ width: 100px;
 
 
 //texto_drones
-.about_single h4 {
-    margin-top: 10px;
-    color: #616f6e;
+.texto_contactanos{
+    padding-left: 10px;
 }
 @media only screen and (max-width:  1824px) { 
-.about_single h4 {
-    margin-top: -30px;
-    color: #616f6e;
+.texto_contactanos{
+    padding-left: 8px;
 }
 }
 @media only screen and (max-width: 1280px) { 
 .texto_contactanos{
-    padding-left: 10px;
+    padding-left: 8px;
 }
 }
 @media only screen and (max-width: 1224px) { 
 .texto_contactanos{
-    padding-left: 10px;
+    padding-left: 8px;
 }
 }
 @media only screen and (max-width: 1024px) { 
  .texto_contactanos{
-    padding-left: 10px;
+    padding-left: 8px;
 }
 }
 @media only screen and (max-width:768px) { 
@@ -3225,22 +3223,22 @@ width: 100px;
 }
 @media only screen and (max-width:  1824px) { 
 .camara2{
-    
+    margin-top: -8px;
 }
 }
 @media only screen and (max-width: 1280px) { 
 .camara2{
-    
+    margin-top: -8px;
 }
 }
 @media only screen and (max-width: 1224px) { 
  .camara2{
-    
+    margin-top: -8px;
 }
 }
 @media only screen and (max-width: 1024px) { 
  .camara2{
-    
+    margin-top: -8px;
 }
 }
 @media only screen and (max-width:768px) { 
@@ -3262,5 +3260,113 @@ width: 100px;
  .camara2{
     
     margin-left: 35px;
+}
+}
+
+//texto drones
+//contacto_mar
+.texto_drones{
+padding-top: 20px;
+}
+
+
+@media only screen and (max-width:  1824px) { 
+.texto_drones{
+ padding-top: 40px;
+}
+}
+
+@media only screen and (max-width: 1280px) { 
+.texto_drones{
+ padding-top: 40px;
+}
+
+
+}
+@media only screen and (max-width: 1224px) { 
+.texto_drones{
+padding-top: 40px;
+}
+
+}
+@media only screen and (max-width: 1024px) { 
+.texto_drones{
+padding-top: 40px;
+}
+}
+@media only screen and (max-width:768px) { 
+.texto_drones{
+ padding-top: 2px;
+}
+}
+@media only screen and (max-width:480px) { 
+.texto_drones{
+ padding-top: 2px;
+}
+}
+@media only screen and (max-width:360px) { 
+.texto_drones{
+padding-top: 2px;
+}
+}
+@media only screen and (max-width:320px) { 
+.texto_drones{
+padding-top: 2px;
+}
+}
+
+//dronehexa
+.dronehexa{
+padding-top: 20px;
+}
+
+
+@media only screen and (max-width:  1824px) { 
+//dronehexa
+.dronehexa{
+
+}
+}
+
+@media only screen and (max-width: 1280px) { 
+//dronehexa
+.dronehexa{
+
+}
+}
+
+@media only screen and (max-width: 1224px) { 
+//dronehexa
+.dronehexa{
+
+}
+}
+@media only screen and (max-width: 1024px) { 
+//dronehexa
+.dronehexa{
+
+}
+}
+@media only screen and (max-width:768px) { 
+//dronehexa
+.dronehexa{
+margin-top: 60px;
+}
+}
+@media only screen and (max-width:480px) { 
+.dronehexa{
+margin-top: 60px;
+}
+}
+@media only screen and (max-width:360px) { 
+
+.dronehexa{
+margin-top: 60px;
+}
+}
+@media only screen and (max-width:320px) { 
+
+.dronehexa{
+margin-top: 60px;
 }
 }
