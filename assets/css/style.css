@@ -492,25 +492,25 @@ height: 100%;
 @media only screen and (max-width:768px) { 
     .hero-text h2 { 
         font-size: 30px;
-        line-height: 35px;
+        line-height: 30px;
     }
 }
 @media only screen and (max-width:480px) { 
     .hero-text h2 {
         font-size: 30px;
-        line-height: 35px;
+        line-height: 30px;
     }
 }
 @media only screen and (max-width:360px) { 
     .hero-text h2 {
         font-size: 30px;
-        line-height: 35px;
+        line-height: 30px;
     }
 }
 @media only screen and (max-width:320px) { 
     .hero-text h2 {
         font-size: 30px;
-        line-height: 35px;
+        line-height: 30px;
     }
 }
 .header_social { margin-top: 30px }
@@ -2737,10 +2737,7 @@ width: 100px;
   float: right !important;
   margin-right: -20px;
 }
-.pull-right_2 {
-  float: right;
-  margin-right: -95px;
-}
+
 .color_menu{
     color: #b4b4b1;
     font-size: 15px;
@@ -3239,7 +3236,7 @@ padding-top: 20px;
 
 @media only screen and (max-width:  1824px) { 
 .texto_drones{
- padding-top: 0px;
+ padding-top: p0x;
 }
 }
 
@@ -3429,4 +3426,69 @@ margin-top: 60px;
 .logoface{
  margin-left: 0px;
 }
+}
+
+
+.pull-right_2 {
+  float: right;
+  margin-right: 18px;
+}
+
+
+@media only screen and (max-width:  1824px) { 
+.pull-right_2 {
+  float: right;
+  margin-right: -98px;
+}
+
+}
+
+@media only screen and (max-width: 1280px) { 
+.pull-right_2 {
+  float: right;
+  margin-right: -98px;
+}
+
+}
+
+@media only screen and (max-width: 1224px) { 
+.pull-right_2 {
+  float: right;
+  margin-right: -98px;
+}
+
+}
+@media only screen and (max-width: 1024px) { 
+.pull-right_2 {
+  float: right;
+  margin-right: -98px;
+}
+}
+@media only screen and (max-width:768px) { 
+.pull-right_2 {
+  float: right;
+  margin-right: 105px;
+}
+
+}
+@media only screen and (max-width:480px) { 
+.pull-right_2 {
+  float: right;
+  margin-right: 105px;
+}
+
+}
+@media only screen and (max-width:360px) { 
+.pull-right_2 {
+  float: right;
+  margin-right: 105px;
+}
+
+}
+@media only screen and (max-width:320px) { 
+.pull-right_2 {
+  float: right;
+  margin-right: 105px;
+}
+
 }
