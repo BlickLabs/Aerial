@@ -72,14 +72,14 @@ and open the template in the editor.
     }
 @media only screen and (max-width:  1824px) { 
 .p_drones { 
-    margin-left:25px;
+    margin-left:15px;
     }
 
 }
 
 @media only screen and (max-width: 1280px) { 
 .p_drones { 
-    padding-left: -100px;
+    margin-left:15px;
     }
 }
 
@@ -87,7 +87,7 @@ and open the template in the editor.
 
 @media only screen and (max-width: 1224px) { 
 .p_drones { 
-    margin-left:-105px;
+    margin-left:15px;
     }
 
 
@@ -95,7 +95,7 @@ and open the template in the editor.
 }
 @media only screen and (max-width: 1024px) { 
 .p_drones { 
-    margin-left:-105px;
+    margin-left:15px;
     }
 
 }
@@ -136,123 +136,87 @@ and open the template in the editor.
     }
 @media only screen and (max-width:  1824px) { 
 .p_drones1 { 
-    margin-left:80px;
+    margin-left:70px;
     }
-
 }
-
 @media only screen and (max-width: 1280px) { 
-.p_drones { 
-    padding-left: -100px;
+.p_drones1 { 
+    margin-left:70px;
     }
 }
-
-
-
 @media only screen and (max-width: 1224px) { 
-.p_drones { 
-    margin-left:-105px;
+.p_drones1 { 
+    margin-left:70px;
     }
-
-
-
 }
 @media only screen and (max-width: 1024px) { 
-.p_drones { 
-    margin-left:-105px;
+.p_drones1 { 
+    margin-left:70px;
     }
-
 }
 @media only screen and (max-width:768px) { 
-.p_drones { 
-    margin-left:-105px;
+.p_drones1 { 
+    margin-left:70px;
     }
-
-
 }
 @media only screen and (max-width:480px) { 
-.p_drones { 
-    margin-left:-105px;
+.p_drones1 { 
+    margin-left:70px;
     }
-
-
-
 }
 @media only screen and (max-width:360px) { 
-.p_drones { 
-    margin-left:-105px;
+.p_drones1 { 
+    margin-left:70px;
     }
-
-
-
-
 }
 @media only screen and (max-width:320px) { 
-.p_drones { 
-    margin-left:-105px;
+.p_drones1 { 
+    margin-left:70px;
     }
 
 }
 
-//p_drones1
+//p_drones2
 .p_drones2 { 
     margin-left:-105px;
     }
 @media only screen and (max-width:  1824px) { 
 .p_drones2 { 
-    margin-left:160px;
+    margin-left:150px;
     }
-
 }
-
 @media only screen and (max-width: 1280px) { 
-.p_drones { 
+.p_drones2 { 
     padding-left: -100px;
     }
 }
-
-
-
 @media only screen and (max-width: 1224px) { 
-.p_drones { 
+.p_drones2 { 
     margin-left:-105px;
     }
-
-
-
 }
 @media only screen and (max-width: 1024px) { 
-.p_drones { 
+.p_drones2 { 
     margin-left:-105px;
     }
-
 }
 @media only screen and (max-width:768px) { 
-.p_drones { 
+.p_drones2 { 
     margin-left:-105px;
     }
-
-
 }
 @media only screen and (max-width:480px) { 
-.p_drones { 
+.p_drones2 { 
     margin-left:-105px;
     }
-
-
-
 }
 @media only screen and (max-width:360px) { 
-.p_drones { 
+.p_drones2 { 
     margin-left:-105px;
     }
-
-
-
-
 }
 @media only screen and (max-width:320px) { 
-.p_drones { 
+.p_drones2{ 
     margin-left:-105px;
     }
 
@@ -264,42 +228,42 @@ and open the template in the editor.
     }
 @media only screen and (max-width:  1824px) { 
 .p_drones3 { 
-    margin-left:35px;
+    margin-left:20px;
     }
 }
 @media only screen and (max-width: 1280px) { 
-.p_drones { 
-    padding-left: -100px;
+.p_drones3 { 
+    margin-left:20px;
     }
 }
 @media only screen and (max-width: 1224px) { 
-.p_drones { 
-    margin-left:-105px;
+.p_drones3 { 
+    margin-left:20px;
     }
 }
 @media only screen and (max-width: 1024px) { 
-.p_drones { 
-    margin-left:-105px;
+.p_drones3 { 
+    margin-left:20px;
     }
 }
 @media only screen and (max-width:768px) { 
-.p_drones { 
-    margin-left:-105px;
+.p_drones3 { 
+    margin-left:20px;
     }
 }
 @media only screen and (max-width:480px) { 
-.p_drones { 
-    margin-left:-105px;
+.p_drones3 { 
+    margin-left:20px;
     }
 }
 @media only screen and (max-width:360px) { 
-.p_drones { 
-    margin-left:-105px;
+.p_drones3 { 
+    margin-left:25px;
     }
 }
 @media only screen and (max-width:320px) { 
-.p_drones { 
-    margin-left:-105px;
+.p_drones3 { 
+    margin-left:25px;
     }
 }
 
@@ -309,42 +273,42 @@ and open the template in the editor.
     }
 @media only screen and (max-width:  1824px) { 
 .p_drones4 { 
-    margin-left:80px;
+    margin-left:70px;
     }
 }
 @media only screen and (max-width: 1280px) { 
-.p_drones { 
-    padding-left: -100px;
+.p_drones4 { 
+    padding-left: 70px;
     }
 }
 @media only screen and (max-width: 1224px) { 
-.p_drones { 
-    margin-left:-105px;
+.p_drones4 { 
+    margin-left:70px;
     }
 }
 @media only screen and (max-width: 1024px) { 
-.p_drones { 
-    margin-left:-105px;
+.p_drones4 { 
+    margin-left:70px;
     }
 }
 @media only screen and (max-width:768px) { 
-.p_drones { 
-    margin-left:-105px;
+.p_drones4 { 
+    margin-left:70px;
     }
 }
 @media only screen and (max-width:480px) { 
-.p_drones { 
-    margin-left:-105px;
+.p_drones4 { 
+    margin-left:70px;
     }
 }
 @media only screen and (max-width:360px) { 
-.p_drones { 
-    margin-left:-105px;
+.p_drones4 { 
+    margin-left:20px;
     }
 }
 @media only screen and (max-width:320px) { 
-.p_drones { 
-    margin-left:-105px;
+.p_drones4 { 
+    margin-left:20px;
     }
 }
 
@@ -354,42 +318,42 @@ and open the template in the editor.
     }
 @media only screen and (max-width:  1824px) { 
 .p_drones5 { 
-    margin-left:-110px;
+    margin-left:-120px;
     }
 }
 @media only screen and (max-width: 1280px) { 
-.p_drones { 
-    padding-left: -100px;
+.p_drones5 { 
+    padding-left: -120px;
     }
 }
 @media only screen and (max-width: 1224px) { 
-.p_drones { 
-    margin-left:-105px;
+.p_drones5 { 
+    margin-left:-120px;
     }
 }
 @media only screen and (max-width: 1024px) { 
-.p_drones { 
-    margin-left:-105px;
+.p_drones5 { 
+    margin-left:-120px;
     }
 }
 @media only screen and (max-width:768px) { 
-.p_drones { 
-    margin-left:-105px;
+.p_drones5 { 
+    margin-left:15px;
     }
 }
 @media only screen and (max-width:480px) { 
-.p_drones { 
-    margin-left:-105px;
+.p_drones5{ 
+    margin-left:15px;
     }
 }
 @media only screen and (max-width:360px) { 
-.p_drones { 
-    margin-left:-105px;
+.p_drones5 { 
+    margin-left:15px;
     }
 }
 @media only screen and (max-width:320px) { 
-.p_drones { 
-    margin-left:-105px;
+.p_drones5 { 
+    margin-left:15px;
     }
 }
 
@@ -399,41 +363,41 @@ and open the template in the editor.
     }
 @media only screen and (max-width:  1824px) { 
 .p_drones6 { 
-    margin-left:25px;
+    margin-left:15px;
     }
 }
 @media only screen and (max-width: 1280px) { 
-.p_drones { 
+.p_drones6 { 
     padding-left: -100px;
     }
 }
 @media only screen and (max-width: 1224px) { 
-.p_drones { 
+.p_drones6 { 
     margin-left:-105px;
     }
 }
 @media only screen and (max-width: 1024px) { 
-.p_drones { 
+.p_drones6 { 
     margin-left:-105px;
     }
 }
 @media only screen and (max-width:768px) { 
-.p_drones { 
+.p_drones6 { 
     margin-left:-105px;
     }
 }
 @media only screen and (max-width:480px) { 
-.p_drones { 
+.p_drones6 { 
     margin-left:-105px;
     }
 }
 @media only screen and (max-width:360px) { 
-.p_drones { 
+.p_drones6 { 
     margin-left:-105px;
     }
 }
 @media only screen and (max-width:320px) { 
-.p_drones { 
+.p_drones6 { 
     margin-left:-105px;
     }
 }
@@ -978,45 +942,45 @@ and open the template in the editor.
 
 //p_16
 .p_drones16 { 
-    margin-left:-105px;
+    margin-left:-110px;
     }
 @media only screen and (max-width:  1824px) { 
 .p_drones16 { 
-    margin-left:-85px;
+    margin-left:-100px;
     }
 }
 @media only screen and (max-width: 1280px) { 
-.p_drones { 
+.p_drones16 { 
     padding-left: -100px;
     }
 }
 @media only screen and (max-width: 1224px) { 
-.p_drones { 
-    margin-left:-105px;
+.p_drones16 { 
+    margin-left:-100px;
     }
 }
 @media only screen and (max-width: 1024px) { 
-.p_drones { 
-    margin-left:-105px;
+.p_drones16 { 
+    margin-left:-100px;
     }
 }
 @media only screen and (max-width:768px) { 
-.p_drones { 
+.p_drones16 { 
     margin-left:-105px;
     }
 }
 @media only screen and (max-width:480px) { 
-.p_drones { 
+.p_drones16 { 
     margin-left:-105px;
     }
 }
 @media only screen and (max-width:360px) { 
-.p_drones { 
+.p_drones16 { 
     margin-left:-105px;
     }
 }
 @media only screen and (max-width:320px) { 
-.p_drones { 
+.p_drones16 { 
     margin-left:-105px;
     }
 }
@@ -1028,86 +992,86 @@ and open the template in the editor.
     }
 @media only screen and (max-width:  1824px) { 
 .p_drones17{ 
-    margin-left:-45px;
+    margin-left:-60px;
     }
 }
 @media only screen and (max-width: 1280px) { 
-.p_drones { 
-    padding-left: -100px;
+.p_drones17 { 
+    margin-left:-60px;
     }
 }
 @media only screen and (max-width: 1224px) { 
-.p_drones { 
-    margin-left:-105px;
+.p_drones17 { 
+    margin-left:-60px;
     }
 }
 @media only screen and (max-width: 1024px) { 
-.p_drones { 
-    margin-left:-105px;
+.p_drones17 { 
+    margin-left:-60px;
     }
 }
 @media only screen and (max-width:768px) { 
-.p_drones { 
-    margin-left:-105px;
+.p_drones17 { 
+ margin-left:-60px;
     }
 }
 @media only screen and (max-width:480px) { 
-.p_drones { 
-    margin-left:-105px;
+.p_drones17 { 
+    margin-left:-60px;
     }
 }
 @media only screen and (max-width:360px) { 
-.p_drones { 
-    margin-left:-105px;
+.p_drones17 { 
+    margin-left:-60px;
     }
 }
 @media only screen and (max-width:320px) { 
-.p_drones { 
-    margin-left:-105px;
+.p_drones17 { 
+    margin-left:-60px;
     }
 }
 
-//p_17
+//p_18
 .p_drones18 { 
     margin-left:-105px;
     }
 @media only screen and (max-width:  1824px) { 
 .p_drones18{ 
-    margin-left:-175px;
+    margin-left:-185px;
     }
 }
 @media only screen and (max-width: 1280px) { 
-.p_drones { 
-    padding-left: -100px;
+.p_drones18 { 
+    margin-left:-185px;
     }
 }
 @media only screen and (max-width: 1224px) { 
-.p_drones { 
-    margin-left:-105px;
+.p_drones18 { 
+    margin-left:-185px;
     }
 }
 @media only screen and (max-width: 1024px) { 
-.p_drones { 
-    margin-left:-105px;
+.p_drones18 { 
+    margin-left:-185px;
     }
 }
 @media only screen and (max-width:768px) { 
-.p_drones { 
+.p_drones18 { 
     margin-left:-105px;
     }
 }
 @media only screen and (max-width:480px) { 
-.p_drones { 
+.p_drones18 { 
     margin-left:-105px;
     }
 }
 @media only screen and (max-width:360px) { 
-.p_drones { 
+.p_drones18 { 
     margin-left:-105px;
     }
 }
 @media only screen and (max-width:320px) { 
-.p_drones { 
+.p_drones18 { 
     margin-left:-105px;
     }
 }
@@ -1117,41 +1081,41 @@ and open the template in the editor.
     }
 @media only screen and (max-width:  1824px) { 
 .p_drones19{ 
-    margin-left:-280px;
+    margin-left:-295px;
     }
 }
 @media only screen and (max-width: 1280px) { 
-.p_drones { 
-    padding-left: -100px;
+.p_drones19 { 
+    padding-left: -295px;
     }
 }
 @media only screen and (max-width: 1224px) { 
-.p_drones { 
-    margin-left:-105px;
+.p_drones19 { 
+    margin-left:-295px;
     }
 }
 @media only screen and (max-width: 1024px) { 
-.p_drones { 
-    margin-left:-105px;
+.p_drones19 { 
+    margin-left:-295px;
     }
 }
 @media only screen and (max-width:768px) { 
-.p_drones { 
+.p_drones19 { 
     margin-left:-105px;
     }
 }
 @media only screen and (max-width:480px) { 
-.p_drones { 
+.p_drones19 { 
     margin-left:-105px;
     }
 }
 @media only screen and (max-width:360px) { 
-.p_drones { 
+.p_drones19 { 
     margin-left:-105px;
     }
 }
 @media only screen and (max-width:320px) { 
-.p_drones { 
+.p_drones19 { 
     margin-left:-105px;
     }
 }
@@ -1162,41 +1126,41 @@ and open the template in the editor.
     }
 @media only screen and (max-width:  1824px) { 
 .p_drones20{ 
-    margin-left:-135px;
+    margin-left:-155px;
     }
 }
 @media only screen and (max-width: 1280px) { 
-.p_drones { 
-    padding-left: -100px;
+.p_drones20 { 
+    margin-left:-155px;
     }
 }
 @media only screen and (max-width: 1224px) { 
-.p_drones { 
-    margin-left:-105px;
+.p_drones20 { 
+    margin-left:-155px;
     }
 }
 @media only screen and (max-width: 1024px) { 
-.p_drones { 
-    margin-left:-105px;
+.p_drones20 { 
+    margin-left:-155px;
     }
 }
 @media only screen and (max-width:768px) { 
-.p_drones { 
+.p_drones20 { 
     margin-left:-105px;
     }
 }
 @media only screen and (max-width:480px) { 
-.p_drones { 
+.p_drones20 { 
     margin-left:-105px;
     }
 }
 @media only screen and (max-width:360px) { 
-.p_drones { 
+.p_drones20 { 
     margin-left:-105px;
     }
 }
 @media only screen and (max-width:320px) { 
-.p_drones { 
+.p_drones20 { 
     margin-left:-105px;
     }
 }
@@ -1206,7 +1170,7 @@ and open the template in the editor.
     }
 @media only screen and (max-width:  1824px) { 
 .p_drones21{ 
-    margin-left:-295px;
+    margin-left:-310px;
     }
 }
 @media only screen and (max-width: 1280px) { 
@@ -1295,7 +1259,7 @@ and open the template in the editor.
     }
 @media only screen and (max-width:  1824px) { 
 .p_drones23{ 
-    margin-left:-130px;
+    margin-left:-140px;
     }
 }
 @media only screen and (max-width: 1280px) { 
@@ -1340,7 +1304,7 @@ and open the template in the editor.
     }
 @media only screen and (max-width:  1824px) { 
 .p_drones24{ 
-    margin-left:-50px;
+    margin-left:-65px;
     }
 }
 @media only screen and (max-width: 1280px) { 
@@ -1385,22 +1349,22 @@ and open the template in the editor.
     }
 @media only screen and (max-width:  1824px) { 
 .p_drones25{ 
-    margin-left:-10px;
+    margin-left:-20px;
     }
 }
 @media only screen and (max-width: 1280px) { 
 .p_drones { 
-    padding-left: -100px;
+    padding-left: -20px;
     }
 }
 @media only screen and (max-width: 1224px) { 
 .p_drones { 
-    margin-left:-105px;
+    margin-left:-20px;
     }
 }
 @media only screen and (max-width: 1024px) { 
 .p_drones { 
-    margin-left:-105px;
+    margin-left:-20px;
     }
 }
 @media only screen and (max-width:768px) { 
@@ -1429,7 +1393,7 @@ and open the template in the editor.
     }
 @media only screen and (max-width:  1824px) { 
 .p_drones26{ 
-    margin-left:-80px;
+    margin-left:-90px;
     }
 }
 @media only screen and (max-width: 1280px) { 
@@ -1473,7 +1437,7 @@ and open the template in the editor.
     }
 @media only screen and (max-width:  1824px) { 
 .p_drones27{ 
-    margin-left:-220px;
+    margin-left:-225px;
     }
 }
 @media only screen and (max-width: 1280px) { 
@@ -1517,7 +1481,7 @@ and open the template in the editor.
     }
 @media only screen and (max-width:  1824px) { 
 .p_drones28{ 
-    margin-left:-325px;
+    margin-left:-330px;
     }
 }
 @media only screen and (max-width: 1280px) { 
@@ -1561,17 +1525,17 @@ and open the template in the editor.
     }
 @media only screen and (max-width:  1824px) { 
 .p_drones29{ 
-    margin-left:-185px;
+    margin-left:-195px;
     }
 }
 @media only screen and (max-width: 1280px) { 
 .p_drones { 
-    padding-left: -100px;
+    padding-left: -195px;
     }
 }
 @media only screen and (max-width: 1224px) { 
 .p_drones { 
-    margin-left:-105px;
+    margin-left:-190px;
     }
 }
 @media only screen and (max-width: 1024px) { 
@@ -1581,7 +1545,7 @@ and open the template in the editor.
 }
 @media only screen and (max-width:768px) { 
 .p_drones { 
-    margin-left:-105px;
+    margin-left:-190px;
     }
 }
 @media only screen and (max-width:480px) { 
@@ -1605,7 +1569,7 @@ and open the template in the editor.
     }
 @media only screen and (max-width:  1824px) { 
 .camara_hexa { 
-    margin-left:155px;
+    margin-left:145px;
     margin-bottom: 20px;
     }
 }
@@ -1741,7 +1705,9 @@ and open the template in the editor.
     }
 @media only screen and (max-width:  1824px) { 
 .go_pro { 
+    margin-top: 50px;
     margin-left:30px;
+    margin-bottom: 20px;
     }
 }
 @media only screen and (max-width: 1280px) { 
@@ -1778,4 +1744,168 @@ and open the template in the editor.
 .p_drones { 
     margin-left:-105px;
     }
+}
+
+.text_phantom{
+    padding-top: 25px;
+}
+@media only screen and (max-width:  1824px) { 
+.text_phantom{
+    margin-top:  -20px;
+}
+}
+@media only screen and (max-width: 1280px) { 
+.text_phantom{
+    margin-top:  -65px;
+}
+}
+@media only screen and (max-width: 1224px) { 
+.text_phantom{
+    margin-top:  -65px;
+}
+}
+@media only screen and (max-width: 1024px) { 
+.text_phantom{
+    margin-top:  -65px;
+}
+}
+@media only screen and (max-width:768px) { 
+.go_pro { 
+    margin-left:125px;
+    }
+}
+@media only screen and (max-width:480px) { 
+.go_pro { 
+    margin-left:125px;
+    }
+}
+@media only screen and (max-width:360px) { 
+.go_pro { 
+    margin-left:125px;
+    }
+}
+@media only screen and (max-width:320px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+
+
+.section_padding_5 { 
+    padding-top: 140px;
+    padding-bottom: 50px;
+    display: block;
+    }
+    
+.section_padding_6 { 
+    padding-top: 50px;
+    padding-bottom: 40px;
+    display: block;
+    }  
+  
+.section_padding_7 { 
+    padding-top: 90px;
+    padding-bottom: -100px;
+    display: block;
+    }
+    
+    
+
+.text_hexa{
+    padding-top: 25px;
+}
+@media only screen and (max-width:  1824px) { 
+.text_hexa{
+    margin-top:  -20px;
+    margin-bottom: 30px;
+}
+}
+@media only screen and (max-width: 1280px) { 
+.text_hexa{
+    margin-top:  -20px;
+    margin-bottom: 30px;
+}
+}
+@media only screen and (max-width: 1224px) { 
+.text_hexa{
+    margin-top:  -20px;
+    margin-bottom: 30px;
+}
+}
+@media only screen and (max-width: 1024px) { 
+.text_hexa{
+    margin-top:  -20px;
+    margin-bottom: 30px;
+}
+}
+@media only screen and (max-width:768px) { 
+.text_hexa{
+    margin-top:  -20px;
+    margin-bottom: 30px;
+}
+}
+@media only screen and (max-width:480px) { 
+.text_hexa{
+    margin-top:  -20px;
+    margin-bottom: 30px;
+}
+}
+@media only screen and (max-width:360px) { 
+.text_hexa{
+    margin-top:  -20px;
+    margin-bottom: 30px;
+}
+}
+@media only screen and (max-width:320px) { 
+.text_hexa{
+ 
+      margin-top:  -20px;
+    margin-bottom: 30px;
+}
+}
+
+.text_osmo{
+    
+    padding-top: 25px;
+}
+@media only screen and (max-width:  1824px) { 
+.text_osmo{
+    margin-top: -30px;
+    margin-bottom: 60px;
+}
+}
+@media only screen and (max-width: 1280px) { 
+.text_osmo{
+    padding-top: 25px;
+}
+}
+@media only screen and (max-width: 1224px) { 
+.text_osmo{
+    padding-top: 25px;
+}
+}
+@media only screen and (max-width: 1024px) { 
+.text_osmo{
+    padding-top: 25px;
+}
+}
+@media only screen and (max-width:768px) { 
+.text_osmo{
+    padding-top: 25px;
+}
+}
+@media only screen and (max-width:480px) { 
+.text_osmo{
+    padding-top: 25px;
+}
+}
+@media only screen and (max-width:360px) { 
+.text_osmo{
+    padding-top: 25px;
+}
+}
+@media only screen and (max-width:320px) { 
+.text_osmo{
+    padding-top: 25px;
+}
 }
