@@ -1,0 +1,1781 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 14/04/2016, 09:26:54 AM
+    Author     : tono
+*/
+
+@media only screen and (max-width:  1824px) { 
+.desc_drones { 
+    font-size: 22px;
+    }
+
+}
+
+@media only screen and (max-width: 1280px) { 
+.section-padding2 { 
+    padding: 190px 0 200px 0;
+    display: block;
+    }
+
+}
+
+@media only screen and (max-width: 1224px) { 
+.section-padding2 { 
+    padding: 190px 0 200px 0;
+    display: block;
+    }
+}
+@media only screen and (max-width: 1024px) { 
+.section-padding2 { 
+    padding: 190px 0 200px 0;
+    display: block;
+    }
+}
+@media only screen and (max-width:768px) { 
+.section-padding2 { 
+    padding: 40px 0 40px 0;
+    display: block;
+    }
+
+}
+@media only screen and (max-width:480px) { 
+.section-padding2 { 
+    padding: 40ṕx 0 60px 0;
+    display: block;
+    }
+
+
+}
+@media only screen and (max-width:360px) { 
+.section-padding2 { 
+    padding: 40px 0 40px 0;
+    display: block;
+    }
+
+
+
+}
+@media only screen and (max-width:320px) { 
+.section-padding2 { 
+    padding: 40px 0 40px 0;
+    display: block;
+    }
+}
+
+//padding_desc
+.p_drones { 
+    margin-left:-10px;
+    }
+@media only screen and (max-width:  1824px) { 
+.p_drones { 
+    margin-left:25px;
+    }
+
+}
+
+@media only screen and (max-width: 1280px) { 
+.p_drones { 
+    padding-left: -100px;
+    }
+}
+
+
+
+@media only screen and (max-width: 1224px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+
+
+
+}
+@media only screen and (max-width: 1024px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+
+}
+@media only screen and (max-width:768px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+
+
+}
+@media only screen and (max-width:480px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+
+
+
+}
+@media only screen and (max-width:360px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+
+
+
+
+}
+@media only screen and (max-width:320px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+
+}
+
+//p_drones1
+.p_drones1 { 
+    margin-left:-105px;
+    }
+@media only screen and (max-width:  1824px) { 
+.p_drones1 { 
+    margin-left:80px;
+    }
+
+}
+
+@media only screen and (max-width: 1280px) { 
+.p_drones { 
+    padding-left: -100px;
+    }
+}
+
+
+
+@media only screen and (max-width: 1224px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+
+
+
+}
+@media only screen and (max-width: 1024px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+
+}
+@media only screen and (max-width:768px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+
+
+}
+@media only screen and (max-width:480px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+
+
+
+}
+@media only screen and (max-width:360px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+
+
+
+
+}
+@media only screen and (max-width:320px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+
+}
+
+//p_drones1
+.p_drones2 { 
+    margin-left:-105px;
+    }
+@media only screen and (max-width:  1824px) { 
+.p_drones2 { 
+    margin-left:160px;
+    }
+
+}
+
+@media only screen and (max-width: 1280px) { 
+.p_drones { 
+    padding-left: -100px;
+    }
+}
+
+
+
+@media only screen and (max-width: 1224px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+
+
+
+}
+@media only screen and (max-width: 1024px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+
+}
+@media only screen and (max-width:768px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+
+
+}
+@media only screen and (max-width:480px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+
+
+
+}
+@media only screen and (max-width:360px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+
+
+
+
+}
+@media only screen and (max-width:320px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+
+}
+
+//p_drones3
+.p_drones3 { 
+    margin-left:-105px;
+    }
+@media only screen and (max-width:  1824px) { 
+.p_drones3 { 
+    margin-left:35px;
+    }
+}
+@media only screen and (max-width: 1280px) { 
+.p_drones { 
+    padding-left: -100px;
+    }
+}
+@media only screen and (max-width: 1224px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+@media only screen and (max-width: 1024px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+@media only screen and (max-width:768px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+@media only screen and (max-width:480px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+@media only screen and (max-width:360px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+@media only screen and (max-width:320px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+
+//p_drones4
+.p_drones4 { 
+    margin-left:-105px;
+    }
+@media only screen and (max-width:  1824px) { 
+.p_drones4 { 
+    margin-left:80px;
+    }
+}
+@media only screen and (max-width: 1280px) { 
+.p_drones { 
+    padding-left: -100px;
+    }
+}
+@media only screen and (max-width: 1224px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+@media only screen and (max-width: 1024px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+@media only screen and (max-width:768px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+@media only screen and (max-width:480px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+@media only screen and (max-width:360px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+@media only screen and (max-width:320px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+
+//p_drones5
+.p_drones5 { 
+    margin-left:-105px;
+    }
+@media only screen and (max-width:  1824px) { 
+.p_drones5 { 
+    margin-left:-110px;
+    }
+}
+@media only screen and (max-width: 1280px) { 
+.p_drones { 
+    padding-left: -100px;
+    }
+}
+@media only screen and (max-width: 1224px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+@media only screen and (max-width: 1024px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+@media only screen and (max-width:768px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+@media only screen and (max-width:480px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+@media only screen and (max-width:360px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+@media only screen and (max-width:320px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+
+//p_drones6
+.p_drones6 { 
+    margin-left:-105px;
+    }
+@media only screen and (max-width:  1824px) { 
+.p_drones6 { 
+    margin-left:25px;
+    }
+}
+@media only screen and (max-width: 1280px) { 
+.p_drones { 
+    padding-left: -100px;
+    }
+}
+@media only screen and (max-width: 1224px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+@media only screen and (max-width: 1024px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+@media only screen and (max-width:768px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+@media only screen and (max-width:480px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+@media only screen and (max-width:360px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+@media only screen and (max-width:320px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+
+//imag_drone_phantom
+.img_drone_phantom { 
+    margin-left:-105px;
+    }
+@media only screen and (max-width:  1824px) { 
+.img_drone_phantom { 
+    margin-left:-135px;
+    }
+}
+@media only screen and (max-width: 1280px) { 
+.p_drones { 
+    padding-left: -100px;
+    }
+}
+@media only screen and (max-width: 1224px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+@media only screen and (max-width: 1024px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+@media only screen and (max-width:768px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+@media only screen and (max-width:480px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+@media only screen and (max-width:360px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+@media only screen and (max-width:320px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+
+//p_drones7
+.p_drones7 { 
+    margin-left:-105px;
+    }
+@media only screen and (max-width:  1824px) { 
+.p_drones7 { 
+    margin-left:-240px;
+    }
+}
+@media only screen and (max-width: 1280px) { 
+.p_drones { 
+    padding-left: -100px;
+    }
+}
+@media only screen and (max-width: 1224px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+@media only screen and (max-width: 1024px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+@media only screen and (max-width:768px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+@media only screen and (max-width:480px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+@media only screen and (max-width:360px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+@media only screen and (max-width:320px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+
+//p_drones8
+.p_drones8 { 
+    margin-left:-105px;
+    }
+@media only screen and (max-width:  1824px) { 
+.p_drones8 { 
+    margin-left:-245px;
+    }
+}
+@media only screen and (max-width: 1280px) { 
+.p_drones { 
+    padding-left: -100px;
+    }
+}
+@media only screen and (max-width: 1224px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+@media only screen and (max-width: 1024px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+@media only screen and (max-width:768px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+@media only screen and (max-width:480px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+@media only screen and (max-width:360px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+@media only screen and (max-width:320px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+
+//p_drones9
+.p_drones9 { 
+    margin-left:-105px;
+    }
+@media only screen and (max-width:  1824px) { 
+.p_drones9 { 
+    margin-left:-125px;
+    }
+}
+@media only screen and (max-width: 1280px) { 
+.p_drones { 
+    padding-left: -100px;
+    }
+}
+@media only screen and (max-width: 1224px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+@media only screen and (max-width: 1024px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+@media only screen and (max-width:768px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+@media only screen and (max-width:480px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+@media only screen and (max-width:360px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+@media only screen and (max-width:320px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+
+.p_drones10 { 
+    margin-left:-105px;
+    }
+@media only screen and (max-width:  1824px) { 
+.p_drones10 { 
+    margin-left:-80px;
+    }
+}
+@media only screen and (max-width: 1280px) { 
+.p_drones { 
+    padding-left: -100px;
+    }
+}
+@media only screen and (max-width: 1224px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+@media only screen and (max-width: 1024px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+@media only screen and (max-width:768px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+@media only screen and (max-width:480px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+@media only screen and (max-width:360px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+@media only screen and (max-width:320px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+
+.p_drones11 { 
+    margin-left:-105px;
+    }
+@media only screen and (max-width:  1824px) { 
+.p_drones11 { 
+    margin-left:-30px;
+    }
+}
+@media only screen and (max-width: 1280px) { 
+.p_drones { 
+    padding-left: -100px;
+    }
+}
+@media only screen and (max-width: 1224px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+@media only screen and (max-width: 1024px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+@media only screen and (max-width:768px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+@media only screen and (max-width:480px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+@media only screen and (max-width:360px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+@media only screen and (max-width:320px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+
+//p_12
+.p_drones12 { 
+    margin-left:-105px;
+    }
+@media only screen and (max-width:  1824px) { 
+.p_drones12 { 
+    margin-left:-290px;
+    }
+}
+@media only screen and (max-width: 1280px) { 
+.p_drones { 
+    padding-left: -100px;
+    }
+}
+@media only screen and (max-width: 1224px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+@media only screen and (max-width: 1024px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+@media only screen and (max-width:768px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+@media only screen and (max-width:480px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+@media only screen and (max-width:360px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+@media only screen and (max-width:320px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+
+//p_13
+.p_drones13 { 
+    margin-left:-105px;
+    }
+@media only screen and (max-width:  1824px) { 
+.p_drones13 { 
+    margin-left:-220px;
+    }
+}
+@media only screen and (max-width: 1280px) { 
+.p_drones { 
+    padding-left: -100px;
+    }
+}
+@media only screen and (max-width: 1224px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+@media only screen and (max-width: 1024px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+@media only screen and (max-width:768px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+@media only screen and (max-width:480px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+@media only screen and (max-width:360px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+@media only screen and (max-width:320px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+//p_14
+.p_drones14 { 
+    margin-left:-105px;
+    }
+@media only screen and (max-width:  1824px) { 
+.p_drones14 { 
+    margin-left:-330px;
+    }
+}
+@media only screen and (max-width: 1280px) { 
+.p_drones { 
+    padding-left: -100px;
+    }
+}
+@media only screen and (max-width: 1224px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+@media only screen and (max-width: 1024px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+@media only screen and (max-width:768px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+@media only screen and (max-width:480px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+@media only screen and (max-width:360px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+@media only screen and (max-width:320px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+
+//p_15
+.p_drones15 { 
+    margin-left:-105px;
+    }
+@media only screen and (max-width:  1824px) { 
+.p_drones15 { 
+    margin-left:-190px;
+    }
+}
+@media only screen and (max-width: 1280px) { 
+.p_drones { 
+    padding-left: -100px;
+    }
+}
+@media only screen and (max-width: 1224px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+@media only screen and (max-width: 1024px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+@media only screen and (max-width:768px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+@media only screen and (max-width:480px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+@media only screen and (max-width:360px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+@media only screen and (max-width:320px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+
+
+//imag_drone_phantom
+.img_drone_inspire { 
+    padding-left: 240px;
+    }
+@media only screen and (max-width:  1824px) { 
+.img_drone_inspire{ 
+    padding-left: 240px;
+    }
+}
+@media only screen and (max-width: 1280px) { 
+.p_drones { 
+    padding-left: -100px;
+    }
+}
+@media only screen and (max-width: 1224px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+@media only screen and (max-width: 1024px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+@media only screen and (max-width:768px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+@media only screen and (max-width:480px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+@media only screen and (max-width:360px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+@media only screen and (max-width:320px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+
+//imag_drone_osmo
+.img_drone_osmo { 
+    margin-left: 5px;
+    }
+@media only screen and (max-width:  1824px) { 
+.img_drone_osmo{ 
+    margin-left: -50px;
+    }
+}
+@media only screen and (max-width: 1280px) { 
+.p_drones { 
+    padding-left: -100px;
+    }
+}
+@media only screen and (max-width: 1224px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+@media only screen and (max-width: 1024px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+@media only screen and (max-width:768px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+@media only screen and (max-width:480px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+@media only screen and (max-width:360px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+@media only screen and (max-width:320px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+
+//p_16
+.p_drones16 { 
+    margin-left:-105px;
+    }
+@media only screen and (max-width:  1824px) { 
+.p_drones16 { 
+    margin-left:-85px;
+    }
+}
+@media only screen and (max-width: 1280px) { 
+.p_drones { 
+    padding-left: -100px;
+    }
+}
+@media only screen and (max-width: 1224px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+@media only screen and (max-width: 1024px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+@media only screen and (max-width:768px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+@media only screen and (max-width:480px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+@media only screen and (max-width:360px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+@media only screen and (max-width:320px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+
+
+//p_17
+.p_drones17 { 
+    margin-left:-105px;
+    }
+@media only screen and (max-width:  1824px) { 
+.p_drones17{ 
+    margin-left:-45px;
+    }
+}
+@media only screen and (max-width: 1280px) { 
+.p_drones { 
+    padding-left: -100px;
+    }
+}
+@media only screen and (max-width: 1224px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+@media only screen and (max-width: 1024px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+@media only screen and (max-width:768px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+@media only screen and (max-width:480px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+@media only screen and (max-width:360px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+@media only screen and (max-width:320px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+
+//p_17
+.p_drones18 { 
+    margin-left:-105px;
+    }
+@media only screen and (max-width:  1824px) { 
+.p_drones18{ 
+    margin-left:-175px;
+    }
+}
+@media only screen and (max-width: 1280px) { 
+.p_drones { 
+    padding-left: -100px;
+    }
+}
+@media only screen and (max-width: 1224px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+@media only screen and (max-width: 1024px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+@media only screen and (max-width:768px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+@media only screen and (max-width:480px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+@media only screen and (max-width:360px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+@media only screen and (max-width:320px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+//p_19
+.p_drones19 { 
+    margin-left:-105px;
+    }
+@media only screen and (max-width:  1824px) { 
+.p_drones19{ 
+    margin-left:-280px;
+    }
+}
+@media only screen and (max-width: 1280px) { 
+.p_drones { 
+    padding-left: -100px;
+    }
+}
+@media only screen and (max-width: 1224px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+@media only screen and (max-width: 1024px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+@media only screen and (max-width:768px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+@media only screen and (max-width:480px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+@media only screen and (max-width:360px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+@media only screen and (max-width:320px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+
+//p_19
+.p_drones20 { 
+    margin-left:-105px;
+    }
+@media only screen and (max-width:  1824px) { 
+.p_drones20{ 
+    margin-left:-135px;
+    }
+}
+@media only screen and (max-width: 1280px) { 
+.p_drones { 
+    padding-left: -100px;
+    }
+}
+@media only screen and (max-width: 1224px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+@media only screen and (max-width: 1024px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+@media only screen and (max-width:768px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+@media only screen and (max-width:480px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+@media only screen and (max-width:360px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+@media only screen and (max-width:320px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+
+.p_drones21 { 
+    margin-left:-105px;
+    }
+@media only screen and (max-width:  1824px) { 
+.p_drones21{ 
+    margin-left:-295px;
+    }
+}
+@media only screen and (max-width: 1280px) { 
+.p_drones { 
+    padding-left: -100px;
+    }
+}
+@media only screen and (max-width: 1224px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+@media only screen and (max-width: 1024px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+@media only screen and (max-width:768px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+@media only screen and (max-width:480px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+@media only screen and (max-width:360px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+@media only screen and (max-width:320px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+
+//p_22
+.p_drones22 { 
+    margin-left:-105px;
+    }
+@media only screen and (max-width:  1824px) { 
+.p_drones22{ 
+    margin-left:-235px;
+    }
+}
+@media only screen and (max-width: 1280px) { 
+.p_drones { 
+    padding-left: -100px;
+    }
+}
+@media only screen and (max-width: 1224px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+@media only screen and (max-width: 1024px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+@media only screen and (max-width:768px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+@media only screen and (max-width:480px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+@media only screen and (max-width:360px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+@media only screen and (max-width:320px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+//p_23
+.p_drones23 { 
+    margin-left:-105px;
+    }
+@media only screen and (max-width:  1824px) { 
+.p_drones23{ 
+    margin-left:-130px;
+    }
+}
+@media only screen and (max-width: 1280px) { 
+.p_drones { 
+    padding-left: -100px;
+    }
+}
+@media only screen and (max-width: 1224px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+@media only screen and (max-width: 1024px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+@media only screen and (max-width:768px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+@media only screen and (max-width:480px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+@media only screen and (max-width:360px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+@media only screen and (max-width:320px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+
+//24
+.p_drones24 { 
+    margin-left:-105px;
+    }
+@media only screen and (max-width:  1824px) { 
+.p_drones24{ 
+    margin-left:-50px;
+    }
+}
+@media only screen and (max-width: 1280px) { 
+.p_drones { 
+    padding-left: -100px;
+    }
+}
+@media only screen and (max-width: 1224px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+@media only screen and (max-width: 1024px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+@media only screen and (max-width:768px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+@media only screen and (max-width:480px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+@media only screen and (max-width:360px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+@media only screen and (max-width:320px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+
+//25
+.p_drones25 { 
+    margin-left:-105px;
+    }
+@media only screen and (max-width:  1824px) { 
+.p_drones25{ 
+    margin-left:-10px;
+    }
+}
+@media only screen and (max-width: 1280px) { 
+.p_drones { 
+    padding-left: -100px;
+    }
+}
+@media only screen and (max-width: 1224px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+@media only screen and (max-width: 1024px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+@media only screen and (max-width:768px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+@media only screen and (max-width:480px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+@media only screen and (max-width:360px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+@media only screen and (max-width:320px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+//25
+.p_drones26 { 
+    margin-left:-105px;
+    }
+@media only screen and (max-width:  1824px) { 
+.p_drones26{ 
+    margin-left:-80px;
+    }
+}
+@media only screen and (max-width: 1280px) { 
+.p_drones { 
+    padding-left: -100px;
+    }
+}
+@media only screen and (max-width: 1224px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+@media only screen and (max-width: 1024px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+@media only screen and (max-width:768px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+@media only screen and (max-width:480px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+@media only screen and (max-width:360px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+@media only screen and (max-width:320px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+//27
+.p_drones27 { 
+    margin-left:-105px;
+    }
+@media only screen and (max-width:  1824px) { 
+.p_drones27{ 
+    margin-left:-220px;
+    }
+}
+@media only screen and (max-width: 1280px) { 
+.p_drones { 
+    padding-left: -100px;
+    }
+}
+@media only screen and (max-width: 1224px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+@media only screen and (max-width: 1024px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+@media only screen and (max-width:768px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+@media only screen and (max-width:480px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+@media only screen and (max-width:360px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+@media only screen and (max-width:320px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+//28
+.p_drones28 { 
+    margin-left:-105px;
+    }
+@media only screen and (max-width:  1824px) { 
+.p_drones28{ 
+    margin-left:-325px;
+    }
+}
+@media only screen and (max-width: 1280px) { 
+.p_drones { 
+    padding-left: -100px;
+    }
+}
+@media only screen and (max-width: 1224px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+@media only screen and (max-width: 1024px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+@media only screen and (max-width:768px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+@media only screen and (max-width:480px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+@media only screen and (max-width:360px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+@media only screen and (max-width:320px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+
+.p_drones29 { 
+    margin-left:-105px;
+    }
+@media only screen and (max-width:  1824px) { 
+.p_drones29{ 
+    margin-left:-185px;
+    }
+}
+@media only screen and (max-width: 1280px) { 
+.p_drones { 
+    padding-left: -100px;
+    }
+}
+@media only screen and (max-width: 1224px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+@media only screen and (max-width: 1024px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+@media only screen and (max-width:768px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+@media only screen and (max-width:480px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+@media only screen and (max-width:360px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+@media only screen and (max-width:320px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+//camara_hexacomptero
+.camara_hexa { 
+    margin-left:125px;
+    }
+@media only screen and (max-width:  1824px) { 
+.camara_hexa { 
+    margin-left:155px;
+    margin-bottom: 20px;
+    }
+}
+@media only screen and (max-width: 1280px) { 
+.p_drones { 
+    padding-left: -100px;
+    }
+}
+@media only screen and (max-width: 1224px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+@media only screen and (max-width: 1024px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+@media only screen and (max-width:768px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+@media only screen and (max-width:480px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+@media only screen and (max-width:360px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+@media only screen and (max-width:320px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+//camara_hexacomptero
+.camara_x3 { 
+    margin-left:125px;
+    }
+@media only screen and (max-width:  1824px) { 
+.camara_x3 { 
+    margin-left:145px;
+    margin-bottom: 20px;
+    }
+}
+@media only screen and (max-width: 1280px) { 
+.p_drones { 
+    padding-left: -100px;
+    }
+}
+@media only screen and (max-width: 1224px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+@media only screen and (max-width: 1024px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+@media only screen and (max-width:768px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+@media only screen and (max-width:480px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+@media only screen and (max-width:360px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+@media only screen and (max-width:320px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+//camara_hexacomptero
+.camara_x32 { 
+    margin-left:125px;
+    }
+@media only screen and (max-width:  1824px) { 
+.camara_x32 { 
+    margin-left:-275px;
+    margin-bottom: 20px;
+    }
+}
+@media only screen and (max-width: 1280px) { 
+.p_drones { 
+    padding-left: -100px;
+    }
+}
+@media only screen and (max-width: 1224px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+@media only screen and (max-width: 1024px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+@media only screen and (max-width:768px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+@media only screen and (max-width:480px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+@media only screen and (max-width:360px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+@media only screen and (max-width:320px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}
+
+//gopro
+.go_pro { 
+    margin-left:105px;
+    }
+@media only screen and (max-width:  1824px) { 
+.go_pro { 
+    margin-left:30px;
+    }
+}
+@media only screen and (max-width: 1280px) { 
+.go_pro { 
+    margin-left:125px;
+    }
+}
+@media only screen and (max-width: 1224px) { 
+.go_pro { 
+    margin-left:125px;
+    }
+}
+@media only screen and (max-width: 1024px) { 
+.go_pro { 
+    margin-left:125px;
+    }
+}
+@media only screen and (max-width:768px) { 
+.go_pro { 
+    margin-left:125px;
+    }
+}
+@media only screen and (max-width:480px) { 
+.go_pro { 
+    margin-left:125px;
+    }
+}
+@media only screen and (max-width:360px) { 
+.go_pro { 
+    margin-left:125px;
+    }
+}
+@media only screen and (max-width:320px) { 
+.p_drones { 
+    margin-left:-105px;
+    }
+}

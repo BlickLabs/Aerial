@@ -39,4 +39,12 @@ and open the template in the editor.
   
   }
   
-   
+   @font-face {
+  font-family: "MyriadPro-SemiboldItalic";
+  src: url("../fonts/MyriadPro-SemiboldIt_2.otf");
+  }
+  
+    .MyriadPro-SemiboldItalic {
+  font-family:MyriadPro-SemiboldItalic;
+  
+  }

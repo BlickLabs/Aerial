@@ -44,11 +44,14 @@ html,
 body { height: 100% }
 h1,
 h2,
-h3,
+
 h4,
 h5,
 h6 {
 
+}
+h3{
+    margin-top: -7px;
 }
 p {
     line-height: 28px;
@@ -3550,9 +3553,5 @@ margin-top: 60px;
     padding: 40px 0 40px 0;
     display: block;
     }
-
-
-
 }
-
 
