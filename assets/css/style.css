@@ -1751,7 +1751,7 @@ width: 100px;
 }
 @media only screen and (max-width:320px) { 
     .paloma2{ 
-    margin-top: -0px;    
+    margin-top: -22px;    
     }
 }
 //paloma3
@@ -2679,12 +2679,12 @@ width: 100px;
 }
 @media only screen and (max-width:360px) { 
  .padding_texto_redes_sociales{
-    margin-right: -20px;
+    margin-right: 0px;
 }
 }
 @media only screen and (max-width:320px) { 
  .padding_texto_redes_sociales{
-    margin-right: -20px;
+    margin-right: 0px;
 }
 }
 
