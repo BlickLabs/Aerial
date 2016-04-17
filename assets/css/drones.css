@@ -865,7 +865,8 @@ and open the template in the editor.
 }
 @media only screen and (max-width:360px) { 
 .img_drone_inspire{ 
-    padding-left: 25px;
+    padding-left: 5px;
+    margin-top: 50px;
     }
 }
 @media only screen and (max-width:320px) { 
@@ -911,6 +912,7 @@ and open the template in the editor.
 @media only screen and (max-width:360px) { 
 .img_drone_osmo { 
     margin-left: 5px;
+    margin-top: -55px;
     }
 }
 @media only screen and (max-width:320px) { 
@@ -955,7 +957,7 @@ and open the template in the editor.
 }
 @media only screen and (max-width:360px) { 
 .p_drones16 { 
-    margin-left:-105px;
+    margin-left:-26px;
     }
 }
 @media only screen and (max-width:320px) { 
@@ -1001,7 +1003,7 @@ and open the template in the editor.
 }
 @media only screen and (max-width:360px) { 
 .p_drones17 { 
-    margin-left:-60px;
+    margin-left:7px;
     }
 }
 @media only screen and (max-width:320px) { 
@@ -1046,7 +1048,7 @@ and open the template in the editor.
 }
 @media only screen and (max-width:360px) { 
 .p_drones18 { 
-    margin-left:-105px;
+    margin-left:-84px;
     }
 }
 @media only screen and (max-width:320px) { 
@@ -1090,7 +1092,7 @@ and open the template in the editor.
 }
 @media only screen and (max-width:360px) { 
 .p_drones19 { 
-    margin-left:-105px;
+    margin-left:-162px;
     }
 }
 @media only screen and (max-width:320px) { 
@@ -1135,7 +1137,7 @@ and open the template in the editor.
 }
 @media only screen and (max-width:360px) { 
 .p_drones20 { 
-    margin-left:-105px;
+    margin-left:-62px;
     }
 }
 @media only screen and (max-width:320px) { 
@@ -1179,7 +1181,7 @@ and open the template in the editor.
 }
 @media only screen and (max-width:360px) { 
 .p_drones21 { 
-    margin-left:-105px;
+    margin-left:-195px;
     }
 }
 @media only screen and (max-width:320px) { 
@@ -1224,7 +1226,7 @@ and open the template in the editor.
 }
 @media only screen and (max-width:360px) { 
 .p_drones22 { 
-    margin-left:-105px;
+    margin-left:-138px;
     }
 }
 @media only screen and (max-width:320px) { 
@@ -1268,7 +1270,7 @@ and open the template in the editor.
 }
 @media only screen and (max-width:360px) { 
 .p_drones23 { 
-    margin-left:-105px;
+    margin-left:-68px;
     }
 }
 @media only screen and (max-width:320px) { 
@@ -1313,7 +1315,7 @@ and open the template in the editor.
 }
 @media only screen and (max-width:360px) { 
 .p_drones24 { 
-    margin-left:-105px;
+    margin-left:-25px;
     }
 }
 @media only screen and (max-width:320px) { 
@@ -1358,7 +1360,7 @@ and open the template in the editor.
 }
 @media only screen and (max-width:360px) { 
 .p_drones25 { 
-    margin-left:-105px;
+    margin-left:-12px;
     }
 }
 @media only screen and (max-width:320px) { 
@@ -1402,7 +1404,7 @@ and open the template in the editor.
 }
 @media only screen and (max-width:360px) { 
 .p_drones26 { 
-    margin-left:-105px;
+    margin-left:12px;
     }
 }
 @media only screen and (max-width:320px) { 
@@ -1446,7 +1448,7 @@ and open the template in the editor.
 }
 @media only screen and (max-width:360px) { 
 .p_drones27 { 
-    margin-left:-105px;
+    margin-left:-128px;
     }
 }
 @media only screen and (max-width:320px) { 
@@ -1490,7 +1492,7 @@ and open the template in the editor.
 }
 @media only screen and (max-width:360px) { 
 .p_drones28 { 
-    margin-left:-105px;
+    margin-left:-206px;
     }
 }
 @media only screen and (max-width:320px) { 
@@ -1584,7 +1586,7 @@ and open the template in the editor.
 }
 @media only screen and (max-width:360px) { 
 .camara_hexa { 
-    margin-left:145px;
+    margin-left:47px;
     margin-bottom: 20px;
     }
 }
@@ -1688,7 +1690,7 @@ and open the template in the editor.
 }
 @media only screen and (max-width:360px) { 
 .camara_x32 { 
-    margin-left:-275px;
+    margin-left:-35px;
     margin-bottom: 20px;
     }
 }
@@ -1784,7 +1786,7 @@ and open the template in the editor.
 }
 @media only screen and (max-width:360px) { 
 .text_phantom{
-    margin-top:  -65px;
+    margin-top:  0px;
 }
 }
 @media only screen and (max-width:320px) { 
@@ -1855,7 +1857,7 @@ and open the template in the editor.
 }
 @media only screen and (max-width:360px) { 
 .text_hexa{
-    margin-top:  -20px;
+    margin-top:  20px;
     margin-bottom: 30px;
 }
 }
