@@ -3603,3 +3603,51 @@ margin-top: 60px;
     }
 }
 
+
+//logo_aerial_blanco
+
+.logo_aerial_blanco { 
+    margin-bottom: -250px;
+    }
+@media only screen and (max-width:  1824px) { 
+.logo_aerial_blanco { 
+    margin-top: -200px;
+    height: 90px;
+    }
+}
+@media only screen and (max-width: 1280px) { 
+.logo_aerial_blanco { 
+    margin-bottom: -250px;
+    }
+}
+@media only screen and (max-width: 1224px) { 
+.logo_aerial_blanco { 
+    margin-bottom: -250px;
+    }
+}
+@media only screen and (max-width: 1024px) { 
+.logo_aerial_blanco { 
+    margin-bottom: -250px;
+    }
+}
+@media only screen and (max-width:768px) { 
+.logo_aerial_blanco { 
+    margin-bottom: -250px;
+    }
+}
+@media only screen and (max-width:480px) { 
+.logo_aerial_blanco { 
+    margin-bottom: -250px;
+    }
+}
+@media only screen and (max-width:360px) { 
+.logo_aerial_blanco { 
+    margin-bottom: -250px;
+    }
+}
+@media only screen and (max-width:320px) { 
+.logo_aerial_blanco { 
+    margin-bottom: -250px;
+    }
+}
+
