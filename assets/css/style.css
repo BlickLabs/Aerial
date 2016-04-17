@@ -3555,3 +3555,51 @@ margin-top: 60px;
     }
 }
 
+//logo_aerial_footer
+
+.logo_aerial_footer { 
+    margin-bottom: -250px;
+    }
+@media only screen and (max-width:  1824px) { 
+.logo_aerial_footer { 
+    margin-bottom: -250px;
+    margin-left: -135px;
+    }
+}
+@media only screen and (max-width: 1280px) { 
+.logo_aerial_footer { 
+    margin-bottom: -250px;
+    }
+}
+@media only screen and (max-width: 1224px) { 
+.logo_aerial_footer { 
+    margin-bottom: -250px;
+    }
+}
+@media only screen and (max-width: 1024px) { 
+.logo_aerial_footer { 
+    margin-bottom: -250px;
+    }
+}
+@media only screen and (max-width:768px) { 
+.logo_aerial_footer { 
+    margin-bottom: -250px;
+    }
+}
+@media only screen and (max-width:480px) { 
+.camara_hexa { 
+    margin-left:46px;
+    margin-bottom: 20px;
+    }
+}
+@media only screen and (max-width:360px) { 
+.logo_aerial_footer { 
+    margin-bottom: -250px;
+    }
+}
+@media only screen and (max-width:320px) { 
+.logo_aerial_footer { 
+    margin-bottom: -250px;
+    }
+}
+
