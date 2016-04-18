@@ -2484,7 +2484,7 @@ width: 100px;
 }
 @media only screen and (max-width:320px) { 
    .padding_icons_screen{
-    padding-left: 70px;
+    padding-left: 69px;
 }
 }
 //text
@@ -2581,7 +2581,7 @@ width: 100px;
 }
 @media only screen and (max-width:320px) { 
    .padding_icons_mesh{
-    padding-left: 35px;
+    padding-left: 34px;
 }
 }
 //text
@@ -3491,7 +3491,7 @@ margin-top: 60px;
 @media only screen and (max-width:320px) { 
 .pull-right_2 {
   float: right;
-  margin-right: 105px;
+  margin-right: 110px;
 }
 
 }
@@ -3602,7 +3602,7 @@ margin-top: 60px;
 }
 @media only screen and (max-width:320px) { 
 .logo_aerial_footer { 
-    margin-bottom: -165px;
+    margin-bottom: -100px;
     margin-left: 29px;
     margin-right: 29px;
     }
@@ -3622,37 +3622,44 @@ margin-top: 60px;
 }
 @media only screen and (max-width: 1280px) { 
 .logo_aerial_blanco { 
-    margin-bottom: -250px;
+    margin-top: -200px;
+    height: 90px;
     }
 }
 @media only screen and (max-width: 1224px) { 
 .logo_aerial_blanco { 
-    margin-bottom: -250px;
+    margin-top: -200px;
+    height: 90px;
     }
 }
 @media only screen and (max-width: 1024px) { 
 .logo_aerial_blanco { 
-    margin-bottom: -250px;
+    margin-top: -200px;
+    height: 90px;
     }
 }
 @media only screen and (max-width:768px) { 
 .logo_aerial_blanco { 
-    margin-bottom: -250px;
+   margin-top: -200px;
+    height: 90px;
     }
 }
 @media only screen and (max-width:480px) { 
 .logo_aerial_blanco { 
-    margin-bottom: -250px;
+    margin-top: -200px;
+    height: 90px;
     }
 }
 @media only screen and (max-width:360px) { 
 .logo_aerial_blanco { 
-    margin-bottom: -250px;
+    margin-top: -200px;
+    height: 90px;
     }
 }
 @media only screen and (max-width:320px) { 
 .logo_aerial_blanco { 
-    margin-bottom: -250px;
+    margin-top: -60px;
+    height: 80px;
     }
 }
 
