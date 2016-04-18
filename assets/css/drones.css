@@ -77,7 +77,7 @@ and open the template in the editor.
 
 @media only screen and (max-width: 1224px) { 
 .p_drones { 
-    margin-left:15px;
+    margin-left:-119px;
     }
 }
 
@@ -125,7 +125,7 @@ and open the template in the editor.
 }
 @media only screen and (max-width: 1224px) { 
 .p_drones1 { 
-    margin-left:70px;
+    margin-left:-69px;
     }
 }
 @media only screen and (max-width: 1024px) { 
@@ -171,7 +171,7 @@ and open the template in the editor.
 }
 @media only screen and (max-width: 1224px) { 
 .p_drones2 { 
-    margin-left:-105px;
+    margin-left:-11px;
     }
 }
 @media only screen and (max-width: 1024px) { 
@@ -212,12 +212,12 @@ and open the template in the editor.
 }
 @media only screen and (max-width: 1280px) { 
 .p_drones3 { 
-    margin-left:20px;
+    margin-left:43px;
     }
 }
 @media only screen and (max-width: 1224px) { 
 .p_drones3 { 
-    margin-left:20px;
+    margin-left:-93px;
     }
 }
 @media only screen and (max-width: 1024px) { 
@@ -257,12 +257,12 @@ and open the template in the editor.
 }
 @media only screen and (max-width: 1280px) { 
 .p_drones4 { 
-    padding-left: 70px;
+    margin-left:  82px;
     }
 }
 @media only screen and (max-width: 1224px) { 
 .p_drones4 { 
-    margin-left:70px;
+    margin-left:-63px;
     }
 }
 @media only screen and (max-width: 1024px) { 
@@ -307,7 +307,7 @@ and open the template in the editor.
 }
 @media only screen and (max-width: 1224px) { 
 .p_drones5 { 
-    margin-left:-120px;
+    margin-left:-254px;
     }
 }
 @media only screen and (max-width: 1024px) { 
@@ -352,7 +352,7 @@ and open the template in the editor.
 }
 @media only screen and (max-width: 1224px) { 
 .p_drones6 { 
-    margin-left:-105px;
+    margin-left:-114px;
     }
 }
 @media only screen and (max-width: 1024px) { 
@@ -397,7 +397,7 @@ and open the template in the editor.
 }
 @media only screen and (max-width: 1224px) { 
 .img_drone_phantom { 
-    margin-left:-135px;
+    margin-left:-60px;
     }
 }
 @media only screen and (max-width: 1024px) { 
@@ -442,7 +442,7 @@ and open the template in the editor.
 }
 @media only screen and (max-width: 1224px) { 
 .p_drones7 { 
-    margin-left:-105px;
+    margin-left:-108px;
     }
 }
 @media only screen and (max-width: 1024px) { 
@@ -487,7 +487,7 @@ and open the template in the editor.
 }
 @media only screen and (max-width: 1224px) { 
 .p_drones8 { 
-    margin-left:-105px;
+    margin-left:-119px;
     }
 }
 @media only screen and (max-width: 1024px) { 
@@ -532,7 +532,7 @@ and open the template in the editor.
 }
 @media only screen and (max-width: 1224px) { 
 .p_drones9 { 
-    margin-left:-105px;
+    margin-left:-7px;
     }
 }
 @media only screen and (max-width: 1024px) { 
@@ -576,7 +576,7 @@ and open the template in the editor.
 }
 @media only screen and (max-width: 1224px) { 
 .p_drones10 { 
-    margin-left:-105px;
+    margin-left:53px;
     }
 }
 @media only screen and (max-width: 1024px) { 
@@ -620,7 +620,7 @@ and open the template in the editor.
 }
 @media only screen and (max-width: 1224px) { 
 .p_drones11 { 
-    margin-left:-105px;
+    margin-left:60px;
     }
 }
 @media only screen and (max-width: 1024px) { 
@@ -660,12 +660,12 @@ and open the template in the editor.
 }
 @media only screen and (max-width: 1280px) { 
 .p_drones12 { 
-    padding-left: -100px;
+    margin-left:  -100px;
     }
 }
 @media only screen and (max-width: 1224px) { 
 .p_drones12 { 
-    margin-left:-105px;
+    margin-left:-110px;
     }
 }
 @media only screen and (max-width: 1024px) { 
@@ -710,7 +710,7 @@ and open the template in the editor.
 }
 @media only screen and (max-width: 1224px) { 
 .p_drones13 { 
-    margin-left:-105px;
+    margin-left:-85px;
     }
 }
 @media only screen and (max-width: 1024px) { 
@@ -754,7 +754,7 @@ and open the template in the editor.
 }
 @media only screen and (max-width: 1224px) { 
 .p_drones14 { 
-    margin-left:-105px;
+    margin-left:-191px;
     }
 }
 @media only screen and (max-width: 1024px) { 
@@ -799,7 +799,7 @@ and open the template in the editor.
 }
 @media only screen and (max-width: 1224px) { 
 .p_drones15 { 
-    margin-left:-105px;
+    margin-left:-50px;
     }
 }
 @media only screen and (max-width: 1024px) { 
@@ -835,22 +835,22 @@ and open the template in the editor.
     }
 @media only screen and (max-width:  1824px) { 
 .img_drone_inspire{ 
-    padding-left: 240px;
+    padding-left: 150px;
     }
 }
 @media only screen and (max-width: 1280px) { 
 .img_drone_inspire{ 
-    padding-left: 240px;
+    padding-left: 150px;
     }
 }
 @media only screen and (max-width: 1224px) { 
 .img_drone_inspire{ 
-    padding-left: 240px;
+    padding-left: 65px;
     }
 }
 @media only screen and (max-width: 1024px) { 
 .img_drone_inspire{ 
-    padding-left: 240px;
+    padding-left: 150px;
     }
 }
 @media only screen and (max-width:768px) { 
@@ -886,17 +886,17 @@ and open the template in the editor.
 }
 @media only screen and (max-width: 1280px) { 
 .img_drone_osmo { 
-    margin-left: 5px;
+    margin-left: -50px;
     }
 }
 @media only screen and (max-width: 1224px) { 
 .img_drone_osmo { 
-    margin-left: 5px;
+    margin-left: 0px;
     }
 }
 @media only screen and (max-width: 1024px) { 
 .img_drone_osmo { 
-    margin-left: 5px;
+    margin-left: -50px;
     }
 }
 @media only screen and (max-width:768px) { 
@@ -938,7 +938,7 @@ and open the template in the editor.
 }
 @media only screen and (max-width: 1224px) { 
 .p_drones16 { 
-    margin-left:-100px;
+    margin-left:-192px;
     }
 }
 @media only screen and (max-width: 1024px) { 
@@ -984,7 +984,7 @@ and open the template in the editor.
 }
 @media only screen and (max-width: 1224px) { 
 .p_drones17 { 
-    margin-left:-60px;
+    margin-left:-150px;
     }
 }
 @media only screen and (max-width: 1024px) { 
@@ -1029,7 +1029,7 @@ and open the template in the editor.
 }
 @media only screen and (max-width: 1224px) { 
 .p_drones18 { 
-    margin-left:-185px;
+    margin-left:-273px;
     }
 }
 @media only screen and (max-width: 1024px) { 
@@ -1073,7 +1073,7 @@ and open the template in the editor.
 }
 @media only screen and (max-width: 1224px) { 
 .p_drones19 { 
-    margin-left:-295px;
+    margin-left:-379px;
     }
 }
 @media only screen and (max-width: 1024px) { 
@@ -1118,7 +1118,7 @@ and open the template in the editor.
 }
 @media only screen and (max-width: 1224px) { 
 .p_drones20 { 
-    margin-left:-155px;
+    margin-left:-241px;
     }
 }
 @media only screen and (max-width: 1024px) { 
@@ -1162,7 +1162,7 @@ and open the template in the editor.
 }
 @media only screen and (max-width: 1224px) { 
 .p_drones21 { 
-    margin-left:-105px;
+    margin-left:-177px;
     }
 }
 @media only screen and (max-width: 1024px) { 
@@ -1207,7 +1207,7 @@ and open the template in the editor.
 }
 @media only screen and (max-width: 1224px) { 
 .p_drones22 { 
-    margin-left:-105px;
+    margin-left:-101px;
     }
 }
 @media only screen and (max-width: 1024px) { 
@@ -1251,7 +1251,7 @@ and open the template in the editor.
 }
 @media only screen and (max-width: 1224px) { 
 .p_drones23 { 
-    margin-left:-105px;
+    margin-left:-7px;
     }
 }
 @media only screen and (max-width: 1024px) { 
@@ -1291,12 +1291,12 @@ and open the template in the editor.
 }
 @media only screen and (max-width: 1280px) { 
 .p_drones24 { 
-    padding-left: -100px;
+    margin-left:  -83px;
     }
 }
 @media only screen and (max-width: 1224px) { 
 .p_drones24 { 
-    margin-left:-105px;
+    margin-left:54px;
     }
 }
 @media only screen and (max-width: 1024px) { 
@@ -1336,17 +1336,17 @@ and open the template in the editor.
 }
 @media only screen and (max-width: 1280px) { 
 .p_drones25 { 
-    padding-left: -20px;
+    margin-left:  -63px;
     }
 }
 @media only screen and (max-width: 1224px) { 
 .p_drones25 { 
-    margin-left:-20px;
+    margin-left:75px;
     }
 }
 @media only screen and (max-width: 1024px) { 
 .p_drones25 { 
-    margin-left:-20px;
+    margin-left:-63px;
     }
 }
 @media only screen and (max-width:768px) { 
@@ -1385,7 +1385,7 @@ and open the template in the editor.
 }
 @media only screen and (max-width: 1224px) { 
 .p_drones26 { 
-    margin-left:-105px;
+    margin-left:111px;
     }
 }
 @media only screen and (max-width: 1024px) { 
@@ -1429,7 +1429,7 @@ and open the template in the editor.
 }
 @media only screen and (max-width: 1224px) { 
 .p_drones27 { 
-    margin-left:-105px;
+    margin-left:-83px;
     }
 }
 @media only screen and (max-width: 1024px) { 
@@ -1473,7 +1473,7 @@ and open the template in the editor.
 }
 @media only screen and (max-width: 1224px) { 
 .p_drones28 { 
-    margin-left:-105px;
+    margin-left:-190px;
     }
 }
 @media only screen and (max-width: 1024px) { 
@@ -1517,7 +1517,7 @@ and open the template in the editor.
 }
 @media only screen and (max-width: 1224px) { 
 .p_drones29 { 
-    margin-left:-190px;
+    margin-left:-52px;
     }
 }
 @media only screen and (max-width: 1024px) { 
@@ -1615,7 +1615,7 @@ and open the template in the editor.
 }
 @media only screen and (max-width: 1224px) { 
 .camara_x3 { 
-    margin-left:145px;
+    margin-left:137px;
     margin-bottom: 20px;
     }
 }
@@ -1667,7 +1667,7 @@ and open the template in the editor.
 }
 @media only screen and (max-width: 1224px) { 
 .camara_x32 { 
-    margin-left:-275px;
+    margin-left:-375px;
     margin-bottom: 20px;
     }
 }
@@ -1720,7 +1720,7 @@ and open the template in the editor.
 }
 @media only screen and (max-width: 1224px) { 
 .go_pro { 
-    margin-left:125px;
+    margin-left:-100px;
     }
 }
 @media only screen and (max-width: 1024px) { 
