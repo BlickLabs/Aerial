@@ -52,7 +52,7 @@
 	<![endif]-->
 		
 	<!-- start: Favicon -->
-	<link rel="shortcut icon" href="img/favicon.ico">
+	<link rel="shortcut icon" href="images/logo_gris.png">
 	<!-- end: Favicon -->
 	
 		
@@ -210,7 +210,7 @@
                                                                         </div>
                                                                         <div class="modal-footer">
                                                                             <button type="button" class="btn btn-danger" data-dismiss="modal"><i class="icon-ban-circle"></i>&nbsp;Cerrrar</button>
-                                                                            <a href="Delete_Photo.php?d=<?php echo $row2['id_content'] ?>"><button type="button" class="btn btn-success"><i class="icon-ok"></i>Aceptar</button></a>
+                                                                            <a href="Delete_Photo.php?d=<?php echo $row2['id_content']?>&f=<?php echo $row2['route']?>"><button type="button" class="btn btn-success"><i class="icon-ok"></i>Aceptar</button></a>
                                                                         </div>
                                                                     </div>
                                                                 </div>

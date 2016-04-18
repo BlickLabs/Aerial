@@ -43,8 +43,7 @@
         <script src="js/upload.js"></script>
         <script src="js/bootbox.js"></script>
         <script src="js/bootbox.min.js"></script>
-        
-        	<link rel="shortcut icon" href="img/favicon.ico">
+        <link rel="shortcut icon" href="images/logo_gris.png">
 	<!-- end: Favicon -->
 	
 		
