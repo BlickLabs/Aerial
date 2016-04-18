@@ -500,14 +500,18 @@ height: 100%;
 }
 @media only screen and (max-width:480px) { 
     .hero-text h2 {
-        font-size: 27px;
+        font-size: 30px;
         line-height: 30px;
+        margin-left: 5px;
+        margin-right: 5px;
     }
 }
 @media only screen and (max-width:360px) { 
     .hero-text h2 {
-        font-size: 30px;
+         font-size: 30px;
         line-height: 30px;
+        margin-left: 20px;
+        margin-right: 20px;
     }
 }
 @media only screen and (max-width:320px) { 
@@ -539,6 +543,8 @@ height: 100%;
     .hero-text2 h2 {
         font-size: 25px;
         line-height: 30px;
+        margin-left: 20px;
+        margin-right: 20px;
     }
 }
 @media only screen and (max-width:360px) { 
@@ -2828,7 +2834,7 @@ width: 100px;
 }
 @media only screen and (max-width:480px) { 
  .aerial{
-    margin-top: 75px;
+    margin-top: 105px;
      margin-left: -15px;
 }
 }
@@ -3479,7 +3485,7 @@ margin-top: 60px;
 @media only screen and (max-width:480px) { 
 .pull-right_2 {
   float: right;
-  margin-right: 105px;
+  margin-right: 155px;
 }
 
 }
@@ -3585,13 +3591,18 @@ margin-top: 60px;
 }
 @media only screen and (max-width:768px) { 
 .logo_aerial_footer { 
-    margin-bottom: -250px;
+     margin-bottom: -95px;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 85px;
     }
 }
 @media only screen and (max-width:480px) { 
 .camara_hexa { 
-    margin-left:46px;
-    margin-bottom: 20px;
+     margin-bottom: -95px;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 85px;
     }
 }
 @media only screen and (max-width:360px) { 
@@ -3713,5 +3724,30 @@ padding-top: 2px;
 @media only screen and (max-width:320px) { 
 .texto_drones2
 {padding-top: 2px;
+}
+}
+
+
+
+.pull-right {
+  float: right !important;
+  margin-right: 1px;
+}
+@media only screen and (max-width:480px) { 
+.pull-right {
+  float: right !important;
+  margin-right: 37px;
+}
+}
+@media only screen and (max-width:360px) { 
+.pull-right {
+  float: right !important;
+  margin-right: -15px;
+}
+}
+@media only screen and (max-width:320px) { 
+.pull-right {
+  float: right !important;
+  margin-right: -20xpx;
 }
 }
