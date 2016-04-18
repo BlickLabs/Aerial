@@ -500,7 +500,7 @@ height: 100%;
 }
 @media only screen and (max-width:480px) { 
     .hero-text h2 {
-        font-size: 30px;
+        font-size: 27px;
         line-height: 30px;
     }
 }
@@ -543,8 +543,10 @@ height: 100%;
 }
 @media only screen and (max-width:360px) { 
     .hero-text2 h2 {
-        font-size: 25px;
+        font-size: 28px;
         line-height: 30px;
+        margin-left: 15px;
+        margin-right: 15px;
     }
 }
 @media only screen and (max-width:320px) { 
@@ -2382,7 +2384,7 @@ width: 100px;
 }
 @media only screen and (max-width:360px) { 
    .padding_icons_camara{
-    padding-left: 60px;
+    padding-left: 80px;
 }
 }
 @media only screen and (max-width:320px) { 
@@ -2738,12 +2740,12 @@ width: 100px;
 }
 .pull-right {
   float: right !important;
-  margin-right: -20px;
+  margin-right: 1px;
 }
 
 .color_menu{
     color: #b4b4b1;
-    font-size: 15px;
+    font-size: 13px;
     letter-spacing: 3px;
 }
 .camara{
@@ -3646,7 +3648,7 @@ margin-top: 60px;
 }
 @media only screen and (max-width:480px) { 
 .logo_aerial_blanco { 
-    margin-top: -200px;
+    margin-top: -35px;
     height: 90px;
     }
 }
