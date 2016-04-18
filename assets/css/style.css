@@ -1746,12 +1746,12 @@ width: 100px;
 }
 @media only screen and (max-width:360px) { 
     .paloma2{ 
-    margin-top: -0px;    
+    margin-top: -22px;    
     }
 }
 @media only screen and (max-width:320px) { 
     .paloma2{ 
-    margin-top: -22px;    
+    margin-top: 2px;    
     }
 }
 //paloma3
@@ -2832,13 +2832,13 @@ width: 100px;
 }
 @media only screen and (max-width:360px) { 
  .aerial{
-    margin-top: 75px;
+margin-top: 105px;
      margin-left: -15px;
 }
 }
 @media only screen and (max-width:320px) { 
  .aerial{
-   margin-top: 75px;
+   margin-top: 115px;
      margin-left: -15px;
 }
 }
@@ -3484,7 +3484,7 @@ margin-top: 60px;
 @media only screen and (max-width:360px) { 
 .pull-right_2 {
   float: right;
-  margin-right: 105px;
+  margin-right: 130px;
 }
 
 }
@@ -3594,12 +3594,17 @@ margin-top: 60px;
 }
 @media only screen and (max-width:360px) { 
 .logo_aerial_footer { 
-    margin-bottom: -250px;
+    margin-bottom: -95px;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 85px;
     }
 }
 @media only screen and (max-width:320px) { 
 .logo_aerial_footer { 
-    margin-bottom: -250px;
+    margin-bottom: -165px;
+    margin-left: 29px;
+    margin-right: 29px;
     }
 }
 
