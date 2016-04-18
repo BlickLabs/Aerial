@@ -3241,7 +3241,7 @@ padding-top: 20px;
 
 @media only screen and (max-width:  1824px) { 
 .texto_drones{
- padding-top: p0x;
+ padding-top: 20px;
 }
 }
 
@@ -3665,3 +3665,53 @@ margin-top: 60px;
     }
 }
 
+//texto drones 2
+.texto_drones2{
+padding-top: 20px;
+}
+
+
+@media only screen and (max-width:  1824px) { 
+.texto_drones2{
+ padding-top: -40px;
+}
+}
+
+@media only screen and (max-width: 1280px) { 
+.texto_drones2{
+ padding-top: 0px;
+}
+
+
+}
+@media only screen and (max-width: 1224px) { 
+.texto_drones2{
+padding-top: 0px;
+}
+
+}
+@media only screen and (max-width: 1024px) { 
+.texto_drones2{
+padding-top: 0px;
+}
+}
+@media only screen and (max-width:768px) { 
+.texto_drones2{
+ padding-top: 2px;
+}
+}
+@media only screen and (max-width:480px) { 
+.texto_drones2{
+ padding-top: 2px;
+}
+}
+@media only screen and (max-width:360px) { 
+.texto_drones2{
+padding-top: 2px;
+}
+}
+@media only screen and (max-width:320px) { 
+.texto_drones2
+{padding-top: 2px;
+}
+}
