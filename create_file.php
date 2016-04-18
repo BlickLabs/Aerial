@@ -27,7 +27,7 @@
 	
 	<!-- start: Mobile Specific -->
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-          <link rel="icon" type="image/png" sizes="32x32" href="favicon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="images/logo_gris.png">
 	<!-- end: Mobile Specific -->
 	   
         
@@ -62,7 +62,7 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</a>
-                            <a class="brand" href="#"><span><h2>The Wedding Factory</h2></span></a>
+                            <a class="brand" href="index.html"><span><h2><img src="images/logo_blanco.png" style="height: 60px"></h2></span></a>
 								
 				<!-- start: Header Menu -->
 				<div class="nav-no-collapse header-nav">
@@ -106,10 +106,32 @@
 			<div id="sidebar-left" class="span2">
 				<div class="nav-collapse sidebar-nav">
 					<ul class="nav nav-tabs nav-stacked main-menu">
-<!--                                            <li><a href="galeries.php"><i class="icon-calendar"></i><span class="hidden-tablet">&nbsp;Galerías</span></a></li>-->
-                                           <li><a href="Home.php"><i class="icon-picture"></i><span class="hidden-tablet">&nbsp; Ver Imagenes</span></a></li>
-                                            <li class="active"><a href="images.php"><i class="icon-upload-alt"></i><span class="hidden-tablet">&nbsp; Añadir Imagenes</span></a></li>
-                                           
+                                            
+                                            <li><a href="images.php"><i class="icon-upload-alt"></i><span class="hidden-tablet">&nbsp;Subir Imagenes</span></a></li>
+                                            <li>
+                                                <a class="dropmenu" href="Home.php"><i class="icon-tags"></i><span >Galería por Drones</span></a>
+							<ul>
+                                                            <li><a class="submenu" href="phantom_2.php"><i class="icon-tags"></i><span class="hidden-tablet">Phantom 2</span></a></li>
+                                                            <li><a class="submenu" href="inspire.php"><i class="icon-tags"></i><span class="hidden-tablet">Inspire 1</span></a></li>
+                                                            <li><a class="submenu" href="osmo.php"><i class="icon-tags"></i><span class="hidden-tablet">Osmo</span></a></li>
+                                                            <li><a class="submenu" href="hexacoptero.php"><i class="icon-tags"></i><span class="hidden-tablet">Hexacoptero</span></a></li>
+								
+							</ul>	
+                                            </li>
+                                            <li>
+                                                <a class="dropmenu" href="gallery_by_service.php"><i class="icon-tags"></i><span >Galería por Categorias</span></a>
+							<ul>
+                                                            <li><a class="submenu" href="productoras_gallery.php"><i class="icon-tags"></i><span class="hidden-tablet">Productoras</span></a></li>
+                                                            <li><a class="submenu" href="constructoras_gallery.php"><i class="icon-tags"></i><span class="hidden-tablet">Construcutoras</span></a></li>
+                                                            <li><a class="submenu" href="eventos_gallery.php"><i class="icon-tags"></i><span class="hidden-tablet">Eventos</span></a></li>
+                                                            <li><a class="submenu" href="hoteles_gallery.php"><i class="icon-tags"></i><span class="hidden-tablet">Hoteles</span></a></li>
+                                                            <li><a class="submenu" href="gobierno_gallery.php"><i class="icon-tags"></i><span class="hidden-tablet">Gobierno</span></a></li>
+                                                            <li><a class="submenu" href="privado_gallery.php"><i class="icon-tags"></i><span class="hidden-tablet">Privado</span></a></li>
+								
+							</ul>	
+                                            </li>
+                                            
+                                            
 					</ul>
 				</div>
 			</div>
@@ -146,7 +168,7 @@
 		<label class="control-label" for="focusedInput">Titulo De la Imagen: </label>
 		    <div class="controls">
                         <input class="input-xlarge focused" type="text" id="title" name="title" pattern="[^'\x22]+"
-                               title="este campo no acepta caracteres especiales, solo letras" required="">
+                               title="este campo no acepta caracteres especiales, solo letras" >
 		    </div>
 	    </div>
             
@@ -157,18 +179,18 @@
                 </div>
             </div>
             
-            <div class="control-group  mar-top41" style="visibility:hidden">
-		<label class="control-label" for="selectError">Galería Asignada:</label>
+            <div class="control-group  col-sm-5 mar-top41" >
+		<label class="control-label" for="selectError">Tipo De Drone:</label>
                 <div class="controls" >
-                    <select  data-rel="chosen" name="galery[]" id="galery" >
+                    <select  data-rel="chosen" name="drone" id="drone" >
                         <?php
                 $condition='true';
-                $sql1 = "SELECT id_galery,title_galery from galery WHERE status='".$condition."'";
+                $sql1 = "SELECT id_drone,name_drone from drones ";
                 $result1 = $mysqli3->query($sql1);
                  if ($result1->num_rows > 0) { 
                             $combobit1 = "";
                             while ($row1 = $result1->fetch_array(MYSQLI_ASSOC)) {
-                            $combobit1 .=" <option value='" . $row1['id_galery'] . "'>" . $row1['title_galery'] . "</option>"; //concatenamos el los options para luego ser insertado en el HTML
+                            $combobit1 .=" <option value='" . $row1['id_drone'] . "'>" . $row1['name_drone'] . "</option>"; //concatenamos el los options para luego ser insertado en el HTML
                            }
                         } else {
                                 echo "No hubo resultados";
@@ -179,12 +201,33 @@
                 </select>
 		</div>
             </div>
+                   <div class="control-group  col-sm-5 mar-top41" >
+		<label class="control-label" for="selectError">Categoría:</label>
+                <div class="controls" >
+                    <select  data-rel="chosen" name="category" id="category" >
+                        <?php
+                            $sql2 = "SELECT id_category,name_category from categorys";
+                            $result2 = $mysqli2->query($sql2);
+                            if ($result2->num_rows > 0) { 
+                            $combobit2 = "";
+                            while ($row2 = $result2->fetch_array(MYSQLI_ASSOC)) {
+                            $combobit2 .=" <option value='" . $row2['id_category'] . "'>" . $row2['name_category'] . "</option>"; //concatenamos el los options para luego ser insertado en el HTML
+                           }
+                        } else {
+                                echo "No hubo resultados";
+                                }
+                        $mysqli2->close(); //cerramos la conexión
+                        echo $combobit2;
+                    ?>
+                </select>
+		</div>
+            </div>
             <div class="control-group col-sm-5 mar-top41">
 		<label class="control-label" for="focusedInput">Descripción:</label>
 		    <div class="controls">
                         <input class="input-xlarge focused" type="text" name="description"
                                   id="description" pattern="[^'\x22]+"
-                                  title="este campo no acepta caracteres especiales, solo letras" required=""/>
+                                  title="este campo no acepta caracteres especiales, solo letras" />
 		    </div>
 	    </div>
             <div class="control-group col-sm-5 mar-top41">
