@@ -140,24 +140,33 @@
                         <section  class="section-padding3 separador" style="background-color:#fff; flex-align: auto ">
 				<div class="container">
 					<div class="row">   
+                                            
                                             <h1 class="wow zoomIn MyriadPro-Semibold" style="text-align-last: center">Selecciona el tipo de drone</h1>
 						<div class="col-md-12 text-center wow zoomIn">
                                                     
                                                     <div class="col-md-3">
+                                                        <a href="#lightbox" data-toggle="modal" data-slide-to="15" id="drone-1">
                                                         <img src="images/Phantom_2.png" style="height: 200px">
                                                         <h3 class="MyriadPro-Light">Phantom</h3>
+                                                        </a>
                                                     </div>
                                                     <div class="col-md-3">
+                                                        <a href="#lightbox" data-toggle="modal" data-slide-to="15" id="drone-2">
                                                         <img src="images/Inspire_1.png" style="height: 200px">
                                                         <h3 class="MyriadPro-Light" style="text-align: center">Inspire</h3>
+                                                        </a>
                                                     </div>
                                                     <div class="col-md-3">
+                                                        <a href="#lightbox" data-toggle="modal" data-slide-to="15" id="drone-3">
                                                         <img src="images/Osmo.png" style="height: 200px">
                                                         <h3 class="MyriadPro-Light">Osmo</h3>
+                                                        </a>
                                                     </div>
                                                     <div class="col-md-3">
+                                                        <a href="#lightbox" data-toggle="modal" data-slide-to="15" id="drone-4">
                                                         <img src="images/Hexacoptero_6.png" style="height: 200px">
                                                         <h3 class="MyriadPro-Light center-block">Hexacoptero</h3>
+                                                        </a>
                                                     </div>
                                                     
                                                         
@@ -165,6 +174,27 @@
                                         </div><!--- END CONTAINER -->
                                 </div>        
 			</section>
+      <div class="container">
+        <div class="modal fade and carousel slide" id="lightbox">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-body">
+                <div class="carousel-inner gallery">
+
+                </div><!-- /.carousel-inner -->
+                <a class="left carousel-control" href="#lightbox" role="button" data-slide="prev">
+                  <img src="img/arrows.png" alt="" class="arrow-icon-modal">
+                </a>
+                <a class="right carousel-control" href="#lightbox" role="button" data-slide="next">
+                  <img src="img/arrow.png" alt="" class="arrow-icon-modal">
+                </a>
+                <div class="carousel-caption"><p class="nineteen Times-italic"></p></div>
+              </div><!-- /.modal-body -->
+            </div><!-- /.modal-content -->
+          </div><!-- /.modal-dialog -->
+        </div><!-- /.modal -->
+
+      </div><!-- /.container -->
                         
                         <h1 class="wow zoomIn MyriadPro-Semibold" style="text-align-last: center">Selecciona la categoría</h1>
                         <section  class="section-padding3 separador" style="background-color:#f0f0f0 ;flex-align: auto ">
@@ -285,6 +315,7 @@
 		<script src="assets/js/gmap3.min.js"></script>
 		<!-- scripts js -->       
                 <script src="assets/js/scripts.js"></script>
+                <script src="assets/js/gallery.js"></script>
 		<script type="text/javascript">
 			/*partner carousel*/
 			 $(".partner").owlCarousel({

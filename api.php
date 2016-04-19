@@ -1,251 +1,95 @@
 <?php
+
 include "config.php";
 //header("Content-Type: application/json; charset=UTF-8");
 error_reporting(E_ALL);
-$id = 1;
-//$st = mysql_real_escape_string($_GET["st"]);
-//$sc = mysql_real_escape_string($_GET["sc"]);
-//query only by id
-if ($id!=null && empty($st) && empty($sc)) {
-   
-    $result = $mysqli->query("SELECT id_galery,title_galery,short_description,creation_date,modification_date, "
-            . "status FROM galery WHERE id_galery = '" . $id . "'");
-    while ($row = $result->fetch_array(MYSQLI_ASSOC)) {
+
+$id =mysqli_real_escape_string($mysqli,$_GET["category"]);
+$drone =mysqli_real_escape_string($mysqli2,$_GET["drone"]);
+
+
+
+//query only by Party Room (ID)
+if ($category!=null && empty($drone)) {
         
-        $response ['galery'] = array(
-            'id_gallery' => $row['id_galery'],
-            'title' => $row['title_galery'],
-            'description' => $row['short_description'],
-            'status' => $row['status'],
-            'creation_date' => $row['creation_date'],
-            'modification_date' => $row['modification_date'],
-            'images' => array(),
-        );
-    }
-    $result2 = $mysqli2->query("SELECT route,title,description from 
-        content left join content_galery on content.id_content = content_galery.id_content where 
-        content_galery.id_galery = '" . $id . "' order by content.id_content  desc");
-    while ($row = $result2->fetch_array(MYSQLI_ASSOC)) {
-        $sh_des_im = $row['description'];
-        $path= 'php/album/' . $row['route'];
-        $partialImage = array(
-            'path' =>  $path,
-            'title' => $row ['title'],
-            'short_description' => $sh_des_im,
-            'long_description' => $row['long_description'],
-        );
-        array_push($response['galery']['images'], $partialImage);
-    }
-    $json2 = json_encode($response['galery']);
-    
-}   //query only by id and status
-    elseif($id!=null && $st!=null && empty ($sc)) {
-    echo 'by id and status';
-  
-    $result = $mysqli->query("SELECT id_galery,title_galery,description,creation_date,modification_date, "
-            . "status FROM galery WHERE id_galery = '" . $id . "' and status ='" . $st . "'");
-    while ($row = $result->fetch_array(MYSQLI_ASSOC)) {
-        $sh = mysql_real_escape_string();
-        $response ['galery'] = array(
-            'id_gallery' => $row['id_galery'],
-            'title' => $row['title_galery'],
-            'description' => $row['description'],
-            'status' => $row['status'],
-            'creation_date' => $row['creation_date'],
-            'modification_date' => $row['modification_date'],
-            'images' => array(),
-        );
-    }
-    $result2 = $mysqli2->query("SELECT route,title,short_description,long_description from 
-        content left join content_galery on content.id_content = content_galery.id_content where 
-        content_galery.id_galery = '" . $id . "'");
-    while ($row = $result2->fetch_array(MYSQLI_ASSOC)) {
-        $sh_des_im = mysql_real_escape_string($row['short_description']);
-        $partialImage = array(
-            'path' => 'php/album/' . $row['route'],
-            'title' => $row ['title'],
-            'short_description' => $sh_des_im,
-            'long_description' => $row['long_description'],
-        );
-        array_push($response['galery']['images'], $partialImage);
-    }
-    $json2 = json_encode($response['galery']);
-    echo $json2;
-    
-    
-}   //query with id,status and section
-    elseif($id!=null && $st!=null && $sc!=null){
-    echo 'los 3';
-    $result = $mysqli->query("SELECT id_galery,title_galery,short_description,long_description,creation_date,modification_date, "
-            . "status FROM galery WHERE id_galery = '" . $id . "' and status ='" . $st . "' and section= '".$sc."'");
-    while ($row = $result->fetch_array(MYSQLI_ASSOC)) {
-        $sh = mysql_real_escape_string();
-        $response ['galery'] = array(
-            'id_gallery' => $row['id_galery'],
-            'title' => $row['title_galery'],
-            'short_description' => $row['short_description'],
-            'long_description' => $row['long_description'],
-            'status' => $row['status'],
-            'creation_date' => $row['creation_date'],
-            'modification_date' => $row['modification_date'],
-            'images' => array(),
-        );
-    }
-    $result2 = $mysqli2->query("SELECT route,title,short_description,long_description from 
-        content left join content_galery on content.id_content = content_galery.id_content where 
-        content_galery.id_galery = '" . $id . "'");
-    while ($row = $result2->fetch_array(MYSQLI_ASSOC)) {
-        $sh_des_im = mysql_real_escape_string($row['short_description']);
-        $partialImage = array(
-            'path' => 'php/album/' . $row['route'],
-            'title' => $row ['title'],
-            'short_description' => $sh_des_im,
-            'long_description' => $row['long_description'],
-        );
-        array_push($response['galery']['images'], $partialImage);
-    }
-    $json2 = json_encode($response['galery']);
-    echo $json2;
-}   //query with id and section
-    elseif ($id!=null && empty ($st) && $sc!=null) {
-    echo 'id y seccion';
-    $result = $mysqli->query("SELECT id_galery,title_galery,short_description,long_description,creation_date,modification_date, "
-            . "status FROM galery WHERE id_galery ='" . $id . "' and section= '".$sc."'");
-    while ($row = $result->fetch_array(MYSQLI_ASSOC)) {
-        $sh = mysql_real_escape_string();
-        $response ['galery'] = array(
-            'id_gallery' => $row['id_galery'],
-            'title' => $row['title_galery'],
-            'short_description' => $row['short_description'],
-            'long_description' => $row['long_description'],
-            'status' => $row['status'],
-            'creation_date' => $row['creation_date'],
-            'modification_date' => $row['modification_date'],
-            'images' => array(),
-        );
-    }
-    $result2 = $mysqli2->query("SELECT route,title,short_description,long_description from 
-        content left join content_galery on content.id_content = content_galery.id_content where 
-        content_galery.id_galery = '" . $id . "'");
-    while ($row = $result2->fetch_array(MYSQLI_ASSOC)) {
-        $sh_des_im = mysql_real_escape_string($row['short_description']);
-        $partialImage = array(
-            'path' => 'php/album/' . $row['route'],
-            'title' => $row ['title'],
-            'short_description' => $sh_des_im,
-            'long_description' => $row['long_description'],
-        );
-        array_push($response['galery']['images'], $partialImage);
-    }
-    $json2 = json_encode($response['galery']);
-    echo $json2;
-} //query with status and section
-    elseif (empty ($id) && $st!=null && $sc!=null) {
-    echo 'section and status';
-    $result = $mysqli->query("SELECT id_galery,title_galery,short_description,long_description,creation_date,modification_date, "
-            . "status FROM galery WHERE status ='" . $st . "' and section= '".$sc."'");
-    while ($row = $result->fetch_array(MYSQLI_ASSOC)) {
-        $id2=$row['id_galery'];
-        $response ['galery'] = array(
-            'id_gallery' => $row['id_galery'],
-            'title' => $row['title_galery'],
-            'short_description' => $row['short_description'],
-            'long_description' => $row['long_description'],
-            'status' => $row['status'],
-            'creation_date' => $row['creation_date'],
-            'modification_date' => $row['modification_date'],
-            'images' => array(),
-        );
-    }
-    $result2 = $mysqli2->query("SELECT route,title,short_description,long_description from 
-        content left join content_galery on content.id_content = content_galery.id_content where 
-        content_galery.id_galery = '" . $id2 . "'");
-    while ($row = $result2->fetch_array(MYSQLI_ASSOC)) {
-        $sh_des_im = mysql_real_escape_string($row['short_description']);
-        $partialImage = array(
-            'path' => 'php/album/' . $row['route'],
-            'title' => $row ['title'],
-            'short_description' => $sh_des_im,
-            'long_description' => $row['long_description'],
-        );
-        array_push($response['galery']['images'], $partialImage);
-    }
-    $json2 = json_encode($response['galery']);
-    echo $json2;
-}//query with section
-    elseif (empty ($id) && empty ($st) && $sc!=null) {
-    echo 'section';
-    $result = $mysqli->query("SELECT id_galery,title_galery,short_description,long_description,creation_date,modification_date, "
-            . "status FROM galery WHERE section= '".$sc."'");
-    while ($row = $result->fetch_array(MYSQLI_ASSOC)) {
-        $id2=$row['id_galery'];
-        $response ['galery'] = array(
-            'id_gallery' => $row['id_galery'],
-            'title' => $row['title_galery'],
-            'short_description' => $row['short_description'],
-            'long_description' => $row['long_description'],
-            'status' => $row['status'],
-            'creation_date' => $row['creation_date'],
-            'modification_date' => $row['modification_date'],
-            'images' => array(),
-        );
-    }
-    $result2 = $mysqli2->query("SELECT route,title,short_description,long_description from 
-        content left join content_galery on content.id_content = content_galery.id_content where 
-        content_galery.id_galery = '" . $id2 . "'");
-    while ($row = $result2->fetch_array(MYSQLI_ASSOC)) {
-        $sh_des_im = mysql_real_escape_string($row['short_description']);
-        $partialImage = array(
-            'path' => 'php/album/' . $row['route'],
-            'title' => $row ['title'],
-            'short_description' => $sh_des_im,
-            'long_description' => $row['long_description'],
-        );
-        array_push($response['galery']['images'], $partialImage);
-    }
-    $json2 = json_encode($response['galery']);
-    echo $json2;
-}
-//query with status
-    elseif (empty ($id) && $st!==null && empty ($sc)) {
-    
-    $result = $mysqli->query("SELECT id_galery,title_galery,short_description,long_description,creation_date,modification_date, "
-            . "status FROM galery WHERE status= '".$st."'");
-    while ($row = $result->fetch_array(MYSQLI_ASSOC)) {
-        $id2=$row['id_galery'];
-        $response ['galery'] = array(
-            'id_gallery' => $row['id_galery'],
-            'title' => $row['title_galery'],
-            'short_description' => $row['short_description'],
-            'long_description' => $row['long_description'],
-            'status' => $row['status'],
-            'creation_date' => $row['creation_date'],
-            'modification_date' => $row['modification_date'],
-            'images' => array(),
-        );
-    }
-    $result2 = $mysqli2->query("SELECT route,title,short_description,long_description from 
-        content left join content_galery on content.id_content = content_galery.id_content where 
-        content_galery.id_galery = '" . $id2 . "'");
-    while ($row = $result2->fetch_array(MYSQLI_ASSOC)) {
-        $sh_des_im = mysql_real_escape_string($row['short_description']);
-        $partialImage = array(
-            'path' => 'php/album/' . $row['route'],
-            'title' => $row ['title'],
-            'short_description' => $sh_des_im,
-            'long_description' => $row['long_description'],
-        );
-        array_push($response['galery']['images'], $partialImage);
-    }
-    $json2 = json_encode($response['galery']);
-    echo $json2;
-}
+        $result = $mysqli->query("SELECT id_category,name_category FROM categorys WHERE id_category = '" . $category . "'");
+        while ($row = $result->fetch_array(MYSQLI_ASSOC)) {
+            
+            $response ['Category'] = array(
+                'id_category' => $row['id_category'],
+                'name_category' => $row['name_category'],
+                'images' => array(),
+            );
+        }
+
+        $result2 = $mysqli2->query("SELECT c.tittle,c.route,c.description,g.name_category FROM content_dron_category AS cdc LEFT JOIN content AS c ON c.id_content = cdc.id_content LEFT JOIN categorys AS g ON g.id_category = cdc.id_category WHERE cdc.id_category ='" . $category ."'");
+        while ($row = $result2->fetch_array(MYSQLI_ASSOC)) {
+            $description = mysqli_real_escape_string($mysqli2,$row['description']);
+            $path=mysqli_real_escape_string($mysqli2,'php/album/' . $row['route']);
+            $partialImage = array(
+                'path' =>  $path,
+                'tittle' => $row ['tittle'],
+                'description' => $description,
+                'decoration' => $row['name_decoration'],
+               
+            );
+            array_push($response['Category']['images'], $partialImage);
+        }
+        try {
+            $json2 = json_encode($response['Category']);
+            echo $json2;
+
+        } catch (Exception $e) {
+            echo 'Excepción capturada: ',  $e->getMessage(), "\n";
+        }
+        
+}   
+
+    elseif ($drone!=null && empty ($category)) {
+                
+        $result = $mysqli->query("SELECT id_category,name_category FROM categorys WHERE id_category = '" . $category . "'");
+        while ($row = $result->fetch_array(MYSQLI_ASSOC)) {
+            
+            $response ['Category'] = array(
+                'id_category' => $row['id_category'],
+                'name_category' => $row['name_category'],
+                'images' => array(),
+            );
+        }
+
+        $result2 = $mysqli2->query("SELECT c.tittle,c.route,c.description,d.name_drone FROM content_dron_category AS cdc LEFT JOIN content AS c ON c.id_content = cdc.id_content LEFT JOIN drones AS d ON d.id_drone = cdc.id_drone WHERE cdc.id_drone ='" . $drone ."'");
+        while ($row = $result2->fetch_array(MYSQLI_ASSOC)) {
+            $description = mysqli_real_escape_string($mysqli2,$row['description']);
+            $path=mysqli_real_escape_string($mysqli2,'php/album/' . $row['route']);
+            $partialImage = array(
+                'path' =>  $path,
+                'tittle' => $row ['tittle'],
+                'description' => $description,
+                'decoration' => $row['name_decoration'],
+               
+            );
+            array_push($response['Category']['images'], $partialImage);
+        }
+        try {
+            $json2 = json_encode($response['Category']);
+            echo $json2;
+
+        } catch (Exception $e) {
+            echo 'Excepción capturada: ',  $e->getMessage(), "\n";
+        }
+}//query with Services   
     else {
+
     echo  'no';
 }
+
     
+
+
 //if () {
 //    echo 'las 3';
 //} else {
 //    
+
 ?>
+        
