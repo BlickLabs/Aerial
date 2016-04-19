@@ -2201,9 +2201,7 @@ width: 100px;
 .icono_engrane{
     margin-top: 90px;
 }
-.seccion_contacto{
-    margin-left: -20px;
-}
+
 .imagen{
     margin-top: 1px;
     margin-left: -15px;
@@ -3007,17 +3005,17 @@ margin-top: 105px;
 }
 @media only screen and (max-width: 1280px) { 
 .padd_redes{
-  margin-top: 50px;
+  margin-top: -167px;
 }
 }
 @media only screen and (max-width: 1224px) { 
 .padd_redes{
-  margin-top: 50px;
+  margin-top: 35px;
 }
 }
 @media only screen and (max-width: 1024px) { 
 .padd_redes{
-  margin-top: 50px;
+  margin-top: -177px;
 }
 }
 @media only screen and (max-width:768px) { 
@@ -3686,5 +3684,48 @@ padding-top: 2px;
 .pull-right {
   float: right !important;
   margin-right: -20xpx;
+}
+}
+
+
+.seccion_contacto{
+    margin-left: -20px;
+}
+@media only screen and (max-width: 1280px) { 
+.seccion_contacto{
+    margin-left: 15px;
+}
+}
+@media only screen and (max-width: 1224px) { 
+.seccion_contacto{
+    margin-left: -35px;
+}
+}
+@media only screen and (max-width: 1024px) { 
+.seccion_contacto{
+    margin-left: 15px;
+}
+}
+
+.pull-right {
+  float: right !important;
+  margin-right: 1px;
+}
+@media only screen and (max-width: 1280px) { 
+.pull-right {
+  float: right !important;
+  margin-right: -125px;
+}
+}
+@media only screen and (max-width: 1224px) { 
+.pull-right {
+  float: right !important;
+  margin-right: -80px;
+}
+}
+@media only screen and (max-width: 1024px) { 
+.pull-right {
+  float: right !important;
+  margin-right: -110px;
 }
 }
