@@ -8,9 +8,9 @@ $(document).ready(function() {
             msg: { required:true, minlength: 2}
         },
         messages: {
-            name: "Debe introducir su nombre.",
-            email : "Debe introducir un email válido.",
-            msg : "El campo Mensaje es obligatorio.",
+            name: "Debe introducir su nombre",
+            email : "Debe introducir un email válido",
+            msg : "El campo Mensaje es obligatorio",
         },
         submitHandler: function(form){
             var dataString = 'name='+$('#name').val()+'&email='+$('#email').val()+'&msg='+$('#msg').val();

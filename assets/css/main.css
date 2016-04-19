@@ -375,7 +375,7 @@ button:active{
 	bottom: -5px;
 	text-align: left;
 	position: absolute;
-	background: #b0006e;
+	
 }
 .border-left-white h4:after {
 	left: 0px;
@@ -401,7 +401,7 @@ button:active{
 	margin-left: -30px;
 	text-align: left;
 	position: absolute;
-	background: #b0006e;
+	
 }
 .nineteen{
 	font-size: 19px;
@@ -629,14 +629,25 @@ a{
 	-o-transition: all 0.2s linear;
 	transition: all 0.2s linear;
 }
+@font-face {
+  font-family: "MyriadPro-Semibold";
+  src: url("../css/MyriadPro-Semibold.oft");
+  }
+  
+    .MyriadPro-Semibold {
+  font-family: MyriadPro-Semibold;
+  
+  }
 a:hover{
 	
 	text-decoration: none;
 	color: #fff;
+        font-family: MyriadPro-Semibold;
 }
 a:focus{
 	text-decoration: none;
-	color: #b0006e;
+        font-size: MyriadPro-Semibold;
+	
 }
 ul{
 	margin-bottom: 0;
