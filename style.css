@@ -3223,3 +3223,21 @@ width: 100px;
     margin-left: 35px;
 }
 }
+
+
+.lineafooter{
+   margin-left: -60px;
+}@media only screen and (max-width:360px) { 
+ .camara2{
+    
+    margin-left: 35px;
+    width:10px;
+}
+}
+@media only screen and (max-width:320px) { 
+ .camara2{
+    
+    margin-left: 35px;
+    width:10px;
+}
+}
