@@ -2010,3 +2010,10 @@ and open the template in the editor.
 div.sidebar-link:hover{
     background-color: #f0f0f0;
 }
+
+
+     
+div.sidebar-link2:hover{
+    background-color: #868686;
+    height: 100%;
+}
