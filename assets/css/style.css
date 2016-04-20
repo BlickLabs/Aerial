@@ -3501,11 +3501,11 @@ margin-top: 60px;
 //logo_aerial_footer
 
 .logo_aerial_footer { 
-    margin-bottom: -250px;
+    margin-bottom: -200px;
     }
 @media only screen and (max-width:  1824px) { 
 .logo_aerial_footer { 
-    margin-bottom: -250px;
+    margin-bottom: -230px;
     margin-left: -135px;
     }
 }
