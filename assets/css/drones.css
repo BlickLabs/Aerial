@@ -2005,3 +2005,8 @@ and open the template in the editor.
 .section_padding_portafolio_2 { 
     margin-top: 70px;
      }     
+
+     
+div.sidebar-link:hover{
+    background-color: #f0f0f0;
+}
