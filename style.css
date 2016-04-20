@@ -119,12 +119,14 @@ fieldset {
 .section-padding { padding: 85px 0 }
 .section-padding3 { padding: 150px 0 }
 
+
 .section-padding2 { 
     padding: 190px 0 200px 0;
     display: block;
     }
 
-.section-padding4 { padding: 0px 0 }
+.section-padding4 { padding: 150px 0 }
+.section-paddingp { padding: 0px 0 }
 /*START SECTION TITLE DESIGN*/
 .section-title { margin-bottom: 50px }
 .section-title h1 {
