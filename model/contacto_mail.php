@@ -51,7 +51,7 @@ curl_setopt($curl, CURLOPT_POSTFIELDS, $message);
 $result = curl_exec($curl);
 
 curl_close($curl);
- $message = '<div class="alert alert-success" role="alert">Tu mensaje ha sido enviado!. Pronto nos pondremos en contacto contigo</div>';
+ $message = '<div class="alert alert-success" role="alert">Tu mensaje ha sido enviado!.</div>';
  echo $message;
 
 ?>
