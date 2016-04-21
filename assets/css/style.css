@@ -461,7 +461,7 @@ transition: all 0.4s ease 0s;
 .navbar-default.menu-shrink { color: #616f6e !important }
 .navbar-default.menu-shrink li a { color: #616f6e !important }
 .navbar-default .navbar-toggle {
-    background:  #efefef none repeat scroll 0 0;
+    
     border-color: #efefef;
 }
 .navbar-default .navbar-toggle:hover,
@@ -3925,16 +3925,16 @@ padding-top: 2px;
 }
 @media only screen and (max-width:480px) { 
    .container_2{
-    width:750px
+    width:750px;
 }
 }
 @media only screen and (max-width:360px) { 
     .container_2{
-    width:750px
+    width:750px;
 }
 }
 @media only screen and (max-width:320px) { 
    .container_2{
-    width:750px
+    width:750px;
 }
 }
