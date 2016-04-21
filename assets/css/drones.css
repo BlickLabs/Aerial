@@ -1632,6 +1632,7 @@ and open the template in the editor.
 .camara_hexa { 
     margin-left:47px;
     margin-bottom: 20px;
+    margin-top: -20px;
     }
 }
 @media only screen and (max-width:320px) { 
@@ -1779,11 +1780,14 @@ and open the template in the editor.
 @media only screen and (max-width:480px) { 
 .go_pro { 
     margin-left:-100px;
+    margin-top: -10px
+    
     }
 }
 @media only screen and (max-width:360px) { 
 .go_pro { 
     margin-left:-43px;
+    margin-top: -10px;
     }
 }
 @media only screen and (max-width:320px) { 
