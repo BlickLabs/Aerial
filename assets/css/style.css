@@ -559,6 +559,7 @@ height: 100%;
     .hero-text2 h2 {
         font-size: 25px;
         line-height: 30px;
+        margin-right: 4px;
     }
 }
 .header_social { margin-top: 30px }
@@ -3076,12 +3077,12 @@ margin-top: 105px;
 }
 @media only screen and (max-width:480px) { 
  .padd_drones{
-  margin-top: 50px;
+  margin-top: 10px;
 }
 }
 @media only screen and (max-width:360px) { 
  .padd_drones{
-  margin-top: 50px;
+  margin-top: 10px;
 }
 }
 @media only screen and (max-width:320px) { 
@@ -3132,11 +3133,14 @@ margin-top: 105px;
 @media only screen and (max-width:360px) { 
  .mar_contacto{
  margin-left: 20px;
+ 
 }
 }
 @media only screen and (max-width:320px) { 
- .padd_drones{
-  margin-top: 50px;
+ .mar_contacto{
+  margin-top: -20px;
+  margin-left: 22px;
+  margin-right: -10px;
 }
 }
 
@@ -3187,7 +3191,8 @@ margin-top: 105px;
 }
 @media only screen and (max-width:320px) { 
  .mar_contacto_top{
- margin-top: -15px;
+ margin-top: -25px;
+ margin-left: 21px;
 }
 }
 
@@ -3936,5 +3941,108 @@ padding-top: 2px;
 @media only screen and (max-width:320px) { 
    .container_2{
     width:750px;
+}
+}
+
+
+//dronephantom
+.dronephantom{
+padding-top: 20px;
+}
+
+
+@media only screen and (max-width:  1824px) { 
+//dronehexa
+.dronephantom{
+
+}
+}
+
+@media only screen and (max-width: 1280px) { 
+//dronehexa
+.dronephantom{
+
+}
+}
+
+@media only screen and (max-width: 1224px) { 
+//dronehexa
+.dronephantom{
+
+}
+}
+@media only screen and (max-width: 1024px) { 
+//dronehexa
+.dronephantom{
+
+}
+}
+@media only screen and (max-width:768px) { 
+//dronehexa
+.dronephantom{
+padding-top: 20px;
+}
+}
+@media only screen and (max-width:480px) { 
+.dronephantom{
+padding-top: 20px;
+}
+}
+@media only screen and (max-width:360px) { 
+
+.dronephantom{
+padding-top: 20px;
+}
+}
+@media only screen and (max-width:320px) { 
+
+.dronephantom{
+padding-top: 20px;
+}
+}
+
+//boton_drones
+.boton_drones{
+    margin-top: 100px;
+}
+@media only screen and (max-width:  1824px) { 
+.boton_drones{
+    margin-top: 100px;
+    }
+}
+@media only screen and (max-width: 1280px) { 
+.boton_drones{
+    margin-top: 100px;
+}
+}
+
+@media only screen and (max-width: 1224px) { 
+.boton_drones{
+    margin-top: 100px;
+}
+}
+@media only screen and (max-width: 1024px) { 
+.boton_drones{
+    margin-top: 100px;
+}
+}
+@media only screen and (max-width:768px) { 
+.boton_drones{
+    margin-top: 100px;
+}
+}
+@media only screen and (max-width:480px) { 
+.boton_drones{
+    margin-top: 45px;
+}
+}
+@media only screen and (max-width:360px) { 
+.boton_drones{
+    margin-top: 45px;
+}
+}
+@media only screen and (max-width:320px) { 
+.boton_drones{
+    margin-top: 45px;
 }
 }
