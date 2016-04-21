@@ -516,8 +516,8 @@ height: 100%;
 }
 @media only screen and (max-width:320px) { 
     .hero-text h2 {
-        font-size: 30px;
-        line-height: 30px;
+        font-size: 25px;
+        line-height: 25px;
     }
 }
 .header_social { margin-top: 30px }
@@ -3595,20 +3595,20 @@ margin-top: 60px;
 }
 @media only screen and (max-width:480px) { 
 .logo_aerial_blanco { 
-    margin-top: -35px;
+    margin-top: 50px;
     height: 90px;
     }
 }
 @media only screen and (max-width:360px) { 
 .logo_aerial_blanco { 
-    margin-top: -200px;
+    margin-top: 12px;
     height: 90px;
     }
 }
 @media only screen and (max-width:320px) { 
 .logo_aerial_blanco { 
-    margin-top: -60px;
-    height: 80px;
+    margin-top: -4px;
+    height: 70px;
     }
 }
 
