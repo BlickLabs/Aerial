@@ -1755,7 +1755,7 @@ width: 100px;
 }
 @media only screen and (max-width:360px) { 
     .paloma2{ 
-    margin-top: -22px;    
+    margin-top: -5px;    
     }
 }
 @media only screen and (max-width:320px) { 
@@ -2687,12 +2687,12 @@ width: 100px;
 }
 @media only screen and (max-width:360px) { 
  .padding_texto_redes_sociales{
-    margin-right: 0px;
+    margin-right: -4px;
 }
 }
 @media only screen and (max-width:320px) { 
  .padding_texto_redes_sociales{
-    margin-right: 0px;
+    margin-right: -9px;
 }
 }
 
@@ -2835,13 +2835,13 @@ width: 100px;
 @media only screen and (max-width:480px) { 
  .aerial{
     margin-top: 105px;
-     margin-left: -15px;
+     margin-left: 3px;
 }
 }
 @media only screen and (max-width:360px) { 
  .aerial{
 margin-top: 105px;
-     margin-left: -15px;
+     margin-left: 9px;
 }
 }
 @media only screen and (max-width:320px) { 
@@ -2909,41 +2909,65 @@ margin-top: 105px;
 @media only screen and (max-width:  1824px) { 
 .texto_contactanos{
     padding-left: 8px;
+    color:#b4b4b1;
+    font-size: 20px;
+    text-align: left;
 }
 }
 @media only screen and (max-width: 1280px) { 
 .texto_contactanos{
     padding-left: 8px;
+    color:#b4b4b1;
+    font-size: 20px;
+    text-align: left;
 }
 }
 @media only screen and (max-width: 1224px) { 
 .texto_contactanos{
     padding-left: 8px;
+    color:#b4b4b1;
+    font-size: 20px;
+    text-align: left;
 }
 }
 @media only screen and (max-width: 1024px) { 
  .texto_contactanos{
     padding-left: 8px;
+    color:#b4b4b1;
+    font-size: 20px;
+    text-align: left;
 }
 }
 @media only screen and (max-width:768px) { 
  .texto_contactanos{
     padding-left: 130px;
+    color:#b4b4b1;
+    font-size: 20px;
+    text-align: left;
 }
 }
 @media only screen and (max-width:480px) { 
   .texto_contactanos{
-    padding-left: 130px;
+    padding-left: 135px;
+    color:#b4b4b1;
+    font-size: 30px;
+    text-align: left;
 }
 }
 @media only screen and (max-width:360px) { 
   .texto_contactanos{
-    padding-left: 130px;
+    padding-left: 125px;
+    color:#b4b4b1;
+    font-size: 25px;
+    text-align: left;
 }
 }
 @media only screen and (max-width:320px) { 
  .texto_contactanos{
-    padding-left: 115px;
+    padding-left: 100px;
+    color:#b4b4b1;
+    font-size: 25px;
+    text-align: left;
 }
 }
 
@@ -3140,7 +3164,7 @@ margin-top: 105px;
  .mar_contacto{
   margin-top: -20px;
   margin-left: 22px;
-  margin-right: -10px;
+  margin-right: -4px;
 }
 }
 
@@ -3549,7 +3573,7 @@ margin-top: 60px;
 @media only screen and (max-width:360px) { 
 .logo_aerial_footer { 
     margin-bottom: -95px;
-    margin-left: 60px;
+    margin-left: 73px;
     margin-right: 60px;
     margin-top: 85px;
     }
@@ -3799,13 +3823,13 @@ padding-top: 2px;
 @media only screen and (max-width: 360px) { 
 .pull-right_2 {
   float: right !important;
-  margin-right: 103px;
+  margin-right: 125px;
 }
 }
 @media only screen and (max-width: 320px) { 
 .pull-right_2 {
   float: right !important;
-  margin-right: 103px;
+  margin-right: 109px;
 }
 }
 
@@ -3840,12 +3864,12 @@ padding-top: 2px;
 }
 @media only screen and (max-width:480px) { 
  .padding_texto_redes_sociales2{
-    margin-right: 30px;
+    margin-right: 3px;
 }
 }
 @media only screen and (max-width:360px) { 
  .padding_texto_redes_sociales2{
-    margin-right: 0px;
+    margin-right: 21px;
 }
 }
 @media only screen and (max-width:320px) { 
