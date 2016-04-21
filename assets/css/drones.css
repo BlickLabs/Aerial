@@ -1646,13 +1646,13 @@ and open the template in the editor.
     }
 @media only screen and (max-width:  1824px) { 
 .camara_x3 { 
-    margin-left:117px;
+    margin-left:140px;
     margin-bottom: 20px;
     }
 }
 @media only screen and (max-width: 1280px) { 
 .camara_x3 { 
-    margin-left:80px;
+    margin-left:106px;
     margin-bottom: 20px;
     }
 }
@@ -2060,4 +2060,134 @@ div.sidebar-link:hover{
 div.sidebar-link2:hover{
     background-color: #868686;
     height: 100%;
+}
+
+
+//limux
+
+.texto_limux { 
+    size:17px;
+    color:#545554;
+    font-size: 24px;
+    }
+@media only screen and (max-width:  1824px) { 
+.texto_limux { 
+    size:17px;
+    color:#545554;
+    font-size: 24px;
+    }
+}
+@media only screen and (max-width: 1280px) { 
+.texto_limux { 
+    size:17px;
+    color:#545554;
+    font-size: 24px;
+    }
+}
+@media only screen and (max-width: 1224px) { 
+.texto_limux { 
+    size:17px;
+    color:#545554;
+    font-size: 24px;
+    }
+}
+@media only screen and (max-width: 1024px) { 
+.texto_limux { 
+    size:17px;
+    color:#545554;
+    font-size: 24px;
+    }
+}
+@media only screen and (max-width:768px) { 
+.texto_limux { 
+    size:17px;
+    color:#545554;
+    font-size: 24px;
+    }
+}
+@media only screen and (max-width:480px) { 
+.texto_limux { 
+    size:17px;
+    color:#545554;
+    font-size: 22px;
+    }
+}
+@media only screen and (max-width:360px) { 
+.texto_limux { 
+    size:17px;
+    color:#545554;
+    font-size: 21px;
+    }
+}
+@media only screen and (max-width:320px) { 
+.texto_limux { 
+    size:17px;
+    color:#545554;
+    font-size: 18px;
+    }
+}
+
+//gopro
+
+.texto_gopro {
+    
+    size:17px;
+    color:#545554;
+    font-size: 24px;
+    }
+@media only screen and (max-width:  1824px) { 
+.texto_gopro { 
+    size:17px;
+    color:#545554;
+    font-size: 24px;
+    }
+}
+@media only screen and (max-width: 1280px) { 
+.texto_gopro { 
+    size:17px;
+    color:#545554;
+    font-size: 24px;
+    }
+}
+@media only screen and (max-width: 1224px) { 
+.texto_gopro { 
+    size:17px;
+    color:#545554;
+    font-size: 24px;
+    }
+}
+@media only screen and (max-width: 1024px) { 
+.texto_gopro { 
+    size:17px;
+    color:#545554;
+    font-size: 24px;
+    }
+}
+@media only screen and (max-width:768px) { 
+.texto_gopro { 
+    size:17px;
+    color:#545554;
+    font-size: 24px;
+    }
+}
+@media only screen and (max-width:480px) { 
+.texto_gopro { 
+    size:17px;
+    color:#545554;
+    font-size: 24px;
+    }
+}
+@media only screen and (max-width:360px) { 
+.texto_gopro { 
+    size:17px;
+    color:#545554;
+    font-size: 23px;
+    }
+}
+@media only screen and (max-width:320px) { 
+.texto_gopro { 
+    size:17px;
+    color:#545554;
+    font-size: 21px;
+    }
 }

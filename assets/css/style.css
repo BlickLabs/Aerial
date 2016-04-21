@@ -3869,12 +3869,12 @@ padding-top: 2px;
 }
 @media only screen and (max-width:360px) { 
  .padding_texto_redes_sociales2{
-    margin-right: 21px;
+    margin-right: 11px;
 }
 }
 @media only screen and (max-width:320px) { 
  .padding_texto_redes_sociales2{
-    margin-right: 0px;
+    margin-right: -43px;
 }
 }
 
@@ -4068,5 +4068,56 @@ padding-top: 20px;
 @media only screen and (max-width:320px) { 
 .boton_drones{
     margin-top: 45px;
+}
+}
+
+
+.logoface3{
+ margin-left:-6px;
+}
+
+@media only screen and (max-width:  1824px) { 
+.logoface3{
+ margin-left:-6px;
+}
+}
+
+@media only screen and (max-width: 1280px) { 
+.logoface3{
+ margin-left:-6px;
+}
+}
+
+@media only screen and (max-width: 1224px) { 
+.logoface3{
+ margin-left:-6px;
+}
+}
+@media only screen and (max-width: 1024px) { 
+.logoface3{
+ margin-left:-6px;
+}
+}
+@media only screen and (max-width:768px) { 
+.logoface3{
+ margin-left:0px;
+}
+}
+@media only screen and (max-width:480px) { 
+.logoface3{
+ margin-left:0px;
+  margin-top: -37px
+}
+}
+@media only screen and (max-width:360px) { 
+.logoface3{
+ margin-left: 0px;
+ margin-top: -25px;
+}
+}
+@media only screen and (max-width:320px) { 
+.logoface3{
+ margin-left: 0px;
+ margin-top: -25px;
 }
 }
