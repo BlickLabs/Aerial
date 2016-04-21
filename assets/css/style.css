@@ -3238,20 +3238,20 @@ padding-top: 20px;
 
 @media only screen and (max-width: 1280px) { 
 .texto_drones{
- padding-top: 0px;
+ padding-top: 20px;
 }
 
 
 }
 @media only screen and (max-width: 1224px) { 
 .texto_drones{
-padding-top: 0px;
+padding-top: 20px;
 }
 
 }
 @media only screen and (max-width: 1024px) { 
 .texto_drones{
-padding-top: 0px;
+padding-top: 20px;
 }
 }
 @media only screen and (max-width:768px) { 
