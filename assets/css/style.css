@@ -4218,3 +4218,70 @@ padding-top: 20px;
 .color_servicio2{
     background-color: #1c1e20;
 }
+
+
+
+.color_texto_servicio{
+    color:#1c1e20;
+    font-size: 47px;
+    text-align: center;
+}
+@media only screen and (max-width:  1824px) { 
+.color_texto_servicio{
+    color:#1c1e20;
+    font-size: 47px;
+    text-align: center;
+}
+}
+@media only screen and (max-width: 1280px) { 
+.color_texto_servicio{
+    color:#1c1e20;
+    font-size: 47px;
+    text-align: center;
+}
+}
+@media only screen and (max-width: 1224px) { 
+.color_texto_servicio{
+    color:#1c1e20;
+    font-size: 47px;
+    text-align: center;
+}
+}
+@media only screen and (max-width: 1024px) { 
+.color_texto_servicio{
+    color:#1c1e20;
+    font-size: 47px;
+    text-align: center;
+}
+}
+@media only screen and (max-width:768px) { 
+.color_texto_servicio{
+    color:#1c1e20;
+    font-size: 47px;
+    text-align: center;
+}
+}
+@media only screen and (max-width:480px) { 
+.color_texto_servicio{
+    color:#545554;
+    font-size: 47px;
+    text-align: center;
+}
+    
+}
+@media only screen and (max-width:360px) { 
+.color_texto_servicio{
+    color:#545554;
+    font-size: 47px;
+    text-align: center;
+}
+}
+@media only screen and (max-width:320px) { 
+.color_texto_servicio{
+    color:#545554;
+    font-size: 47px;
+    text-align: center;
+}
+}
+
+
