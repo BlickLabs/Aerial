@@ -2054,7 +2054,7 @@ and open the template in the editor.
     margin-top: 70px;
      }     
 
-     
+ 
 div.sidebar-link:hover{
     background-color: #f0f0f0;
 }
@@ -2194,4 +2194,105 @@ div.sidebar-link2:hover{
     color:#545554;
     font-size: 21px;
     }
+}
+
+
+
+.section_padding_portafolio3 { 
+    margin-top: 40px;
+     }
+
+@media only screen and (max-width:  1824px) { 
+.section_padding_portafolio3 { 
+    margin-top: 40px;
+     }
+}
+@media only screen and (max-width: 1280px) { 
+.section_padding_portafolio3 { 
+    margin-top: 40px;
+     }
+}
+@media only screen and (max-width: 1224px) { 
+.section_padding_portafolio3 { 
+    margin-top: 40px;
+     }
+}
+@media only screen and (max-width: 1024px) { 
+.section_padding_portafolio3 { 
+    margin-top: 40px;
+     }
+}
+@media only screen and (max-width:768px) { 
+.section_padding_portafolio3 { 
+    margin-top: 120px;
+     }
+}
+@media only screen and (max-width:480px) { 
+.section_padding_portafolio3 { 
+    margin-top: 120px;
+     }
+}
+@media only screen and (max-width:360px) { 
+.section_padding_portafolio3 { 
+    margin-top: 120px;
+     }
+}
+@media only screen and (max-width:320px) { 
+.section_padding_portafolio3 { 
+    margin-top: 120px;
+     }
+}
+//texto_sel_drone
+.texto_sel_drone { 
+  text-align: center;
+  font-size: 33px;
+     }
+
+@media only screen and (max-width:  1824px) { 
+.texto_sel_drone { 
+  text-align: center;
+  font-size: 33px;
+     }
+}
+@media only screen and (max-width: 1280px) { 
+.texto_sel_drone { 
+  text-align: center;
+  font-size: 33px;
+     }
+}
+@media only screen and (max-width: 1224px) { 
+.texto_sel_drone { 
+  text-align: center;
+  font-size: 33px;
+     }
+}
+@media only screen and (max-width: 1024px) { 
+.texto_sel_drone { 
+  text-align: center;
+  font-size: 33px;
+     }
+}
+@media only screen and (max-width:768px) { 
+.texto_sel_drone { 
+  text-align: center;
+  font-size: 33px;
+     }
+}
+@media only screen and (max-width:480px) { 
+.texto_sel_drone { 
+  text-align: center;
+  font-size: 30px;
+     }
+}
+@media only screen and (max-width:360px) { 
+.texto_sel_drone { 
+  text-align: center;
+  font-size: 26px;
+     }
+}
+@media only screen and (max-width:320px) { 
+.texto_sel_drone { 
+  text-align: center;
+  font-size: 24px;
+     }
 }
