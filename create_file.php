@@ -185,24 +185,7 @@
                     </select>
 		</div>
             </div>
-            <div class="control-group col-sm-5 mar-top41">
-		<label class="control-label" for="focusedInput">Descripción:</label>
-		    <div class="controls">
-                        <input class="input-xlarge focused" type="text" name="description"
-                                  id="description" pattern="[^'\x22]+"
-                                  title="este campo no acepta caracteres especiales, solo letras" />
-		    </div>
-	    </div>
-            <div class="control-group col-sm-5 mar-top41">
-		<label class="control-label" for="selectError">Estatus:</label>
-		<div class="controls">
-                    <select id="status" data-rel="chosen" name="status">
-                        <option value=true>Activa</option>
-                        <option value="false">Inactivo</option>
-                    </select>
-		</div>
-            </div>
-            
+           
             
             <div class="form-group">
                 <input type="hidden" type="text" class="form-control" name="creation_date" id="creation_date" value="<?php echo date("Y/m/d") ?>">

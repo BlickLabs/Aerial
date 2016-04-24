@@ -7,7 +7,7 @@
     $st = $_GET['status'];
     $cd = $_GET['creation_date'];
     $foto = trim($_FILES['foto']['name']);
-    $ingresar = mysqli_query($mysqli3, "INSERT INTO content (tittle,route,description,status,creation_date)"
+    $ingresar = mysqli_query($mysqli3, "INSERT INTO content (tittle,route,creation_date)"
                              . "VALUES('$title','$foto','$desc','$st','$cd')");
     move_uploaded_file($_FILES['foto']['tmp_name'], 'album/' . $foto);
     $id_img = mysqli_insert_id($mysqli3); //obtenemos el id del ultimo insert realizado

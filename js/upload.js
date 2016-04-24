@@ -1,7 +1,7 @@
 $(function () {
     $('#subida').submit(function () {
 
-       var comprobar = $('#foto').val().length*$('#drone').val().length*$('#category').val().length*$('#status').val().length*$('#creation_date').val().length;	
+       var comprobar = $('#foto').val().length*$('#drone').val().length*$('#category').val().length*$('#creation_date').val().length;	
         
         
         if (comprobar > 0) {
