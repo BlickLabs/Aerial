@@ -19,7 +19,7 @@
 	
 	<!-- start: Meta -->
 	<meta charset="utf-8">
-	<title>Galería Categoría Eventos</title>
+	<title>Galería Por Categorías</title>
 	<meta name="description" content="Bootstrap Metro Dashboard">
 	<meta name="author" content="Dennis Ji">
 	<meta name="keyword" content="Metro, Metro UI, Dashboard, Bootstrap, Admin, Template, Theme, Responsive, Fluid, Retina">
@@ -38,7 +38,22 @@
         <link rel="stylesheet" type="text/css" href="css_template/style1.css" />
 	<link id="base-style-responsive" href="css_template/style-responsive.css" rel="stylesheet">
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800&subset=latin,cyrillic-ext,latin-ext' rel='stylesheet' type='text/css'>
+	<!-- end: CSS -->
+	
+
+	<!-- The HTML5 shim, for IE6-8 support of HTML5 elements -->
+	<!--[if lt IE 9]>
+	  	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<link id="ie-style" href="css_template/ie.css" rel="stylesheet">
+	<![endif]-->
+	
+	<!--[if IE 9]>
+		<link id="ie9style" href="css_template/ie9.css" rel="stylesheet">
+	<![endif]-->
+		
+	<!-- start: Favicon -->
 	<link rel="shortcut icon" href="images/logo_gris.png">
+	<!-- end: Favicon -->
 	
 		
 		
@@ -56,6 +71,7 @@
 					<span class="icon-bar"></span>
 				</a>
                             <a class="brand" href="index.html"><span><h2><img src="images/logo_blanco.png" style="height: 60px"></h2></span></a>
+                            
 								
 				<!-- start: Header Menu -->
 				<div class="nav-no-collapse header-nav">
@@ -92,39 +108,16 @@
 				
 			<!-- start: Main Menu -->
 			<div id="sidebar-left" class="span2">
-				<div class="nav-collapse sidebar-nav">
-					<ul class="nav nav-tabs nav-stacked main-menu">
-                                            
-                                            <li><a href="images.php"><i class="icon-upload-alt"></i><span class="hidden-tablet">&nbsp;Subir Imagenes</span></a></li>
-                                            <li>
-                                                <a class="dropmenu" href="Home.php"><i class="icon-tags"></i><span >Galería por Drones</span></a>
-							<ul>
-                                                            <li><a class="submenu" href="phantom_2.php"><i class="icon-tags"></i><span class="hidden-tablet">Phantom 2</span></a></li>
-                                                            <li><a class="submenu" href="inspire.php"><i class="icon-tags"></i><span class="hidden-tablet">Inspire 1</span></a></li>
-                                                            <li><a class="submenu" href="osmo.php"><i class="icon-tags"></i><span class="hidden-tablet">Osmo</span></a></li>
-                                                            <li><a class="submenu" href="hexacoptero.php"><i class="icon-tags"></i><span class="hidden-tablet">Hexacoptero</span></a></li>
-								
-							</ul>	
-                                            </li>
-                                            <li>
-                                                <a class="dropmenu" href="gallery_by_service.php"><i class="icon-tags"></i><span >Galería por Categorias</span></a>
-							<ul>
-                                                            <li><a class="submenu" href="productoras_gallery.php"><i class="icon-tags"></i><span class="hidden-tablet">Productoras</span></a></li>
-                                                            <li><a class="submenu" href="constructoras_gallery.php"><i class="icon-tags"></i><span class="hidden-tablet">Construcutoras</span></a></li>
-                                                            <li><a class="submenu" href="eventos_gallery.php"><i class="icon-tags"></i><span class="hidden-tablet">Eventos</span></a></li>
-                                                            <li><a class="submenu" href="hoteles_gallery.php"><i class="icon-tags"></i><span class="hidden-tablet">Hoteles</span></a></li>
-                                                            <li><a class="submenu" href="gobierno_gallery.php"><i class="icon-tags"></i><span class="hidden-tablet">Gobierno</span></a></li>
-                                                            <li><a class="submenu" href="privado_gallery.php"><i class="icon-tags"></i><span class="hidden-tablet">Privado</span></a></li>
-								
-							</ul>	
-                                            </li>
-                                            
-                                            
-					</ul>
-				</div>
+                            <div class="nav-collapse sidebar-nav">
+                                    <ul class="nav nav-tabs nav-stacked main-menu">
+                                        <li><a href="images.php"><i class="icon-upload-alt"></i><span class="hidden-tablet">&nbsp;Subir Imagenes</span></a></li>
+                                        <li><a href="drones_gallery.php"><i class="icon-upload-alt"></i><span class="hidden-tablet">&nbsp;Galería Por Drones</span></a></li>
+                                        <li><a href="categories_gallery.php"><i class="icon-upload-alt"></i><span class="hidden-tablet">&nbsp;Galería Por Categorías</span></a></li>
+                                    </ul>
+				</div>   
+			    </div>
 			</div>
 			<!-- end: Main Menu -->
-			
 			<noscript>
 				<div class="alert alert-block span10">
 					<h4 class="alert-heading">Warning!</h4>
@@ -142,12 +135,12 @@
                                         <a href="principal.php">Home</a> 
 					<i class="icon-angle-right"></i>
 				</li>
-				<li><a href="#">Galería Categoría Gobierno</a></li>
+				<li><a href="#">Galería Categorías</a></li>
 			</ul>
                         <?php
                             include "config.php";
                             error_reporting(E_ALL);
-                            $res = $mysqli->query("SELECT id_category,name_category FROM categorys where id_category='5'");
+                            $res = $mysqli->query("SELECT id_category,name_category FROM categorys ");
                             $mysqli->close();
                             while ($row = $res->fetch_assoc()){
                                 $id_pr=$row['id_category'];
@@ -194,7 +187,7 @@
                                                                         </div>
                                                                         <div class="modal-footer">
                                                                             <button type="button" class="btn btn-danger" data-dismiss="modal"><i class="icon-ban-circle"></i>&nbsp;Cerrrar</button>
-                                                                            <a href="Delete_Photo.php?d=<?php echo $row2['id_content'] ?>&f=<?php echo $row2['route']?>"><button type="button" class="btn btn-success"><i class="icon-ok"></i>Aceptar</button></a>
+                                                                            <a href="Delete_Photo.php?d=<?php echo $row2['id_content']?>&f=<?php echo $row2['route']?>"><button type="button" class="btn btn-success"><i class="icon-ok"></i>Aceptar</button></a>
                                                                         </div>
                                                                     </div>
                                                                 </div>

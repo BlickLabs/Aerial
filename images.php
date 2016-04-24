@@ -95,41 +95,18 @@
 		<div class="container-fluid-full">
 		<div class="row-fluid">
 				
-			<!-- start: Main Menu -->
+                        <!-- start: Main Menu -->
 			<div id="sidebar-left" class="span2">
-				<div class="nav-collapse sidebar-nav">
-					<ul class="nav nav-tabs nav-stacked main-menu">
-                                            
-                                            <li><a href="images.php"><i class="icon-upload-alt"></i><span class="hidden-tablet">&nbsp;Subir Imagenes</span></a></li>
-                                            <li>
-                                                <a class="dropmenu" href="Home.php"><i class="icon-tags"></i><span >Galería por Drones</span></a>
-							<ul>
-                                                            <li><a class="submenu" href="phantom_2.php"><i class="icon-tags"></i><span class="hidden-tablet">Phantom 2</span></a></li>
-                                                            <li><a class="submenu" href="inspire.php"><i class="icon-tags"></i><span class="hidden-tablet">Inspire 1</span></a></li>
-                                                            <li><a class="submenu" href="osmo.php"><i class="icon-tags"></i><span class="hidden-tablet">Osmo</span></a></li>
-                                                            <li><a class="submenu" href="hexacoptero.php"><i class="icon-tags"></i><span class="hidden-tablet">Hexacoptero</span></a></li>
-								
-							</ul>	
-                                            </li>
-                                            <li>
-                                                <a class="dropmenu" href="gallery_by_service.php"><i class="icon-tags"></i><span >Galería por Categorias</span></a>
-							<ul>
-                                                            <li><a class="submenu" href="productoras_gallery.php"><i class="icon-tags"></i><span class="hidden-tablet">Productoras</span></a></li>
-                                                            <li><a class="submenu" href="constructoras_gallery.php"><i class="icon-tags"></i><span class="hidden-tablet">Construcutoras</span></a></li>
-                                                            <li><a class="submenu" href="eventos_gallery.php"><i class="icon-tags"></i><span class="hidden-tablet">Eventos</span></a></li>
-                                                            <li><a class="submenu" href="hoteles_gallery.php"><i class="icon-tags"></i><span class="hidden-tablet">Hoteles</span></a></li>
-                                                            <li><a class="submenu" href="gobierno_gallery.php"><i class="icon-tags"></i><span class="hidden-tablet">Gobierno</span></a></li>
-                                                            <li><a class="submenu" href="privado_gallery.php"><i class="icon-tags"></i><span class="hidden-tablet">Privado</span></a></li>
-								
-							</ul>	
-                                            </li>
-                                            
-                                            
-					</ul>
-				</div>
+                            <div class="nav-collapse sidebar-nav">
+                                    <ul class="nav nav-tabs nav-stacked main-menu">
+                                        <li><a href="images.php"><i class="icon-upload-alt"></i><span class="hidden-tablet">&nbsp;Subir Imagenes</span></a></li>
+                                        <li><a href="drones_gallery.php"><i class="icon-upload-alt"></i><span class="hidden-tablet">&nbsp;Galería Por Drones</span></a></li>
+                                        <li><a href="categories_gallery.php"><i class="icon-upload-alt"></i><span class="hidden-tablet">&nbsp;Galería Por Categorías</span></a></li>
+                                    </ul>
+				</div>   
+			    </div>
 			</div>
 			<!-- end: Main Menu -->
-			
 			<noscript>
 				<div class="alert alert-block span10">
 					<h4 class="alert-heading">Warning!</h4>

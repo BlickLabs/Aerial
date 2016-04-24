@@ -103,39 +103,16 @@
 				
 			<!-- start: Main Menu -->
 			<div id="sidebar-left" class="span2">
-				<div class="nav-collapse sidebar-nav">
-					<ul class="nav nav-tabs nav-stacked main-menu">
-                                            
-                                            <li><a href="images.php"><i class="icon-upload-alt"></i><span class="hidden-tablet">&nbsp;Subir Imagenes</span></a></li>
-                                            <li>
-                                                <a class="dropmenu" href="Home.php"><i class="icon-tags"></i><span >Galería por Drones</span></a>
-							<ul>
-                                                            <li><a class="submenu" href="phantom_2.php"><i class="icon-tags"></i><span class="hidden-tablet">Phantom 2</span></a></li>
-                                                            <li><a class="submenu" href="inspire.php"><i class="icon-tags"></i><span class="hidden-tablet">Inspire 1</span></a></li>
-                                                            <li><a class="submenu" href="osmo.php"><i class="icon-tags"></i><span class="hidden-tablet">Osmo</span></a></li>
-                                                            <li><a class="submenu" href="hexacoptero.php"><i class="icon-tags"></i><span class="hidden-tablet">Hexacoptero</span></a></li>
-								
-							</ul>	
-                                            </li>
-                                            <li>
-                                                <a class="dropmenu" href="gallery_by_service.php"><i class="icon-tags"></i><span >Galería por Categorias</span></a>
-							<ul>
-                                                            <li><a class="submenu" href="productoras_gallery.php"><i class="icon-tags"></i><span class="hidden-tablet">Productoras</span></a></li>
-                                                            <li><a class="submenu" href="constructoras_gallery.php"><i class="icon-tags"></i><span class="hidden-tablet">Construcutoras</span></a></li>
-                                                            <li><a class="submenu" href="eventos_gallery.php"><i class="icon-tags"></i><span class="hidden-tablet">Eventos</span></a></li>
-                                                            <li><a class="submenu" href="hoteles_gallery.php"><i class="icon-tags"></i><span class="hidden-tablet">Hoteles</span></a></li>
-                                                            <li><a class="submenu" href="gobierno_gallery.php"><i class="icon-tags"></i><span class="hidden-tablet">Gobierno</span></a></li>
-                                                            <li><a class="submenu" href="privado_gallery.php"><i class="icon-tags"></i><span class="hidden-tablet">Privado</span></a></li>
-								
-							</ul>	
-                                            </li>
-                                            
-                                            
-					</ul>
-				</div>
+                            <div class="nav-collapse sidebar-nav">
+                                    <ul class="nav nav-tabs nav-stacked main-menu">
+                                        <li><a href="images.php"><i class="icon-upload-alt"></i><span class="hidden-tablet">&nbsp;Subir Imagenes</span></a></li>
+                                        <li><a href="drones_gallery.php"><i class="icon-upload-alt"></i><span class="hidden-tablet">&nbsp;Galería Por Drones</span></a></li>
+                                        <li><a href="categories_gallery.php"><i class="icon-upload-alt"></i><span class="hidden-tablet">&nbsp;Galería Por Categorías</span></a></li>
+                                    </ul>
+				</div>   
+			    </div>
 			</div>
 			<!-- end: Main Menu -->
-			
 			<noscript>
 				<div class="alert alert-block span10">
 					<h4 class="alert-heading">Warning!</h4>
@@ -181,44 +158,31 @@
             <div class="control-group  col-sm-5 mar-top41" >
 		<label class="control-label" for="selectError">Tipo De Drone:</label>
                 <div class="controls" >
-                    <select  data-rel="chosen" name="drone" id="drone" >
-                        <?php
-                $condition='true';
-                $sql1 = "SELECT id_drone,name_drone from drones ";
-                $result1 = $mysqli3->query($sql1);
-                 if ($result1->num_rows > 0) { 
-                            $combobit1 = "";
-                            while ($row1 = $result1->fetch_array(MYSQLI_ASSOC)) {
-                            $combobit1 .=" <option value='" . $row1['id_drone'] . "'>" . $row1['name_drone'] . "</option>"; //concatenamos el los options para luego ser insertado en el HTML
-                           }
-                        } else {
-                                echo "No hubo resultados";
-                                }
-                        $mysqli3->close(); //cerramos la conexión
-                        echo $combobit1;
-                    ?>
-                </select>
-		</div>
+                    <select class="selectpicker" id="drone" name="drone" >
+                        <optgroup label="Condiments"  >
+                            <option value="0">Ninguno</option>
+                            <option value="1">Phantom 2</option>
+                            <option value="2">Inspire 1</option>
+                            <option value="3">Osmo</option>
+                            <option value="4">Hexacoptero</option>
+                        </optgroup>
+                    </select>
+                </div>
             </div>
                    <div class="control-group  col-sm-5 mar-top41" >
 		<label class="control-label" for="selectError">Categoría:</label>
                 <div class="controls" >
-                    <select  data-rel="chosen" name="category" id="category" >
-                        <?php
-                            $sql2 = "SELECT id_category,name_category from categorys";
-                            $result2 = $mysqli2->query($sql2);
-                            if ($result2->num_rows > 0) { 
-                            $combobit2 = "";
-                            while ($row2 = $result2->fetch_array(MYSQLI_ASSOC)) {
-                            $combobit2 .=" <option value='" . $row2['id_category'] . "'>" . $row2['name_category'] . "</option>"; //concatenamos el los options para luego ser insertado en el HTML
-                           }
-                        } else {
-                                echo "No hubo resultados";
-                                }
-                        $mysqli2->close(); //cerramos la conexión
-                        echo $combobit2;
-                    ?>
-                </select>
+                    <select class="selectpicker" id="category" name="category" >
+                        <optgroup label="Condiments" >
+                            <option value="0">Ninguno</option>
+                            <option value="1">Productoras</option>
+                            <option value="2">Constructoras</option>
+                            <option value="3">Eventos</option>
+                            <option value="4">Hoteles</option>
+                            <option value="5">Gobierno</option>
+                            <option value="6">Privado</option>
+                        </optgroup>
+                    </select>
 		</div>
             </div>
             <div class="control-group col-sm-5 mar-top41">
