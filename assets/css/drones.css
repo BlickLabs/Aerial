@@ -2242,12 +2242,14 @@ div.sidebar-link2:hover{
     margin-top: 120px;
      }
 }
+
+
+
 //texto_sel_drone
 .texto_sel_drone { 
   text-align: center;
   font-size: 33px;
-     }
-
+}
 @media only screen and (max-width:  1824px) { 
 .texto_sel_drone { 
   text-align: center;
@@ -2295,4 +2297,287 @@ div.sidebar-link2:hover{
   text-align: center;
   font-size: 24px;
      }
+}
+
+
+
+//texto_drones_portafolio
+.texto_drones_portafolio { 
+ text-align: center;
+ font-size: 39px;
+}
+@media only screen and (max-width:  1824px) { 
+.texto_drones_portafolio { 
+ text-align: center;
+ font-size: 39px;
+}
+}
+@media only screen and (max-width: 1280px) { 
+.texto_drones_portafolio { 
+ text-align: center;
+ font-size: 39px;
+}
+}
+@media only screen and (max-width: 1224px) { 
+.texto_drones_portafolio { 
+ text-align: center;
+ font-size: 39px;
+}
+}
+@media only screen and (max-width: 1024px) { 
+.texto_drones_portafolio { 
+ text-align: center;
+ font-size: 39px;
+}
+}
+@media only screen and (max-width:768px) { 
+.texto_drones_portafolio { 
+ text-align: center;
+ font-size: 39px;
+}
+}
+@media only screen and (max-width:480px) { 
+.texto_drones_portafolio { 
+ text-align: center;
+ font-size: 39px;
+}
+}
+@media only screen and (max-width:360px) { 
+.texto_drones_portafolio { 
+ text-align: center;
+ font-size: 39px;
+}
+}
+@media only screen and (max-width:320px) { 
+.texto_drones_portafolio { 
+ text-align: center;
+ font-size: 25px;
+}
+}
+
+//img_phantom1
+.img_phantom1 { 
+ margin-top: 40px;
+}
+@media only screen and (max-width:  1824px) { 
+.img_phantom1 { 
+ margin-top: 40px;
+}
+}
+@media only screen and (max-width: 1280px) { 
+.img_phantom1 { 
+ margin-top: 40px;
+}
+}
+@media only screen and (max-width: 1224px) { 
+.img_phantom1 { 
+ margin-top: 40px;
+}
+}
+@media only screen and (max-width: 1024px) { 
+.img_phantom1 { 
+ margin-top: 40px;
+}
+}
+@media only screen and (max-width:768px) { 
+.img_phantom1 { 
+ margin-top: 40px;
+}
+}
+@media only screen and (max-width:480px) { 
+.img_phantom1 { 
+  margin-top: 40px;
+ width: 40%;
+ height: 40%;
+ margin-left: 10%;
+}
+}
+@media only screen and (max-width:360px) { 
+.img_phantom1 { 
+  margin-top: 40px;
+ width: 40%;
+ height: 40%;
+ margin-left: 10%;
+    
+}
+}
+@media only screen and (max-width:320px) { 
+.img_phantom1 { 
+ margin-top: 40px;
+ width: 40%;
+ height: 40%;
+ margin-left: 10%;
+     
+}
+}
+
+
+//img_phantom1
+.img_inspire { 
+ margin-top: 40px;
+}
+@media only screen and (max-width:  1824px) { 
+.img_inspire { 
+ margin-top: 40px;
+}
+}
+@media only screen and (max-width: 1280px) { 
+.img_inspire { 
+ margin-top: 40px;
+}
+}
+@media only screen and (max-width: 1224px) { 
+.img_inspire { 
+ margin-top: 40px;
+}
+}
+@media only screen and (max-width: 1024px) { 
+.img_inspire { 
+ margin-top: 40px;
+}
+}
+@media only screen and (max-width:768px) { 
+.img_inspire { 
+ margin-top: 40px;
+}
+}
+@media only screen and (max-width:480px) { 
+.img_inspire { 
+ margin-top: -125px;
+ float: right;
+ width: 40%;
+ height: 40%;
+ margin-right: 10%;
+}
+}
+@media only screen and (max-width:360px) { 
+.img_inspire { 
+  margin-top: -125px;
+ float: right;
+ width: 40%;
+ height: 40%;
+ margin-right: 10%;
+}
+}
+@media only screen and (max-width:320px) { 
+.img_inspire { 
+ margin-top: -125px;
+ float: right;
+ width: 40%;
+ height: 40%;
+ margin-right: 10%;
+}
+}
+
+//img_osmo
+.img_osmo { 
+ margin-top: 40px;
+}
+@media only screen and (max-width:  1824px) { 
+.img_osmo { 
+ margin-top: 40px;
+}
+}
+@media only screen and (max-width: 1280px) { 
+.img_osmo { 
+ margin-top: 40px;
+}
+}
+@media only screen and (max-width: 1224px) { 
+.img_osmo { 
+ margin-top: 40px;
+}
+}
+@media only screen and (max-width: 1024px) { 
+.img_osmo { 
+ margin-top: 40px;
+}
+}
+@media only screen and (max-width:768px) { 
+.img_osmo { 
+ margin-top: 40px;
+}
+}
+@media only screen and (max-width:480px) { 
+.img_osmo { 
+ margin-top: 5px;
+ float: left;
+ width: 40%;
+ height: 40%;
+ margin-left: 10%;
+}
+}
+@media only screen and (max-width:360px) { 
+.img_osmo{ 
+  margin-top: 5px;
+ float: left;
+ width: 40%;
+ height: 40%;
+ margin-left: 10%;
+}
+}
+@media only screen and (max-width:320px) { 
+.img_osmo { 
+ margin-top: 5px;
+ float: left;
+ width: 40%;
+ height: 40%;
+ margin-left: 10%;
+}
+}
+
+
+
+//img_hexa
+.img_hexa { 
+ margin-top: 40px;
+}
+@media only screen and (max-width:  1824px) { 
+.img_hexa { 
+ margin-top: 40px;
+}
+}
+@media only screen and (max-width: 1280px) { 
+.img_hexa { 
+ margin-top: 40px;
+}
+}
+@media only screen and (max-width: 1224px) { 
+.img_hexa { 
+ margin-top: 40px;
+}
+}
+@media only screen and (max-width: 1024px) { 
+.img_hexa { 
+ margin-top: 40px;
+}
+}
+@media only screen and (max-width:768px) { 
+.img_hexa { 
+ margin-top: 40px;
+}
+}
+@media only screen and (max-width:480px) { 
+.img_hexa { 
+  margin-top: 5px;
+ float: left;
+ width: 40%;  
+ height: 40%;
+}
+}
+@media only screen and (max-width:360px) { 
+.img_hexa{ 
+ margin-top: 5px;
+ float: left;
+ width: 40%;  
+ height: 40%;
+}
+}
+@media only screen and (max-width:320px) { 
+.img_hexa { 
+ margin-top: 5px;
+ float: left;
+ width: 40%;  
+ height: 40%;
+}
 }
