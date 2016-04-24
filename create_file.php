@@ -159,7 +159,7 @@
 		<label class="control-label" for="selectError">Tipo De Drone:</label>
                 <div class="controls" >
                     <select class="selectpicker" id="drone" name="drone" >
-                        <optgroup label="Condiments"  >
+                        <optgroup label="Drones"  >
                             <option value="0">Ninguno</option>
                             <option value="1">Phantom 2</option>
                             <option value="2">Inspire 1</option>
@@ -173,7 +173,7 @@
 		<label class="control-label" for="selectError">Categoría:</label>
                 <div class="controls" >
                     <select class="selectpicker" id="category" name="category" >
-                        <optgroup label="Condiments" >
+                        <optgroup label="Categorias" >
                             <option value="0">Ninguno</option>
                             <option value="1">Productoras</option>
                             <option value="2">Constructoras</option>
