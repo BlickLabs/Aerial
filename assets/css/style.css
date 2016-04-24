@@ -2563,7 +2563,7 @@ width: 100px;
 }
 @media only screen and (max-width: 1024px) { 
    .padding_icons_mesh{
-    padding-left: 250px;
+    padding-left: 204px;
 }
 }
 @media only screen and (max-width:768px) { 
@@ -4285,3 +4285,91 @@ padding-top: 20px;
 }
 
 
+.gallery_index{
+    visibility:visible;
+}
+@media only screen and (max-width:  1824px) { 
+.gallery_index{
+    visibility:visible;
+}
+}
+@media only screen and (max-width: 1280px) { 
+.gallery_index{
+    visibility:visible;
+}
+}
+@media only screen and (max-width: 1224px) { 
+.gallery_index{
+    visibility:visible;
+}
+}
+@media only screen and (max-width: 1024px) { 
+.gallery_index{
+    visibility:visible;
+}
+}
+@media only screen and (max-width:768px) { 
+.gallery_index{
+    visibility:visible;
+}
+}
+@media only screen and (max-width:480px) { 
+.gallery_index{
+    visibility:hidden;
+}
+}
+@media only screen and (max-width:360px) { 
+.gallery_index{
+    visibility:hidden;
+}
+}
+@media only screen and (max-width:320px) { 
+.gallery_index{
+    visibility:hidden;
+}
+}
+
+
+.gallery_index2{
+    visibility:hidden;
+}
+@media only screen and (max-width:  1824px) { 
+.gallery_index2{
+    visibility:hidden;
+}
+}
+@media only screen and (max-width: 1280px) { 
+.gallery_index2{
+    visibility:hidden;
+}
+}
+@media only screen and (max-width: 1224px) { 
+.gallery_index2{
+    visibility:hidden;
+}
+}
+@media only screen and (max-width: 1024px) { 
+.gallery_index2{
+    visibility:hidden;
+}
+}
+@media only screen and (max-width:768px) { 
+.gallery_index2{
+    visibility:visible;
+}
+}
+@media only screen and (max-width:480px) { 
+.gallery_index2{
+    visibility:visible;
+}
+}
+@media only screen and (max-width:360px) { 
+.gallery_index2{
+    visibility:visible;
+}
+}
+@media only screen and (max-width:320px) { 
+.gallery_index2{
+    visibility:visible;
+}
+}
