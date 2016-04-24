@@ -2167,12 +2167,6 @@ width: 100px;
 .titulo_areal{
     font-size: 57px;
 }
-.color_servicio{
-    background-color: #545554;
-}
-.color_servicio2{
-    background-color: #1c1e20;
-}
 .seccion_imagenes{
     background-color: #1c1e20;
 }
@@ -4173,4 +4167,54 @@ padding-top: 20px;
     top: 0;
     width: 100%;
     z-index: 999 !important;
+}
+
+.color_servicio{
+    background-color: #545554;
+}
+@media only screen and (max-width:  1824px) { 
+.color_servicio{
+    background-color: #545554;
+}
+}
+@media only screen and (max-width: 1280px) { 
+.color_servicio{
+    background-color: #545554;
+}
+}
+@media only screen and (max-width: 1224px) { 
+.color_servicio{
+    background-color: #545554;
+}
+}
+@media only screen and (max-width: 1024px) { 
+ .color_servicio{
+    background-color: #545554;
+}
+}
+@media only screen and (max-width:768px) { 
+.color_servicio{
+    background-color: #545554;
+}
+}
+@media only screen and (max-width:480px) { 
+.color_servicio{
+    background-color: #1c1e20;
+}
+}
+@media only screen and (max-width:360px) { 
+.color_servicio{
+    background-color:#1c1e20;
+}
+}
+@media only screen and (max-width:320px) { 
+.color_servicio{
+    background-color:#1c1e20;
+}
+
+
+
+}
+.color_servicio2{
+    background-color: #1c1e20;
 }
