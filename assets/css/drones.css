@@ -2339,13 +2339,13 @@ div.sidebar-link2:hover{
 @media only screen and (max-width:480px) { 
 .texto_drones_portafolio { 
  text-align: center;
- font-size: 39px;
+ font-size: 30px;
 }
 }
 @media only screen and (max-width:360px) { 
 .texto_drones_portafolio { 
  text-align: center;
- font-size: 39px;
+ font-size: 25px;
 }
 }
 @media only screen and (max-width:320px) { 
@@ -2389,7 +2389,7 @@ div.sidebar-link2:hover{
   margin-top: 40px;
  width: 40%;
  height: 40%;
- margin-left: 10%;
+ margin-left: 8%;
 }
 }
 @media only screen and (max-width:360px) { 
@@ -2397,7 +2397,7 @@ div.sidebar-link2:hover{
   margin-top: 40px;
  width: 40%;
  height: 40%;
- margin-left: 10%;
+ margin-left: 8%;
     
 }
 }
@@ -2406,7 +2406,7 @@ div.sidebar-link2:hover{
  margin-top: 40px;
  width: 40%;
  height: 40%;
- margin-left: 10%;
+ margin-left: 8%;
      
 }
 }
@@ -2447,7 +2447,7 @@ div.sidebar-link2:hover{
  float: right;
  width: 40%;
  height: 40%;
- margin-right: 10%;
+ margin-right: 7%;
 }
 }
 @media only screen and (max-width:360px) { 
@@ -2456,7 +2456,7 @@ div.sidebar-link2:hover{
  float: right;
  width: 40%;
  height: 40%;
- margin-right: 10%;
+ margin-right: 7%;
 }
 }
 @media only screen and (max-width:320px) { 
@@ -2465,7 +2465,7 @@ div.sidebar-link2:hover{
  float: right;
  width: 40%;
  height: 40%;
- margin-right: 10%;
+ margin-right: 7%;
 }
 }
 
@@ -2504,7 +2504,7 @@ div.sidebar-link2:hover{
  float: left;
  width: 40%;
  height: 40%;
- margin-left: 10%;
+ margin-left: 8%;
 }
 }
 @media only screen and (max-width:360px) { 
@@ -2513,7 +2513,7 @@ div.sidebar-link2:hover{
  float: left;
  width: 40%;
  height: 40%;
- margin-left: 10%;
+ margin-left: 8%;
 }
 }
 @media only screen and (max-width:320px) { 
@@ -2522,7 +2522,7 @@ div.sidebar-link2:hover{
  float: left;
  width: 40%;
  height: 40%;
- margin-left: 10%;
+ margin-left: 7%;
 }
 }
 
@@ -2563,22 +2563,25 @@ div.sidebar-link2:hover{
  float: left;
  width: 40%;  
  height: 40%;
+ margin-left: 7%;
 }
 }
 @media only screen and (max-width:360px) { 
 .img_hexa{ 
- margin-top: 5px;
+ margin-top: 19px;
  float: left;
  width: 40%;  
  height: 40%;
+ margin-left: 7%;
 }
 }
 @media only screen and (max-width:320px) { 
 .img_hexa { 
- margin-top: 5px;
+ margin-top: 18px;
  float: left;
  width: 40%;  
  height: 40%;
+ margin-left: 7%;
 }
 }
 
@@ -2625,5 +2628,201 @@ div.sidebar-link2:hover{
 @media only screen and (max-width:320px) { 
 .img_Heigth_drones { 
  height: auto;
+}
+}
+
+//img_pos_phantom1
+.img_top_inspire { 
+ margin-top: 40px;
+}
+@media only screen and (max-width:  1824px) { 
+.img_top_inspire  { 
+ 
+}
+}
+@media only screen and (max-width: 1280px) { 
+.img_top_inspire  { 
+ 
+}
+}
+@media only screen and (max-width: 1224px) { 
+.img_top_inspire  { 
+ 
+}
+}
+@media only screen and (max-width: 1024px) { 
+.img_top_inspire  { 
+ 
+}
+}
+@media only screen and (max-width:768px) { 
+.img_top_inspire  { 
+ margin-top: 40px;
+}
+}
+@media only screen and (max-width:480px) { 
+.img_top_inspire  { 
+ margin-top: -50px;
+ margin-bottom: 18px;
+ 
+}
+}
+@media only screen and (max-width:360px) { 
+.img_top_inspire { 
+  margin-top: -27px;
+ 
+}
+}
+@media only screen and (max-width:320px) { 
+.img_top_inspire  { 
+ margin-top: -15px;
+
+}
+}
+
+//img_phantom1
+.img_Heigth_hexa{ 
+ 
+}
+@media only screen and (max-width:  1824px) { 
+.img_Heigth_hexa { 
+ height: 150px;
+}
+}
+@media only screen and (max-width: 1280px) { 
+.img_Heigth_hexa { 
+ height: 150px;
+}
+}
+@media only screen and (max-width: 1224px) { 
+.img_Heigth_hexa { 
+ height: 150px;
+}
+}
+@media only screen and (max-width: 1024px) { 
+.img_Heigth_hexa { 
+ height: 150px;
+}
+}
+@media only screen and (max-width:768px) { 
+.img_Heigth_hexa { 
+ height: auto;
+}
+}
+@media only screen and (max-width:480px) { 
+.img_Heigth_hexa { 
+ height: 110px;
+}
+}
+@media only screen and (max-width:360px) { 
+.img_Heigth_hexa { 
+ height: 100px;
+}
+}
+@media only screen and (max-width:320px) { 
+.img_Heigth_hexa { 
+ height: 90px;
+}
+}
+
+//img_pos_phantom1
+.img_top_osmo { 
+ margin-top: 40px;
+}
+@media only screen and (max-width:  1824px) { 
+.img_top_osmo  { 
+ 
+}
+}
+@media only screen and (max-width: 1280px) { 
+.img_top_osmo  { 
+ 
+}
+}
+@media only screen and (max-width: 1224px) { 
+.img_top_osmo  { 
+ 
+}
+}
+@media only screen and (max-width: 1024px) { 
+.img_top_osmo  { 
+ 
+}
+}
+@media only screen and (max-width:768px) { 
+.img_top_osmo  { 
+ margin-top: 40px;
+}
+}
+@media only screen and (max-width:480px) { 
+.img_top_osmo  { 
+ margin-top: -3px;
+ margin-bottom: 7px;
+ 
+}
+}
+@media only screen and (max-width:360px) { 
+.img_top_osmo { 
+  margin-top: 14px;
+  margin-bottom: 8px;
+ 
+}
+}
+@media only screen and (max-width:320px) { 
+.img_top_osmo  { 
+ margin-top: 10px;
+ margin-bottom: 19px;
+
+}
+}
+
+//img_top_hexa
+.img_top_hexa { 
+ margin-top: 40px;
+}
+@media only screen and (max-width:  1824px) { 
+.img_top_hexa  { 
+ 
+}
+}
+@media only screen and (max-width: 1280px) { 
+.img_top_hexa  { 
+ 
+}
+}
+@media only screen and (max-width: 1224px) { 
+.img_top_hexa  { 
+ 
+}
+}
+@media only screen and (max-width: 1024px) { 
+.img_top_hexa { 
+ 
+}
+}
+@media only screen and (max-width:768px) { 
+.img_top_hexa  { 
+ margin-top: 40px;
+}
+}
+@media only screen and (max-width:480px) { 
+.img_top_hexa  { 
+ margin-top: -3px;
+ margin-bottom: 7px;
+ 
+}
+}
+@media only screen and (max-width:360px) { 
+.img_top_hexa { 
+  margin-top: -3px;
+  margin-bottom: 2px;
+ 
+}
+}
+@media only screen and (max-width:320px) { 
+.img_top_hexa  { 
+ margin-top: -2px;
+ margin-bottom: 9px;
+
 }
 }
