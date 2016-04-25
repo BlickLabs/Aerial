@@ -4315,17 +4315,18 @@ padding-top: 20px;
 }
 @media only screen and (max-width:480px) { 
 .gallery_index{
-    visibility:hidden;
+    display: none;
 }
 }
 @media only screen and (max-width:360px) { 
 .gallery_index{
-    visibility:hidden;
+    display: none;
+    
 }
 }
 @media only screen and (max-width:320px) { 
 .gallery_index{
-    visibility:hidden;
+    display: none;
 }
 }
 
@@ -4335,41 +4336,91 @@ padding-top: 20px;
 }
 @media only screen and (max-width:  1824px) { 
 .gallery_index2{
-    visibility:hidden;
+    display: none;
 }
 }
 @media only screen and (max-width: 1280px) { 
 .gallery_index2{
-    visibility:hidden;
+    display: none;
 }
 }
 @media only screen and (max-width: 1224px) { 
 .gallery_index2{
-    visibility:hidden;
+    display: none;
 }
 }
 @media only screen and (max-width: 1024px) { 
 .gallery_index2{
-    visibility:hidden;
+    display: none;
 }
 }
 @media only screen and (max-width:768px) { 
 .gallery_index2{
-    visibility:visible;
+    visibility: visible;
+    display: block;
 }
 }
 @media only screen and (max-width:480px) { 
 .gallery_index2{
-    visibility:visible;
+    visibility: visible;
+    display: block;
 }
 }
 @media only screen and (max-width:360px) { 
 .gallery_index2{
-    visibility:visible;
+    visibility: visible;
+    display: block;
 }
 }
 @media only screen and (max-width:320px) { 
 .gallery_index2{
-    visibility:visible;
+    visibility: visible;
+    display: block;
+}
+}
+
+
+
+.margit_bottom_servicios{
+   margin-bottom:720%; 
+}
+@media only screen and (max-width:  1824px) { 
+.margit_bottom_servicios{
+   margin-bottom:720%; 
+}
+}
+@media only screen and (max-width: 1280px) { 
+.margit_bottom_servicios{
+   margin-bottom:720%; 
+}
+}
+@media only screen and (max-width: 1224px) { 
+.margit_bottom_servicios{
+   margin-bottom:720%; 
+}
+}
+@media only screen and (max-width: 1024px) { 
+.margit_bottom_servicios{
+   margin-bottom:720%; 
+}
+}
+@media only screen and (max-width:768px) { 
+.margit_bottom_servicios{
+   margin-bottom:720%; 
+}
+}
+@media only screen and (max-width:480px) { 
+.margit_bottom_servicios{
+   margin-bottom:720%; 
+}
+}
+@media only screen and (max-width:360px) { 
+.margit_bottom_servicios{
+   margin-bottom:-720%; 
+}
+}
+@media only screen and (max-width:320px) { 
+.margit_bottom_servicios{
+   margin-bottom:720%; 
 }
 }
