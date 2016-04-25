@@ -3107,7 +3107,8 @@ margin-top: 105px;
 }
 @media only screen and (max-width:360px) { 
  .mar_contacto{
- margin-left: 34px;
+ margin-left: 33px;
+ margin-right: 9px;
  
 }
 }
@@ -3362,8 +3363,8 @@ margin-top: 60px;
 }
 @media only screen and (max-width:360px) { 
 .textarea-paddings{
-    padding-right: 20px;
-    padding-left: 53px;
+    margin-left: 14px;
+    margin-right: 10px;
 }
 }
 @media only screen and (max-width:320px) { 
