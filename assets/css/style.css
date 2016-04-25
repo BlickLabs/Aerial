@@ -2903,14 +2903,16 @@ margin-top: 105px;
     color:#b4b4b1;
     font-size: 30px;
     text-align: left;
+    margin-top: -25px;
 }
 }
 @media only screen and (max-width:360px) { 
   .texto_contactanos{
-    padding-left: 125px;
+    padding-left: 120px;
     color:#b4b4b1;
-    font-size: 25px;
+    font-size: 28px;
     text-align: left;
+    margin-top: -30px;
 }
 }
 @media only screen and (max-width:320px) { 
@@ -2919,6 +2921,8 @@ margin-top: 105px;
     color:#b4b4b1;
     font-size: 25px;
     text-align: left;
+    margin-top: -45px;
+    margin-bottom: 25px;
 }
 }
 
@@ -4512,19 +4516,22 @@ padding-top: 20px;
 @media only screen and (max-width:480px) {
 .text_portafolio{
    text-align-last: center;
-   font-size: 33px;
+   font-size: 30px;
+     margin-top: -45px;
 }
 }
 @media only screen and (max-width:360px) { 
 .text_portafolio{
    text-align-last: center;
-   font-size: 30px;
+   font-size: 28px;
+   margin-top: -45px;
 }
 }
 @media only screen and (max-width:320px) { 
 .text_portafolio{
    text-align-last: center;
-   font-size: 29px;
+   font-size: 25px;
+   margin-top: -45px;
 }
 }
 
@@ -4658,7 +4665,9 @@ padding-top: 20px;
 .carousel_margin{
   margin-bottom: 60px;
   margin-top: 50px;
-    width: 96%;
-  margin-left: 6px;
+    width: 98%;
+  margin-left: 5px;
 }
 }
+
+

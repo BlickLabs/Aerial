@@ -1063,13 +1063,13 @@ ul{
 
 }
 .carousel-control.right {
-    right: 0;
+    right: 15px;
     left: auto;
     background: transparent;
     background-repeat: repeat-x;
 }
 .carousel-control.left {
-    left: 0;
+    left: 15px;
     right: auto;
     background: transparent;
     background-repeat: repeat-x;
