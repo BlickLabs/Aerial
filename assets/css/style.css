@@ -2686,7 +2686,7 @@ width: 100px;
 }
 @media only screen and (max-width:320px) { 
  .padding_texto_redes_sociales{
-    margin-right: -9px;
+    margin-right: -19px;
 }
 }
 
@@ -3369,8 +3369,8 @@ margin-top: 60px;
 }
 @media only screen and (max-width:320px) { 
 .textarea-paddings{
-    padding-right: 20px;
-    padding-left: 40px;
+  margin-left: 2px;
+    margin-right: -3px;
 }
 }
 
@@ -4540,4 +4540,125 @@ padding-top: 20px;
 
 .boton_portafolio_2{
     margin-left: -2px;
+}
+
+
+
+
+.logo_cel_footer{
+  height: 25px;
+  width:25px;
+  margin-left:-25px;
+}
+@media only screen and (max-width:  1824px) { 
+.logo_cel_footer{
+  height: 25px;
+  width:25px;
+  margin-left:-25px;
+}
+}
+@media only screen and (max-width: 1280px) { 
+.logo_cel_footer{
+  height: 25px;
+  width:25px;
+  margin-left:-25px;
+}
+}
+@media only screen and (max-width: 1224px) { 
+.logo_cel_footer{
+  height: 25px;
+  width:25px;
+  margin-left:-25px;
+}
+}
+@media only screen and (max-width: 1024px) { 
+.logo_cel_footer{
+  height: 25px;
+  width:25px;
+  margin-left:-25px;
+}
+}
+@media only screen and (max-width:768px) { 
+.logo_cel_footer{
+  height: 25px;
+  width:25px;
+  margin-left:-25px;
+}
+}
+@media only screen and (max-width:480px) {
+.logo_cel_footer{
+  height: 25px;
+  width:25px;
+  margin-left:-67px;
+}
+}
+@media only screen and (max-width:360px) { 
+.logo_cel_footer{
+  height: 25px;
+  width:25px;
+  margin-left:-40px;
+}
+}
+@media only screen and (max-width:320px) { 
+.logo_cel_footer{
+  height: 25px;
+  width:25px;
+  margin-left:-35px;
+}
+}
+
+
+
+.carousel_margin{
+  margin-bottom: 1px;
+  margin-left: 1px;
+}
+@media only screen and (max-width:  1824px) { 
+.carousel_margin{
+  
+}
+}
+@media only screen and (max-width: 1280px) { 
+.carousel_margin{
+  
+}
+}
+@media only screen and (max-width: 1224px) { 
+.carousel_margin{
+ 
+}
+}
+@media only screen and (max-width: 1024px) { 
+.carousel_margin{
+  
+}
+}
+@media only screen and (max-width:768px) { 
+.carousel_margin{
+ 
+}
+}
+@media only screen and (max-width:480px) {
+.carousel_margin{
+  margin-bottom: 60px;
+  margin-top: 50px;
+  width: 96%;
+  margin-left: 6px;
+}
+}
+@media only screen and (max-width:360px) { 
+.carousel_margin{
+  margin-bottom: 60px;
+  margin-top: 50px;
+    width: 96%;
+  margin-left: 6px;
+}
+}
+@media only screen and (max-width:320px) { 
+.carousel_margin{
+  margin-bottom: 60px;
+  margin-top: 50px;
+    width: 96%;
+  margin-left: 6px;
+}
 }
