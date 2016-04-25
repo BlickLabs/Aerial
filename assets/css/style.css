@@ -4523,7 +4523,7 @@ padding-top: 20px;
 @media only screen and (max-width:320px) { 
 .text_portafolio{
    text-align-last: center;
-   font-size: 33px;
+   font-size: 29px;
 }
 }
 
@@ -4531,7 +4531,12 @@ padding-top: 20px;
 
 .boton_portafolio{
     background-color:#555655;
-    width: 48%;
-    margin-left: 2px;
+    width: 48.5%;
+    margin-left: 4px;
     border-radius: 0px;
+}
+
+
+.boton_portafolio_2{
+    margin-left: -2px;
 }
