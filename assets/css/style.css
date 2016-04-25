@@ -4526,3 +4526,12 @@ padding-top: 20px;
    font-size: 33px;
 }
 }
+
+
+
+.boton_portafolio{
+    background-color:#555655;
+    width: 48%;
+    margin-left: 2px;
+    border-radius: 0px;
+}
