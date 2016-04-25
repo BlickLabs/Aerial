@@ -3879,33 +3879,33 @@ padding-top: 2px;
 }
 @media only screen and (max-width:  1824px) { 
     .container_3{
- width: 100%;
+ width: 99%;
       
 }
 }
 @media only screen and (max-width: 1280px) { 
    .container_3{
-     width: 100%;
+     width: 98%;
 }
 }
 @media only screen and (max-width: 1224px) { 
    .container_3{
-     width: 100%;
+     width: 98%;
 }
 }
 @media only screen and (max-width: 1024px) { 
     .container_3{
-     width: 100%;
+     width: 98%;
 }
 }
 @media only screen and (max-width:768px) { 
     .container_3{
-     width: 100%;
+     width: 98%;
 }
 }
 @media only screen and (max-width:480px) { 
    .container_3{
-    width: 100%;
+    width: 96%;
 }
 }
 @media only screen and (max-width:360px) { 
@@ -3915,7 +3915,7 @@ padding-top: 2px;
 }
 @media only screen and (max-width:320px) { 
    .container_3{
-    width: 100%;
+    width: 96%;
 }
 }
 
@@ -4433,7 +4433,7 @@ padding-top: 20px;
 }
 @media only screen and (max-width:  1824px) { 
 .margin_privado{
-   margin-right: -70px;
+   margin-right: 0px;
 }
 }
 @media only screen and (max-width: 1280px) { 
@@ -4469,5 +4469,60 @@ padding-top: 20px;
 @media only screen and (max-width:320px) { 
 .margin_privado{
    margin-right: 0px;
+}
+}
+
+
+
+.text_portafolio{
+   text-align-last: center;
+   font-size: 33px;
+}
+@media only screen and (max-width:  1824px) { 
+.text_portafolio{
+   text-align-last: center;
+   font-size: 33px;
+}
+}
+@media only screen and (max-width: 1280px) { 
+.text_portafolio{
+   text-align-last: center;
+   font-size: 33px;
+}
+}
+@media only screen and (max-width: 1224px) { 
+.text_portafolio{
+   text-align-last: center;
+   font-size: 33px;
+}
+}
+@media only screen and (max-width: 1024px) { 
+.text_portafolio{
+   text-align-last: center;
+   font-size: 33px;
+}
+}
+@media only screen and (max-width:768px) { 
+.text_portafolio{
+   text-align-last: center;
+   font-size: 33px;
+}
+}
+@media only screen and (max-width:480px) {
+.text_portafolio{
+   text-align-last: center;
+   font-size: 33px;
+}
+}
+@media only screen and (max-width:360px) { 
+.text_portafolio{
+   text-align-last: center;
+   font-size: 30px;
+}
+}
+@media only screen and (max-width:320px) { 
+.text_portafolio{
+   text-align-last: center;
+   font-size: 33px;
 }
 }
