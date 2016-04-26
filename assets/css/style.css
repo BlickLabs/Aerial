@@ -4671,3 +4671,123 @@ padding-top: 20px;
 }
 
 
+
+.camara_servicios_gris{
+    display: none;
+}
+@media only screen and (max-width:  1824px) { 
+.camara_servicios_gris{
+    display: none;
+}
+}
+@media only screen and (max-width: 1280px) { 
+.camara_servicios_gris{
+    display: none;
+}
+}
+@media only screen and (max-width: 1224px) { 
+.camara_servicios_gris{
+    display: none;
+}
+}
+@media only screen and (max-width: 1024px) { 
+.camara_servicios_gris{
+    display: none;
+}
+}
+@media only screen and (max-width:768px) { 
+.camara_servicios_gris{
+     display: block;
+}
+}
+@media only screen and (max-width:480px) { 
+.camara_servicios_gris{
+     display: block;
+}
+}
+@media only screen and (max-width:360px) { 
+.camara_servicios_gris{
+     display: block;
+}
+}
+@media only screen and (max-width:320px) { 
+.camara_servicios_gris{
+     display: block;
+}
+}
+
+
+
+.camara_servicios_negro{
+    display: none;
+}
+@media only screen and (max-width:  1824px) { 
+.camara_servicios_negro{
+    display: block;
+}
+}
+@media only screen and (max-width: 1280px) { 
+.camara_servicios_negro{
+     display: block;
+}
+}
+@media only screen and (max-width: 1224px) { 
+.camara_servicios_negro{
+     display: block;
+}
+}
+@media only screen and (max-width: 1024px) { 
+.camara_servicios_negro{
+         display: block;
+}
+}
+@media only screen and (max-width:768px) { 
+.camara_servicios_negro{
+    display: none;
+        
+}
+}
+@media only screen and (max-width:480px) { 
+.camara_servicios_negro{
+    display: none;
+}
+}
+@media only screen and (max-width:360px) { 
+.camara_servicios_negro{
+    display: none;
+}
+}
+@media only screen and (max-width:320px) { 
+.camara_servicios_negro{
+    display: none;
+}
+}
+
+
+.section-padding { padding: 85px 0 }
+
+
+@media only screen and (max-width:  1824px) { 
+.section-padding { padding: 85px 0 }
+}
+@media only screen and (max-width: 1280px) { 
+.section-padding { padding: 85px 0 }
+}
+@media only screen and (max-width: 1224px) { 
+.section-padding { padding: 85px 0 }
+}
+@media only screen and (max-width: 1024px) { 
+.section-padding { padding: 85px 0 }
+}
+@media only screen and (max-width:768px) { 
+.section-padding { padding: 25px 0 }
+}
+@media only screen and (max-width:480px) { 
+.section-padding { padding: 25px 0 }
+}
+@media only screen and (max-width:360px) { 
+.section-padding { padding: 25px 0 }
+}
+@media only screen and (max-width:320px) { 
+.section-padding { padding: 25px 0 }
+}
