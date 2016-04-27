@@ -76,7 +76,7 @@
                               </li>
                       
                               <li class="dropdown">
-                                  <a href="portafolio.html" class="dropdown-toggle MyriadPro-Semibold color_menu  small-caps">
+                                  <a href="portafolio.php" class="dropdown-toggle MyriadPro-Semibold color_menu  small-caps">
                                       PORTAFOLIO
                                   </a>
                               </li>
@@ -114,7 +114,7 @@
                         </a>
                     </li>
                     <li class="dropdown">
-                        <a href="portafolio.html" class="MyriadPro-Semibold color_menu">
+                        <a href="portafolio.php" class="MyriadPro-Semibold color_menu">
                             PORTAFOLIO
                         </a>
                     </li>
