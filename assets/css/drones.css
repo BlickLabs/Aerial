@@ -2204,22 +2204,22 @@ div.sidebar-link2:hover{
 
 @media only screen and (max-width:  1824px) { 
 .section_padding_portafolio3 { 
-    margin-top: 40px;
+    margin-top: 110px;
      }
 }
 @media only screen and (max-width: 1280px) { 
 .section_padding_portafolio3 { 
-    margin-top: 40px;
+    margin-top: 110px;
      }
 }
 @media only screen and (max-width: 1224px) { 
 .section_padding_portafolio3 { 
-    margin-top: 40px;
+    margin-top: 110px;
      }
 }
 @media only screen and (max-width: 1024px) { 
 .section_padding_portafolio3 { 
-    margin-top: 40px;
+    margin-top: 110px;
      }
 }
 @media only screen and (max-width:768px) { 
@@ -2825,4 +2825,34 @@ div.sidebar-link2:hover{
  margin-bottom: 9px;
 
 }
+}
+
+
+#portfolio .small-box2{
+    height: 200px;
+    width: 300px;
+    overflow: hidden;
+    -webkit-backface-visibility:hidden;
+}
+
+.small-box2 img.img-responsive {
+    width: -webkit-calc(100% + 20px);
+    width: calc(100% + 20px);
+    max-width: 120%;
+    -webkit-backface-visibility:hidden;
+    transform: translateX(-20px) translateY(-20px);
+    -webkit-transform: translateX(-20px) translateY(-20px);
+    -moz-transform: translateX(-20px) translateY(-20px);
+    -ms-transform: translateX(-20px) translateY(-20px);
+    -o-transform: translateX(-20px) translateY(-20px);
+}
+
+.small-box .hover-bg{
+    position: relative;
+
+}
+
+.nopadding {
+    padding: 0;
+    margin-top: -1px;
 }
