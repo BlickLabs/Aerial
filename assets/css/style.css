@@ -4369,18 +4369,21 @@ padding-top: 20px;
 .gallery_index2{
     visibility: visible;
     display: block;
+    padding-top: 40px;
 }
 }
 @media only screen and (max-width:360px) { 
 .gallery_index2{
     visibility: visible;
     display: block;
+    padding-top: 40px;
 }
 }
 @media only screen and (max-width:320px) { 
 .gallery_index2{
     visibility: visible;
     display: block;
+    padding-top: 40px;
 }
 }
 
