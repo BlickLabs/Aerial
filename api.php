@@ -22,7 +22,7 @@ if ($category!=null && empty($drone)) {
             );
         }
 
-        $result2 = $mysqli2->query("SELECT c.tittle,c.route,c.description,g.name_category FROM content_dron_category AS cdc LEFT JOIN content AS c ON c.id_content = cdc.id_content LEFT JOIN categorys AS g ON g.id_category = cdc.id_category WHERE cdc.id_category ='" . $category ."'");
+        $result2 = $mysqli2->query("SELECT c.tittle,c.route,g.name_category FROM content_dron_category AS cdc LEFT JOIN content AS c ON c.id_content = cdc.id_content LEFT JOIN categorys AS g ON g.id_category = cdc.id_category WHERE cdc.id_category ='" . $category ."'");
         while ($row = $result2->fetch_array(MYSQLI_ASSOC)) {
             $description = mysqli_real_escape_string($mysqli2,$row['description']);
             $path=mysqli_real_escape_string($mysqli2,'php/album/' . $row['route']);
@@ -57,7 +57,7 @@ if ($category!=null && empty($drone)) {
             );
         }
 
-        $result2 = $mysqli2->query("SELECT c.tittle,c.route,c.description,d.name_drone FROM content_dron_category AS cdc LEFT JOIN content AS c ON c.id_content = cdc.id_content LEFT JOIN drones AS d ON d.id_drone = cdc.id_drone WHERE cdc.id_drone ='" . $drone ."'");
+        $result2 = $mysqli2->query("SELECT c.tittle,c.route,d.name_drone FROM content_dron_category AS cdc LEFT JOIN content AS c ON c.id_content = cdc.id_content LEFT JOIN drones AS d ON d.id_drone = cdc.id_drone WHERE cdc.id_drone ='" . $drone ."'");
         while ($row = $result2->fetch_array(MYSQLI_ASSOC)) {
             $description = mysqli_real_escape_string($mysqli2,$row['description']);
             $path=mysqli_real_escape_string($mysqli2,'php/album/' . $row['route']);
