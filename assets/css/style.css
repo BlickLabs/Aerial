@@ -4794,3 +4794,28 @@ padding-top: 20px;
 @media only screen and (max-width:320px) { 
 .section-padding { padding: 25px 0 }
 }
+
+.image_carousel {  }
+
+@media only screen and (max-width:480px) { 
+.image_carousel { 
+     height: 250px;
+     width:450px;
+      padding-left: 5px;
+     padding-right:  5px;
+}
+}
+@media only screen and (max-width:360px) { 
+.image_carousel { 
+     height: 250px;
+     width:345px;
+     padding-left: 5px;
+     padding-right:  1px;
+}
+}
+@media only screen and (max-width:320px) { 
+.image_carousel { 
+     height: 250px;
+     width:310px;
+}
+}
