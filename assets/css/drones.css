@@ -2828,9 +2828,9 @@ div.sidebar-link2:hover{
 }
 
 
-#portfolio .small-box2{
-    height: 200px;
-    width: 300px;
+#imagenes .small-box2{
+    max-height: 200px;
+    display: block;
     overflow: hidden;
     -webkit-backface-visibility:hidden;
 }
@@ -2838,7 +2838,8 @@ div.sidebar-link2:hover{
 .small-box2 img.img-responsive {
     width: -webkit-calc(100% + 20px);
     width: calc(100% + 20px);
-    max-width: 120%;
+    max-width: 100%;
+    
     -webkit-backface-visibility:hidden;
     transform: translateX(-20px) translateY(-20px);
     -webkit-transform: translateX(-20px) translateY(-20px);
@@ -2855,4 +2856,5 @@ div.sidebar-link2:hover{
 .nopadding {
     padding: 0;
     margin-top: -1px;
+    
 }
