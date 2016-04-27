@@ -4520,14 +4520,14 @@ padding-top: 20px;
 .text_portafolio{
    text-align-last: center;
    font-size: 30px;
-     margin-top: -45px;
+     margin-top: -10px;
 }
 }
 @media only screen and (max-width:360px) { 
 .text_portafolio{
    text-align-last: center;
    font-size: 28px;
-   margin-top: -45px;
+   margin-top: -10px;
 }
 }
 @media only screen and (max-width:320px) { 

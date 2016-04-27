@@ -143,29 +143,29 @@
 						<div class="col-md-12 text-center zoomIn">
                                                     
                                                     <div class="col-md-3 sidebar-link img_phantom1">
-                                                        <a  data-toggle="modal" data-slide-to="15" id="1">
+                                                        <!--<a  data-toggle="modal" data-slide-to="15" id="1">-->
                                                         <img src="images/Phantom_2.png" class="img_Heigth_drones">
                                                         <h3 class="MyriadPro-Light texto_drones_portafolio" >Phantom 1</h3>
-                                                        </a>
+                                                        <!--</a>-->
                                                     </div>
                                                     
                                                     <div class="col-md-3 sidebar-link img_inspire" >
-                                                        <a data-toggle="modal" data-slide-to="15" id="2">
+                                                       <!--<a  data-toggle="modal" data-slide-to="15" id="2">-->
                                                         <img src="images/Inspire_1.png" class="img_Heigth_drones img_top_inspire " >
                                                         <h3 class="MyriadPro-Light texto_drones_portafolio" >Inspire 2</h3>
-                                                        </a>
+                                                        <!--</a>-->
                                                     </div>
                                                     <div class="col-md-3 sidebar-link img_osmo"  > 
-                                                        <a href="#lightbox" data-toggle="modal" data-slide-to="15" id="3">
+                                                        <!--<a  data-toggle="modal" data-slide-to="15" id="3">-->
                                                         <img src="images/Osmo.png" class="img_Heigth_drones img_top_osmo " >
                                                         <h3 class="MyriadPro-Light texto_drones_portafolio">Osmo</h3>
-                                                        </a>-
+                                                        <!--</a>-->
                                                     </div>
                                                     <div class="col-md-3 sidebar-link img_hexa">
-                                                        <a href="#lightbox" data-toggle="modal" data-slide-to="15" id="4">
+                                                        <!--<a  data-toggle="modal" data-slide-to="15" id="4">-->
                                                         <img src="images/Hexacoptero_6.png"  class="img_Heigth_hexa img_top_hexa"   >
                                                         <h3 class="MyriadPro-Light texto_drones_portafolio" >Hexacoptero</h3>
-                                                        </a>
+                                                        <!--</a>-->
                                                     </div>
                                                     
                                                         
