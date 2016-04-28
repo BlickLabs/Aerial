@@ -257,7 +257,7 @@
   <!-- Wrapper for slides -->
   <div class="carousel-inner" role="listbox">
     <div class="item active col-md-12">
-      <img src="images/2.jpg" class="col-md-44 imagen ">
+        <img src="images/1.JPG" class="col-md-44 imagen ">
     </div>
     <div class="item col-md-12">
        <img src="images/lanchas.jpg" class=" col-md-44  imagen_2 ">
@@ -348,7 +348,7 @@
                                            <li><img src="images/logo_face.png" style="height: 25px;width:25px;" class="arrow-icon paloma2 logoface"><h4 class="benefits-info padding_texto_redes_sociales MyriadPro-Light" style="size:17px;color:#545554;">/aerial360</h4></li>
                                            <li><img src="images/logo_instagram.png"  style="height: 25px;width:25px" class="arrow-icon paloma2"><h4 class="benefits-info  padding_texto_redes_sociales MyriadPro-Light" style="size:17px;color:#545554">@aerial360</h4></li>
                                            <li><img src="images/logo_twitter.png"  style="height: 25px;width:25px" class="arrow-icon paloma2"><h4 class="benefits-info padding_texto_redes_sociales MyriadPro-Light" style="size:17px;color:#545554">@aerialMX</h4></li>
-                                           <hr style="width:150%;" class="lineafooter">
+                                           <hr style="" class="lineafooter">
                                            <li><img src="images/logo_celular.png"   class="arrow-icon paloma logo_cel_footer"><h4 class="benefits-info MyriadPro-Light padding_texto_redes_sociales2" style="color:#b4b4b1;size: 18px">Jaime Hernández <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2281778800</h4></li>
                                        </ul>
                                       
