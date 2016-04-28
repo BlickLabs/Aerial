@@ -202,14 +202,21 @@
                                             </div>
                                        </div>
                                 </div>
-                                <div class="container_3" id="portfolio">
-                                    <div class="row" id="row-1">
-                                              
-                                            
-                             
-                                </div>
-                                </div>           
-                            <ul class="pagination gallery_index" style="margin-left: 550px;margin-top: 60px;margin-bottom: 60px">
+    <div class="container_3" id="portfolio">
+      <div id="myCarousel" class="carousel slide carousel-web" data-ride="carousel">
+        <div class="carousel-inner" role="listbox" id="carousel-gallery">
+        </div>
+      </div>
+      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>  
+    </div>          
+                           <!--- <ul class="pagination gallery_index" style="margin-left: 550px;margin-top: 60px;margin-bottom: 60px">
                                 <li><a href="#">&laquo;</a></li>
                                 <li><a href="#">1</a></li>
                                 <li><a href="#">2</a></li>
@@ -217,7 +224,7 @@
                                 <li><a href="#">4</a></li>
                                 <li><a href="#">5</a></li>
                                 <li><a href="#">&raquo;</a></li>
-                            </ul>
+                            </ul> END PAGINATION -->
                            <div class="gallery_index2">
                                <button type="button" class="btn btn-default boton_portafolio MyriadPro-Light " style="color: #fff">Productoras</button>
                            <button type="button" class="btn btn-default boton_portafolio boton_portafolio_2 MyriadPro-Light"  style="color: #fff">Constructoras</button>

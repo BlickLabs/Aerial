@@ -8,20 +8,40 @@ $(document).ready(function() {
       dataType: "json",
       data: '?drone=1',
       success: function(data) {
-        var res = data;
-        var images = data.images;
-        $( "div" ).remove( ".item.gallery" );
-        for(var i=0;i<res.images.length;i++){
-          if(i==0){
-            var item = "<div class='item gallery active'><img src='" + res.images[i].path + "' alt='Second slide' class='img-responsive modal-image'></div>";
+          var res = data;
+          var count= 1;
+          var ids = 1;
+          var images = data.images;
+          $("#carousel-gallery").remove( ".item" );
+          for(var i=0;i<res.images.length;i++){
+            if(count == 1 && i<8){
+              var item = "<div class='item active id='item-"+ ids +"'><div class'row row-no-margin-right' id='row-"+ ids +"'></div></div>";
+              $('.carousel-inner').append(item);
+              var content = "<div class='col-md-4 col-sm-4 col-xs-4 col-lg-4 img-container'><img src='" + res.images[i].path + "' alt='Second slide' class='img-responsive modal-image'></div>";
+              count++;
+              $('.row-'+ ids ).append(content);
+            }
+            else if(count == 1 && i>8){
+              var item = "<div class='item id='item-"+ ids +"'><div class'row row-no-margin-right' id='row-"+ ids +"'></div></div>";
+              $('.carousel-inner').append(item);
+              var content = "<div class='col-md-4 col-sm-4 col-xs-4 col-lg-4 img-container'><img src='" + res.images[i].path + "' alt='Second slide' class='img-responsive modal-image'></div>";
+              count++;
+              $('.row-'+ ids ).append(content);
+            }
+            else if(count >1 && < 9){
+              var content = "<div class='col-md-4 col-sm-4 col-xs-4 col-lg-4 img-container'><img src='" + res.images[i].path + "' alt='Second slide' class='img-responsive modal-image'></div>";
+              count++;
+              $('.row-'+ ids ).append(content);
+            }
+            else if(count == 9){
+              var content = "<div class='col-md-4 col-sm-4 col-xs-4 col-lg-4 img-container'><img src='" + res.images[i].path + "' alt='Second slide' class='img-responsive modal-image'></div>";
+              $('.row-'+ ids ).append(content);
+              count=1;
+              ids++;
+            };
           }
-          else{
-            var item = "<div class='item gallery'><img src='" + res.images[i].path + "' alt='Second slide' class='img-responsive modal-image'></div>";
-          }
-          $('.carousel-inner.gallery').append(item);
         }
-      }
-    });     
+      });     
   });
    $('#drone-2').on('click', function(){ 
     console.log("si");
@@ -32,19 +52,39 @@ $(document).ready(function() {
       dataType: "json",
       data: '?drone=2',
       success: function(data) {
-        var res = data;
-        var images = data.images;
-        $( "div" ).remove( ".item.gallery" );
-        for(var i=0;i<res.images.length;i++){
-          if(i==0){
-            var item = "<div class='item gallery active'><img src='" + res.images[i].path + "' alt='Second slide' class='img-responsive modal-image'></div>";
+          var res = data;
+          var count= 1;
+          var ids = 1;
+          var images = data.images;
+          $("#carousel-gallery").remove( ".item" );
+          for(var i=0;i<res.images.length;i++){
+            if(count == 1 && i<8){
+              var item = "<div class='item active id='item-"+ ids +"'><div class'row row-no-margin-right' id='row-"+ ids +"'></div></div>";
+              $('.carousel-inner').append(item);
+              var content = "<div class='col-md-4 col-sm-4 col-xs-4 col-lg-4 img-container'><img src='" + res.images[i].path + "' alt='Second slide' class='img-responsive modal-image'></div>";
+              count++;
+              $('.row-'+ ids ).append(content);
+            }
+            else if(count == 1 && i>8){
+              var item = "<div class='item id='item-"+ ids +"'><div class'row row-no-margin-right' id='row-"+ ids +"'></div></div>";
+              $('.carousel-inner').append(item);
+              var content = "<div class='col-md-4 col-sm-4 col-xs-4 col-lg-4 img-container'><img src='" + res.images[i].path + "' alt='Second slide' class='img-responsive modal-image'></div>";
+              count++;
+              $('.row-'+ ids ).append(content);
+            }
+            else if(count >1 && < 9){
+              var content = "<div class='col-md-4 col-sm-4 col-xs-4 col-lg-4 img-container'><img src='" + res.images[i].path + "' alt='Second slide' class='img-responsive modal-image'></div>";
+              count++;
+              $('.row-'+ ids ).append(content);
+            }
+            else if(count == 9){
+              var content = "<div class='col-md-4 col-sm-4 col-xs-4 col-lg-4 img-container'><img src='" + res.images[i].path + "' alt='Second slide' class='img-responsive modal-image'></div>";
+              $('.row-'+ ids ).append(content);
+              count=1;
+              ids++;
+            };
           }
-          else{
-            var item = "<div class='item gallery'><img src='" + res.images[i].path + "' alt='Second slide' class='img-responsive modal-image'></div>";
-          }
-          $('.carousel-inner.gallery').append(item);
         }
-      }
     });     
   });
     $('#drone-3').on('click', function(){ 
@@ -56,22 +96,86 @@ $(document).ready(function() {
       dataType: "json",
       data: '?drone=3',
       success: function(data) {
-        var res = data;
-        var images = data.images;
-        $( "div" ).remove( ".item.gallery" );
-        for(var i=0;i<res.images.length;i++){
-          if(i==0){
-            var item = "<div class='item gallery active'><img src='" + res.images[i].path + "' alt='Second slide' class='img-responsive modal-image'></div>";
+          var res = data;
+          var count= 1;
+          var ids = 1;
+          var images = data.images;
+          $("#carousel-gallery").remove( ".item" );
+          for(var i=0;i<res.images.length;i++){
+            if(count == 1 && i<8){
+              var item = "<div class='item active id='item-"+ ids +"'><div class'row row-no-margin-right' id='row-"+ ids +"'></div></div>";
+              $('.carousel-inner').append(item);
+              var content = "<div class='col-md-4 col-sm-4 col-xs-4 col-lg-4 img-container'><img src='" + res.images[i].path + "' alt='Second slide' class='img-responsive modal-image'></div>";
+              count++;
+              $('.row-'+ ids ).append(content);
+            }
+            else if(count == 1 && i>8){
+              var item = "<div class='item id='item-"+ ids +"'><div class'row row-no-margin-right' id='row-"+ ids +"'></div></div>";
+              $('.carousel-inner').append(item);
+              var content = "<div class='col-md-4 col-sm-4 col-xs-4 col-lg-4 img-container'><img src='" + res.images[i].path + "' alt='Second slide' class='img-responsive modal-image'></div>";
+              count++;
+              $('.row-'+ ids ).append(content);
+            }
+            else if(count >1 && < 9){
+              var content = "<div class='col-md-4 col-sm-4 col-xs-4 col-lg-4 img-container'><img src='" + res.images[i].path + "' alt='Second slide' class='img-responsive modal-image'></div>";
+              count++;
+              $('.row-'+ ids ).append(content);
+            }
+            else if(count == 9){
+              var content = "<div class='col-md-4 col-sm-4 col-xs-4 col-lg-4 img-container'><img src='" + res.images[i].path + "' alt='Second slide' class='img-responsive modal-image'></div>";
+              $('.row-'+ ids ).append(content);
+              count=1;
+              ids++;
+            };
           }
-          else{
-            var item = "<div class='item gallery'><img src='" + res.images[i].path + "' alt='Second slide' class='img-responsive modal-image'></div>";
-          }
-          $('.carousel-inner.gallery').append(item);
         }
-      }
     });     
   });
-     $('#drone-4').on('click', function(){ 
+  $('#drone-4').on('click', function(){ 
+    console.log("si");
+    $.ajax({
+      cache: false,
+      type: 'GET',
+      url: 'api.php',
+      dataType: "json",
+      data: '?drone=4',
+      success: function(data) {
+          var res = data;
+          var count= 1;
+          var ids = 1;
+          var images = data.images;
+          $("#carousel-gallery").remove( ".item" );
+          for(var i=0;i<res.images.length;i++){
+            if(count == 1 && i<8){
+              var item = "<div class='item active id='item-"+ ids +"'><div class'row row-no-margin-right' id='row-"+ ids +"'></div></div>";
+              $('.carousel-inner').append(item);
+              var content = "<div class='col-md-4 col-sm-4 col-xs-4 col-lg-4 img-container'><img src='" + res.images[i].path + "' alt='Second slide' class='img-responsive modal-image'></div>";
+              count++;
+              $('.row-'+ ids ).append(content);
+            }
+            else if(count == 1 && i>8){
+              var item = "<div class='item id='item-"+ ids +"'><div class'row row-no-margin-right' id='row-"+ ids +"'></div></div>";
+              $('.carousel-inner').append(item);
+              var content = "<div class='col-md-4 col-sm-4 col-xs-4 col-lg-4 img-container'><img src='" + res.images[i].path + "' alt='Second slide' class='img-responsive modal-image'></div>";
+              count++;
+              $('.row-'+ ids ).append(content);
+            }
+            else if(count >1 && < 9){
+              var content = "<div class='col-md-4 col-sm-4 col-xs-4 col-lg-4 img-container'><img src='" + res.images[i].path + "' alt='Second slide' class='img-responsive modal-image'></div>";
+              count++;
+              $('.row-'+ ids ).append(content);
+            }
+            else if(count == 9){
+              var content = "<div class='col-md-4 col-sm-4 col-xs-4 col-lg-4 img-container'><img src='" + res.images[i].path + "' alt='Second slide' class='img-responsive modal-image'></div>";
+              $('.row-'+ ids ).append(content);
+              count=1;
+              ids++;
+            };
+          }
+        }
+    });     
+  });
+  $('#category-1').on('click', function(){ 
     console.log("si");
     $.ajax({
       cache: false,
@@ -81,16 +185,256 @@ $(document).ready(function() {
       data: '?drone=4',
       success: function(data) {
         var res = data;
+        var count= 1;
+        var ids = 1;
         var images = data.images;
-        $( "div" ).remove( ".item.gallery" );
+        $("#carousel-gallery").remove( ".item" );
         for(var i=0;i<res.images.length;i++){
-          if(i==0){
-            var item = "<div class='item gallery active'><img src='" + res.images[i].path + "' alt='Second slide' class='img-responsive modal-image'></div>";
+          if(count == 1 && i<8){
+            var item = "<div class='item active id='item-"+ ids +"'><div class'row row-no-margin-right' id='row-"+ ids +"'></div></div>";
+            $('.carousel-inner').append(item);
+            var content = "<div class='col-md-4 col-sm-4 col-xs-4 col-lg-4 img-container'><img src='" + res.images[i].path + "' alt='Second slide' class='img-responsive modal-image'></div>";
+            count++;
+            $('.row-'+ ids ).append(content);
           }
-          else{
-            var item = "<div class='item gallery'><img src='" + res.images[i].path + "' alt='Second slide' class='img-responsive modal-image'></div>";
+          else if(count == 1 && i>8){
+            var item = "<div class='item id='item-"+ ids +"'><div class'row row-no-margin-right' id='row-"+ ids +"'></div></div>";
+            $('.carousel-inner').append(item);
+            var content = "<div class='col-md-4 col-sm-4 col-xs-4 col-lg-4 img-container'><img src='" + res.images[i].path + "' alt='Second slide' class='img-responsive modal-image'></div>";
+            count++;
+            $('.row-'+ ids ).append(content);
           }
-          $('.carousel-inner.gallery').append(item);
+          else if(count >1 && < 9){
+            var content = "<div class='col-md-4 col-sm-4 col-xs-4 col-lg-4 img-container'><img src='" + res.images[i].path + "' alt='Second slide' class='img-responsive modal-image'></div>";
+            count++;
+            $('.row-'+ ids ).append(content);
+          }
+          else if(count == 9){
+            var content = "<div class='col-md-4 col-sm-4 col-xs-4 col-lg-4 img-container'><img src='" + res.images[i].path + "' alt='Second slide' class='img-responsive modal-image'></div>";
+            $('.row-'+ ids ).append(content);
+            count=1;
+            ids++;
+          };
+        }
+      }
+    });     
+  });
+  $('#category-2').on('click', function(){ 
+    console.log("si");
+    $.ajax({
+      cache: false,
+      type: 'GET',
+      url: 'api.php',
+      dataType: "json",
+      data: '?drone=4',
+      success: function(data) {
+        var res = data;
+        var count= 1;
+        var ids = 1;
+        var images = data.images;
+        $("#carousel-gallery").remove( ".item" );
+        for(var i=0;i<res.images.length;i++){
+          if(count == 1 && i<8){
+            var item = "<div class='item active id='item-"+ ids +"'><div class'row row-no-margin-right' id='row-"+ ids +"'></div></div>";
+            $('.carousel-inner').append(item);
+            var content = "<div class='col-md-4 col-sm-4 col-xs-4 col-lg-4 img-container'><img src='" + res.images[i].path + "' alt='Second slide' class='img-responsive modal-image'></div>";
+            count++;
+            $('.row-'+ ids ).append(content);
+          }
+          else if(count == 1 && i>8){
+            var item = "<div class='item id='item-"+ ids +"'><div class'row row-no-margin-right' id='row-"+ ids +"'></div></div>";
+            $('.carousel-inner').append(item);
+            var content = "<div class='col-md-4 col-sm-4 col-xs-4 col-lg-4 img-container'><img src='" + res.images[i].path + "' alt='Second slide' class='img-responsive modal-image'></div>";
+            count++;
+            $('.row-'+ ids ).append(content);
+          }
+          else if(count >1 && < 9){
+            var content = "<div class='col-md-4 col-sm-4 col-xs-4 col-lg-4 img-container'><img src='" + res.images[i].path + "' alt='Second slide' class='img-responsive modal-image'></div>";
+            count++;
+            $('.row-'+ ids ).append(content);
+          }
+          else if(count == 9){
+            var content = "<div class='col-md-4 col-sm-4 col-xs-4 col-lg-4 img-container'><img src='" + res.images[i].path + "' alt='Second slide' class='img-responsive modal-image'></div>";
+            $('.row-'+ ids ).append(content);
+            count=1;
+            ids++;
+          };
+        }
+      }
+    });     
+  });
+  $('#category-3').on('click', function(){ 
+    console.log("si");
+    $.ajax({
+      cache: false,
+      type: 'GET',
+      url: 'api.php',
+      dataType: "json",
+      data: '?drone=4',
+      success: function(data) {
+        var res = data;
+        var count= 1;
+        var ids = 1;
+        var images = data.images;
+        $("#carousel-gallery").remove( ".item" );
+        for(var i=0;i<res.images.length;i++){
+          if(count == 1 && i<8){
+            var item = "<div class='item active id='item-"+ ids +"'><div class'row row-no-margin-right' id='row-"+ ids +"'></div></div>";
+            $('.carousel-inner').append(item);
+            var content = "<div class='col-md-4 col-sm-4 col-xs-4 col-lg-4 img-container'><img src='" + res.images[i].path + "' alt='Second slide' class='img-responsive modal-image'></div>";
+            count++;
+            $('.row-'+ ids ).append(content);
+          }
+          else if(count == 1 && i>8){
+            var item = "<div class='item id='item-"+ ids +"'><div class'row row-no-margin-right' id='row-"+ ids +"'></div></div>";
+            $('.carousel-inner').append(item);
+            var content = "<div class='col-md-4 col-sm-4 col-xs-4 col-lg-4 img-container'><img src='" + res.images[i].path + "' alt='Second slide' class='img-responsive modal-image'></div>";
+            count++;
+            $('.row-'+ ids ).append(content);
+          }
+          else if(count >1 && < 9){
+            var content = "<div class='col-md-4 col-sm-4 col-xs-4 col-lg-4 img-container'><img src='" + res.images[i].path + "' alt='Second slide' class='img-responsive modal-image'></div>";
+            count++;
+            $('.row-'+ ids ).append(content);
+          }
+          else if(count == 9){
+            var content = "<div class='col-md-4 col-sm-4 col-xs-4 col-lg-4 img-container'><img src='" + res.images[i].path + "' alt='Second slide' class='img-responsive modal-image'></div>";
+            $('.row-'+ ids ).append(content);
+            count=1;
+            ids++;
+          };
+        }
+      }
+    });     
+  });
+  $('#category-4').on('click', function(){ 
+    console.log("si");
+    $.ajax({
+      cache: false,
+      type: 'GET',
+      url: 'api.php',
+      dataType: "json",
+      data: '?drone=4',
+      success: function(data) {
+        var res = data;
+        var count= 1;
+        var ids = 1;
+        var images = data.images;
+        $("#carousel-gallery").remove( ".item" );
+        for(var i=0;i<res.images.length;i++){
+          if(count == 1 && i<8){
+            var item = "<div class='item active id='item-"+ ids +"'><div class'row row-no-margin-right' id='row-"+ ids +"'></div></div>";
+            $('.carousel-inner').append(item);
+            var content = "<div class='col-md-4 col-sm-4 col-xs-4 col-lg-4 img-container'><img src='" + res.images[i].path + "' alt='Second slide' class='img-responsive modal-image'></div>";
+            count++;
+            $('.row-'+ ids ).append(content);
+          }
+          else if(count == 1 && i>8){
+            var item = "<div class='item id='item-"+ ids +"'><div class'row row-no-margin-right' id='row-"+ ids +"'></div></div>";
+            $('.carousel-inner').append(item);
+            var content = "<div class='col-md-4 col-sm-4 col-xs-4 col-lg-4 img-container'><img src='" + res.images[i].path + "' alt='Second slide' class='img-responsive modal-image'></div>";
+            count++;
+            $('.row-'+ ids ).append(content);
+          }
+          else if(count >1 && < 9){
+            var content = "<div class='col-md-4 col-sm-4 col-xs-4 col-lg-4 img-container'><img src='" + res.images[i].path + "' alt='Second slide' class='img-responsive modal-image'></div>";
+            count++;
+            $('.row-'+ ids ).append(content);
+          }
+          else if(count == 9){
+            var content = "<div class='col-md-4 col-sm-4 col-xs-4 col-lg-4 img-container'><img src='" + res.images[i].path + "' alt='Second slide' class='img-responsive modal-image'></div>";
+            $('.row-'+ ids ).append(content);
+            count=1;
+            ids++;
+          };
+        }
+      }
+    });     
+  });
+  $('#category-5').on('click', function(){ 
+    console.log("si");
+    $.ajax({
+      cache: false,
+      type: 'GET',
+      url: 'api.php',
+      dataType: "json",
+      data: '?drone=4',
+      success: function(data) {
+        var res = data;
+        var count= 1;
+        var ids = 1;
+        var images = data.images;
+        $("#carousel-gallery").remove( ".item" );
+        for(var i=0;i<res.images.length;i++){
+          if(count == 1 && i<8){
+            var item = "<div class='item active id='item-"+ ids +"'><div class'row row-no-margin-right' id='row-"+ ids +"'></div></div>";
+            $('.carousel-inner').append(item);
+            var content = "<div class='col-md-4 col-sm-4 col-xs-4 col-lg-4 img-container'><img src='" + res.images[i].path + "' alt='Second slide' class='img-responsive modal-image'></div>";
+            count++;
+            $('.row-'+ ids ).append(content);
+          }
+          else if(count == 1 && i>8){
+            var item = "<div class='item id='item-"+ ids +"'><div class'row row-no-margin-right' id='row-"+ ids +"'></div></div>";
+            $('.carousel-inner').append(item);
+            var content = "<div class='col-md-4 col-sm-4 col-xs-4 col-lg-4 img-container'><img src='" + res.images[i].path + "' alt='Second slide' class='img-responsive modal-image'></div>";
+            count++;
+            $('.row-'+ ids ).append(content);
+          }
+          else if(count >1 && < 9){
+            var content = "<div class='col-md-4 col-sm-4 col-xs-4 col-lg-4 img-container'><img src='" + res.images[i].path + "' alt='Second slide' class='img-responsive modal-image'></div>";
+            count++;
+            $('.row-'+ ids ).append(content);
+          }
+          else if(count == 9){
+            var content = "<div class='col-md-4 col-sm-4 col-xs-4 col-lg-4 img-container'><img src='" + res.images[i].path + "' alt='Second slide' class='img-responsive modal-image'></div>";
+            $('.row-'+ ids ).append(content);
+            count=1;
+            ids++;
+          };
+        }
+      }
+    });     
+  });
+  $('#category-6').on('click', function(){ 
+    console.log("si");
+    $.ajax({
+      cache: false,
+      type: 'GET',
+      url: 'api.php',
+      dataType: "json",
+      data: '?drone=4',
+      success: function(data) {
+        var res = data;
+        var count= 1;
+        var ids = 1;
+        var images = data.images;
+        $("#carousel-gallery").remove( ".item" );
+        for(var i=0;i<res.images.length;i++){
+          if(count == 1 && i<8){
+            var item = "<div class='item active id='item-"+ ids +"'><div class'row row-no-margin-right' id='row-"+ ids +"'></div></div>";
+            $('.carousel-inner').append(item);
+            var content = "<div class='col-md-4 col-sm-4 col-xs-4 col-lg-4 img-container'><img src='" + res.images[i].path + "' alt='Second slide' class='img-responsive modal-image'></div>";
+            count++;
+            $('.row-'+ ids ).append(content);
+          }
+          else if(count == 1 && i>8){
+            var item = "<div class='item id='item-"+ ids +"'><div class'row row-no-margin-right' id='row-"+ ids +"'></div></div>";
+            $('.carousel-inner').append(item);
+            var content = "<div class='col-md-4 col-sm-4 col-xs-4 col-lg-4 img-container'><img src='" + res.images[i].path + "' alt='Second slide' class='img-responsive modal-image'></div>";
+            count++;
+            $('.row-'+ ids ).append(content);
+          }
+          else if(count >1 && < 9){
+            var content = "<div class='col-md-4 col-sm-4 col-xs-4 col-lg-4 img-container'><img src='" + res.images[i].path + "' alt='Second slide' class='img-responsive modal-image'></div>";
+            count++;
+            $('.row-'+ ids ).append(content);
+          }
+          else if(count == 9){
+            var content = "<div class='col-md-4 col-sm-4 col-xs-4 col-lg-4 img-container'><img src='" + res.images[i].path + "' alt='Second slide' class='img-responsive modal-image'></div>";
+            $('.row-'+ ids ).append(content);
+            count=1;
+            ids++;
+          };
         }
       }
     });     
