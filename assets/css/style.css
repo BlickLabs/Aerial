@@ -4664,24 +4664,24 @@ padding-top: 20px;
 @media only screen and (max-width:480px) {
 .carousel_margin{
   margin-bottom: 60px;
-  margin-top: -3px;
-  width: 98%;
+  margin-top: 3px;
+  width: 100%;
   margin-left: 0px;
 }
 }
 @media only screen and (max-width:360px) { 
 .carousel_margin{
   margin-bottom: 60px;
-  margin-top: -3px;
-    width: 98%;
+  margin-top: 3px;
+    width: 100%;
   margin-left: 0px;
 }
 }
 @media only screen and (max-width:320px) { 
 .carousel_margin{
   margin-bottom: 60px;
-  margin-top: -3px;
-    width: 99%;
+  margin-top: 3px;
+    width: 100%;
   margin-left: 0px;
 }
 }
@@ -4830,5 +4830,32 @@ padding-top: 20px;
 .image_carousel { 
      height: 250px;
      width:310px;
+}
+}
+
+
+
+.image_carousel2 {  }
+
+@media only screen and (max-width:480px) { 
+.image_carousel2 { 
+     height: 250px;
+     width:99%;
+      padding-left: 5px;
+     padding-right:  5px;
+}
+}
+@media only screen and (max-width:360px) { 
+.image_carousel2 { 
+     height: 250px;
+     width:99%;
+     padding-left: 5px;
+     padding-right:  1px;
+}
+}
+@media only screen and (max-width:320px) { 
+.image_carousel2 { 
+     height: 250px;
+     width:99%;
 }
 }

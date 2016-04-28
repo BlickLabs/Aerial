@@ -257,31 +257,29 @@
   <!-- Wrapper for slides -->
   <div class="carousel-inner" role="listbox">
     <div class="item active col-md-12">
-        <img src="images/1.JPG" class="col-md-44 imagen ">
+        <img src="images/galeria_1.jpg" class="image_carousel2">
     </div>
     <div class="item col-md-12">
-       <img src="images/lanchas.jpg" class=" col-md-44  imagen_2 ">
+        <img src="images/galeria_2.jpg" class=" image_carousel2">
     </div>
     <div class="item">
-       <img src="images/7.jpg" class="col-md-44 imagen_3 ">
+        <img src="images/galeria_3.jpg" class="image_carousel2 ">
     </div>
     <div class="item">
-      <img src="images/4.jpg" class="col-md-666 imagen_4">
+        <img src="images/galeria_4.jpg" class="image_carousel2">
     </div>
     <div class="item">
-      <img src="images/3.jpg" class="col-md-666 imagen_5">
+        <img src="images/galeria_5.jpg" class="image_carousel2">
     </div>
 
     <div class="item">
-      <img src="images/6.jpg" class="col-md-44 imagen_6 ">
+        <img src="images/galeria_6.jpg" class="image_carousel2">
     </div>
 
     <div class="item">
-      <img src="images/1.jpg" class="col-md-44 imagen_7 ">
+        <img src="images/galeria_7.jpg" class="image_carousel2">
     </div>
-      <div class="item">
-      <img src="images/8.jpg" class="col-md-44 imagen_8 ">
-    </div>
+    
 
     
   </div>
