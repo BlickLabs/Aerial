@@ -1,0 +1,833 @@
+.row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.drone-first-row,
+.portafolio-first-row {
+    margin-top: 130px;
+}
+
+/**********************
+* Fonts
+**********************/
+
+body {
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: myriadProBold;
+    src: url(../fonts/MyriadPro-Bold 2.otf);
+}
+
+@font-face {
+    font-family: myriadProLight;
+    src: url(../fonts/MyriadPro-Light.otf);
+}
+
+@font-face {
+    font-family: myriadProRegular;
+    src: url(../fonts/MyriadPro-Regular.otf);
+}
+
+@font-face {
+    font-family: myriadProSemiBold;
+    src: url(../fonts/MyriadPro-Semibold.otf);
+}
+
+@font-face {
+    font-family: myriadProSemiBoldItalic;
+    src: url(../fonts/MyriadPro-SemiboldIt-2.otf);
+}
+
+#homepage h1 {
+    font-family: myriadProLight;
+    font-size: 3.5em;
+    padding-top: 20px;
+}
+
+#homepage h1 .semibold {
+    font-family: myriadProSemiBold;
+}
+
+#drones h3 {
+    font-family: myriadProLight;
+    font-size: 2.5em;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+#drones p {
+    font-family: myriadProLight;
+    font-size: 1.5em;
+}
+
+#drones p strong {
+    font-family: myriadProSemiBoldItalic;
+}
+
+#portafolio h3 {
+    text-align: center;
+    font-size: 2em;
+    font-family: myriadProSemiBold;
+    color: #555655;
+}
+
+/**********************
+* Menu
+**********************/
+.navbar-nav {
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+}
+
+.navbar-inverse .navbar-collapse {
+    text-align: center;
+}
+
+.navbar-inverse {
+    border-radius: 0;
+    background-color: #1c1e20;
+}
+
+.fixed {
+	position: fixed; 
+	top: 0; 
+	/*height: 30px;*/
+	width: 100%;
+	z-index: 1;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #b4b4b1;
+    font-family: myriadProLight;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    padding: 35px 50px;
+    letter-spacing: .1em;
+    color: #b4b4b1;
+    font-variant: small-caps;
+}
+
+.navbar-inverse .navbar-nav>.active>a, 
+.navbar-inverse .navbar-nav>.active>a:focus, 
+.navbar-inverse .navbar-nav>.active>a:hover {
+    font-weight: bold;
+}
+
+#drones.navbar-inverse.navbar-nav>.active>a:active {
+    font-weight: bold;
+}
+
+/**********************
+* Homepage
+**********************/
+
+.jumbotron {
+    background: url("../img/foto-ppal.jpg") center center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    height: 85vh;
+    margin-bottom: 0;
+    color: #fff;
+}
+@media screen and (max-width: 620px) {
+    .jumbotron {
+        background: url("../img/foto-ppal.jpg") center center no-repeat;
+        background-size: cover;
+        background-attachment: scroll;
+        text-align: center;
+        height: 85vh;
+        margin-bottom: 0;
+        color: #fff;
+    }
+}
+
+.header-logo {
+    height: 90px;
+}
+
+.drone-images {
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.homepage-drone-img {
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    height: 400px;
+}
+
+.homepage-drone-img img {
+    width: 100%;
+    height: auto;
+    vertical-align: middle;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    /*margin-bottom: 15px;*/
+}
+
+.homepage-drone-img img.img-80 {
+    width: 80%;
+}
+
+.homepage-drone-img img.img-90 {
+    width: 90%;
+}
+
+.homepage-drone-img p {
+    position: absolute;
+    left: 50%;
+    bottom: 10%;
+    transform: translate(-50%, -10%);
+}
+
+#homepage .homepage-drone-img p {
+    font-family: myriadProLight;
+    font-size: 2em;
+}
+
+.capture {
+    background: url("../img/foto-secundaria.jpg") center center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    height: 75vh;
+    margin-bottom: 0;
+    color: #fff;
+}
+@media screen and (max-width: 620px) {
+    .capture {
+        background: url("../img/foto-secundaria.jpg") center center no-repeat;
+        background-size: cover;
+        background-attachment: scroll;
+        text-align: center;
+        height: 75vh;
+        margin-bottom: 0;
+        color: #fff;
+    }
+}
+.mas {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.mas .btn {
+    font-family: myriadProRegular;
+    font-size: 1.1em;
+    background-color: #1c1e20;
+    color: #b4b4b1;
+}
+
+.capture {
+    position: relative;
+}
+
+.capture h1 {
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+}
+
+/**********************
+* Homepage : Services
+**********************/
+
+.services .row {
+    padding: 50px 0 0px 200px;
+}
+
+.servicios {
+    background-color: #545554;
+    color: #1c1e20;
+}
+
+.servicios h2 {
+    font-size: 3em;
+    font-family: myriadProLight;
+}
+
+.servicios-details {
+    background-color: #1c1e20;
+    color: #545554;
+    padding-top: 60px;
+}
+
+.servicios-details p {
+    font-family: myriadProLight;
+    font-size: 1.5em;
+    padding-top: 15px;
+    padding-left: 20px;
+}
+
+.servicios-details p.first {
+    padding-top: 0px !important;
+}
+
+.servicios {
+    position: relative;
+    height: 85vh;
+    text-align: center;
+}
+
+.servicios-details {
+    height: 85vh;
+}
+
+.servicios div {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.servicios-icon {
+    height: 80px;
+}
+
+.servicios-details-icon {
+    height: 70px;
+}
+
+/* images row 1 */
+.homepage-gallery .row1-img1 {
+    background: url("../img/IMG_4253.jpg") center center no-repeat;
+    background-size: cover;
+    height: 250px;
+}
+
+.homepage-gallery .row1-img2 {
+    background: url("../img/IMG_3802.jpg") center center no-repeat;
+    background-size: cover;
+    height: 250px;
+}
+
+.homepage-gallery .row1-img3 {
+    background: url("../img/foto-secundaria.jpg") center center no-repeat;
+    background-size: cover;
+    height: 250px;
+}
+
+/* images row 2 */
+.homepage-gallery .row2-img1 {
+    background: url("../img/IMG_4255.jpg") center center no-repeat;
+    background-size: cover;
+    height: 400px;
+}
+
+.homepage-gallery .row2-img2{
+    background: url("../img/IMG_4256.jpg") center center no-repeat;
+    background-size: cover;
+    height: 400px;
+}
+
+/* images row 3 */
+
+.homepage-gallery .row3-img1 {
+    background: url("../img/IMG_4258.jpg") center center no-repeat;
+    background-size: cover;
+    height: 250px;
+}
+
+.homepage-gallery .row3-img2 {
+    background: url("../img/IMG_4259.jpg") center center no-repeat;
+    background-size: cover;
+    height: 250px;
+}
+
+.homepage-gallery .row3-img3 {
+    background: url("../img/IMG_3724.jpg") center center no-repeat;
+    background-size: cover;
+    height: 250px;
+}
+
+.homepage-gallery div {
+    border: 3px solid #1c1e20;
+}
+
+/**********************
+* Drones Page
+**********************/
+.cam-icon {
+    height: 50px;
+    padding-right: 15px;
+}
+
+.drone-img-container {
+    position: relative;
+    height: 400px;
+}
+
+.drone-detail-img {
+    width: 80%;
+}
+
+.drone-detail-img.img-left {
+    position: absolute;
+    left: 0;
+}
+
+.drone-detail-img.img-right {
+    position: absolute;
+    right: 0;
+}
+
+.dark-section {
+    background-color: #f0f0f0;
+}
+
+.cam-detail {
+    padding-bottom: 20px;
+}
+
+.drone-detail {
+    padding-top: 60px;
+    padding-bottom: 50px;
+}
+
+.drone-detail p {
+    margin: 0;
+}
+
+/**********************
+* Portafolio Page
+**********************/
+#portafolio .homepage-drone-img p {
+    font-size: 2.4em;
+    font-family: myriadProLight;
+    color: #555655;
+}
+
+#portafolio .homepage-drone-img {
+    height: 250px;
+}
+
+#portafolio .drone-images {
+    padding-top: 0;
+}
+
+#portafolio .homepage-drone-img p {
+    bottom: -20px;
+    width: 100%;
+}
+
+#portafolio .homepage-drone-img:hover {
+ background-color: #f0f0f0;   
+}
+
+.category-select {
+    margin-top: 70px;
+}
+
+.gallery-select {
+    text-align: center;
+    background-color: #555655;
+}
+
+.gallery-select .navbar-nav>li>a{
+    color: #fff;
+    font-family: myriadProLight;
+    font-size: 1.7em;
+}
+
+.gallery-navbar .navbar-nav>.active>a, 
+.gallery-navbar .navbar-nav>.active>a:focus, 
+.gallery-navbar .navbar-nav>.active>a:hover {
+    background-color: #868686;
+    color: #fff;
+}
+
+.gallery-select .navbar-nav>li>a {
+    margin-right: 50px;
+}
+.nomargin{
+        margin-bottom: 0px;
+}
+.page-num {
+    text-align: center;
+}
+
+.pagination>li>a {
+    border-radius: 50% !important;
+    background-color: #f0f0f0;
+    color: #000;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.pagination>li.active>a,
+.pagination>li.active>a:active,
+.pagination>li.active>a:hover,
+.pagination>li.active>a:focus,
+.pagination>li>a:hover,
+.pagination>li>a:active,
+.pagination>li>a:focus {
+    background-color: #555655;
+    color: #fff;
+    border: 1px solid transparent;
+}
+
+
+/**********************
+* Footer
+**********************/
+
+footer {
+    padding: 70px;
+    background-color: #1c1e20;
+    border: 1px solid #1c1e20;
+    color: #545554;
+    font-family: myriadProLight;
+}
+
+footer h5 {
+    font-size: 1.3em;
+    font-family: myriadProLight;
+    color: #b4b4b1;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.footerBtn {
+    background-color: #6c7982;
+    border: none;
+    color: #b4b4b1;
+    margin-top: 20px;
+}
+
+.form-group {
+    margin-bottom: 0;
+}
+
+.form-group.col-sm-6 {
+    padding-left: 0;
+    padding-right: 0px;
+}
+
+.form-group.col-sm-6.name {
+    padding-right: 5px;
+}
+
+textarea.form-control {
+    margin-top: -15px;
+    padding-right: 5px;
+}
+
+.contact-input {
+    background-color: #545554;
+    border: none;
+}
+
+.footer-logo {
+    height: 70px;
+}
+
+.copyright-logo {
+    position: relative;
+    height: 250px;
+}
+
+.copyright-logo div {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.copyright-logo p {
+    font-size: 1.5em;
+}
+
+.social-media {
+    padding-top: 40px;
+}
+
+.social-media-icons {
+    padding-left: 220px;
+}
+
+.social-media-icons p,
+#drones .social-media-icons p {
+    font-size: 1em;
+}
+
+/* icon font size */
+i.fa {
+    font-size: 1.8em;
+}
+
+.social-media hr {
+    width: 50%;
+    margin-right: 0;
+}
+
+.social-media i {
+    margin-right: 20px;
+}
+
+.social-media-contact {
+    text-align: right;
+    padding-right: 10px;
+}
+
+.social-media-contact p,
+#drones .social-media-contact p {
+    font-size: 1.1em;
+    color: #b4b4b1;
+}
+
+.social-media-contact p {
+    margin: 0;
+}
+
+.social-media-contact i {
+    margin-right: 10px;
+}
+
+
+/**********************
+* Media Queries
+**********************/
+
+@media screen and (max-width: 1245px) {
+    .social-media-icons {
+        padding-left: 200px;
+    }
+    .social-media-contact {
+        padding-right: 20px;
+    }
+}
+
+@media screen and (max-width: 1160px) {
+    .social-media-icons {
+        padding-left: 150px;
+    }
+    .social-media-contact {
+        padding-right: 40px;
+    }
+    
+    .services .row {
+        padding-left: 130px;
+    }
+    
+    #homepage .homepage-drone-img p {
+        font-size: 1.5em;
+    }
+    .gallery-select .navbar-nav>li>a {
+        margin-right: 15px;
+        font-size: 1.5em;
+    }
+}
+
+@media screen and (max-width: 1010px) {
+    .navbar-inverse .navbar-nav>li>a {
+        padding: 20px;
+    }
+}
+
+@media screen and (max-width: 995px) {
+    .social-media-icons {
+        padding-left: 100px;
+    }
+    .services .row {
+        padding-left: 80px;
+    }
+    #portafolio .homepage-drone-img {
+        height: 400px;
+        margin-bottom: 20px;
+    }
+    #portafolio .homepage-drone-img img,
+    #portafolio .homepage-drone-img img.img-90,
+    #portafolio .homepage-drone-img img.img-80 {
+        width: 70%;
+    }
+    #portafolio .homepage-drone-img p {
+        bottom: -15px;
+        font-size: 1.8em;
+    }
+}
+    .margin-img{
+        margin-top: -50px;
+    }
+@media screen and (max-width: 990px) {
+    .services .row {
+        padding-left: 280px;
+    }
+    .social-media-icons {
+        padding-left: 0;
+    }
+    hr {
+        margin-left: 0;
+    }
+    .social-media-contact{
+        text-align: left;
+    }
+    #homepage .homepage-drone-img p {
+        bottom: -10px;
+    }
+    #homepage .homepage-drone-img {
+        margin-bottom: 30px;
+        margin-top: 20px;
+    }
+    .drone-img-container {
+        text-align: center;
+    }
+    .drone-detail {
+        padding-top: 20px;
+    }
+    .drone-detail-img {
+        width: 70%;
+    }
+    #drones .drone-detail-img.img-right,
+    #drones .drone-detail-img.img-left {
+        position: relative;
+    }
+    .footer-logo {
+        margin-top: 50px;
+    }
+    .gallery-select .navbar-nav>li>a {
+        margin-right: 0px;
+    }
+}
+
+@media screen and (max-width: 765px) {
+    .services .row {
+        padding-left: 200px;
+    }
+    .form-group.col-sm-6.name {
+        padding-right: 0;
+    }
+    textarea.form-control {
+        margin-top: 0;
+    }
+    #homepage .homepage-drone-img img, 
+    #homepage .homepage-drone-img img.img-80,
+    #homepage .homepage-drone-img img.img-90 {
+        width: 60%;
+    }
+    #homepage .homepage-drone-img {
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+    #drones h3 {
+        padding: 20px 0 10px;
+    }
+    #homepage nav.navbar.navbar-inverse {
+        position: fixed;
+        top: 0;
+        width: 100%;
+    }
+    .jumbotron {
+        height: 100vh;
+        margin-top: 50px;
+    }
+    .servicios-details {
+        padding-top: 40px;
+    }
+}
+
+@media screen and (max-width: 735px) {
+    .services .row {
+        padding-left: 160px;
+    }
+    #homepage h1 {
+        font-size: 2.7em;
+    }
+    .navbar-collapse{
+        padding: 0px;
+        margin-right: 0px !important;
+    }
+    .navbar-nav{
+        padding-top: 50px;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 620px) {
+    .services .row {
+        padding-left: 130px;
+    }
+    .servicios-details p {
+        padding-left: 50px;
+    }
+}
+
+@media screen and (max-width: 470px) {
+    .services .row {
+        padding-left: 70px;
+    }
+    .servicios-details {
+        padding-top: 20px;
+    }
+    #homepage .homepage-drone-img {
+        margin: 0;
+        height: 300px;
+    }
+    #drones .drone-img-container {
+        height: 250px;
+    }
+    #portafolio .homepage-drone-img {
+        height: 300px;
+    }
+    footer{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .margin-img{
+        margin-top: 0px;
+    }
+    .done-detail-img{
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .services .row {
+        padding-left: 30px;
+    }
+    .social-media hr {
+        width: 100%;
+    }
+    #homepage .homepage-drone-img {
+        height: 250px;
+    }
+    #homepage h1 {
+        font-size: 2em;
+    }
+    .copyright-logo p {
+        font-size: 1.2em;
+    }
+    #portafolio .homepage-drone-img {
+        height: 250px;
+    }
+    footer{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+.img-container{
+    padding: 0px;
+    background-color: #545554;
+    height: 300px;
+}
+.modal-image{
+    width: 100%;
+    height: 100%;
+}
+.noresizable{
+    resize: none;  
+}
+.relative{
+    position: relative;
+}
