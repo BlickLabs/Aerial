@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Aerial 360 | Portafolio</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/custom.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css" />
+</head>
+<body id="portafolio">
+    <nav class="navbar navbar-inverse fixed">
+        <div>
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+        
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+                <li><a href="index.html">Aerial</a></li>
+                <li><a href="index.html#services">Servicios</a></li>
+                <li><a href="drones.html">Drones</a></li>
+                <li class="active"><a href="#portafolio" class="click-scrolling">Portafolio</a></li>
+                <li><a href="#contact" class="click-scrolling">Contacto</a></li>
+            </ul>
+        </div> <!-- .navbar-collapse -->
+    </nav> <!-- .navbar -->
+    
+    <div class="row portafolio-first-row">
+        <div class="container">
+            <h3>Selecciona el tipo de Dron</h3>
+        </div>
+    </div>
+    
+    <div class="row drone-images">
+        <div class="container">
+            <div class="col-md-3 homepage-drone-img">
+                <a href="#container-portfolio" class="click-scrolling" id="drone-1">
+                    <img class="img-80" src="assets/img/phantom-2.png" alt=""></img>
+                    <p>Phantom 2</p>
+                </a>
+            </div>
+            
+             <div class="col-md-3 homepage-drone-img">
+                <a href="#container-portfolio" class="click-scrolling" id="drone-2">    
+                    <img class="img-90" src="assets/img/inspire-1.png" alt=""></img>
+                    <p>Inspire 1</p>
+                </a>
+            </div>
+            
+             <div class="col-md-3 homepage-drone-img">
+                <a href="#container-portfolio" class="click-scrolling" id="drone-3">
+                    <img src="assets/img/osmo.png" alt=""></img>
+                    <p>Osmo</p>
+                </a>
+            </div>
+            
+             <div class="col-md-3 homepage-drone-img">
+                <a href="#container-portfolio" class="click-scrolling" id="drone-4">
+                    <img class="img-80" src="assets/img/hexacoptero-6.png" alt=""></img>
+                    <p>Hexacoptero</p>
+                </a>
+            </div>
+
+        </div> <!-- .container -->
+    </div> <!-- .row -->
+    
+    
+     <div class="row">
+        <div class="container">
+            <h3 class="category-select">Selecciona la categoría</h3>
+        </div>
+    </div>
+    
+    <nav class="navbar navbar-default gallery-navbar nomargin">
+        <div class="gallery-select">
+            <ul class="nav navbar-nav">
+                <li><a href="#container-portfolio" class="click-scrolling" id="category-1">Productoras</a></li>
+                <li><a href="#container-portfolio" class="click-scrolling" id="category-1">Constructoras</a></li>
+                <li><a href="#container-portfolio" class="click-scrolling" id="category-1">Eventos</a></li>
+                <li><a href="#container-portfolio" class="click-scrolling" id="category-1">Hoteles</a></li>
+                <li><a href="#container-portfolio" class="click-scrolling" id="category-1">Gobierno</a></li>
+                <li><a href="#container-portfolio" class="click-scrolling" id="category-1">Privado</a></li>
+
+            </ul>
+        </div> 
+    </nav> <!-- .navbar -->
+    <section id="container-portfolio">
+        <div class="container_3 relative" id="portfolio">
+          <div id="myCarousel" class="carousel slide carousel-web" data-ride="carousel">
+            <div class="carousel-inner" role="listbox" id="carousel-gallery">
+            </div>
+          </div>
+          <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>  
+        </div>
+    </section>  
+    <nav class="container page-num">
+        <ul class="pagination">
+            <!--<li class="disabled"><a href="#" aria-label="Previous"><span aria-hidden="true">&laquo;</span></a></li>-->
+            <li class="active"><a href="#">1 <span class="sr-only"></span></a></li>
+            <li class=""><a href="#">2 <span></span></a></li>
+            <li class=""><a href="#">3 <span></span></a></li>
+        </ul>
+    </nav>
+    
+    
+    <footer id="contact">
+        <div class="row">
+            <div class="col-md-4">
+                <h5>Contáctanos</h5>
+                <form class="" id="formid">
+                    <div class="row contact-first">
+                        <div class="form-group col-sm-6 name">
+                            <label for="nombre" class=""></label>
+                            <input id="name" class="form-control input-group contact-input" type="text" name="name" placeholder="Nombre" />
+                        </div>
+                        <div class="form-group col-sm-6">
+                            <label for="correo-electronico" class=""></label>
+                            <input id="email" class="form-control input-group contact-input" type="email" name="email" placeholder="Correo electrónico" />
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="mensaje"></label>
+                        <textarea class="form-control contact-input noresizable" rows="5" id="msg" placeholder="Mensaje" name="msg"></textarea>
+                    </div>
+                    <div id="ok">
+                    </div>
+                    <button type="submit" class="btn btn-default footerBtn pull-right" id="btn-send">Enviar</button>
+                </form>
+            </div> <!-- contact form -->
+            
+            <div class="col-md-4 copyright-logo">
+                <div>
+                   <img class="footer-logo" src="assets/img/icons/logo-AERIAL-16.png" alt=""></img>
+                 <p>&copy; Aerial 2016</p> 
+                </div>
+            </div> <!-- logo -->
+            
+            <div class="col-md-4 social-media">
+                <div class="social-media-icons">
+                    <p><i class="fa fa-facebook-square" aria-hidden="true"></i> /aerial360</p>
+                    <p><i class="fa fa-instagram" aria-hidden="true"></i> @aerial360</p>
+                    <p><i class="fa fa-twitter" aria-hidden="true"></i>@aerialMX</p>
+                    <p><i class="fa fa-vimeo" aria-hidden="true"></i>@aerialMX</p>
+                </div>
+                
+                <hr>
+                
+                <div class="social-media-contact">
+                    <p><i class="fa fa-mobile" aria-hidden="true"></i> Jaime Hernández</p>
+                    <p>2281778800</p>
+                </div>
+                
+            </div> <!-- social media -->
+        </div> <!-- .row -->
+    </footer>
+    
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="http://jqueryvalidation.org/files/dist/jquery.validate.min.js"></script>   
+    <script src="//ajax.aspnetcdn.com/ajax/jquery.validate/1.9/jquery.validate.min.js"></script>
+    <script src="http://jqueryvalidation.org/files/dist/jquery.validate.min.js"></script>
+    <script src="http://jqueryvalidation.org/files/dist/additional-methods.min.js"></script>    
+    <script src="//ajax.aspnetcdn.com/ajax/jquery.validate/1.9/jquery.validate.min.js"></script>
+    <script src="assets/js/gallery.js"></script>
+    <script src="assets/js/mail.js"></script>
+    <script>
+        $(document).ready(function() {
+            $("#myNavbarWeb a,#myNavbarMobile a, .click-scrolling ").on('click', function (event) {
+                event.preventDefault();
+                var pageRef = $(this).attr("href");
+                var offset = 80;
+                if(pageRef[0] != '#') {
+                    window.location.href = pageRef;
+                  }
+                  else{
+                    var hash = this.hash;
+                    $('html, body').animate({
+                        scrollTop: $(hash).offset().top -20
+                    }, 800, function () {
+                        window.location.hash = hash;
+
+                    });
+                  }
+            });
+        });
+    </script>
+</body>
+</html>
