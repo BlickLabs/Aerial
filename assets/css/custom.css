@@ -566,7 +566,9 @@ textarea.form-control {
 i.fa {
     font-size: 1.8em;
 }
-
+.middle{
+    padding-top: 50%;
+}
 .social-media hr {
     width: 50%;
     margin-right: 0;
