@@ -34,11 +34,11 @@
         
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" id="myNavbarWeb">
             <ul class="nav navbar-nav">
-                <li class="active"><a href="#">Aerial</a></li>
+                <li><a href="#homepage" class="click-scrolling">Aerial</a></li>
                 <li><a href="#services" class="click-scrolling">Servicios</a></li>
                 <li><a href="drones.html">Drones</a></li>
                 <li><a href="portafolio.html">Portafolio</a></li>
-                <li><a href="#contact">Contacto</a></li>
+                <li><a href="#contact" class="click-scrolling">Contacto</a></li>
             </ul>
         </div> <!-- .navbar-collapse -->
     </nav> <!-- .navbar -->
@@ -81,8 +81,8 @@
     <div class="row capture">
         <h1>Te ayudamos a capturar las <span class="semibold">mejores tomas</span> a <br> través de nuestros ángulos inigualables.</h1>
     </div>
-
-    <div class="row services" id="services">
+    <div id="services"></div>
+    <div class="row services">
         <div class="col-md-5 servicios">
                 <div>
                     <h2>Servicios</h2>
@@ -196,7 +196,7 @@
     <script>
         $(document).ready(function() {
             $(window).bind('scroll', function() {
-                var navHeight = $(window).height() - 100;
+                var navHeight = $(window).height() - 90;
                 if ($(window).scrollTop() > navHeight) {
                     $('nav').addClass('fixed');
                 }
@@ -214,7 +214,7 @@
                   else{
                     var hash = this.hash;
                     $('html, body').animate({
-                        scrollTop: $(hash).offset().top -20
+                        scrollTop: $(hash).offset().top -90
                     }, 800, function () {
                         window.location.hash = hash;
 
@@ -223,6 +223,13 @@
             });
         });
     </script>
+      <script type="text/javascript">
+     $(function() {
+          $(document).on('click', function(){ 
+           $('.navbar-collapse').removeClass('in')
+          });
+     });
+  </script>
 </body>
 
 </html>

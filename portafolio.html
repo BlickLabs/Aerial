@@ -33,35 +33,35 @@
     
     <div class="row portafolio-first-row">
         <div class="container">
-            <h3>Selecciona el tipo de Dron</h3>
+            <h3>1- Selecciona el tipo de Dron</h3>
         </div>
     </div>
     
     <div class="row drone-images">
         <div class="container">
             <div class="col-md-3 homepage-drone-img">
-                <a href="#container-portfolio" class="click-scrolling" id="drone-1">
+                <a href="#category-title" class="click-scrolling drone active" id="drone-1">
                     <img class="img-80" src="assets/img/phantom-2.png" alt=""></img>
                     <p>Phantom 2</p>
                 </a>
             </div>
             
              <div class="col-md-3 homepage-drone-img">
-                <a href="#container-portfolio" class="click-scrolling" id="drone-2">    
+                <a href="#category-title" class="click-scrolling drone" id="drone-2">    
                     <img class="img-90" src="assets/img/inspire-1.png" alt=""></img>
                     <p>Inspire 1</p>
                 </a>
             </div>
             
              <div class="col-md-3 homepage-drone-img">
-                <a href="#container-portfolio" class="click-scrolling" id="drone-3">
+                <a href="#category-title" class="click-scrolling drone" id="drone-3">
                     <img src="assets/img/osmo.png" alt=""></img>
                     <p>Osmo</p>
                 </a>
             </div>
             
              <div class="col-md-3 homepage-drone-img">
-                <a href="#container-portfolio" class="click-scrolling" id="drone-4">
+                <a href="#category-title" class="click-scrolling drone" id="drone-4">
                     <img class="img-80" src="assets/img/hexacoptero-6.png" alt=""></img>
                     <p>Hexacoptero</p>
                 </a>
@@ -70,22 +70,22 @@
         </div> <!-- .container -->
     </div> <!-- .row -->
     
-    
+    <div id="category-title"></div>
      <div class="row">
         <div class="container">
-            <h3 class="category-select">Selecciona la categoría</h3>
+            <h3 class="category-select">2- Selecciona la categoría</h3>
         </div>
     </div>
     
     <nav class="navbar navbar-default gallery-navbar nomargin">
         <div class="gallery-select">
             <ul class="nav navbar-nav">
-                <li><a href="#container-portfolio" class="click-scrolling" id="category-1">Productoras</a></li>
-                <li><a href="#container-portfolio" class="click-scrolling" id="category-1">Constructoras</a></li>
-                <li><a href="#container-portfolio" class="click-scrolling" id="category-1">Eventos</a></li>
-                <li><a href="#container-portfolio" class="click-scrolling" id="category-1">Hoteles</a></li>
-                <li><a href="#container-portfolio" class="click-scrolling" id="category-1">Gobierno</a></li>
-                <li><a href="#container-portfolio" class="click-scrolling" id="category-1">Privado</a></li>
+                <li><a href="#container-portfolio" class="click-scrolling category active" id="category-1">Productoras</a></li>
+                <li><a href="#container-portfolio" class="click-scrolling category" id="category-2">Constructoras</a></li>
+                <li><a href="#container-portfolio" class="click-scrolling category" id="category-3">Eventos</a></li>
+                <li><a href="#container-portfolio" class="click-scrolling category" id="category-4">Hoteles</a></li>
+                <li><a href="#container-portfolio" class="click-scrolling category" id="category-5">Gobierno</a></li>
+                <li><a href="#container-portfolio" class="click-scrolling category" id="category-6">Privado</a></li>
 
             </ul>
         </div> 
@@ -176,7 +176,7 @@
                   else{
                     var hash = this.hash;
                     $('html, body').animate({
-                        scrollTop: $(hash).offset().top -20
+                        scrollTop: $(hash).offset().top -90
                     }, 800, function () {
                         window.location.hash = hash;
 
@@ -185,5 +185,12 @@
             });
         });
     </script>
+      <script type="text/javascript">
+     $(function() {
+          $(document).on('click', function(){ 
+           $('.navbar-collapse').removeClass('in')
+          });
+     });
+  </script>
 </body>
 </html>
