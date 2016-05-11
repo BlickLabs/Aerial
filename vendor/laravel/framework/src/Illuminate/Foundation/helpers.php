@@ -97,7 +97,7 @@ if (! function_exists('auth')) {
      */
     function auth()
     {
-        return app(Guard::class);
+        return app(get_class(Guard));
     }
 }
 
