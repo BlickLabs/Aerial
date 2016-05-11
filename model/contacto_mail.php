@@ -8,7 +8,7 @@ require '../vendor/autoload.php';
 $name2 = $_POST['name'];
 $email2 = $_POST['email'];
 $mensaje = $_POST['msg'];
-$asunto = 'Un cliente requiere de mayor información: ';
+$asunto = 'Un cliente requiere de mayor información acerca de los drones: ';
 
 /* Desarrollo */
 $api_key = 'key-eb656047b090ea091ef7c5d2fbd83dc5';
