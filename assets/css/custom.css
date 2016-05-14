@@ -304,19 +304,19 @@ body {
 .homepage-gallery .row1-img1 {
     background: url("../img/IMG_4253.jpg") center center no-repeat;
     background-size: cover;
-    height: 250px;
+    height: 400px;
 }
 
 .homepage-gallery .row1-img2 {
     background: url("../img/IMG_3802.jpg") center center no-repeat;
     background-size: cover;
-    height: 250px;
+    height: 400px;
 }
 
 .homepage-gallery .row1-img3 {
     background: url("../img/foto-secundaria.jpg") center center no-repeat;
     background-size: cover;
-    height: 250px;
+    height: 400px;
 }
 
 /* images row 2 */
@@ -337,19 +337,19 @@ body {
 .homepage-gallery .row3-img1 {
     background: url("../img/IMG_4258.jpg") center center no-repeat;
     background-size: cover;
-    height: 250px;
+    height: 400px;
 }
 
 .homepage-gallery .row3-img2 {
     background: url("../img/IMG_4259.jpg") center center no-repeat;
     background-size: cover;
-    height: 250px;
+    height: 400px;
 }
 
 .homepage-gallery .row3-img3 {
     background: url("../img/IMG_3724.jpg") center center no-repeat;
     background-size: cover;
-    height: 250px;
+    height: 400px;
 }
 
 .homepage-gallery div {
@@ -609,6 +609,9 @@ i.fa {
 .form-control{
     color: #FFF;
 }
+#ok{
+    margin-top: 20px;
+}
 
 /**********************
 * Media Queries
@@ -795,6 +798,7 @@ i.fa {
     }
     .navbar-nav{
         padding-top: 50px;
+        padding-bottom: 50px;
         width: 100%;
     }
 }

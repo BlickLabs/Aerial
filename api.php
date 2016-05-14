@@ -4,7 +4,7 @@ include "config.php";
 //header("Content-Type: application/json; charset=UTF-8");
 error_reporting(E_ALL);
 
-$category =mysqli_real_escape_string($mysqli,$_GET["category"]);
+$category =mysqli_real_escape_string($mysqli1,$_GET["category"]);
 $drone =mysqli_real_escape_string($mysqli2,$_GET["drone"]);
 
 
