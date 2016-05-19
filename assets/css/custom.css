@@ -763,6 +763,9 @@ i.fa {
         position: relative;
     }
     .footer-logo {
+        margin-top: 0px;
+    }
+    .copyright-logo {
         margin-top: 50px;
     }
     .gallery-select .navbar-nav>li>a {
