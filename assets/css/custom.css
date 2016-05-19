@@ -307,32 +307,32 @@ body {
 
 /* images row 1 */
 .homepage-gallery .row1-img1 {
-    background: url("../img/images/Carousel6.JPG") center center no-repeat;
+    background: url("../img/images/carousel1.JPG") center center no-repeat;
     background-size: cover;
     height: 400px;
 }
 
 .homepage-gallery .row1-img2 {
-    background: url("../img/images/Carousel8.JPG") center center no-repeat;
+    background: url("../img/images/Carousel2.JPG") center center no-repeat;
     background-size: cover;
     height: 400px;
 }
 
 .homepage-gallery .row1-img3 {
-    background: url("../img/images/carousel1.JPG") center center no-repeat;
+    background: url("../img/images/Carousel3.JPG") center center no-repeat;
     background-size: cover;
     height: 400px;
 }
 
 /* images row 2 */
 .homepage-gallery .row2-img1 {
-    background: url("../img/images/Carousel2.JPG") center center no-repeat;
+    background: url("../img/images/Carousel4.JPG") center center no-repeat;
     background-size: cover;
     height: 400px;
 }
 
 .homepage-gallery .row2-img2{
-    background: url("../img/images/Carousel3.JPG") center center no-repeat;
+    background: url("../img/images/Carousel5.JPG") center center no-repeat;
     background-size: cover;
     height: 400px;
 }
@@ -340,19 +340,39 @@ body {
 /* images row 3 */
 
 .homepage-gallery .row3-img1 {
-    background: url("../img/images/Carousel4.JPG") center center no-repeat;
+    background: url("../img/images/Carousel6.JPG") center center no-repeat;
     background-size: cover;
     height: 400px;
 }
 
 .homepage-gallery .row3-img2 {
-    background: url("../img/images/Carousel5.JPG") center center no-repeat;
+    background: url("../img/images/Carousel7.JPG") center center no-repeat;
     background-size: cover;
     height: 400px;
 }
 
 .homepage-gallery .row3-img3 {
-    background: url("../img/images/Carousel7.JPG") center center no-repeat;
+    background: url("../img/images/Carousel8.JPG") center center no-repeat;
+    background-size: cover;
+    height: 400px;
+}
+.homepage-gallery .row3-img4 {
+    background: url("../img/images/Carousel9.JPG") center center no-repeat;
+    background-size: cover;
+    height: 400px;
+}
+.homepage-gallery .row3-img5 {
+    background: url("../img/images/Carousel10.JPG") center center no-repeat;
+    background-size: cover;
+    height: 400px;
+}
+.homepage-gallery .row3-img6 {
+    background: url("../img/images/Carousel11.JPG") center center no-repeat;
+    background-size: cover;
+    height: 400px;
+}
+.homepage-gallery .row3-img7 {
+    background: url("../img/images/Carousel12.JPG") center center no-repeat;
     background-size: cover;
     height: 400px;
 }
@@ -803,6 +823,9 @@ i.fa {
     .services .row {
         padding-left: 160px;
     }
+    #bgvid{
+        display: none;
+    }
     #homepage h1 {
         font-size: 2.7em;
     }
@@ -925,7 +948,6 @@ video {
     height: auto;
     z-index: -100;
     transform: translateX(-50%) translateY(-50%);
- background: url('//demosthenes.info/assets/images/polina.jpg') no-repeat;
   background-size: cover;
   transition: 1s opacity;
 }
@@ -934,4 +956,10 @@ video {
 }
 .drone-images{
     background-color: #eee;
+}
+@media screen and (max-width: 991px) {
+
+    video{
+        display: none;
+    }
 }
