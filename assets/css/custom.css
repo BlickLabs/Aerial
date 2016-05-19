@@ -186,7 +186,9 @@ body {
 .homepage-drone-img img.img-90 {
     width: 90%;
 }
-
+.homepage-drone-img img.img-50 {
+    width: 50%;
+}
 .homepage-drone-img p {
     position: absolute;
     left: 50%;
@@ -957,9 +959,15 @@ video {
 .drone-images{
     background-color: #eee;
 }
+.drone-images.portfolio{
+    background-color: #fff;
+}
 @media screen and (max-width: 991px) {
 
     video{
         display: none;
     }
+}
+.active-drone>.homepage-drone-img{
+    background-color: #eee;
 }

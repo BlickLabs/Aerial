@@ -1,4 +1,5 @@
 $(document).ready(function() {
+  $('#drone-1').addClass('active-drone');
   $.ajax({
     cache: false,
     type: 'GET',
