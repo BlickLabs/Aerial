@@ -84,4 +84,3 @@ if ($category!=null && $drone!=null){
 //    
 
 ?>
-        
