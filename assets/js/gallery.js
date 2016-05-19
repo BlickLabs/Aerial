@@ -63,40 +63,47 @@ $(document).ready(function() {
           var res = data;
           var count= 1;
           var ids = 1;
-          var images = data.images;
-          $('.no-images').hide();
-          $(".carousel-inner").empty();
-          console.log('remove items');
-          for(var i=0;i<res.images.length;i++){
-            if(count == 1 && i < 2){
-              var item = "<div class='item active' id='item-"+ ids +"'><div class='row row-no-margin-right' id='row-"+ ids +"'></div></div>";
-              $('.carousel-inner').append(item);
-              var content = "<div class='col-md-4 col-sm-4 col-xs-12 col-lg-4 img-container'><img src='" + res.images[i].path + "' alt='Second slide' class='img-responsive modal-image'></div>";
-              count++;
-              $('#row-'+ ids).append(content);
-              console.log("1");
+          if(data.images == undefined || data.images == null || data.images == 'null' || data.images.length == 0){
+            $(".carousel-inner").empty();
+            $('.carousel-control').hide();
+            $('.no-images').show();         
+          }
+          else{
+            var images = data.images;
+            $('.no-images').hide();
+            $(".carousel-inner").empty();
+            console.log('remove items');
+            for(var i=0;i<res.images.length;i++){
+              if(count == 1 && i < 2){
+                var item = "<div class='item active' id='item-"+ ids +"'><div class='row row-no-margin-right' id='row-"+ ids +"'></div></div>";
+                $('.carousel-inner').append(item);
+                var content = "<div class='col-md-4 col-sm-4 col-xs-12 col-lg-4 img-container'><img src='" + res.images[i].path + "' alt='Second slide' class='img-responsive modal-image'></div>";
+                count++;
+                $('#row-'+ ids).append(content);
+                console.log("1");
+              }
+              else if(count == 1 && i > 2){
+                var item = "<div class='item' id='item-"+ ids +"'><div class='row row-no-margin-right' id='row-"+ ids +"'></div></div>";
+                $('.carousel-inner').append(item);
+                var content = "<div class='col-md-4 col-sm-4 col-xs-12 col-lg-4 img-container'><img src='" + res.images[i].path + "' alt='Second slide' class='img-responsive modal-image'></div>";
+                count++;
+                $('#row-'+ ids).append(content);
+                console.log("2");
+              }
+              else if(count > 1 && count < 3){
+                var content = "<div class='col-md-4 col-sm-4 col-xs-12 col-lg-4 img-container'><img src='" + res.images[i].path + "' alt='Second slide' class='img-responsive modal-image'></div>";
+                count++;
+                $('#row-'+ ids).append(content);
+                console.log("3");
+              }
+              else if(count == 3){
+                var content = "<div class='col-md-4 col-sm-4 col-xs-12 col-lg-4 img-container'><img src='" + res.images[i].path + "' alt='Second slide' class='img-responsive modal-image'></div>";
+                $('#row-'+ ids).append(content);
+                console.log("4");
+                count=1;
+                ids++;
+              };
             }
-            else if(count == 1 && i > 2){
-              var item = "<div class='item' id='item-"+ ids +"'><div class='row row-no-margin-right' id='row-"+ ids +"'></div></div>";
-              $('.carousel-inner').append(item);
-              var content = "<div class='col-md-4 col-sm-4 col-xs-12 col-lg-4 img-container'><img src='" + res.images[i].path + "' alt='Second slide' class='img-responsive modal-image'></div>";
-              count++;
-              $('#row-'+ ids).append(content);
-              console.log("2");
-            }
-            else if(count > 1 && count < 3){
-              var content = "<div class='col-md-4 col-sm-4 col-xs-12 col-lg-4 img-container'><img src='" + res.images[i].path + "' alt='Second slide' class='img-responsive modal-image'></div>";
-              count++;
-              $('#row-'+ ids).append(content);
-              console.log("3");
-            }
-            else if(count == 3){
-              var content = "<div class='col-md-4 col-sm-4 col-xs-12 col-lg-4 img-container'><img src='" + res.images[i].path + "' alt='Second slide' class='img-responsive modal-image'></div>";
-              $('#row-'+ ids).append(content);
-              console.log("4");
-              count=1;
-              ids++;
-            };
           }
         }
       });     
@@ -105,7 +112,7 @@ $(document).ready(function() {
   $('.category').on('click', function(){
     var category = $(this).attr('query');
     $('.category').addClass('active-category');
-    $('.category').not('#category-' + drone).removeClass('active-category');
+    $('.category').not('#category-' + category).removeClass('active-category');
     var drone = $('.drone.active-drone').attr('query');
     var dataSend = 'drone=' + drone + '&category=' + category;
     $.ajax({

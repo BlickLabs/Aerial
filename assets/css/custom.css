@@ -107,7 +107,7 @@ body {
     font-family: myriadProLight;
     font-size: 1.2em;
     text-transform: uppercase;
-    padding: 35px 50px;
+    padding: 30px 50px;
     letter-spacing: .1em;
     color: #b4b4b1;
     font-variant: small-caps;
@@ -132,7 +132,7 @@ body {
     background-size: cover;
     background-attachment: fixed;
     text-align: center;
-    height: 85vh;
+    height: 87vh;
     margin-bottom: 0;
     color: #fff;
 }
@@ -327,13 +327,13 @@ body {
 }
 
 /* images row 2 */
-.homepage-gallery .row2-img1 {
+.homepage-gallery .row1-img4 {
     background: url("../img/images/Carousel4.JPG") center center no-repeat;
     background-size: cover;
     height: 400px;
 }
 
-.homepage-gallery .row2-img2{
+.homepage-gallery .row1-img5{
     background: url("../img/images/Carousel5.JPG") center center no-repeat;
     background-size: cover;
     height: 400px;
@@ -341,39 +341,39 @@ body {
 
 /* images row 3 */
 
-.homepage-gallery .row3-img1 {
+.homepage-gallery .row1-img6 {
     background: url("../img/images/Carousel6.JPG") center center no-repeat;
     background-size: cover;
     height: 400px;
 }
 
-.homepage-gallery .row3-img2 {
+.homepage-gallery .row1-img7 {
     background: url("../img/images/Carousel7.JPG") center center no-repeat;
     background-size: cover;
     height: 400px;
 }
 
-.homepage-gallery .row3-img3 {
+.homepage-gallery .row1-img8 {
     background: url("../img/images/Carousel8.JPG") center center no-repeat;
     background-size: cover;
     height: 400px;
 }
-.homepage-gallery .row3-img4 {
+.homepage-gallery .row1-img9 {
     background: url("../img/images/Carousel9.JPG") center center no-repeat;
     background-size: cover;
     height: 400px;
 }
-.homepage-gallery .row3-img5 {
+.homepage-gallery .row1-img10 {
     background: url("../img/images/Carousel10.JPG") center center no-repeat;
     background-size: cover;
     height: 400px;
 }
-.homepage-gallery .row3-img6 {
+.homepage-gallery .row1-img11{
     background: url("../img/images/Carousel11.JPG") center center no-repeat;
     background-size: cover;
     height: 400px;
 }
-.homepage-gallery .row3-img7 {
+.homepage-gallery .row1-img12 {
     background: url("../img/images/Carousel12.JPG") center center no-repeat;
     background-size: cover;
     height: 400px;
@@ -399,6 +399,9 @@ body {
 .drone-detail-img {
     width: 80%;
 }
+.drone-detail-img.osmo {
+    width: 40%;
+}
 
 .drone-detail-img.img-left {
     position: absolute;
@@ -420,7 +423,7 @@ body {
 
 .drone-detail {
     padding-top: 0px;
-    padding-bottom: 50px;
+    padding-bottom: 0px;
 }
 
 .drone-detail p {
@@ -973,4 +976,32 @@ video {
 }
 .active-drone>.homepage-drone-img{
     background-color: #eee;
+}
+.active-category{
+    background-color: #333 !important;
+    color: #FFF !important;
+}
+.img-video{
+    width: 100%;
+    height: 315px;
+    max-height: 315px;
+}
+.video-dialog{
+    background-color: transparent;
+    box-shadow: none;
+    border: none;
+    height: 100%;
+}
+.modal-header{
+    border-bottom: none;
+}
+.modal-dialog{
+    width: 80%;
+    height: 100%;
+}
+.close{
+    color: #FFF;
+}
+.modal-body{
+    height: 80%;
 }
