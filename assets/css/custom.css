@@ -57,7 +57,7 @@ body {
     font-size: 2.5em;
     text-align: center;
     padding-top: 40px;
-    padding-bottom: 20px;
+    padding-bottom: 70px;
 }
 
 #drones p {
@@ -128,7 +128,7 @@ body {
 **********************/
 
 .jumbotron {
-    background: url("../img/foto-ppal.jpg") center center no-repeat;
+    background-color: transparent;
     background-size: cover;
     background-attachment: fixed;
     text-align: center;
@@ -136,9 +136,13 @@ body {
     margin-bottom: 0;
     color: #fff;
 }
+.navbar{
+    margin-bottom: 0px;
+}
 @media screen and (max-width: 620px) {
     .jumbotron {
-        background: url("../img/foto-ppal.jpg") center center no-repeat;
+        background-color: transparent !important;
+        background: url("../img/images/PrincipalMovil.JPG") center center no-repeat;
         background-size: cover;
         background-attachment: scroll;
         text-align: center;
@@ -196,7 +200,7 @@ body {
 }
 
 .capture {
-    background: url("../img/foto-secundaria.jpg") center center no-repeat;
+    background: url("../img/images/Parallax-HomePage.jpg") center center no-repeat;
     background-size: cover;
     background-attachment: fixed;
     text-align: center;
@@ -206,7 +210,7 @@ body {
 }
 @media screen and (max-width: 620px) {
     .capture {
-        background: url("../img/foto-secundaria.jpg") center center no-repeat;
+        background: url("../img/images/Parallax-HomePage.jpg") center center no-repeat;
         background-size: cover;
         background-attachment: scroll;
         text-align: center;
@@ -218,6 +222,7 @@ body {
 .mas {
     text-align: center;
     padding-bottom: 90px;
+    background-color: #eee;
 }
 
 .mas .btn {
@@ -302,32 +307,32 @@ body {
 
 /* images row 1 */
 .homepage-gallery .row1-img1 {
-    background: url("../img/IMG_4253.jpg") center center no-repeat;
+    background: url("../img/images/Carousel6.JPG") center center no-repeat;
     background-size: cover;
     height: 400px;
 }
 
 .homepage-gallery .row1-img2 {
-    background: url("../img/IMG_3802.jpg") center center no-repeat;
+    background: url("../img/images/Carousel8.JPG") center center no-repeat;
     background-size: cover;
     height: 400px;
 }
 
 .homepage-gallery .row1-img3 {
-    background: url("../img/foto-secundaria.jpg") center center no-repeat;
+    background: url("../img/images/Carousel1.JPG") center center no-repeat;
     background-size: cover;
     height: 400px;
 }
 
 /* images row 2 */
 .homepage-gallery .row2-img1 {
-    background: url("../img/IMG_4255.jpg") center center no-repeat;
+    background: url("../img/images/Carousel2.JPG") center center no-repeat;
     background-size: cover;
     height: 400px;
 }
 
 .homepage-gallery .row2-img2{
-    background: url("../img/IMG_4256.jpg") center center no-repeat;
+    background: url("../img/images/Carousel3.JPG") center center no-repeat;
     background-size: cover;
     height: 400px;
 }
@@ -335,19 +340,19 @@ body {
 /* images row 3 */
 
 .homepage-gallery .row3-img1 {
-    background: url("../img/IMG_4258.jpg") center center no-repeat;
+    background: url("../img/images/Carousel4.JPG") center center no-repeat;
     background-size: cover;
     height: 400px;
 }
 
 .homepage-gallery .row3-img2 {
-    background: url("../img/IMG_4259.jpg") center center no-repeat;
+    background: url("../img/images/Carousel5.JPG") center center no-repeat;
     background-size: cover;
     height: 400px;
 }
 
 .homepage-gallery .row3-img3 {
-    background: url("../img/IMG_3724.jpg") center center no-repeat;
+    background: url("../img/images/Carousel7.JPG") center center no-repeat;
     background-size: cover;
     height: 400px;
 }
@@ -360,7 +365,7 @@ body {
 * Drones Page
 **********************/
 .cam-icon {
-    height: 50px;
+    height: 40px;
     padding-right: 15px;
 }
 
@@ -569,6 +574,9 @@ i.fa {
 .middle{
     padding-top: 50%;
 }
+.middle-index{
+    padding-top: 180px;
+}
 .social-media hr {
     width: 50%;
     margin-right: 0;
@@ -759,6 +767,12 @@ i.fa {
     textarea.form-control {
         margin-top: 0;
     }
+    .mas{
+        padding-top: 50px;
+    }
+    .drone-first-row{
+        margin-top: 70px;
+    }
     #homepage .homepage-drone-img img, 
     #homepage .homepage-drone-img img.img-80,
     #homepage .homepage-drone-img img.img-90 {
@@ -824,7 +838,7 @@ i.fa {
         height: 300px;
     }
     #drones .drone-img-container {
-        height: 250px;
+        height: 200px;
     }
     #portafolio .homepage-drone-img {
         height: 300px;
@@ -865,6 +879,20 @@ i.fa {
         padding-right: 15px;
     }
 }
+.video-title {
+    text-align: center;
+    font-size: 2em;
+    font-family: myriadProSemiBold;
+    color: #555655;
+}
+.no-images-text{
+    text-align: center;
+    font-size: 2em;
+    font-family: myriadProSemiBold;
+    color: #555655;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
 .img-container{
     padding: 0px;
     background-color: #545554;
@@ -879,4 +907,31 @@ i.fa {
 }
 .relative{
     position: relative;
+}
+.videos-section{
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.video-container{
+    padding-top: 20px;
+}
+video { 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+ background: url('//demosthenes.info/assets/images/polina.jpg') no-repeat;
+  background-size: cover;
+  transition: 1s opacity;
+}
+.stopfade { 
+   opacity: .5;
+}
+.drone-images{
+    background-color: #eee;
 }

@@ -13,6 +13,10 @@
 
 <body id="homepage">
 
+    <video autoplay muted poster="assets/img/images/PrincipalMovil.JPG" id="bgvid" loop>
+      <!-- WCAG general accessibility recommendation is that media such as background video play through only once. Loop turned on for the purposes of illustration; if removed, the end of the video will fade in the same way created by pressing the "Pause" button  -->
+    <source src="assets/video/video.mp4" type="video/mp4">
+    </video>
     <div class="jumbotron">
         <div class="container">
             <div class="logo-tagline">
@@ -37,6 +41,7 @@
                 <li><a href="#homepage" class="click-scrolling">Aerial</a></li>
                 <li><a href="#services" class="click-scrolling">Servicios</a></li>
                 <li><a href="drones.html">Drones</a></li>
+                <li><a href="videos.html">Videos</a></li>
                 <li><a href="portafolio.html">Portafolio</a></li>
                 <li><a href="#contact" class="click-scrolling">Contacto</a></li>
             </ul>
@@ -77,8 +82,11 @@
     </div>
 
 
-    <div class="row capture">
+    <div class="row capture web-drones">
         <h1>Te ayudamos a capturar las <span class="semibold">mejores tomas</span> a <br> través de nuestros ángulos inigualables.</h1>
+    </div>
+    <div class="row capture mobile-drones">
+        <h1>Te ayudamos a capturar las <span class="semibold">mejores tomas.</span></h1>
     </div>
     <div id="services"></div>
     <div class="row services">
@@ -142,10 +150,10 @@
             </div>
           </div>
           <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-            <span class="fa fa-angle-left fa-3x middle"></span>
+            <span class="fa fa-angle-left fa-3x middle-index"></span>
           </a>
           <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-            <span class="fa fa-angle-right fa-3x middle"></span>
+            <span class="fa fa-angle-right fa-3x middle-index"></span>
           </a>  
         </div>
     </section>
@@ -185,7 +193,7 @@
                 <div class="social-media-icons">
                     <p><i class="fa fa-facebook-square" aria-hidden="true"></i> /aerial360</p>
                     <p><i class="fa fa-instagram" aria-hidden="true"></i> @aerial360</p>
-                    <p><i class="fa fa-twitter" aria-hidden="true"></i>@aerialMX</p>
+                    <p><i class="fa fa-youtube-play" aria-hidden="true"></i>@aerialMX</p>
                     <p><i class="fa fa-vimeo" aria-hidden="true"></i>@aerialMX</p>
                 </div>
                 
