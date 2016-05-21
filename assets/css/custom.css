@@ -1005,3 +1005,13 @@ video {
 .modal-body{
     height: 80%;
 }
+.drone-link{
+    display: block;
+    position: relative;
+    top: -85px;
+    visibility: hidden;
+}
+.drone-hp{
+    text-decoration: none;
+    color: #333;
+}
