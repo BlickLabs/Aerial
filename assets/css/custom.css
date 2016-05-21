@@ -74,6 +74,7 @@ body {
     font-size: 2em;
     font-family: myriadProSemiBold;
     color: #555655;
+    margin-bottom: 55px;
 }
 
 /**********************
@@ -107,7 +108,7 @@ body {
     font-family: myriadProLight;
     font-size: 12px;
     text-transform: uppercase;
-    padding: 30px 50px;
+    padding: 30px 35px;
     letter-spacing: .1em;
     color: #b4b4b1;
     font-variant: small-caps;
@@ -402,15 +403,24 @@ body {
 .drone-detail-img.osmo {
     width: 40%;
 }
+.drone-detail-img.phantom {
+    width: 75%;
+}
 
 .drone-detail-img.img-left {
     position: absolute;
     left: 0;
 }
-
+.inspire-margin{
+    margin-top: -40px;
+}
 .drone-detail-img.img-right {
     position: absolute;
     right: 0;
+}
+.drone-detail-img.img-right-osmo {
+    margin: auto;
+    margin-top: -50px;
 }
 
 .dark-section {
@@ -477,9 +487,13 @@ body {
     background-color: #868686;
     color: #fff;
 }
+.gallery-navbar {
+    border: none;
+    border-radius: 0px;
 
+}
 .gallery-select .navbar-nav>li>a {
-    margin-right: 50px;
+    padding: 15px 35px;
 }
 .nomargin{
         margin-bottom: 0px;
@@ -825,6 +839,25 @@ i.fa {
     .servicios-details {
         padding-top: 40px;
     }
+    .drone-detail-img.osmo {
+        width: 40%;
+    }
+    .drone-detail-img.img-right-osmo {
+    margin: auto;
+    margin-top: 25px;
+}
+    .mobile-drone{
+        padding-bottom: 35px;
+    }
+    .mobile-inspire{
+        margin-top: 15px;
+    }
+    .social-media{
+        padding-top: 0px;
+    }
+    .modal-dialog{
+        width: 95%;
+    }
 }
 
 @media screen and (max-width: 735px) {
@@ -944,7 +977,7 @@ i.fa {
     margin-bottom: 100px;
 }
 .video-container{
-    padding-top: 20px;
+    padding-top: 30px;
 }
 video { 
     position: fixed;
@@ -1014,4 +1047,9 @@ video {
 .drone-hp{
     text-decoration: none;
     color: #333;
+}
+@media screen and (max-width: 765px) {
+    .modal-dialog{
+        width: 95%;
+    }
 }
