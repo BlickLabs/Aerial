@@ -1053,3 +1053,15 @@ video {
         width: 95%;
     }
 }
+
+.modal-image{
+    width: -webkit-calc(100% + 80px);
+    width: calc(100% + 80px);
+    max-width: 120%;
+    -webkit-backface-visibility: hidden;
+    transform: translateX(-20px) translateY(-20px);
+    /* -webkit-transform: translateX(-20px) translateY(-20px); */
+    -moz-transform: translateX(-20px) translateY(-20px);
+    -ms-transform: translateX(-20px) translateY(-20px);
+    -o-transform: translateX(-20px) translateY(-20px);
+}
