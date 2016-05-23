@@ -45,7 +45,7 @@ body {
 #homepage h1 {
     font-family: myriadProLight;
     font-size: 2.5em;
-    padding-top: 20px;
+    padding-top: 50px;
 }
 
 #homepage h1 .semibold {
@@ -1054,6 +1054,9 @@ video {
     .modal-dialog{
         width: 95%;
     }
+    #homepage h1 {
+    padding-top: 20px;
+}
 }
 .modal-image{
     width: 100%;
