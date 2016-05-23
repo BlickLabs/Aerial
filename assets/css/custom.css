@@ -795,7 +795,7 @@ i.fa {
         height: 35vh;
     }
     .servicios-details{
-        height: 75vh;
+        height: 77vh;
     }
 }
 
@@ -820,6 +820,9 @@ i.fa {
     #homepage .homepage-drone-img img.img-90 {
         width: 60%;
     }
+    .homepage-drone-img img.img-50 {
+    width: 44% !important;
+}
     #homepage .homepage-drone-img {
         margin-bottom: 10px;
         margin-top: 10px;
@@ -896,6 +899,7 @@ i.fa {
     }
     .servicios-details {
         padding-top: 20px;
+        padding-bottom: 20px;
     }
     #homepage .homepage-drone-img {
         margin: 0;
@@ -1056,6 +1060,13 @@ video {
     }
     #homepage h1 {
     padding-top: 20px;
+}
+.middle-index{
+    padding-top: 370px;
+}
+.close{
+    font-size: 45px;
+    opacity: .5;
 }
 }
 .modal-image{
