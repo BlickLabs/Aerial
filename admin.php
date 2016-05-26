@@ -3,7 +3,7 @@
     session_start();
      error_reporting(0);
     if (isset($_SESSION['user_name']) != "") {
-        header("Location: Home.php");
+        header("Location: principal.php");
     }
     if (isset($_POST['btn-login'])) {
         $email = $_POST['email'];
@@ -16,7 +16,7 @@
         if ($num_row >= 1) {
             echo 'true';
             $_SESSION['user_name'] = $row['user'];
-            header("Location:Home.php");
+            header("Location:principal.php");
         } else {
            $result='<div class="alert alert-error">Lo sentimos! Usuario y/o constraseña son invalidos</div>';
         }

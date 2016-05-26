@@ -27,7 +27,7 @@
 	
 	<!-- start: Mobile Specific -->
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-          <link rel="icon" type="image/png" sizes="32x32" href="favicon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="images/logo_gris.png">
 	<!-- end: Mobile Specific -->
 	   
         
@@ -43,8 +43,7 @@
         <script src="js/upload.js"></script>
         <script src="js/bootbox.js"></script>
         <script src="js/bootbox.min.js"></script>
-        
-        	<link rel="shortcut icon" href="img/favicon.ico">
+        <link rel="shortcut icon" href="images/logo_gris.png">
 	<!-- end: Favicon -->
 	
 		
@@ -62,7 +61,7 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</a>
-                            <a class="brand" href="#"><span><h2>The Wedding Factory</h2></span></a>
+                            <a class="brand" href="index.html"><span><h2><img src="images/logo_blanco.png" style="height: 60px"></h2></span></a>
 								
 				<!-- start: Header Menu -->
 				<div class="nav-no-collapse header-nav">
@@ -104,17 +103,16 @@
 				
 			<!-- start: Main Menu -->
 			<div id="sidebar-left" class="span2">
-				<div class="nav-collapse sidebar-nav">
-					<ul class="nav nav-tabs nav-stacked main-menu">
-<!--                                            <li><a href="galeries.php"><i class="icon-calendar"></i><span class="hidden-tablet">&nbsp;Galerías</span></a></li>-->
-                                           <li><a href="Home.php"><i class="icon-picture"></i><span class="hidden-tablet">&nbsp; Ver Imagenes</span></a></li>
-                                            <li class="active"><a href="images.php"><i class="icon-upload-alt"></i><span class="hidden-tablet">&nbsp; Añadir Imagenes</span></a></li>
-                                           
-					</ul>
-				</div>
+                            <div class="nav-collapse sidebar-nav">
+                                    <ul class="nav nav-tabs nav-stacked main-menu">
+                                        <li><a href="images.php"><i class="icon-upload-alt"></i><span class="hidden-tablet">&nbsp;Subir Imagenes</span></a></li>
+                                        <li><a href="drones_gallery.php"><i class="icon-upload-alt"></i><span class="hidden-tablet">&nbsp;Galería Por Drones</span></a></li>
+                                        <li><a href="categories_gallery.php"><i class="icon-upload-alt"></i><span class="hidden-tablet">&nbsp;Galería Por Categorías</span></a></li>
+                                    </ul>
+				</div>   
+			    </div>
 			</div>
 			<!-- end: Main Menu -->
-			
 			<noscript>
 				<div class="alert alert-block span10">
 					<h4 class="alert-heading">Warning!</h4>
@@ -146,7 +144,7 @@
 		<label class="control-label" for="focusedInput">Titulo De la Imagen: </label>
 		    <div class="controls">
                         <input class="input-xlarge focused" type="text" id="title" name="title" pattern="[^'\x22]+"
-                               title="este campo no acepta caracteres especiales, solo letras" required="">
+                               title="este campo no acepta caracteres especiales, solo letras" >
 		    </div>
 	    </div>
             
@@ -157,46 +155,37 @@
                 </div>
             </div>
             
-            <div class="control-group  mar-top41" style="visibility:hidden">
-		<label class="control-label" for="selectError">Galería Asignada:</label>
+            <div class="control-group  col-sm-5 mar-top41" >
+		<label class="control-label" for="selectError">Tipo De Drone:</label>
                 <div class="controls" >
-                    <select  data-rel="chosen" name="galery[]" id="galery" >
-                        <?php
-                $condition='true';
-                $sql1 = "SELECT id_galery,title_galery from galery WHERE status='".$condition."'";
-                $result1 = $mysqli3->query($sql1);
-                 if ($result1->num_rows > 0) { 
-                            $combobit1 = "";
-                            while ($row1 = $result1->fetch_array(MYSQLI_ASSOC)) {
-                            $combobit1 .=" <option value='" . $row1['id_galery'] . "'>" . $row1['title_galery'] . "</option>"; //concatenamos el los options para luego ser insertado en el HTML
-                           }
-                        } else {
-                                echo "No hubo resultados";
-                                }
-                        $mysqli3->close(); //cerramos la conexión
-                        echo $combobit1;
-                    ?>
-                </select>
-		</div>
+                    <select class="selectpicker" id="drone" name="drone" >
+                        <optgroup label="Drones"  >
+                            <option value="0">Ninguno</option>
+                            <option value="1">Phantom 2</option>
+                            <option value="2">Inspire 1</option>
+                            <option value="3">Osmo</option>
+                            <option value="4">Hexacoptero</option>
+                        </optgroup>
+                    </select>
+                </div>
             </div>
-            <div class="control-group col-sm-5 mar-top41">
-		<label class="control-label" for="focusedInput">Descripción:</label>
-		    <div class="controls">
-                        <input class="input-xlarge focused" type="text" name="description"
-                                  id="description" pattern="[^'\x22]+"
-                                  title="este campo no acepta caracteres especiales, solo letras" required=""/>
-		    </div>
-	    </div>
-            <div class="control-group col-sm-5 mar-top41">
-		<label class="control-label" for="selectError">Estatus:</label>
-		<div class="controls">
-                    <select id="status" data-rel="chosen" name="status">
-                        <option value=true>Activa</option>
-                        <option value="false">Inactivo</option>
+                   <div class="control-group  col-sm-5 mar-top41" >
+		<label class="control-label" for="selectError">Categoría:</label>
+                <div class="controls" >
+                    <select class="selectpicker" id="category" name="category" >
+                        <optgroup label="Categorias" >
+                            <option value="0">Ninguno</option>
+                            <option value="1">Productoras</option>
+                            <option value="2">Constructoras</option>
+                            <option value="3">Eventos</option>
+                            <option value="4">Hoteles</option>
+                            <option value="5">Gobierno</option>
+                            <option value="6">Privado</option>
+                        </optgroup>
                     </select>
 		</div>
             </div>
-            
+           
             
             <div class="form-group">
                 <input type="hidden" type="text" class="form-control" name="creation_date" id="creation_date" value="<?php echo date("Y/m/d") ?>">

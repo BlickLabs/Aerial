@@ -335,13 +335,14 @@ div#main-text{
 }
 
 #portfolio .small-box{
-    height: 270px;
+    height: 350px;
+    width: 400px;
     overflow: hidden;
     -webkit-backface-visibility:hidden;
 }
 
 #portfolio .large-box{
-    height: 560px;
+    height: 750px;
     overflow: hidden;
     -webkit-backface-visibility:hidden;
 }

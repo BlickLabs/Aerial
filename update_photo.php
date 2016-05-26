@@ -37,7 +37,7 @@
 	<link id="base-style-responsive" href="css_template/style-responsive.css" rel="stylesheet">
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800&subset=latin,cyrillic-ext,latin-ext' rel='stylesheet' type='text/css'>
 	<!-- end: CSS -->
-	   <link rel="icon" type="image/png" sizes="32x32" href="favicon.png">
+	<link rel="shortcut icon" href="images/logo_gris.png">
 
 	<!-- The HTML5 shim, for IE6-8 support of HTML5 elements -->
 	<!--[if lt IE 9]>
@@ -68,7 +68,7 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</a>
-                            <a class="brand" href=""><span><h2>The Wedding Factory</h2></span></a>
+                            <a class="brand" href="principal.php"><span><h2><img src="images/logo_blanco.png" style="height: 60px"></h2></span></a>
 								
 				<!-- start: Header Menu -->
 				<div class="nav-no-collapse header-nav">
@@ -108,13 +108,33 @@
 			<!-- start: Main Menu -->
 			<div id="sidebar-left" class="span2">
 				<div class="nav-collapse sidebar-nav">
-					<ul class="nav nav-tabs nav-stacked main-menu">
-						
-<!--                                            <li><a href="galeries.php"><i class="icon-edit"></i><span class="hidden-tablet">&nbsp;Galerias</span></a></li>-->
-                                            <li><a href="Home.php"><i class="icon-picture"></i><span class="hidden-tablet"> &nbsp;Ver Imagenes</span></a></li>
-                                            <li><a href="images.php"><i class="icon-upload-alt"></i><span class="hidden-tablet">&nbsp;Añadir Imagenes</span></a></li>
+				<ul class="nav nav-tabs nav-stacked main-menu">
                                             
-						
+                                            <li><a href="images.php"><i class="icon-upload-alt"></i><span class="hidden-tablet">&nbsp;Subir Imagenes</span></a></li>
+                                            <li>
+                                                <a class="dropmenu" href="Home.php"><i class="icon-tags"></i><span >Galería por Drones</span></a>
+							<ul>
+                                                            <li><a class="submenu" href="phantom_2.php"><i class="icon-tags"></i><span class="hidden-tablet">Phantom 2</span></a></li>
+                                                            <li><a class="submenu" href="inspire.php"><i class="icon-tags"></i><span class="hidden-tablet">Inspire 1</span></a></li>
+                                                            <li><a class="submenu" href="osmo.php"><i class="icon-tags"></i><span class="hidden-tablet">Osmo</span></a></li>
+                                                            <li><a class="submenu" href="hexacoptero.php"><i class="icon-tags"></i><span class="hidden-tablet">Hexacoptero</span></a></li>
+								
+							</ul>	
+                                            </li>
+                                            <li>
+                                                <a class="dropmenu" href="gallery_by_service.php"><i class="icon-tags"></i><span >Galería por Categorias</span></a>
+							<ul>
+                                                            <li><a class="submenu" href="productoras_gallery.php"><i class="icon-tags"></i><span class="hidden-tablet">Productoras</span></a></li>
+                                                            <li><a class="submenu" href="constructoras_gallery.php"><i class="icon-tags"></i><span class="hidden-tablet">Construcutoras</span></a></li>
+                                                            <li><a class="submenu" href="eventos_gallery.php"><i class="icon-tags"></i><span class="hidden-tablet">Eventos</span></a></li>
+                                                            <li><a class="submenu" href="hoteles_gallery.php"><i class="icon-tags"></i><span class="hidden-tablet">Hoteles</span></a></li>
+                                                            <li><a class="submenu" href="gobierno_gallery.php"><i class="icon-tags"></i><span class="hidden-tablet">Gobierno</span></a></li>
+                                                            <li><a class="submenu" href="privado_gallery.php"><i class="icon-tags"></i><span class="hidden-tablet">Privado</span></a></li>
+								
+							</ul>	
+                                            </li>
+                                            
+                                            
 					</ul>
 				</div>
 			</div>

@@ -8,7 +8,7 @@ require '../vendor/autoload.php';
 $name2 = $_POST['name'];
 $email2 = $_POST['email'];
 $mensaje = $_POST['msg'];
-$asunto = 'Un cliente requiere de mayor información: ';
+$asunto = 'Un cliente requiere de mayor información acerca de los drones: ';
 
 /* Desarrollo */
 $api_key = 'key-eb656047b090ea091ef7c5d2fbd83dc5';
@@ -51,7 +51,7 @@ curl_setopt($curl, CURLOPT_POSTFIELDS, $message);
 $result = curl_exec($curl);
 
 curl_close($curl);
- $message = '<div class="alert alert-success" role="alert">Tu mensaje ha sido enviado!. Pronto nos pondremos en contacto contigo</div>';
+ $message = '<div class="alert alert-success" role="alert">¡Tu mensaje ha sido enviado! Nos pondremos en contacto contigo.</div>';
  echo $message;
 
 ?>

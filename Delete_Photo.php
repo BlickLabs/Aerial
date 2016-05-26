@@ -2,8 +2,8 @@
 <?php
 include "config.php";
     if (isset($_GET['d'])):
-        $stmt = $mysqli->prepare("DELETE content,content_galery FROM content 
-            INNER JOIN content_galery ON content.id_content = content_galery.id_content
+        $stmt = $mysqli->prepare("DELETE content,content_dron_category FROM content 
+            INNER JOIN content_dron_category ON content.id_content = content_dron_category.id_content
             WHERE content.id_content=?");
         $stmt->bind_param('s', $id);  
         $id = $_GET['d'];
@@ -13,7 +13,7 @@ include "config.php";
             $mysqli->close();
         $filename=$_GET['f'];
             unlink('./php/album/'.$filename);
-            echo "<script>location.href='Home.php'</script>";
+            echo "<script>location.href='principal.php'</script>";
         else:
             echo "<script>alert('" . $stmt->error . "')</script>";
         endif;

@@ -3,7 +3,7 @@
     error_reporting(E_ALL);
     session_start();
     if (!isset($_SESSION['user_name'])) {
-        header("Location: login.php");
+        header("Location: admin.php");
     }       
     $mail = $_SESSION['user_name'];
     $query2 = "SELECT nombre FROM Users WHERE user='$mail'";
@@ -37,22 +37,7 @@
 	<link id="base-style" href="css_template/admin.css" rel="stylesheet">
 	<link id="base-style-responsive" href="css_template/style-responsive.css" rel="stylesheet">
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800&subset=latin,cyrillic-ext,latin-ext' rel='stylesheet' type='text/css'>
-	<!-- end: CSS -->
-	
-
-	<!-- The HTML5 shim, for IE6-8 support of HTML5 elements -->
-	<!--[if lt IE 9]>
-	  	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-		<link id="ie-style" href="css_template/ie.css" rel="stylesheet">
-	<![endif]-->
-	
-	<!--[if IE 9]>
-		<link id="ie9style" href="css_template/ie9.css" rel="stylesheet">
-	<![endif]-->
-		
-	<!-- start: Favicon -->
-	<link rel="shortcut icon" href="img/favicon.ico">
-	<!-- end: Favicon -->
+	<link rel="shortcut icon" href="images/logo_gris.png">
 	
 		
 		

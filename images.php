@@ -39,22 +39,9 @@
           <link rel="icon" type="image/png" sizes="32x32" href="favicon.png">
 	<link id="base-style-responsive" href="css_template/style-responsive.css" rel="stylesheet">
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800&subset=latin,cyrillic-ext,latin-ext' rel='stylesheet' type='text/css'>
-	<!-- end: CSS -->
-	
+    	<!-- end: CSS -->
+        <link rel="shortcut icon" href="images/logo_gris.png">
 
-	<!-- The HTML5 shim, for IE6-8 support of HTML5 elements -->
-	<!--[if lt IE 9]>
-	  	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-		<link id="ie-style" href="css_template/ie.css" rel="stylesheet">
-	<![endif]-->
-	
-	<!--[if IE 9]>
-		<link id="ie9style" href="css_template/ie9.css" rel="stylesheet">
-	<![endif]-->
-		
-	<!-- start: Favicon -->
-	<link rel="shortcut icon" href="img/favicon.ico">
-	<!-- end: Favicon -->
 	
 		
 		
@@ -71,7 +58,7 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</a>
-                            <a class="brand" href="#"><span><h2>The Wedding Factory</h2></span></a>
+                            <a class="brand" href="index.html"><span><h2><img src="images/logo_blanco.png" style="height: 60px"></h2></span></a>
 								
 				<!-- start: Header Menu -->
 				<div class="nav-no-collapse header-nav">
@@ -108,20 +95,18 @@
 		<div class="container-fluid-full">
 		<div class="row-fluid">
 				
-			<!-- start: Main Menu -->
+                        <!-- start: Main Menu -->
 			<div id="sidebar-left" class="span2">
-				<div class="nav-collapse sidebar-nav">
-					<ul class="nav nav-tabs nav-stacked main-menu">
-<!--                                            <li><a href="galeries.php"><i class="icon-calendar"></i><span class="hidden-tablet">&nbsp;Galerias</span></a></li>-->
-                                            <li><a href="Home.php"><i class="icon-picture"></i><span class="hidden-tablet">&nbsp;Ver Imagenes</span></a></li>
-                                            <li><a href="images.php"><i class="icon-upload-alt"></i><span class="hidden-tablet">&nbsp;Añadir Imagenes</span></a></li>
-                                            
-                                            
-					</ul>
-				</div>
+                            <div class="nav-collapse sidebar-nav">
+                                    <ul class="nav nav-tabs nav-stacked main-menu">
+                                        <li><a href="images.php"><i class="icon-upload-alt"></i><span class="hidden-tablet">&nbsp;Subir Imagenes</span></a></li>
+                                        <li><a href="drones_gallery.php"><i class="icon-upload-alt"></i><span class="hidden-tablet">&nbsp;Galería Por Drones</span></a></li>
+                                        <li><a href="categories_gallery.php"><i class="icon-upload-alt"></i><span class="hidden-tablet">&nbsp;Galería Por Categorías</span></a></li>
+                                    </ul>
+				</div>   
+			    </div>
 			</div>
 			<!-- end: Main Menu -->
-			
 			<noscript>
 				<div class="alert alert-block span10">
 					<h4 class="alert-heading">Warning!</h4>
@@ -167,7 +152,7 @@
                     ?>
                         <tr>
 <!--                            <td style="text-align: center;" width="2%" class="mar-toptable"><?php echo $row['id_content'] ?></td>-->
-                            <td style="text-align: center;"width="8%"><?php echo $row['title'];  ?></td>
+                            <td style="text-align: center;"width="8%"><?php echo $row['tittle'];  ?></td>
                             <td width="10%"><img class="grayscale center-block" src="<?php echo 'php/album/' . $row['route'];?>" style="width: 250px;"></td>
                             <td style="text-align: center;" width="5%">
                                 <?php 
