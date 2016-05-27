@@ -146,7 +146,7 @@
                                                     <?php
                                                         include "config.php";
                                                         error_reporting(E_ALL);
-                                                        $res2 = $mysqli2->query("SELECT DISTINCT c.id_content,c.tittle,c.route,c.description FROM content_dron_category AS cpr LEFT JOIN content AS c ON c.id_content = cpr.id_content  WHERE cpr.id_drone ='" . $id_pr . "'");
+                                                        $res2 = $mysqli2->query("SELECT DISTINCT c.id_content,c.tittle,c.route FROM content_dron_category AS cpr LEFT JOIN content AS c ON c.id_content = cpr.id_content  WHERE cpr.id_drone ='" . $id_pr . "'");
                                                          $mysqli2->close();
                                                          while ($row2 = $res2->fetch_assoc()){
                                                              $path= 'php/album/' . $row2['route'];
