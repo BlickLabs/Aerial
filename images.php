@@ -139,8 +139,7 @@
 <!--                        <th style="text-align: center">ID</th>-->
                         <th style="text-align: center">Titulo</th>
                         <th style="text-align: center">Imagen</th>
-                        <th style="text-align: center"> Estatus</th>
-                        <th style="text-align: center"> Descripción</th>
+                        
                        
                     </tr>
                 </thead>
@@ -154,17 +153,6 @@
 <!--                            <td style="text-align: center;" width="2%" class="mar-toptable"><?php echo $row['id_content'] ?></td>-->
                             <td style="text-align: center;"width="8%"><?php echo $row['tittle'];  ?></td>
                             <td width="10%"><img class="grayscale center-block" src="<?php echo 'php/album/' . $row['route'];?>" style="width: 250px;"></td>
-                            <td style="text-align: center;" width="5%">
-                                <?php 
-                                        if ($row['status']=='true'){
-                                            echo 'Activo';
-                                        }elseif($row['status']=='false') {
-                                            echo 'Inactivo';
-                                        }    
-                                 ?>
-                            </td>
-                           
-                            <td  style="text-align: center;" width="10%"><?php echo $row['description']?> </td>
                             
                             
                             
