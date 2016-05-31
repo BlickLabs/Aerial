@@ -963,7 +963,7 @@ i.fa {
 }
 .img-container{
     padding: 0px;
-    background-color: #545554;
+    background-color: #FFF;
     position: relative;
         height:275px;
         overflow: hidden;
@@ -1068,6 +1068,14 @@ video {
     font-size: 45px;
     opacity: .5;
 }
+}
+@media screen and (max-height: 700px) {
+    .servicios-details{
+        height: 60vh;
+    }
+    .servicios{
+        height: 60vh;
+    }
 }
 .modal-image{
     width: 100%;
