@@ -862,7 +862,25 @@ i.fa {
         width: 95%;
     }
 }
-
+.navbar-collapse.in {
+    overflow-y: inherit;
+}
+@media(max-width: 767px){
+    .web{
+        display: none !important;
+    }
+    .mobile{
+        display:block !important;
+    }
+}
+@media(min-width: 768px){
+    .web{
+        display: block !important;
+    }
+    .mobile{
+        display:none !important;
+    }
+}
 @media screen and (max-width: 735px) {
     .services .row {
         padding-left: 160px;
@@ -878,7 +896,7 @@ i.fa {
         margin-right: 0px !important;
     }
     .navbar-nav{
-        padding-top: 50px;
+        padding-top: 0px;
         padding-bottom: 50px;
         width: 100%;
     }
@@ -891,6 +909,14 @@ i.fa {
     .servicios-details p {
         padding-left: 50px;
     }
+    .no-images-text{
+    text-align: center;
+    font-size: 1.7em !important;
+    font-family: myriadProSemiBold;
+    color: #555655;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
 }
 
 @media screen and (max-width: 470px) {
@@ -1050,6 +1076,12 @@ video {
     top: -85px;
     visibility: hidden;
 }
+.services-link{
+    display: block;
+    position: relative;
+    top: -155px;
+    visibility: hidden;
+}
 .drone-hp{
     text-decoration: none;
     color: #333;
@@ -1069,8 +1101,26 @@ video {
     opacity: .5;
 }
 }
+@media screen and (min-height: 700px) {
+    .servicios-details{
+        height: 60vh;
+    }
+    .servicios{
+        height: 60vh;
+    }
+}
 .modal-image{
     width: 100%;
     height: auto;
     overflow: hidden;
+}
+@media screen and (max-width: 620px) {
+    .no-images-text{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+}
+.img-modal{
+    width: 100%;
+    height: auto;
 }
