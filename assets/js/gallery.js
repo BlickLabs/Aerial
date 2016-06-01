@@ -71,6 +71,7 @@
                       var content = "<div class='col-md-4 col-sm-4 col-xs-12 col-lg-4 img-container'><a href='#lightbox' data-toggle='modal' class='modal-image-link' query='"+res.images[i].path+"'><img src='" + res.images[i].path + "' alt='Second slide' class='img-responsive modal-image'></a></div>";
                       count++;
                       $('#row-'+ ids).append(content);
+                    }
                     };
                   }
                 }
