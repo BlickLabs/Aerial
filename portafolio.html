@@ -69,16 +69,16 @@
     </div> <!-- .row -->
     
     <div id="category-title"></div>
-     <div class="row">
+     <div class="row" id="container-portfolio">
         <div class="container">
             <h3 class="category-select">2. Selecciona la categoría</h3>
         </div>
     </div>
     
-    <nav class="navbar navbar-default gallery-navbar nomargin">
+    <div class="navbar navbar-default gallery-navbar nomargin">
         <div class="gallery-select">
             <ul class="nav navbar-nav">
-                <li><a href="#container-portfolio" query="1" class="click-scrolling category active" id="category-1">Productoras</a></li>
+                <li><a href="#container-portfolio" query="1" class="click-scrolling category" id="category-1">Productoras</a></li>
                 <li><a href="#container-portfolio" query="2" class="click-scrolling category" id="category-2">Constructoras</a></li>
                 <li><a href="#container-portfolio" query="3" class="click-scrolling category" id="category-3">Eventos</a></li>
                 <li><a href="#container-portfolio" query="4" class="click-scrolling category" id="category-4">Hoteles</a></li>
@@ -87,8 +87,8 @@
 
             </ul>
         </div> 
-    </nav> <!-- .navbar -->
-    <section id="container-portfolio">
+    </div> <!-- .navbar -->
+    <section>
         <div class="container_3 relative" id="portfolio">
           <div id="myCarousel" class="carousel slide carousel-web" data-ride="carousel">
             <div class="carousel-inner" role="listbox" id="carousel-gallery">
@@ -102,6 +102,17 @@
           </a>  
         </div>
     </section>
+    <div class="container" style="position: fixed; top: 10px; overflow: hidden; z-index:999999;">
+        <div class="modal fade and carousel slide" id="lightbox">
+          <div class="modal-dialog" style="margin-top: 50px; z-index: 999999;">
+            <div class="modal-content">
+              <div class="modal-body" id="image-gallery-modal">
+                <img class="img-modal" src="assets/img/osmo.png" alt=""></img>
+              </div><!-- /.modal-body -->
+            </div><!-- /.modal-content -->
+          </div><!-- /.modal-dialog -->
+        </div><!-- /.modal -->
+    </div>
     <section>
         <div class="text-center no-images">
             <h3 class="no-images-text">Aún no hay fotos de esta selección</h3>

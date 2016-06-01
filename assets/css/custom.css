@@ -906,6 +906,14 @@ i.fa {
     .servicios-details p {
         padding-left: 50px;
     }
+    .no-images-text{
+    text-align: center;
+    font-size: 1.7em !important;
+    font-family: myriadProSemiBold;
+    color: #555655;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
 }
 
 @media screen and (max-width: 470px) {
@@ -1064,6 +1072,12 @@ video {
     top: -85px;
     visibility: hidden;
 }
+.services-link{
+    display: block;
+    position: relative;
+    top: -155px;
+    visibility: hidden;
+}
 .drone-hp{
     text-decoration: none;
     color: #333;
@@ -1088,4 +1102,14 @@ video {
     width: 100%;
     height: auto;
     overflow: hidden;
+}
+@media screen and (max-width: 620px) {
+    .no-images-text{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+}
+.img-modal{
+    width: 100%;
+    height: auto;
 }
