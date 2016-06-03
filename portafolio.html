@@ -179,6 +179,12 @@
     <script src="assets/js/mail.js"></script>
     <script>
         $(document).ready(function() {
+            $('.img-container a').on('click', function() {
+                var data = $(this).attr('query');
+                $('#image-gallery-modal').empty();
+                var image= "<img class='img-modal' src='"+data+"' alt=''></img>";
+                $('#image-gallery-modal').append(image);
+            });
             $("#myNavbarWeb a,#myNavbarMobile a, .click-scrolling ").on('click', function (event) {
                 event.preventDefault();
                 var pageRef = $(this).attr("href");

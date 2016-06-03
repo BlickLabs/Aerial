@@ -272,11 +272,5 @@
     
       });
     }
-    $('.modal-image-link').on('click', function() {
-      var data = $(this).attr('query');
-      $('#image-gallery-modal').empty();
-      var image= "<img class='img-modal' src='"+data+"' alt=''></img>";
-      $('#image-gallery-modal').append(image);
-    })
   });
 
