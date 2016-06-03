@@ -17,18 +17,12 @@
               $('.carousel-control').show();
               for(var i=0;i<res.images.length;i++){
                 if(count == 1){
-                  var item = "<div class='item active' id='item-"+ ids +"'><div class='row row-no-margin-right' id='row-"+ ids +"'></div></div>";
+                  var item = "<div class='item active' id='item-"+ ids +"'><div class='row row-no-margin-right' id='row-"+ ids +"'><div class='col-md-4 col-sm-4 col-xs-12 col-lg-4 img-container'><a href='#lightbox' data-toggle='modal' class='modal-image-link' query='"+res.images[i].path+"'><img src='" + res.images[i].path + "' alt='Second slide' class='img-responsive modal-image'></a></div></div></div>";
                   $('.carousel-inner').append(item);
-                  var content = "<div class='col-md-4 col-sm-4 col-xs-12 col-lg-4 img-container'><a href='#lightbox' data-toggle='modal' class='modal-image-link' query='"+res.images[i].path+"'><img src='" + res.images[i].path + "' alt='Second slide' class='img-responsive modal-image'></a></div>";
-                  count++;
-                  $('#row-'+ ids).append(content);
                 }
                 else{
-                  var item = "<div class='item' id='item-"+ ids +"'><div class='row row-no-margin-right' id='row-"+ ids +"'></div></div>";
+                  var item = "<div class='item' id='item-"+ ids +"'><div class='row row-no-margin-right' id='row-"+ ids +"'><div class='col-md-4 col-sm-4 col-xs-12 col-lg-4 img-container'><a href='#lightbox' data-toggle='modal' class='modal-image-link' query='"+res.images[i].path+"'><img src='" + res.images[i].path + "' alt='Second slide' class='img-responsive modal-image'></a></div></div></div>";
                   $('.carousel-inner').append(item);
-                  var content = "<div class='col-md-4 col-sm-4 col-xs-12 col-lg-4 img-container'><a href='#lightbox' data-toggle='modal' class='modal-image-link' query='"+res.images[i].path+"'><img src='" + res.images[i].path + "' alt='Second slide' class='img-responsive modal-image'></a></div>";
-                  count++;
-                  $('#row-'+ ids).append(content);
                 }
               };
             }
@@ -286,7 +280,7 @@
     }
     $('.modal-image-link').on('click', function() {
       $('#image-gallery-modal').empty();
-      var data = this.attr('query');
+      var data = $(this).attr('query');
       var image= "<img class='img-modal' src='"+data+"' alt=''></img>";
       $('#image-gallery-modal').append(image);
     })
