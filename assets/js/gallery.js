@@ -1,9 +1,9 @@
   jQuery(document).ready(function(){
-    $('.img-container a').on('click', function() {
-      var data = $(this).attr('query');
-      $('#image-gallery-modal').empty();
-      var image= "<img class='img-modal' src='"+data+"' alt=''></img>";
-      $('#image-gallery-modal').append(image);
+    //$('.img-container a').on('click', function() {
+      //var data = $(this).attr('query');
+      //$('#image-gallery-modal').empty();
+      //var image= "<img class='img-modal' src='"+data+"' alt=''></img>";
+      //$('#image-gallery-modal').append(image);
     });
     if (jQuery(window).width() < 900) {
         $('#drone-1').addClass('active-drone');
@@ -21,17 +21,28 @@
               $('.no-images').hide();
               $(".carousel-inner").empty();
               $('.carousel-control').show();
+              $('#image-gallery-modal').empty();
               for(var i=0;i<res.images.length;i++){
                 if(count == 1){
-                  var item = "<div class='item active' id='item-"+ ids +"'><div class='row row-no-margin-right' id='row-"+ ids +"'><div class='col-md-4 col-sm-4 col-xs-12 col-lg-4 img-container'><a href='#lightbox' data-toggle='modal' class='modal-image-link' query='"+res.images[i].path+"'><img src='" + res.images[i].path + "' alt='Second slide' class='img-responsive modal-image'></a></div></div></div>";
+                  var item = "<div class='item active' id='item-"+ ids +"'><div class='row row-no-margin-right' id='row-"+ ids +"'><div class='col-md-4 col-sm-4 col-xs-12 col-lg-4 img-container'><a href='#lightbox' data-toggle='modal' data-slide-to='"+i+"' class='modal-image-link' query='"+res.images[i].path+"'><img src='" + res.images[i].path + "' alt='Second slide' class='img-responsive modal-image'></a></div></div></div>";
                   $('.carousel-inner').append(item);
                   count++;
                 }
                 else{
-                  var item = "<div class='item' id='item-"+ ids +"'><div class='row row-no-margin-right' id='row-"+ ids +"'><div class='col-md-4 col-sm-4 col-xs-12 col-lg-4 img-container'><a href='#lightbox' data-toggle='modal' class='modal-image-link' query='"+res.images[i].path+"'><img src='" + res.images[i].path + "' alt='Second slide' class='img-responsive modal-image'></a></div></div></div>";
+                  var item = "<div class='item' id='item-"+ ids +"'><div class='row row-no-margin-right' id='row-"+ ids +"'><div class='col-md-4 col-sm-4 col-xs-12 col-lg-4 img-container'><a href='#lightbox' data-toggle='modal' data-slide-to='"+i+"' class='modal-image-link' query='"+res.images[i].path+"'><img src='" + res.images[i].path + "' alt='Second slide' class='img-responsive modal-image'></a></div></div></div>";
                   $('.carousel-inner').append(item);
                   count++;
                 }
+              };
+              $( "div" ).remove( ".item.gallery" );
+              for(var j=0;j<res.images.length;j++){
+                if(i==0){
+                  var item = "<div class='item gallery active'><img src='" + res.images[j].path + "' alt='Second slide' class='img-responsive modal-image'></div>";
+                }
+                else{
+                  var item = "<div class='item gallery'><img src='" + res.images[j].path + "' alt='Second slide' class='img-responsive modal-image'></div>";
+                }
+                $('.carousel-inner.gallery').append(item);
               };
             }
           });     
@@ -61,15 +72,24 @@
                   $('.carousel-control').show();
                   for(var i=0;i<res.images.length;i++){
                     if(count == 1){
-                      var item = "<div class='item active' id='item-"+ ids +"'><div class='row row-no-margin-right' id='row-"+ ids +"'><div class='col-md-4 col-sm-4 col-xs-12 col-lg-4 img-container'><a href='#lightbox' data-toggle='modal' class='modal-image-link' query='"+res.images[i].path+"'><img src='" + res.images[i].path + "' alt='Second slide' class='img-responsive modal-image'></a></div></div></div>";
+                      var item = "<div class='item active' id='item-"+ ids +"'><div class='row row-no-margin-right' id='row-"+ ids +"'><div class='col-md-4 col-sm-4 col-xs-12 col-lg-4 img-container'><a href='#lightbox' data-toggle='modal' data-slide-to='"+i+"' class='modal-image-link' query='"+res.images[i].path+"'><img src='" + res.images[i].path + "' alt='Second slide' class='img-responsive modal-image'></a></div></div></div>";
                       $('.carousel-inner').append(item);
                       count++;
                     }
                     else{
-                      var item = "<div class='item' id='item-"+ ids +"'><div class='row row-no-margin-right' id='row-"+ ids +"'><div class='col-md-4 col-sm-4 col-xs-12 col-lg-4 img-container'><a href='#lightbox' data-toggle='modal' class='modal-image-link' query='"+res.images[i].path+"'><img src='" + res.images[i].path + "' alt='Second slide' class='img-responsive modal-image'></a></div></div></div>";
+                      var item = "<div class='item' id='item-"+ ids +"'><div class='row row-no-margin-right' id='row-"+ ids +"'><div class='col-md-4 col-sm-4 col-xs-12 col-lg-4 img-container'><a href='#lightbox' data-toggle='modal' data-slide-to='"+i+"' class='modal-image-link' query='"+res.images[i].path+"'><img src='" + res.images[i].path + "' alt='Second slide' class='img-responsive modal-image'></a></div></div></div>";
                       $('.carousel-inner').append(item);
                       count++;
                     }
+                  };
+                  for(var j=0;j<res.images.length;j++){
+                    if(i==0){
+                      var item = "<div class='item gallery active'><img src='" + res.images[j].path + "' alt='Second slide' class='img-responsive modal-image'></div>";
+                    }
+                    else{
+                      var item = "<div class='item gallery'><img src='" + res.images[j].path + "' alt='Second slide' class='img-responsive modal-image'></div>";
+                    }
+                    $('.carousel-inner.gallery').append(item);
                   };
                 }
               }
@@ -103,15 +123,24 @@
                   $('.carousel-control').show();
                   for(var i=0;i<res.images.length;i++){
                     if(count == 1){
-                      var item = "<div class='item active' id='item-"+ ids +"'><div class='row row-no-margin-right' id='row-"+ ids +"'><div class='col-md-4 col-sm-4 col-xs-12 col-lg-4 img-container'><a href='#lightbox' data-toggle='modal' class='modal-image-link' query='"+res.images[i].path+"'><img src='" + res.images[i].path + "' alt='Second slide' class='img-responsive modal-image'></a></div></div></div>";
+                      var item = "<div class='item active' id='item-"+ ids +"'><div class='row row-no-margin-right' id='row-"+ ids +"'><div class='col-md-4 col-sm-4 col-xs-12 col-lg-4 img-container'><a href='#lightbox' data-toggle='modal' data-slide-to='"+i+"' class='modal-image-link' query='"+res.images[i].path+"'><img src='" + res.images[i].path + "' alt='Second slide' class='img-responsive modal-image'></a></div></div></div>";
                       $('.carousel-inner').append(item);
                       count++;
                     }
                     else{
-                      var item = "<div class='item' id='item-"+ ids +"'><div class='row row-no-margin-right' id='row-"+ ids +"'><div class='col-md-4 col-sm-4 col-xs-12 col-lg-4 img-container'><a href='#lightbox' data-toggle='modal' class='modal-image-link' query='"+res.images[i].path+"'><img src='" + res.images[i].path + "' alt='Second slide' class='img-responsive modal-image'></a></div></div></div>";
+                      var item = "<div class='item' id='item-"+ ids +"'><div class='row row-no-margin-right' id='row-"+ ids +"'><div class='col-md-4 col-sm-4 col-xs-12 col-lg-4 img-container'><a href='#lightbox' data-toggle='modal' data-slide-to='"+i+"' class='modal-image-link' query='"+res.images[i].path+"'><img src='" + res.images[i].path + "' alt='Second slide' class='img-responsive modal-image'></a></div></div></div>";
                       $('.carousel-inner').append(item);
                       count++;
                     }
+                  };
+                  for(var j=0;j<res.images.length;j++){
+                    if(i==0){
+                      var item = "<div class='item gallery active'><img src='" + res.images[j].path + "' alt='Second slide' class='img-responsive modal-image'></div>";
+                    }
+                    else{
+                      var item = "<div class='item gallery'><img src='" + res.images[j].path + "' alt='Second slide' class='img-responsive modal-image'></div>";
+                    }
+                    $('.carousel-inner.gallery').append(item);
                   };
                 }
               }
@@ -138,27 +167,36 @@
                 if(count == 1 && i < 2){
                   var item = "<div class='item active' id='item-"+ ids +"'><div class='row row-no-margin-right' id='row-"+ ids +"'></div></div>";
                   $('.carousel-inner').append(item);
-                  var content = "<div class='col-md-4 col-sm-4 col-xs-12 col-lg-4 img-container'><a href='#lightbox' data-toggle='modal' class='modal-image-link' query='"+res.images[i].path+"'><img src='" + res.images[i].path + "' alt='Second slide' class='img-responsive modal-image'></a></div>";
+                  var content = "<div class='col-md-4 col-sm-4 col-xs-12 col-lg-4 img-container'><a href='#lightbox' data-toggle='modal' class='modal-image-link' data-slide-to='"+i+"' data-slide-to='"+i+"' query='"+res.images[i].path+"'><img src='" + res.images[i].path + "' alt='Second slide' class='img-responsive modal-image'></a></div>";
                   count++;
                   $('#row-'+ ids).append(content);
                 }
                 else if(count == 1 && i > 2){
                   var item = "<div class='item' id='item-"+ ids +"'><div class='row row-no-margin-right' id='row-"+ ids +"'></div></div>";
                   $('.carousel-inner').append(item);
-                  var content = "<div class='col-md-4 col-sm-4 col-xs-12 col-lg-4 img-container'><a href='#lightbox' data-toggle='modal' class='modal-image-link' query='"+res.images[i].path+"'><img src='" + res.images[i].path + "' alt='Second slide' class='img-responsive modal-image'></a></div>";
+                  var content = "<div class='col-md-4 col-sm-4 col-xs-12 col-lg-4 img-container'><a href='#lightbox' data-toggle='modal' class='modal-image-link' data-slide-to='"+i+"' data-slide-to='"+i+"' query='"+res.images[i].path+"'><img src='" + res.images[i].path + "' alt='Second slide' class='img-responsive modal-image'></a></div>";
                   count++;
                   $('#row-'+ ids).append(content);
                 }
                 else if(count > 1 && count < 3){
-                  var content = "<div class='col-md-4 col-sm-4 col-xs-12 col-lg-4 img-container'><a href='#lightbox' data-toggle='modal' class='modal-image-link' query='"+res.images[i].path+"'><img src='" + res.images[i].path + "' alt='Second slide' class='img-responsive modal-image'></a></div>";
+                  var content = "<div class='col-md-4 col-sm-4 col-xs-12 col-lg-4 img-container'><a href='#lightbox' data-toggle='modal' class='modal-image-link' data-slide-to='"+i+"' data-slide-to='"+i+"' query='"+res.images[i].path+"'><img src='" + res.images[i].path + "' alt='Second slide' class='img-responsive modal-image'></a></div>";
                   count++;
                   $('#row-'+ ids).append(content);
                 }
                 else if(count == 3){
-                  var content = "<div class='col-md-4 col-sm-4 col-xs-12 col-lg-4 img-container'><a href='#lightbox' data-toggle='modal' class='modal-image-link' query='"+res.images[i].path+"'><img src='" + res.images[i].path + "' alt='Second slide' class='img-responsive modal-image'></a></div>";
+                  var content = "<div class='col-md-4 col-sm-4 col-xs-12 col-lg-4 img-container'><a href='#lightbox' data-toggle='modal' class='modal-image-link' data-slide-to='"+i+"' data-slide-to='"+i+"' query='"+res.images[i].path+"'><img src='" + res.images[i].path + "' alt='Second slide' class='img-responsive modal-image'></a></div>";
                   $('#row-'+ ids).append(content);
                   count=1;
                   ids++;
+                };
+                for(var j=0;j<res.images.length;j++){
+                  if(i==0){
+                    var item = "<div class='item gallery active'><img src='" + res.images[j].path + "' alt='Second slide' class='img-responsive modal-image'></div>";
+                  }
+                  else{
+                    var item = "<div class='item gallery'><img src='" + res.images[j].path + "' alt='Second slide' class='img-responsive modal-image'></div>";
+                  }
+                  $('.carousel-inner.gallery').append(item);
                 };
               }
             }
@@ -191,27 +229,36 @@
                     if(count == 1 && i < 2){
                       var item = "<div class='item active' id='item-"+ ids +"'><div class='row row-no-margin-right' id='row-"+ ids +"'></div></div>";
                       $('.carousel-inner').append(item);
-                      var content = "<div class='col-md-4 col-sm-4 col-xs-12 col-lg-4 img-container'><a href='#lightbox' data-toggle='modal' class='modal-image-link' query='"+res.images[i].path+"'><img src='" + res.images[i].path + "' alt='Second slide' class='img-responsive modal-image'></a></div>";
+                      var content = "<div class='col-md-4 col-sm-4 col-xs-12 col-lg-4 img-container'><a href='#lightbox' data-toggle='modal' data-slide-to='"+i+"' class='modal-image-link' query='"+res.images[i].path+"'><img src='" + res.images[i].path + "' alt='Second slide' class='img-responsive modal-image'></a></div>";
                       count++;
                       $('#row-'+ ids).append(content);
                     }
                     else if(count == 1 && i > 2){
                       var item = "<div class='item' id='item-"+ ids +"'><div class='row row-no-margin-right' id='row-"+ ids +"'></div></div>";
                       $('.carousel-inner').append(item);
-                      var content = "<div class='col-md-4 col-sm-4 col-xs-12 col-lg-4 img-container'><a href='#lightbox' data-toggle='modal' class='modal-image-link' query='"+res.images[i].path+"'><img src='" + res.images[i].path + "' alt='Second slide' class='img-responsive modal-image'></a></div>";
+                      var content = "<div class='col-md-4 col-sm-4 col-xs-12 col-lg-4 img-container'><a href='#lightbox' data-toggle='modal' data-slide-to='"+i+"' class='modal-image-link' query='"+res.images[i].path+"'><img src='" + res.images[i].path + "' alt='Second slide' class='img-responsive modal-image'></a></div>";
                       count++;
                       $('#row-'+ ids).append(content);
                     }
                     else if(count > 1 && count < 3){
-                      var content = "<div class='col-md-4 col-sm-4 col-xs-12 col-lg-4 img-container'><a href='#lightbox' data-toggle='modal' class='modal-image-link' query='"+res.images[i].path+"'><img src='" + res.images[i].path + "' alt='Second slide' class='img-responsive modal-image'></a></div>";
+                      var content = "<div class='col-md-4 col-sm-4 col-xs-12 col-lg-4 img-container'><a href='#lightbox' data-toggle='modal' data-slide-to='"+i+"' class='modal-image-link' query='"+res.images[i].path+"'><img src='" + res.images[i].path + "' alt='Second slide' class='img-responsive modal-image'></a></div>";
                       count++;
                       $('#row-'+ ids).append(content);
                     }
                     else if(count == 3){
-                      var content = "<div class='col-md-4 col-sm-4 col-xs-12 col-lg-4 img-container'><a href='#lightbox' data-toggle='modal' class='modal-image-link' query='"+res.images[i].path+"'><img src='" + res.images[i].path + "' alt='Second slide' class='img-responsive modal-image'></a></div>";
+                      var content = "<div class='col-md-4 col-sm-4 col-xs-12 col-lg-4 img-container'><a href='#lightbox' data-toggle='modal' data-slide-to='"+i+"' class='modal-image-link' query='"+res.images[i].path+"'><img src='" + res.images[i].path + "' alt='Second slide' class='img-responsive modal-image'></a></div>";
                       $('#row-'+ ids).append(content);
                       count=1;
                       ids++;
+                    };
+                    for(var j=0;j<res.images.length;j++){
+                      if(i==0){
+                        var item = "<div class='item gallery active'><img src='" + res.images[j].path + "' alt='Second slide' class='img-responsive modal-image'></div>";
+                      }
+                      else{
+                        var item = "<div class='item gallery'><img src='" + res.images[j].path + "' alt='Second slide' class='img-responsive modal-image'></div>";
+                      }
+                      $('.carousel-inner.gallery').append(item);
                     };
                   }
                 }
@@ -249,27 +296,36 @@
                     if(count == 1 && i < 2){
                       var item = "<div class='item active' id='item-"+ ids +"'><div class='row row-no-margin-right' id='row-"+ ids +"'></div></div>";
                       $('.carousel-inner').append(item);
-                      var content = "<div class='col-md-4 col-sm-4 col-xs-12 col-lg-4 img-container'><a href='#lightbox' data-toggle='modal' class='modal-image-link' query='"+res.images[i].path+"'><img src='" + res.images[i].path + "' alt='Second slide' class='img-responsive modal-image'></a></div>";
+                      var content = "<div class='col-md-4 col-sm-4 col-xs-12 col-lg-4 img-container'><a href='#lightbox' data-toggle='modal' data-slide-to='"+i+"' class='modal-image-link' query='"+res.images[i].path+"'><img src='" + res.images[i].path + "' alt='Second slide' class='img-responsive modal-image'></a></div>";
                       count++;
                       $('#row-'+ ids).append(content);
                     }
                     else if(count == 1 && i > 2){
                       var item = "<div class='item' id='item-"+ ids +"'><div class='row row-no-margin-right' id='row-"+ ids +"'></div></div>";
                       $('.carousel-inner').append(item);
-                      var content = "<div class='col-md-4 col-sm-4 col-xs-12 col-lg-4 img-container'><a href='#lightbox' data-toggle='modal' class='modal-image-link' query='"+res.images[i].path+"'><img src='" + res.images[i].path + "' alt='Second slide' class='img-responsive modal-image'></a></div>";
+                      var content = "<div class='col-md-4 col-sm-4 col-xs-12 col-lg-4 img-container'><a href='#lightbox' data-toggle='modal' data-slide-to='"+i+"' class='modal-image-link' query='"+res.images[i].path+"'><img src='" + res.images[i].path + "' alt='Second slide' class='img-responsive modal-image'></a></div>";
                       count++;
                       $('#row-'+ ids).append(content);
                     }
                     else if(count > 1 && count < 3){
-                      var content = "<div class='col-md-4 col-sm-4 col-xs-12 col-lg-4 img-container'><a href='#lightbox' data-toggle='modal' class='modal-image-link' query='"+res.images[i].path+"'><img src='" + res.images[i].path + "' alt='Second slide' class='img-responsive modal-image'></a></div>";
+                      var content = "<div class='col-md-4 col-sm-4 col-xs-12 col-lg-4 img-container'><a href='#lightbox' data-toggle='modal' data-slide-to='"+i+"' class='modal-image-link' query='"+res.images[i].path+"'><img src='" + res.images[i].path + "' alt='Second slide' class='img-responsive modal-image'></a></div>";
                       count++;
                       $('#row-'+ ids).append(content);
                     }
                     else if(count == 3){
-                      var content = "<div class='col-md-4 col-sm-4 col-xs-12 col-lg-4 img-container'><a href='#lightbox' data-toggle='modal' class='modal-image-link' query='"+res.images[i].path+"'><img src='" + res.images[i].path + "' alt='Second slide' class='img-responsive modal-image'></a></div>";
+                      var content = "<div class='col-md-4 col-sm-4 col-xs-12 col-lg-4 img-container'><a href='#lightbox' data-toggle='modal' data-slide-to='"+i+"' class='modal-image-link' query='"+res.images[i].path+"'><img src='" + res.images[i].path + "' alt='Second slide' class='img-responsive modal-image'></a></div>";
                       $('#row-'+ ids).append(content);
                       count=1;
                       ids++;
+                    };
+                    for(var j=0;j<res.images.length;j++){
+                      if(i==0){
+                        var item = "<div class='item gallery active'><img src='" + res.images[j].path + "' alt='Second slide' class='img-responsive modal-image'></div>";
+                      }
+                      else{
+                        var item = "<div class='item gallery'><img src='" + res.images[j].path + "' alt='Second slide' class='img-responsive modal-image'></div>";
+                      }
+                      $('.carousel-inner.gallery').append(item);
                     };
                   }
                 }
