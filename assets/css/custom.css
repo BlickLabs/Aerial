@@ -1124,3 +1124,15 @@ video {
     width: 100%;
     height: auto;
 }
+.arrow-icon-modal {
+    width: 30px;
+    height: auto;
+    padding-top: 250px;
+}
+@media screen and (max-width: 620px) {
+    .arrow-icon-modal {
+    width: 30px;
+    height: auto;
+    padding-top: 50px;
+}
+}
