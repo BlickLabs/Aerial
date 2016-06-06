@@ -4,7 +4,6 @@
       //$('#image-gallery-modal').empty();
       //var image= "<img class='img-modal' src='"+data+"' alt=''></img>";
       //$('#image-gallery-modal').append(image);
-    });
     if (jQuery(window).width() < 900) {
         $('#drone-1').addClass('active-drone');
         $.ajax({
