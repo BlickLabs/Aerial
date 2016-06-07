@@ -39,7 +39,7 @@ $(function () {
                         return false;
                     }
                     if (imagen[x].size > 1024 * 1024 * 2){
-                        bootbox.alert("El archivo   " + imagen[x].name+ " sobrepasa el peso permitido");    
+                        alert("El archivo   " + imagen[x].name+ " sobrepasa el peso permitido");    
                         return  false;
                     }
                 }
