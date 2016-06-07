@@ -23,12 +23,12 @@
               $('.carousel-inner.gallery').empty();
               for(var i=0;i<res.images.length;i++){
                 if(count == 1){
-                  var item = "<div class='item active' id='item-"+ ids +"'><div class='row row-no-margin-right' id='row-"+ ids +"'><div class='col-md-4 col-sm-4 col-xs-12 col-lg-4 img-container'><a href='#portafolio' data-toggle='modal' data-slide-to='"+i+"' class='modal-image-link' query='"+res.images[i].path+"'><img src='" + res.images[i].path + "' alt='Second slide' class='img-responsive modal-image'></a></div></div></div>";
+                  var item = "<div class='item active' id='item-"+ ids +"'><div class='row row-no-margin-right' id='row-"+ ids +"'><div class='col-md-4 col-sm-4 col-xs-12 col-lg-4 img-container'><a href='#lightbox' data-toggle='modal' data-slide-to='"+i+"' class='modal-image-link' query='"+res.images[i].path+"'><img src='" + res.images[i].path + "' alt='Second slide' class='img-responsive modal-image'></a></div></div></div>";
                   $('.carousel-inner.portafolio').append(item);
                   count++;
                 }
                 else{
-                  var item = "<div class='item' id='item-"+ ids +"'><div class='row row-no-margin-right' id='row-"+ ids +"'><div class='col-md-4 col-sm-4 col-xs-12 col-lg-4 img-container'><a href='#portafolio' data-toggle='modal' data-slide-to='"+i+"' class='modal-image-link' query='"+res.images[i].path+"'><img src='" + res.images[i].path + "' alt='Second slide' class='img-responsive modal-image'></a></div></div></div>";
+                  var item = "<div class='item' id='item-"+ ids +"'><div class='row row-no-margin-right' id='row-"+ ids +"'><div class='col-md-4 col-sm-4 col-xs-12 col-lg-4 img-container'><a href='#lightbox' data-toggle='modal' data-slide-to='"+i+"' class='modal-image-link' query='"+res.images[i].path+"'><img src='" + res.images[i].path + "' alt='Second slide' class='img-responsive modal-image'></a></div></div></div>";
                   $('.carousel-inner.portafolio').append(item);
                   count++;
                 }
@@ -73,12 +73,12 @@
                   $('.carousel-inner.gallery').empty();
                   for(var i=0;i<res.images.length;i++){
                     if(count == 1){
-                      var item = "<div class='item active' id='item-"+ ids +"'><div class='row row-no-margin-right' id='row-"+ ids +"'><div class='col-md-4 col-sm-4 col-xs-12 col-lg-4 img-container'><a href='#portafolio' data-toggle='modal' data-slide-to='"+i+"' class='modal-image-link' query='"+res.images[i].path+"'><img src='" + res.images[i].path + "' alt='Second slide' class='img-responsive modal-image'></a></div></div></div>";
+                      var item = "<div class='item active' id='item-"+ ids +"'><div class='row row-no-margin-right' id='row-"+ ids +"'><div class='col-md-4 col-sm-4 col-xs-12 col-lg-4 img-container'><a href='#lightbox' data-toggle='modal' data-slide-to='"+i+"' class='modal-image-link' query='"+res.images[i].path+"'><img src='" + res.images[i].path + "' alt='Second slide' class='img-responsive modal-image'></a></div></div></div>";
                       $('.carousel-inner.portafolio').append(item);
                       count++;
                     }
                     else{
-                      var item = "<div class='item' id='item-"+ ids +"'><div class='row row-no-margin-right' id='row-"+ ids +"'><div class='col-md-4 col-sm-4 col-xs-12 col-lg-4 img-container'><a href='#portafolio' data-toggle='modal' data-slide-to='"+i+"' class='modal-image-link' query='"+res.images[i].path+"'><img src='" + res.images[i].path + "' alt='Second slide' class='img-responsive modal-image'></a></div></div></div>";
+                      var item = "<div class='item' id='item-"+ ids +"'><div class='row row-no-margin-right' id='row-"+ ids +"'><div class='col-md-4 col-sm-4 col-xs-12 col-lg-4 img-container'><a href='#lightbox' data-toggle='modal' data-slide-to='"+i+"' class='modal-image-link' query='"+res.images[i].path+"'><img src='" + res.images[i].path + "' alt='Second slide' class='img-responsive modal-image'></a></div></div></div>";
                       $('.carousel-inner.portafolio').append(item);
                       count++;
                     }
@@ -126,12 +126,12 @@
                   $('.carousel-inner.gallery').empty();
                   for(var i=0;i<res.images.length;i++){
                     if(count == 1){
-                      var item = "<div class='item active' id='item-"+ ids +"'><div class='row row-no-margin-right' id='row-"+ ids +"'><div class='col-md-4 col-sm-4 col-xs-12 col-lg-4 img-container'><a href='#portafolio' data-toggle='modal' data-slide-to='"+i+"' class='modal-image-link' query='"+res.images[i].path+"'><img src='" + res.images[i].path + "' alt='Second slide' class='img-responsive modal-image'></a></div></div></div>";
+                      var item = "<div class='item active' id='item-"+ ids +"'><div class='row row-no-margin-right' id='row-"+ ids +"'><div class='col-md-4 col-sm-4 col-xs-12 col-lg-4 img-container'><a href='#lightbox' data-toggle='modal' data-slide-to='"+i+"' class='modal-image-link' query='"+res.images[i].path+"'><img src='" + res.images[i].path + "' alt='Second slide' class='img-responsive modal-image'></a></div></div></div>";
                       $('.carousel-inner.portafolio').append(item);
                       count++;
                     }
                     else{
-                      var item = "<div class='item' id='item-"+ ids +"'><div class='row row-no-margin-right' id='row-"+ ids +"'><div class='col-md-4 col-sm-4 col-xs-12 col-lg-4 img-container'><a href='#portafolio' data-toggle='modal' data-slide-to='"+i+"' class='modal-image-link' query='"+res.images[i].path+"'><img src='" + res.images[i].path + "' alt='Second slide' class='img-responsive modal-image'></a></div></div></div>";
+                      var item = "<div class='item' id='item-"+ ids +"'><div class='row row-no-margin-right' id='row-"+ ids +"'><div class='col-md-4 col-sm-4 col-xs-12 col-lg-4 img-container'><a href='#lightbox' data-toggle='modal' data-slide-to='"+i+"' class='modal-image-link' query='"+res.images[i].path+"'><img src='" + res.images[i].path + "' alt='Second slide' class='img-responsive modal-image'></a></div></div></div>";
                       $('.carousel-inner.portafolio').append(item);
                       count++;
                     }
@@ -171,24 +171,24 @@
                 if(count == 1 && i < 2){
                   var item = "<div class='item active' id='item-"+ ids +"'><div class='row row-no-margin-right' id='row-"+ ids +"'></div></div>";
                   $('.carousel-inner.portafolio').append(item);
-                  var content = "<div class='col-md-4 col-sm-4 col-xs-12 col-lg-4 img-container'><a href='#portafolio' data-toggle='modal' class='modal-image-link' data-slide-to='"+i+"' data-slide-to='"+i+"' query='"+res.images[i].path+"'><img src='" + res.images[i].path + "' alt='Second slide' class='img-responsive modal-image'></a></div>";
+                  var content = "<div class='col-md-4 col-sm-4 col-xs-12 col-lg-4 img-container'><a href='#lightbox' data-toggle='modal' class='modal-image-link' data-slide-to='"+i+"' data-slide-to='"+i+"' query='"+res.images[i].path+"'><img src='" + res.images[i].path + "' alt='Second slide' class='img-responsive modal-image'></a></div>";
                   count++;
                   $('#row-'+ ids).append(content);
                 }
                 else if(count == 1 && i > 2){
                   var item = "<div class='item' id='item-"+ ids +"'><div class='row row-no-margin-right' id='row-"+ ids +"'></div></div>";
                   $('.carousel-inner.portafolio').append(item);
-                  var content = "<div class='col-md-4 col-sm-4 col-xs-12 col-lg-4 img-container'><a href='#portafolio' data-toggle='modal' class='modal-image-link' data-slide-to='"+i+"' data-slide-to='"+i+"' query='"+res.images[i].path+"'><img src='" + res.images[i].path + "' alt='Second slide' class='img-responsive modal-image'></a></div>";
+                  var content = "<div class='col-md-4 col-sm-4 col-xs-12 col-lg-4 img-container'><a href='#lightbox' data-toggle='modal' class='modal-image-link' data-slide-to='"+i+"' data-slide-to='"+i+"' query='"+res.images[i].path+"'><img src='" + res.images[i].path + "' alt='Second slide' class='img-responsive modal-image'></a></div>";
                   count++;
                   $('#row-'+ ids).append(content);
                 }
                 else if(count > 1 && count < 3){
-                  var content = "<div class='col-md-4 col-sm-4 col-xs-12 col-lg-4 img-container'><a href='#portafolio' data-toggle='modal' class='modal-image-link' data-slide-to='"+i+"' data-slide-to='"+i+"' query='"+res.images[i].path+"'><img src='" + res.images[i].path + "' alt='Second slide' class='img-responsive modal-image'></a></div>";
+                  var content = "<div class='col-md-4 col-sm-4 col-xs-12 col-lg-4 img-container'><a href='#lightbox' data-toggle='modal' class='modal-image-link' data-slide-to='"+i+"' data-slide-to='"+i+"' query='"+res.images[i].path+"'><img src='" + res.images[i].path + "' alt='Second slide' class='img-responsive modal-image'></a></div>";
                   count++;
                   $('#row-'+ ids).append(content);
                 }
                 else if(count == 3){
-                  var content = "<div class='col-md-4 col-sm-4 col-xs-12 col-lg-4 img-container'><a href='#portafolio' data-toggle='modal' class='modal-image-link' data-slide-to='"+i+"' data-slide-to='"+i+"' query='"+res.images[i].path+"'><img src='" + res.images[i].path + "' alt='Second slide' class='img-responsive modal-image'></a></div>";
+                  var content = "<div class='col-md-4 col-sm-4 col-xs-12 col-lg-4 img-container'><a href='#lightbox' data-toggle='modal' class='modal-image-link' data-slide-to='"+i+"' data-slide-to='"+i+"' query='"+res.images[i].path+"'><img src='" + res.images[i].path + "' alt='Second slide' class='img-responsive modal-image'></a></div>";
                   $('#row-'+ ids).append(content);
                   count=1;
                   ids++;
@@ -235,24 +235,24 @@
                     if(count == 1 && i < 2){
                       var item = "<div class='item active' id='item-"+ ids +"'><div class='row row-no-margin-right' id='row-"+ ids +"'></div></div>";
                       $('.carousel-inner.portafolio').append(item);
-                      var content = "<div class='col-md-4 col-sm-4 col-xs-12 col-lg-4 img-container'><a href='#portafolio' data-toggle='modal' data-slide-to='"+i+"' class='modal-image-link' query='"+res.images[i].path+"'><img src='" + res.images[i].path + "' alt='Second slide' class='img-responsive modal-image'></a></div>";
+                      var content = "<div class='col-md-4 col-sm-4 col-xs-12 col-lg-4 img-container'><a href='#lightbox' data-toggle='modal' data-slide-to='"+i+"' class='modal-image-link' query='"+res.images[i].path+"'><img src='" + res.images[i].path + "' alt='Second slide' class='img-responsive modal-image'></a></div>";
                       count++;
                       $('#row-'+ ids).append(content);
                     }
                     else if(count == 1 && i > 2){
                       var item = "<div class='item' id='item-"+ ids +"'><div class='row row-no-margin-right' id='row-"+ ids +"'></div></div>";
                       $('.carousel-inner.portafolio').append(item);
-                      var content = "<div class='col-md-4 col-sm-4 col-xs-12 col-lg-4 img-container'><a href='#portafolio' data-toggle='modal' data-slide-to='"+i+"' class='modal-image-link' query='"+res.images[i].path+"'><img src='" + res.images[i].path + "' alt='Second slide' class='img-responsive modal-image'></a></div>";
+                      var content = "<div class='col-md-4 col-sm-4 col-xs-12 col-lg-4 img-container'><a href='#lightbox' data-toggle='modal' data-slide-to='"+i+"' class='modal-image-link' query='"+res.images[i].path+"'><img src='" + res.images[i].path + "' alt='Second slide' class='img-responsive modal-image'></a></div>";
                       count++;
                       $('#row-'+ ids).append(content);
                     }
                     else if(count > 1 && count < 3){
-                      var content = "<div class='col-md-4 col-sm-4 col-xs-12 col-lg-4 img-container'><a href='#portafolio' data-toggle='modal' data-slide-to='"+i+"' class='modal-image-link' query='"+res.images[i].path+"'><img src='" + res.images[i].path + "' alt='Second slide' class='img-responsive modal-image'></a></div>";
+                      var content = "<div class='col-md-4 col-sm-4 col-xs-12 col-lg-4 img-container'><a href='#lightbox' data-toggle='modal' data-slide-to='"+i+"' class='modal-image-link' query='"+res.images[i].path+"'><img src='" + res.images[i].path + "' alt='Second slide' class='img-responsive modal-image'></a></div>";
                       count++;
                       $('#row-'+ ids).append(content);
                     }
                     else if(count == 3){
-                      var content = "<div class='col-md-4 col-sm-4 col-xs-12 col-lg-4 img-container'><a href='#portafolio' data-toggle='modal' data-slide-to='"+i+"' class='modal-image-link' query='"+res.images[i].path+"'><img src='" + res.images[i].path + "' alt='Second slide' class='img-responsive modal-image'></a></div>";
+                      var content = "<div class='col-md-4 col-sm-4 col-xs-12 col-lg-4 img-container'><a href='#lightbox' data-toggle='modal' data-slide-to='"+i+"' class='modal-image-link' query='"+res.images[i].path+"'><img src='" + res.images[i].path + "' alt='Second slide' class='img-responsive modal-image'></a></div>";
                       $('#row-'+ ids).append(content);
                       count=1;
                       ids++;
@@ -304,24 +304,24 @@
                     if(count == 1 && i < 2){
                       var item = "<div class='item active' id='item-"+ ids +"'><div class='row row-no-margin-right' id='row-"+ ids +"'></div></div>";
                       $('.carousel-inner.portafolio').append(item);
-                      var content = "<div class='col-md-4 col-sm-4 col-xs-12 col-lg-4 img-container'><a href='#portafolio' data-toggle='modal' data-slide-to='"+i+"' class='modal-image-link' query='"+res.images[i].path+"'><img src='" + res.images[i].path + "' alt='Second slide' class='img-responsive modal-image'></a></div>";
+                      var content = "<div class='col-md-4 col-sm-4 col-xs-12 col-lg-4 img-container'><a href='#lightbox' data-toggle='modal' data-slide-to='"+i+"' class='modal-image-link' query='"+res.images[i].path+"'><img src='" + res.images[i].path + "' alt='Second slide' class='img-responsive modal-image'></a></div>";
                       count++;
                       $('#row-'+ ids).append(content);
                     }
                     else if(count == 1 && i > 2){
                       var item = "<div class='item' id='item-"+ ids +"'><div class='row row-no-margin-right' id='row-"+ ids +"'></div></div>";
                       $('.carousel-inner'.portafolio).append(item);
-                      var content = "<div class='col-md-4 col-sm-4 col-xs-12 col-lg-4 img-container'><a href='#portafolio' data-toggle='modal' data-slide-to='"+i+"' class='modal-image-link' query='"+res.images[i].path+"'><img src='" + res.images[i].path + "' alt='Second slide' class='img-responsive modal-image'></a></div>";
+                      var content = "<div class='col-md-4 col-sm-4 col-xs-12 col-lg-4 img-container'><a href='#lightbox' data-toggle='modal' data-slide-to='"+i+"' class='modal-image-link' query='"+res.images[i].path+"'><img src='" + res.images[i].path + "' alt='Second slide' class='img-responsive modal-image'></a></div>";
                       count++;
                       $('#row-'+ ids).append(content);
                     }
                     else if(count > 1 && count < 3){
-                      var content = "<div class='col-md-4 col-sm-4 col-xs-12 col-lg-4 img-container'><a href='#portafolio' data-toggle='modal' data-slide-to='"+i+"' class='modal-image-link' query='"+res.images[i].path+"'><img src='" + res.images[i].path + "' alt='Second slide' class='img-responsive modal-image'></a></div>";
+                      var content = "<div class='col-md-4 col-sm-4 col-xs-12 col-lg-4 img-container'><a href='#lightbox' data-toggle='modal' data-slide-to='"+i+"' class='modal-image-link' query='"+res.images[i].path+"'><img src='" + res.images[i].path + "' alt='Second slide' class='img-responsive modal-image'></a></div>";
                       count++;
                       $('#row-'+ ids).append(content);
                     }
                     else if(count == 3){
-                      var content = "<div class='col-md-4 col-sm-4 col-xs-12 col-lg-4 img-container'><a href='#portafolio' data-toggle='modal' data-slide-to='"+i+"' class='modal-image-link' query='"+res.images[i].path+"'><img src='" + res.images[i].path + "' alt='Second slide' class='img-responsive modal-image'></a></div>";
+                      var content = "<div class='col-md-4 col-sm-4 col-xs-12 col-lg-4 img-container'><a href='#lightbox' data-toggle='modal' data-slide-to='"+i+"' class='modal-image-link' query='"+res.images[i].path+"'><img src='" + res.images[i].path + "' alt='Second slide' class='img-responsive modal-image'></a></div>";
                       $('#row-'+ ids).append(content);
                       count=1;
                       ids++;
