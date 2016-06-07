@@ -33,18 +33,16 @@ $(function () {
                 bootbox.alert("No has seleccionado ningun archivo");
                 return false;
             }
-                for (x = 0; x < imagen.length; x++){
-                    alert(imagen[x].size);
-                    console.log(imagen[x]);
-                    if (imagen[x].type != "image/png" && imagen[x].type != "image/jpg" && imagen[x].type != "image/jpeg" && imagen[x].type != "image/gif"){
-                        bootbox.alert("El archivo" + imagen[x].name+ " no es una imagen");    
-                        return false;
-                    }
-                    if (imagen[x].size > 1024 * 1024 * 2){
-                        alert("El archivo   " + imagen[x].name+ " sobrepasa el peso permitido");    
-                        return  false;
-                    }
-                }
+            alert(imagen[0].size);
+            console.log(imagen[0]);
+            if (imagen[0].type != "image/png" && imagen[0].type != "image/jpg" && imagen[0].type != "image/jpeg" && imagen[0].type != "image/gif"){
+                bootbox.alert("El archivo" + imagen[0].name+ " no es una imagen");    
+                return false;
+            }
+            if (imagen[0].size > 1024 * 1024 * 2){
+                bootbox.alert("El archivo   " + imagen[0].name+ " sobrepasa el peso permitido");    
+                return  false;
+            }
         }
     });
 });
