@@ -28,13 +28,14 @@ $(function () {
             } 
         else {
             var imagen = document.getElementById("foto").files;
+            console.log(imagen);
             if (imagen.length == 0){
                 bootbox.alert("No has seleccionado ningun archivo");
                 return false;
             }
                 for (x = 0; x < imagen.length; x++){
-                    alert(image[x].size);
-                    console.log(image[x]);
+                    alert(imagen[x].size);
+                    console.log(imagen[x]);
                     if (imagen[x].type != "image/png" && imagen[x].type != "image/jpg" && imagen[x].type != "image/jpeg" && imagen[x].type != "image/gif"){
                         bootbox.alert("El archivo" + imagen[x].name+ " no es una imagen");    
                         return false;
