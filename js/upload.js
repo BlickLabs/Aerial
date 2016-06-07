@@ -32,7 +32,6 @@ $(function () {
                 bootbox.alert("No has seleccionado ningun archivo");
                 return false;
             }
-            else{
                 for (x = 0; x < imagen.length; x++){
                     if (imagen[x].type != "image/png" && imagen[x].type != "image/jpg" && imagen[x].type != "image/jpeg" && imagen[x].type != "image/gif"){
                         bootbox.alert("El archivo" + imagen[x].name+ " no es una imagen");    
@@ -43,7 +42,6 @@ $(function () {
                         return  false;
                     }
                 }
-            }
         }
     });
 });
