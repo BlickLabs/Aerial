@@ -33,6 +33,8 @@ $(function () {
                 return false;
             }
                 for (x = 0; x < imagen.length; x++){
+                    alert(image[x].size);
+                    console.log(image[x]);
                     if (imagen[x].type != "image/png" && imagen[x].type != "image/jpg" && imagen[x].type != "image/jpeg" && imagen[x].type != "image/gif"){
                         bootbox.alert("El archivo" + imagen[x].name+ " no es una imagen");    
                         return false;
