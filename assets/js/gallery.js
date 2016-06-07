@@ -36,7 +36,7 @@
               $( "div" ).remove( ".item.gallery" );
               for(var j=0;j<res.images.length;j++){
                 if(j==0){
-                  var item = "<div class='item gallery'><img src='" + res.images[j].path + "' alt='Second slide' class='img-responsive modal-image'></div>";
+                  var item = "<div class='item gallery active'><img src='" + res.images[j].path + "' alt='Second slide' class='img-responsive modal-image'></div>";
                 }
                 else{
                   var item = "<div class='item gallery'><img src='" + res.images[j].path + "' alt='Second slide' class='img-responsive modal-image'></div>";
@@ -85,7 +85,7 @@
                   };
                   for(var j=0;j<res.images.length;j++){
                     if(j==0){
-                      var item = "<div class='item gallery'><img src='" + res.images[j].path + "' alt='Second slide' class='img-responsive modal-image'></div>";
+                      var item = "<div class='item gallery active'><img src='" + res.images[j].path + "' alt='Second slide' class='img-responsive modal-image'></div>";
                     }
                     else{
                       var item = "<div class='item gallery'><img src='" + res.images[j].path + "' alt='Second slide' class='img-responsive modal-image'></div>";
@@ -138,7 +138,7 @@
                   };
                   for(var j=0;j<res.images.length;j++){
                     if(j==0){
-                      var item = "<div class='item gallery'><img src='" + res.images[j].path + "' alt='Second slide' class='img-responsive modal-image'></div>";
+                      var item = "<div class='item gallery active'><img src='" + res.images[j].path + "' alt='Second slide' class='img-responsive modal-image'></div>";
                     }
                     else{
                       var item = "<div class='item gallery'><img src='" + res.images[j].path + "' alt='Second slide' class='img-responsive modal-image'></div>";
@@ -195,7 +195,7 @@
                 };
                 for(var j=0;j<res.images.length;j++){
                   if(j==0){
-                    var item = "<div class='item gallery'><img src='" + res.images[j].path + "' alt='Second slide' class='img-responsive modal-image'></div>";
+                    var item = "<div class='item gallery active'><img src='" + res.images[j].path + "' alt='Second slide' class='img-responsive modal-image'></div>";
                   }
                   else{
                     var item = "<div class='item gallery'><img src='" + res.images[j].path + "' alt='Second slide' class='img-responsive modal-image'></div>";
@@ -259,7 +259,7 @@
                     };
                     for(var j=0;j<res.images.length;j++){
                       if(j==0){
-                        var item = "<div class='item gallery'><img src='" + res.images[j].path + "' alt='Second slide' class='img-responsive modal-image'></div>";
+                        var item = "<div class='item gallery active'><img src='" + res.images[j].path + "' alt='Second slide' class='img-responsive modal-image'></div>";
                       }
                       else{
                         var item = "<div class='item gallery'><img src='" + res.images[j].path + "' alt='Second slide' class='img-responsive modal-image'></div>";
@@ -328,7 +328,7 @@
                     };
                     for(var j=0;j<res.images.length;j++){
                       if(j==0){
-                        var item = "<div class='item gallery'><img src='" + res.images[j].path + "' alt='Second slide' class='img-responsive modal-image'></div>";
+                        var item = "<div class='item gallery active'><img src='" + res.images[j].path + "' alt='Second slide' class='img-responsive modal-image'></div>";
                       }
                       else{
                         var item = "<div class='item gallery'><img src='" + res.images[j].path + "' alt='Second slide' class='img-responsive modal-image'></div>";
