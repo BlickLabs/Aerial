@@ -1,86 +1,52 @@
 <?php
 
 include "config.php";
-//header("Content-Type: application/json; charset=UTF-8");
+header("Content-Type: application/json; charset=UTF-8");
 error_reporting(E_ALL);
 
 $category =mysqli_real_escape_string($mysqli3,$_GET["category"]);
 $drone =mysqli_real_escape_string($mysqli2,$_GET["drone"]);
 
-//query only by Party Room (ID)
-if ($category!=null && $drone!=null){
-        
-        $result = $mysqli->query("SELECT id_category,name_category FROM categorys WHERE id_category = '" . $category . "'");
-        while ($row = $result->fetch_array(MYSQLI_ASSOC)) {
-            
-            $response ['Category'] = array(
-                'id_category' => $row['id_category'],
-                'name_category' => $row['name_category'],
-                'images' => array(),
-            );
-        }
+function JSONResponse($_response) {
+    try {
+        $json = json_encode($_response);
+        echo $json;
 
-        $result2 = $mysqli2->query("SELECT c.tittle,c.route,g.name_category FROM content_dron_category AS cdc LEFT JOIN content AS c ON c.id_content = cdc.id_content LEFT JOIN categorys AS g ON g.id_category = cdc.id_category WHERE cdc.id_category ='" . $category ."' AND cdc.id_drone ='". $drone ."'");
-        while ($row = $result2->fetch_array(MYSQLI_ASSOC)) {
-            $description = mysqli_real_escape_string($mysqli2,$row['description']);
-            $path=mysqli_real_escape_string($mysqli2,'php/album/' . $row['route']);
-            $partialImage = array(
-                'path' =>  $path,
-                'tittle' => $row ['tittle'],  
-            );
-            array_push($response['Category']['images'], $partialImage);
-        }
-        try {
-            $json2 = json_encode($response['Category']);
-            echo $json2;
-
-        } catch (Exception $e) {
-            echo 'Excepción capturada: ',  $e->getMessage(), "\n";
-        }
-        
-}   
-
-    elseif ($drone!=null && empty ($category)) {
-                
-        $result = $mysqli->query("SELECT id_drone,name_drone FROM drones WHERE id_drone = '" . $drone . "'");
-        while ($row = $result->fetch_array(MYSQLI_ASSOC)) {
-            
-            $response ['Category'] = array(
-                'id_drone' => $row['id_drone'],
-                'name_drone' => $row['name_drone'],
-                'images' => array(),
-            );
-        }
-
-        $result2 = $mysqli2->query("SELECT c.tittle,c.route,d.name_drone FROM content_dron_category AS cdc LEFT JOIN content AS c ON c.id_content = cdc.id_content LEFT JOIN drones AS d ON d.id_drone = cdc.id_drone WHERE cdc.id_drone ='" . $drone ."'");
-        while ($row = $result2->fetch_array(MYSQLI_ASSOC)) {
-            $description = mysqli_real_escape_string($mysqli2,$row['description']);
-            $path=mysqli_real_escape_string($mysqli2,'php/album/' . $row['route']);
-            $partialImage = array(
-                'path' =>  $path,
-                'tittle' => $row ['tittle'],
-            );
-            array_push($response['Category']['images'], $partialImage);
-        }
-        try {
-            $json2 = json_encode($response['Category']);
-            echo $json2;
-
-        } catch (Exception $e) {
-            echo 'Excepción capturada: ',  $e->getMessage(), "\n";
-        }
-}//query with Services   
-    else {
-
-    echo  'no';
+    } catch (Exception $e) {
+        echo 'Excepción capturada: ',  $e->getMessage(), "\n";
+    }
 }
 
-    
+function GetImages($_query) {
+    $_response = array();
+    $_result = $mysqli->query($_query);
+    while ($row = $_result->fetch_array(MYSQLI_ASSOC)) {
+        $title = mysqli_real_escape_string($mysqli,$row['title']);
+        $path=mysqli_real_escape_string($mysqli,'php/album/' . $row['file']);
+        $partialImage = array(
+            'path' =>  $path,
+            'title' => $title,  
+        );
+        array_push($_response, $partialImage);
+    }
+    return $_response;
+}
 
-
-//if () {
-//    echo 'las 3';
-//} else {
-//    
+if ($category!=null && $drone!=null){
+    $query = "SELECT title, file FROM Images WHERE category ='" . $category ."' AND drone ='". $drone ."'";
+    $response = GetImages($query);
+    JSONResponse($response);
+} else if ($drone!=null && empty($category)) {
+    $query = "SELECT title, file FROM Images WHERE drone ='". $drone ."'";
+    $response = GetImages($query);
+    JSONResponse($response);
+} else if (empty($drone) && $category !=null) {
+    $query = "SELECT title, file FROM Images WHERE category ='" . $category ."'";
+    $response = GetImages($query);
+    JSONResponse($response);
+} else {
+    header('HTTP/1.1 400 Bad Request');
+    die(json_encode(array('message' => 'Error', 'code' => 400, 'description': 'You must specify at least one parameter (drone or category).')));
+}
 
 ?>
