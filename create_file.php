@@ -11,6 +11,7 @@
   $mysqli->close(); //cerramos la conexió
   $num_row = mysqli_num_rows($res);
   $row = mysqli_fetch_array($res);
+  $myuser=$row['nombre'];
   ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -72,7 +73,7 @@
               <li class="dropdown">
                 <a class="btn dropdown-toggle" data-toggle="dropdown" href="#">
                 <i class="halflings-icon white user"></i>
-                <?php echo $row['nombre'] ?>
+                <?php echo $myuser ?>
                 <span class="caret"></span>
                 </a>
                 <ul class="dropdown-menu">
