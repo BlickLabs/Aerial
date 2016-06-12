@@ -108,10 +108,18 @@
           </li>
           <li><a href="#">Galería Por Drones</a></li>
         </ul>
+        <?php
+          include "config.php";
+          error_reporting(E_ALL);
+          $res = $mysqli->query("SELECT DISTINCT drone FROM Images");
+          $mysqli->close();
+          while ($row = $res->fetch_assoc()){
+              $drone=$row['drone'];
+          ?>
         <div class="row-fluid sortable">
           <div class="box span12">
             <div class="box-header" data-original-title>
-              <h2><i class="halflings-icon white picture"></i><span class="break">&nbsp;Phantom 2</span></h2>
+              <h2><i class="halflings-icon white picture"></i><span class="break">&nbsp;<?php echo $row['drone'] ?></span></h2>
               <div class="box-icon">
                 <a href="#" class="btn-minimize"><i class="halflings-icon white chevron-up"></i></a>
               </div>
@@ -119,54 +127,7 @@
             <div class="box-content">
               <div class="masonry-gallery">
                 <?php
-                  $res = $mysqli2->query("SELECT * FROM Images WHERE drone='Phantom 2'");
-                  while ($row = $res->fetch_assoc()) {
-                    $path= 'php/album/' . $row['file'];
-                  ?>
-                <div class="masonry-thumb view view-first">
-                  <img class="example-image" src="<?php echo $path= 'php/album/' . $row['file'];?>" />
-                  <div class="mask">
-                    <h2><?php echo $row['title']?></h2>
-                    <p><?php echo $row['id']?></p>
-                    <a button type="button" href="#<?php echo $row['id'] ?>" data-toggle="modal" class="btn btn-danger"  > <i class="icon-trash"></i> Eliminar</a>
-                    <a button type="button" href="<?php echo $path= 'php/album/' . $row['file'];?>" class="example-image-link btn btn-primary"  data-lightbox="example-set" ><i class="icon-zoom-in"></i> Zoom</a>
-                    <a class="btn btn-lg btn-success mar-toptable" href="update_photo.php?u=<?php echo $row['id'] ?>"><span class="glyphicon glyphicon-pencil" aria-hidden="true"></span> Editar</a>
-                  </div>
-                  <div class="modal fade" id="<?php echo $row['id'] ?>" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true" >
-                    <div class="modal-dialog">
-                      <div class="modal-content">
-                        <div class="modal-header">
-                          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                          <h4 class="modal-title" id="myModalLabel">Atención</h4>
-                        </div>
-                        <div class="modal-body">
-                          <h3>¿Estas seguro de eliminar el contenido?</h3>
-                        </div>
-                        <div class="modal-footer">
-                          <button type="button" class="btn btn-danger" data-dismiss="modal"><i class="icon-ban-circle"></i>&nbsp;Cerrrar</button>
-                          <a href="Delete_Photo.php?d=<?php echo $row['id']?>&f=<?php echo $row['file']?>"><button type="button" class="btn btn-success"><i class="icon-ok"></i>Aceptar</button></a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <?php	}	?>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="row-fluid sortable">
-          <div class="box span12">
-            <div class="box-header" data-original-title>
-              <h2><i class="halflings-icon white picture"></i><span class="break">&nbsp;Inspire 1</span></h2>
-              <div class="box-icon">
-                <a href="#" class="btn-minimize"><i class="halflings-icon white chevron-up"></i></a>
-              </div>
-            </div>
-            <div class="box-content">
-              <div class="masonry-gallery">
-                <?php
-                  $res2 = $mysqli2->query("SELECT * FROM Images WHERE drone='Inspire 1'");
+                  $res2 = $mysqli2->query("SELECT * FROM Images WHERE drone='$drone'");
                   while ($row2 = $res2->fetch_assoc()) {
                     $path2= 'php/album/' . $row2['file'];
                   ?>
@@ -202,100 +163,7 @@
             </div>
           </div>
         </div>
-        <div class="row-fluid sortable">
-          <div class="box span12">
-            <div class="box-header" data-original-title>
-              <h2><i class="halflings-icon white picture"></i><span class="break">&nbsp;Osmo</span></h2>
-              <div class="box-icon">
-                <a href="#" class="btn-minimize"><i class="halflings-icon white chevron-up"></i></a>
-              </div>
-            </div>
-            <div class="box-content">
-              <div class="masonry-gallery">
-                <?php
-                  $res3 = $mysqli2->query("SELECT * FROM Images WHERE drone='Osmo'");
-                  while ($row3 = $res3->fetch_assoc()) {
-                    $path3= 'php/album/' . $row3['file'];
-                  ?>
-                <div class="masonry-thumb view view-first">
-                  <img class="example-image" src="<?php echo $path3= 'php/album/' . $row3['file'];?>" />
-                  <div class="mask">
-                    <h2><?php echo $row3['title']?></h2>
-                    <p><?php echo $row3['id']?></p>
-                    <a button type="button" href="#<?php echo $row3['id'] ?>" data-toggle="modal" class="btn btn-danger"  > <i class="icon-trash"></i> Eliminar</a>
-                    <a button type="button" href="<?php echo $path3= 'php/album/' . $row3['file'];?>" class="example-image-link btn btn-primary"  data-lightbox="example-set" ><i class="icon-zoom-in"></i> Zoom</a>
-                    <a class="btn btn-lg btn-success mar-toptable" href="update_photo.php?u=<?php echo $row3['id'] ?>"><span class="glyphicon glyphicon-pencil" aria-hidden="true"></span> Editar</a>
-                  </div>
-                  <div class="modal fade" id="<?php echo $row3['id'] ?>" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true" >
-                    <div class="modal-dialog">
-                      <div class="modal-content">
-                        <div class="modal-header">
-                          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                          <h4 class="modal-title" id="myModalLabel">Atención</h4>
-                        </div>
-                        <div class="modal-body">
-                          <h3>¿Estas seguro de eliminar el contenido?</h3>
-                        </div>
-                        <div class="modal-footer">
-                          <button type="button" class="btn btn-danger" data-dismiss="modal"><i class="icon-ban-circle"></i>&nbsp;Cerrrar</button>
-                          <a href="Delete_Photo.php?d=<?php echo $row3['id']?>&f=<?php echo $row3['file']?>"><button type="button" class="btn btn-success"><i class="icon-ok"></i>Aceptar</button></a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <?php	}	?>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="row-fluid sortable">
-          <div class="box span12">
-            <div class="box-header" data-original-title>
-              <h2><i class="halflings-icon white picture"></i><span class="break">&nbsp;Hexacoptero</span></h2>
-              <div class="box-icon">
-                <a href="#" class="btn-minimize"><i class="halflings-icon white chevron-up"></i></a>
-              </div>
-            </div>
-            <div class="box-content">
-              <div class="masonry-gallery">
-                <?php
-                  $res4 = $mysqli2->query("SELECT * FROM Images WHERE drone='Hexacoptero'");
-                  while ($row4 = $res4->fetch_assoc()) {
-                    $path4= 'php/album/' . $row4['file'];
-                  ?>
-                <div class="masonry-thumb view view-first">
-                  <img class="example-image" src="<?php echo $path4= 'php/album/' . $row4['file'];?>" />
-                  <div class="mask">
-                    <h2><?php echo $row4['title']?></h2>
-                    <p><?php echo $row4['id']?></p>
-                    <a button type="button" href="#<?php echo $row4['id'] ?>" data-toggle="modal" class="btn btn-danger"  > <i class="icon-trash"></i> Eliminar</a>
-                    <a button type="button" href="<?php echo $path4= 'php/album/' . $row4['file'];?>" class="example-image-link btn btn-primary"  data-lightbox="example-set" ><i class="icon-zoom-in"></i> Zoom</a>
-                    <a class="btn btn-lg btn-success mar-toptable" href="update_photo.php?u=<?php echo $row4['id'] ?>"><span class="glyphicon glyphicon-pencil" aria-hidden="true"></span> Editar</a>
-                  </div>
-                  <div class="modal fade" id="<?php echo $row4['id'] ?>" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true" >
-                    <div class="modal-dialog">
-                      <div class="modal-content">
-                        <div class="modal-header">
-                          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                          <h4 class="modal-title" id="myModalLabel">Atención</h4>
-                        </div>
-                        <div class="modal-body">
-                          <h3>¿Estas seguro de eliminar el contenido?</h3>
-                        </div>
-                        <div class="modal-footer">
-                          <button type="button" class="btn btn-danger" data-dismiss="modal"><i class="icon-ban-circle"></i>&nbsp;Cerrrar</button>
-                          <a href="Delete_Photo.php?d=<?php echo $row4['id']?>&f=<?php echo $row4['file']?>"><button type="button" class="btn btn-success"><i class="icon-ok"></i>Aceptar</button></a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <?php	}	?>
-              </div>
-            </div>
-          </div>
-        </div>
+        <?php	}	?>
       </div>
     </div>
     <div class="modal hide fade" id="myModal">
