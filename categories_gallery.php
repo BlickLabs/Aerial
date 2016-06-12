@@ -121,7 +121,7 @@
         <?php
           include "config.php";
           error_reporting(E_ALL);
-          $res = $mysqli->query("SELECT category FROM Images ");
+          $res = $mysqli->query("SELECT DISTINCT category FROM Images ");
           $mysqli->close();
           while ($row = $res->fetch_assoc()){
               //$id_pr=$row['id_category'];
