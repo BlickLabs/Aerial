@@ -10,6 +10,7 @@
   $res = mysqli_query($mysqli, $query);
   $num_row = mysqli_num_rows($res);
   $row = mysqli_fetch_array($res);
+  $myuser=$row['nombre'];
   // Obtenemos la imagen
   $image = $_GET['u'];
   $query2 = "SELECT * FROM Images WHERE id='$image'";
@@ -85,7 +86,7 @@
               <li class="dropdown">
                 <a class="btn dropdown-toggle" data-toggle="dropdown" href="#">
                 <i class="halflings-icon white user"></i>
-                <?php echo $row['nombre']; ?>
+                <?php echo $myuser; ?>
                 <span class="caret"></span>
                 </a>
                 <ul class="dropdown-menu">
