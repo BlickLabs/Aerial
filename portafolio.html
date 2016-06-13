@@ -69,16 +69,16 @@
     </div> <!-- .row -->
     
     <div id="category-title"></div>
-     <div class="row">
+     <div class="row" id="container-portfolio">
         <div class="container">
             <h3 class="category-select">2. Selecciona la categoría</h3>
         </div>
     </div>
     
-    <nav class="navbar navbar-default gallery-navbar nomargin">
+    <div class="navbar navbar-default gallery-navbar nomargin">
         <div class="gallery-select">
             <ul class="nav navbar-nav">
-                <li><a href="#container-portfolio" query="1" class="click-scrolling category active" id="category-1">Productoras</a></li>
+                <li><a href="#container-portfolio" query="1" class="click-scrolling category" id="category-1">Productoras</a></li>
                 <li><a href="#container-portfolio" query="2" class="click-scrolling category" id="category-2">Constructoras</a></li>
                 <li><a href="#container-portfolio" query="3" class="click-scrolling category" id="category-3">Eventos</a></li>
                 <li><a href="#container-portfolio" query="4" class="click-scrolling category" id="category-4">Hoteles</a></li>
@@ -87,11 +87,11 @@
 
             </ul>
         </div> 
-    </nav> <!-- .navbar -->
-    <section id="container-portfolio">
+    </div> <!-- .navbar -->
+    <section>
         <div class="container_3 relative" id="portfolio">
           <div id="myCarousel" class="carousel slide carousel-web" data-ride="carousel">
-            <div class="carousel-inner" role="listbox" id="carousel-gallery">
+            <div class="carousel-inner portafolio" role="listbox" id="carousel-gallery">
             </div>
           </div>
           <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
@@ -102,6 +102,26 @@
           </a>  
         </div>
     </section>
+    <div class="container" style="position: absolute; top: 10px; overflow: hidden; z-index:999999; width: 100%; overflow-y: scroll;">
+        <div class="modal fade and carousel slide" id="lightbox">
+          <div class="modal-dialog" style="margin-top: 50px; z-index: 999999;">
+            <div class="modal-content">
+              <div class="modal-body">
+                <div class="carousel-inner gallery">
+
+                </div><!-- /.carousel-inner -->
+                <a class="left carousel-control" href="#lightbox" role="button" data-slide="prev">
+                  <img src="img/arrows.png" alt="" class="arrow-icon-modal">
+                </a>
+                <a class="right carousel-control" href="#lightbox" role="button" data-slide="next">
+                  <img src="img/arrow.png" alt="" class="arrow-icon-modal">
+                </a>
+                <div class="carousel-caption"><p class="nineteen Times-italic"></p></div>
+              </div><!-- /.modal-body -->
+            </div><!-- /.modal-content -->
+          </div><!-- /.modal-dialog -->
+        </div><!-- /.modal -->
+    </div>
     <section>
         <div class="text-center no-images">
             <h3 class="no-images-text">Aún no hay fotos de esta selección</h3>
@@ -169,7 +189,7 @@
     <script src="assets/js/mail.js"></script>
     <script>
         $(document).ready(function() {
-            $("#myNavbarWeb a,#myNavbarMobile a, .click-scrolling ").on('click', function (event) {
+            $("#myNavbarWeb a,#myNavbarMobile a, .click-scrolling, .modal-image-link").on('click', function (event) {
                 event.preventDefault();
                 var pageRef = $(this).attr("href");
                 var offset = 80;
