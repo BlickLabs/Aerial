@@ -613,6 +613,12 @@ i.fa {
 .middle{
     padding-top: 50%;
 }
+.carousel-control .middle {
+    padding-top: 0;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
 .middle-index{
     padding-top: 180px;
 }
