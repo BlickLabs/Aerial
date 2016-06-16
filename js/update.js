@@ -14,7 +14,7 @@ $( document ).ready(function() {
           success: function (data) {
             $('#cargando h3').text('Operacion Exitosa');
             setTimeout(function () {
-                $(location).attr('href', 'create_file.php');
+                $(location).attr('href', 'principal.php');
             }, 2000);
           },
           error: function(data) {
