@@ -2,52 +2,50 @@ $(function() {
   $('#subida').submit(function() {
     var comprobar = $('#foto').val().length * $('#drone').val().length * $('#category').val().length * $('#creation_date').val().length;
     if (comprobar > 0) {
-      var formulario = $('#subida');
-      var datos = formulario.serialize();
-      var archivos = new FormData();
-      var url = 'php/Upload_Photo.php';
-      for (var i = 0; i < (formulario.find('input[type=file]').length); i++) {
-        archivos.append((formulario.find('input[type="file"]:eq(' + i + ')').attr("name")), ((formulario.find('input[type="file"]:eq(' + i + ')')[0]).files[0]));
-      }
-      console.log("Antes del ajax");
-      $.ajax({
-        url: url + '?' + datos,
-        type: 'POST',
-        contentType: false,
-        data: archivos,
-        processData: false,
-        beforeSend: function() {
-          $('#cargando').modal('show');
-        },
-        success: function (data) {
-            $('#cargando h3').text('Imagen subida correctamente.');
-            setTimeout(function () {
-                $(location).attr('href', 'create_file.php');
-            }, 2000);
-        },
-        error: function(data) {
-            $('#cargando h3').text('Ocurrio un error. Intentalo de nuevo.');
-        }
-      });
-      return false;
-    } else {
       var imagen = document.getElementById("foto").files;
-      if (imagen.length === 0) {
-        bootbox.alert("No has seleccionado ningun archivo");
+      if (imagen[0].type != "image/png" && imagen[0].type != "image/jpg" && imagen[0].type != "image/jpeg") {
+        $('#cargando').modal('show');
+        $('#cargando h3').text("El archivo " + imagen[0].name + " no es una imagen");
         return false;
       } else {
-        var imagen = document.getElementById("foto").files;
-        for (x = 0; x < imagen.length; x++) {
-          if (imagen[x].type != "image/png" && imagen[x].type != "image/jpg" && imagen[x].type != "image/jpeg") {
-            bootbox.alert("El archivo" + imagen[x].name + " no es una imagen");
-            return false;
+        if (imagen[0].size > 1024 * 1024 * 2) {
+          $('#cargando').modal('show');
+          $('#cargando h3').text("El archivo " + imagen[0].name + " sobrepasa el peso permitido");
+          return false;
+        } else {
+          var formulario = $('#subida');
+          var datos = formulario.serialize();
+          var archivos = new FormData();
+          var url = 'php/Upload_Photo.php';
+          for (var i = 0; i < (formulario.find('input[type=file]').length); i++) {
+            archivos.append((formulario.find('input[type="file"]:eq(' + i + ')').attr("name")), ((formulario.find('input[type="file"]:eq(' + i + ')')[0]).files[0]));
           }
-          if (imagen[x].size > 1024 * 1024 * 2) {
-            bootbox.alert("El archivo   " + imagen[x].name + " sobrepasa el peso permitido");
-            return false;
-          }
+          $.ajax({
+            url: url + '?' + datos,
+            type: 'POST',
+            contentType: false,
+            data: archivos,
+            processData: false,
+            beforeSend: function() {
+              $('#cargando').modal('show');
+            },
+            success: function (data) {
+                $('#cargando h3').text('Imagen subida correctamente.');
+                setTimeout(function () {
+                    $(location).attr('href', 'principal.php');
+                }, 2000);
+            },
+            error: function(data) {
+                $('#cargando h3').text('Ocurrio un error. Intentalo de nuevo.');
+            }
+          });
+          return false;
         }
       }
+    } else {
+      $('#cargando').modal('show');
+      $('#cargando h3').text("Llena todos los campos");
+      return false;
     }
-  });
-});
+  })
+})
