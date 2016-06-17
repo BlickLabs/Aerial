@@ -28,6 +28,7 @@ $(function() {
             processData: false,
             beforeSend: function() {
               $('#cargando').modal('show');
+              $('#cargando h3').text('Subiendo imagen...');
             },
             success: function (data) {
                 $('#cargando h3').text('Imagen subida correctamente.');
