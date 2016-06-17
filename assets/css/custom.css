@@ -96,11 +96,11 @@ body {
 }
 
 .fixed {
-	position: fixed; 
-	top: 0; 
-	/*height: 30px;*/
-	width: 100%;
-	z-index: 1;
+    position: fixed; 
+    top: 0; 
+    /*height: 30px;*/
+    width: 100%;
+    z-index: 1;
 }
 
 .navbar-inverse .navbar-nav>li>a {
@@ -665,7 +665,11 @@ i.fa {
 #ok{
     margin-top: 20px;
 }
-
+.arrow-icon-modal {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
 /**********************
 * Media Queries
 **********************/
@@ -1133,13 +1137,11 @@ video {
 .arrow-icon-modal {
     width: 30px;
     height: auto;
-    padding-top: 250px;
 }
 @media screen and (max-width: 620px) {
     .arrow-icon-modal {
     width: 30px;
     height: auto;
-    padding-top: 50px;
 }
 }
 .modal-open{
