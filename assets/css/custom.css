@@ -142,7 +142,7 @@ body {
 
 #carruseltop {
   height: 100%;
-  z-index: -10
+  z-index: 10;
 }
 
 .inner-carrousel-top {
