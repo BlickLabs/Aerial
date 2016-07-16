@@ -155,7 +155,7 @@ body {
   position: absolute;
   left: 0;
   right: 0;
-  top: 120px;
+  top: 47px;
   z-index: 100
 }
 
@@ -839,6 +839,9 @@ i.fa {
 }
 
 @media screen and (max-width: 765px) {
+    .logo-tagline {
+      top: 87px;
+    }
     .services .row {
         padding-left: 200px;
     }
@@ -875,7 +878,7 @@ i.fa {
         width: 100%;
     }
     .jumbotron {
-        height: 87vh;
+        height: 100vh;
         margin-top: 50px;
     }
     .servicios-details {
