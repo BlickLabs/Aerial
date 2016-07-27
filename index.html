@@ -13,20 +13,56 @@
 </head>
 
 <body id="homepage">
-
+  <div class="container-overflow">
+  <!--
     <video autoplay muted poster="assets/img/images/portada.png" id="bgvid" loop>
-      <!-- WCAG general accessibility recommendation is that media such as background video play through only once. Loop turned on for the purposes of illustration; if removed, the end of the video will fade in the same way created by pressing the "Pause" button  -->
-    <source src="assets/video/videoB.mov" type="video/mov">  
+    <source src="assets/video/videoB.mov" type="video/mov">
     <source src="assets/video/VideoB.mp4" type="video/mp4">
     <source src="assets/video/VideoB.m4v"v type="video/mp4">
     </video>
+  -->
     <div class="jumbotron">
-        <div class="container">
-            <div class="logo-tagline">
-                <img class="header-logo" src="assets/img/icons/logo-AERIAL-15.png" alt="Aerial logo">
-                <h1>Fotografía y video <span class="semibold">aéreo</span> con cámaras y <br> <span class="semibold">drones</span> de última tecnología</h1>
-            </div>
+      <div class="container">
+        <div class="logo-tagline">
+            <img class="header-logo" src="assets/img/icons/logo-AERIAL-15.png" alt="Aerial logo">
+            <h1>Fotografía y video <span class="semibold">aéreo</span> con cámaras y <br> <span class="semibold">drones</span> de última tecnología</h1>
         </div>
+      </div>
+        <div id="carruseltop" class="carousel slide" data-ride="carousel">
+
+          <ol class="carousel-indicators">
+            <li data-target="#carruseltop" data-slide-to="0" class="active"></li>
+            <li data-target="#carruseltop" data-slide-to="1"></li>
+            <li data-target="#carruseltop" data-slide-to="2"></li>
+            <li data-target="#carruseltop" data-slide-to="3"></li>
+            <li data-target="#carruseltop" data-slide-to="4"></li>
+          </ol>
+
+
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner inner-carrousel-top" role="listbox">
+            <div class="item active">
+              <div class="slide-img first-slide">
+              </div>
+            </div>
+            <div class="item">
+              <div class="slide-img second-slide">
+              </div>
+            </div>
+            <div class="item">
+              <div class="slide-img third-slide">
+              </div>
+            </div>
+            <div class="item">
+              <div class="slide-img fourth-slide">
+              </div>
+            </div>
+            <div class="item">
+              <div class="slide-img fifth-slide">
+              </div>
+            </div>
+          </div>
+      </div>
     </div> <!-- .jumbotron -->
 
     <nav class="navbar navbar-inverse">
@@ -38,7 +74,7 @@
                 <span class="icon-bar"></span>
             </button>
         </div>
-        
+
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" id="myNavbarWeb">
             <ul class="nav navbar-nav">
                 <li id="1"><a href="#homepage" class="click-scrolling">Aerial</a></li>
@@ -59,14 +95,14 @@
                     <p>Phantom 2</p>
                 </div>
             </a>
-            
+
             <a href="drones.html#inspire" class="drone-hp">
                  <div class="col-md-3 homepage-drone-img">
                     <img class="img-90" src="assets/img/inspire-1.png" alt=""></img>
                     <p>Inspire 1</p>
                 </div>
             </a>
-            
+
             <a href="drones.html#hexa" class="drone-hp">
                 <div class="col-md-3 homepage-drone-img">
                     <img class="img-90" src="assets/img/hexacoptero.png" alt=""></img>
@@ -82,7 +118,7 @@
             </a>
         </div> <!-- .container -->
     </div> <!-- .row -->
-    
+
 
     <div class="row mas">
         <div class="container">
@@ -114,14 +150,14 @@
                   <p class="first">Fotografía y<br>video aéreo</p>
                 </div>
             </div>
-            
+
             <div class="row">
                 <div class="col-xs-2"><img class="servicios-details-icon" src="assets/img/icons/Homepage-AERIAL-04.png" alt=""></div>
                 <div class="col-xs-10">
                   <p>Edición</p>
                 </div>
             </div>
-            
+
             <div class="row">
                 <div class="col-xs-2"><img class="servicios-details-icon" src="assets/img/icons/Homepage-AERIAL-05.png" alt=""></div>
                 <div class="col-xs-10">
@@ -177,7 +213,7 @@
           </a>
           <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
             <span class="fa fa-angle-right fa-3x middle-index"></span>
-          </a>  
+          </a>
         </div>
     </section>
     <section id="container-portfolio" class="mobile">
@@ -245,7 +281,7 @@
                     </div>
                 </div>
             </div>
-          </div>  
+          </div>
         </div>
     </section>
     <footer id="contact">
@@ -272,14 +308,14 @@
                     <button type="submit" class="btn btn-default footerBtn pull-right" id="btn-send">Enviar</button>
                 </form>
             </div> <!-- contact form -->
-            
+
             <div class="col-md-4 copyright-logo">
                 <div>
                    <img class="footer-logo" src="assets/img/icons/logo-AERIAL-16.png" alt=""></img>
-                 <p>&copy; Aerial 2016</p> 
+                 <p>&copy; Aerial 2016</p>
                 </div>
             </div> <!-- logo -->
-            
+
             <div class="col-md-4 social-media">
                 <div class="social-media-icons">
                     <p><i class="fa fa-facebook-square" aria-hidden="true"></i><span style="margin-top: -10px;"> /aerial360</span></p>
@@ -287,29 +323,29 @@
                     <p><i class="fa fa-youtube-play" aria-hidden="true"></i><span style="margin-top: -10px;"> @aerialMX</span></p>
                     <p><i class="fa fa-vimeo" aria-hidden="true"></i><span style="margin-top: -10px;"> @aerialMX</span></p>
                 </div>
-                
+
                 <hr>
-                
+
                 <div class="social-media-contact">
                     <p><i class="fa fa-mobile" aria-hidden="true"></i> Jaime Hernández</p>
                     <p>2281778800</p>
                 </div>
-                
+
             </div> <!-- social media -->
         </div> <!-- .row -->
     </footer>
-    
+
 
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
-    <script src="http://jqueryvalidation.org/files/dist/jquery.validate.min.js"></script>   
+    <script src="http://jqueryvalidation.org/files/dist/jquery.validate.min.js"></script>
     <script src="//ajax.aspnetcdn.com/ajax/jquery.validate/1.9/jquery.validate.min.js"></script>
     <script src="http://jqueryvalidation.org/files/dist/jquery.validate.min.js"></script>
-    <script src="http://jqueryvalidation.org/files/dist/additional-methods.min.js"></script>    
+    <script src="http://jqueryvalidation.org/files/dist/additional-methods.min.js"></script>
     <script src="//ajax.aspnetcdn.com/ajax/jquery.validate/1.9/jquery.validate.min.js"></script>
     <script src="assets/js/mail.js"></script>
-    
+
     <!--Fixed Menu on Scroll-->
     <script>
         $(document).ready(function() {
@@ -343,7 +379,7 @@
     </script>
       <script type="text/javascript">
      $(function() {
-          $(document).on('click', function(){ 
+          $(document).on('click', function(){
            $('.navbar-collapse').removeClass('in')
           });
           $('.click-scrolling').on('click', function() {
@@ -353,6 +389,7 @@
           });
      });
   </script>
+  </div>
 </body>
 
 </html>
