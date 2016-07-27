@@ -1195,11 +1195,18 @@ video {
     overflow-y: scroll;
 }
 
-.carousel,
-.carousel .item,
 .carousel-inner > .item > .slide-img {
     height: 100vh;
     width: 100%;
+}
+
+.carruselbottom > .item {
+  height: auto !important;
+  width: 100%;
+}
+
+.height-auto {
+  height: auto !important
 }
 
 .first-slide {
