@@ -3,6 +3,10 @@
     margin-right: 0;
 }
 
+.container-overflow {
+  overflow-x: hidden;
+}
+
 .drone-first-row,
 .portafolio-first-row {
     margin-top: 130px;
@@ -171,27 +175,31 @@ body {
     margin-bottom: 0px;
 }
 @media screen and (max-width: 620px) {
-    .jumbotron {
-        background-color: transparent !important;
-        background: url("../img/images/PrincipalMovil.JPG") center center no-repeat;
-        background-size: cover;
-        background-attachment: scroll;
-        text-align: center;
-        height: 85vh;
-        margin-bottom: 0;
-        color: #fff;
-    }
-    #carruseltop {
-      display: none;
-    }
+  .jumbotron {
+      background-color: transparent;
+      background-size: cover;
+      background-attachment: fixed;
+      text-align: center;
+      height: 87vh;
+      margin-bottom: 0;
+      color: #fff;
+      padding: 0;
+  }
 
-    .logo-tagline {
-      position: absolute;
-      left: 0;
-      right: 0;
-      top: 47px;
-      z-index: 0
-    }
+  #carruseltop {
+    height: 100%;
+    z-index: 10;
+    margin-top: 52px;
+  }
+
+
+  .logo-tagline {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 47px;
+    z-index: 10000;
+  }
 }
 
 .header-logo {
@@ -885,10 +893,6 @@ i.fa {
         top: 0;
         width: 100%;
     }
-    .jumbotron {
-        height: 87vh;
-        margin-top: 50px;
-    }
     .servicios-details {
         padding-top: 40px;
     }
@@ -1189,4 +1193,44 @@ video {
 .modal-open{
     height: 100%;
     overflow-y: scroll;
+}
+
+.carousel-inner > .item > .slide-img {
+    height: 100vh;
+    width: 100%;
+}
+
+.carruselbottom > .item {
+  height: auto !important;
+  width: 100%;
+}
+
+.height-auto {
+  height: auto !important
+}
+
+.first-slide {
+    background: url("../../images/carrusel/1.jpg") center center no-repeat rgba(0, 0, 0, .25);
+    background-size: cover;
+    background-blend-mode: multiply;
+}
+.second-slide {
+    background: url("../../images/carrusel/2.jpg") center center no-repeat rgba(0, 0, 0, .25);
+    background-size: cover;
+    background-blend-mode: multiply;
+}
+.third-slide {
+    background: url("../../images/carrusel/3.jpg") center center no-repeat rgba(0, 0, 0, .25);
+    background-size: cover;
+    background-blend-mode: multiply;
+}
+.fourth-slide {
+    background: url("../../images/carrusel/4.jpg") center center no-repeat rgba(0, 0, 0, .25);
+    background-size: cover;
+    background-blend-mode: multiply;
+}
+.fifth-slide {
+    background: url("../../images/carrusel/5.jpg") center center no-repeat rgba(0, 0, 0, .25);
+    background-size: cover;
+    background-blend-mode: multiply;
 }
